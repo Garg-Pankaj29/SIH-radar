@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import Link from "next/link";
 import { ResponsiveContainer, ScatterChart, Scatter, XAxis, YAxis, ZAxis, Tooltip, Cell, ReferenceLine } from "recharts";
 import { OPP_COLORS } from "../../lib/utils";
+import { IconTarget, IconGem, IconShieldX } from "../../components/Icons";
 
 function RadarContent() {
   const { psData, loading } = useData();
@@ -52,9 +53,9 @@ function RadarContent() {
       <main className="container page">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px', marginBottom: '24px' }}>
           <div>
-            <h1 className="page-title">🎯 2D Opportunity Radar Matrix</h1>
+            <h1 className="page-title"><IconTarget size={22} className="icon-inline" /> 2D Opportunity Radar Matrix</h1>
             <p className="page-subtitle">
-              Interactive 2D scatter plot mapping <strong>Competition Fill % (X-axis)</strong> vs <strong>Opportunity Score (Y-axis)</strong>
+              Interactive scatter plot mapping <strong>Competition Fill % (X-axis)</strong> vs <strong>Opportunity Score (Y-axis)</strong>
             </p>
           </div>
 
@@ -119,13 +120,13 @@ function RadarContent() {
         {/* Quadrant Explanations */}
         <div className="grid-2">
           <div className="card">
-            <h3 style={{ fontSize: '0.95rem', fontWeight: '700', color: 'var(--green)', marginBottom: '8px' }}>💎 Top Left: Hidden Gems Quadrant</h3>
+            <h3 className="section-title" style={{ color: 'var(--green)' }}><IconGem size={16} /> Top Left: Hidden Gems Quadrant</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
               Low competition (&lt;40% fill) with high opportunity index. Ideal for teams seeking lower submission density while retaining strong problem resources and clear guidelines.
             </p>
           </div>
           <div className="card">
-            <h3 style={{ fontSize: '0.95rem', fontWeight: '700', color: 'var(--red)', marginBottom: '8px' }}>🚫 Top Right: Hot &amp; Crowded Quadrant</h3>
+            <h3 className="section-title" style={{ color: 'var(--red)' }}><IconShieldX size={16} /> Top Right: Hot &amp; Crowded Quadrant</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
               High submission density (&gt;40% fill). Expect tough national competition. Best suited for experienced teams with pre-built domain expertise.
             </p>

@@ -3,6 +3,7 @@ import { DataProvider, useData } from "../../lib/DataContext";
 import Header from "../../components/Header";
 import Link from "next/link";
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Cell } from "recharts";
+import { IconChart } from "../../components/Icons";
 
 function ThemesContent() {
   const { themes, loading } = useData();
@@ -16,7 +17,7 @@ function ThemesContent() {
       <Header />
       <main className="container page">
         <div style={{ marginBottom: '24px' }}>
-          <h1 className="page-title">📈 Theme Saturation &amp; Domain Breakdown</h1>
+          <h1 className="page-title"><IconChart size={22} className="icon-inline" /> Theme Saturation &amp; Domain Breakdown</h1>
           <p className="page-subtitle">
             Analyze national submission distribution and density across official SIH 2026 hackathon themes
           </p>

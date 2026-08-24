@@ -3,6 +3,7 @@ import { DataProvider, useData } from "../../lib/DataContext";
 import Header from "../../components/Header";
 import Link from "next/link";
 import { getCompBadgeClass, getOppBadgeClass } from "../../lib/utils";
+import { IconReport, IconZap, IconGem, IconRocket, IconShieldX } from "../../components/Icons";
 
 function IntelligenceContent() {
   const { trends, psData, loading } = useData();
@@ -19,7 +20,7 @@ function IntelligenceContent() {
       <Header />
       <main className="container page">
         <div style={{ marginBottom: '24px' }}>
-          <h1 className="page-title">📰 Daily Competition Intelligence Briefing</h1>
+          <h1 className="page-title"><IconReport size={22} className="icon-inline" /> Daily Competition Intelligence Briefing</h1>
           <p className="page-subtitle">
             Executive summary of national submission movement, velocity spikes, newly crowded problem statements, and emerging opportunities.
           </p>
@@ -27,7 +28,7 @@ function IntelligenceContent() {
 
         {/* 24h Velocity Spikes */}
         <div className="card" style={{ marginBottom: '24px' }}>
-          <h2 className="section-title">⚡ 24-Hour Velocity Spikes</h2>
+          <h2 className="section-title"><IconZap size={18} /> 24-Hour Velocity Spikes</h2>
           {movers.length === 0 ? (
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>No significant velocity spikes detected in the last snapshot period.</div>
           ) : (
@@ -48,7 +49,7 @@ function IntelligenceContent() {
 
         {/* Hidden Gems Section */}
         <div className="card" style={{ marginBottom: '24px' }}>
-          <h2 className="section-title">💎 Top 5 Hidden Gems (Low Competition + High Resources)</h2>
+          <h2 className="section-title"><IconGem size={18} /> Top 5 Hidden Gems (Low Competition + High Resources)</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
             {hiddenGems.map(h => (
               <div key={h.ps_number} style={{ padding: '12px 16px', background: 'var(--bg-elevated)', borderRadius: 'var(--radius-md)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
@@ -72,7 +73,7 @@ function IntelligenceContent() {
         {/* Emerging vs Crowded */}
         <div className="grid-2">
           <div className="card">
-            <h2 className="section-title" style={{ color: 'var(--cyan)' }}>🚀 Emerging Momentum PSs</h2>
+            <h2 className="section-title" style={{ color: 'var(--cyan)' }}><IconRocket size={18} /> Emerging Momentum PSs</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {emerging.map(e => (
                 <div key={e.ps_number} style={{ fontSize: '0.85rem' }}>
@@ -84,7 +85,7 @@ function IntelligenceContent() {
           </div>
 
           <div className="card">
-            <h2 className="section-title" style={{ color: 'var(--red)' }}>🚫 High-Density Crowded PSs</h2>
+            <h2 className="section-title" style={{ color: 'var(--red)' }}><IconShieldX size={18} /> High-Density Crowded PSs</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {crowded.map(c => (
                 <div key={c.ps_number} style={{ fontSize: '0.85rem' }}>

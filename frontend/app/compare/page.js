@@ -3,6 +3,7 @@ import { DataProvider, useData } from "../../lib/DataContext";
 import Header from "../../components/Header";
 import Link from "next/link";
 import { getCompBadgeClass, getOppBadgeClass } from "../../lib/utils";
+import { IconCompare, IconX } from "../../components/Icons";
 
 function CompareContent() {
   const { compareList, toggleCompare, getPS, loading } = useData();
@@ -17,7 +18,7 @@ function CompareContent() {
       <main className="container page">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
           <div>
-            <h1 className="page-title">⚔️ Problem Statement Comparison</h1>
+            <h1 className="page-title"><IconCompare size={22} className="icon-inline" /> Problem Statement Comparison</h1>
             <p className="page-subtitle">
               Side-by-side metric breakdown for up to 5 candidate problem statements
             </p>
@@ -31,10 +32,10 @@ function CompareContent() {
 
         {comparedPS.length === 0 ? (
           <div className="card empty-state">
-            <div className="empty-state-icon">⚔️</div>
+            <div className="empty-state-icon"><IconCompare size={48} /></div>
             <div className="empty-state-text">No problem statements selected for comparison.</div>
-            <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px' }}>
-              Click <strong>"+ Add"</strong> on any problem statement card or table row on the dashboard to compare.
+            <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', marginTop: '8px' }}>
+              Click <strong>&quot;+ Add&quot;</strong> on any problem statement card or table row on the dashboard to compare.
             </p>
             <Link href="/" className="btn btn-primary" style={{ marginTop: '16px' }}>Go to Dashboard</Link>
           </div>
@@ -47,8 +48,8 @@ function CompareContent() {
                   {comparedPS.map(p => (
                     <th key={p.ps_number} style={{ minWidth: '220px' }}>
                       <div style={{ fontWeight: '800', fontSize: '1rem', color: 'var(--accent-light)' }}>{p.ps_number}</div>
-                      <button className="btn btn-ghost btn-sm" onClick={() => toggleCompare(p.ps_number)} style={{ fontSize: '0.7rem', color: 'var(--red)' }}>
-                        ✕ Remove
+                      <button className="btn btn-ghost btn-sm" onClick={() => toggleCompare(p.ps_number)} style={{ fontSize: '0.7rem', color: 'var(--red)', display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                        <IconX size={12} /> Remove
                       </button>
                     </th>
                   ))}

@@ -8,6 +8,7 @@ import PSTable from "../components/PSTable";
 import DataDisclaimer from "../components/DataDisclaimer";
 import Link from "next/link";
 import { searchFilter } from "../lib/utils";
+import { IconRadar, IconZap, IconTrendingUp, IconAlertTriangle } from "../components/Icons";
 
 function DashboardContent() {
   const { psData, kpis, metadata, loading, error, trends } = useData();
@@ -25,7 +26,7 @@ function DashboardContent() {
     return (
       <div className="container page" style={{ textAlign: 'center', paddingTop: '100px' }}>
         <div className="loading" suppressHydrationWarning>
-          📡 Loading SIH Opportunity Intelligence...
+          Loading SIH Opportunity Intelligence...
         </div>
       </div>
     );
@@ -34,7 +35,7 @@ function DashboardContent() {
   if (error) {
     return (
       <div className="container page" style={{ textAlign: 'center', paddingTop: '100px', color: 'var(--red)' }}>
-        ⚠️ Failed to load intelligence data: {error}
+        <IconAlertTriangle size={20} /> Failed to load intelligence data: {error}
       </div>
     );
   }
@@ -59,11 +60,11 @@ function DashboardContent() {
       <main className="container page">
         {metadata?.demo_mode && (
           <div className="demo-banner">
-            ⚡ DEMO MODE ACTIVE: Displaying simulated historical submission velocity and trend metrics for hackathon demonstration.
+            <IconZap size={14} /> DEMO MODE ACTIVE: Displaying simulated historical submission velocity and trend metrics for hackathon demonstration.
           </div>
         )}
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px', marginBottom: '24px' }}>
           <div>
             <h1 className="page-title">Smart India Hackathon 2026 Intelligence</h1>
             <p className="page-subtitle">
@@ -72,8 +73,12 @@ function DashboardContent() {
           </div>
 
           <div style={{ display: 'flex', gap: '10px' }}>
-            <Link href="/radar" className="btn btn-primary">🎯 Open Opportunity Radar</Link>
-            <Link href="/team" className="btn btn-secondary">⚡ Check Team Fit</Link>
+            <Link href="/radar" className="btn btn-primary">
+              <IconRadar size={15} /> Open Opportunity Radar
+            </Link>
+            <Link href="/team" className="btn btn-secondary">
+              <IconZap size={15} /> Check Team Fit
+            </Link>
           </div>
         </div>
 
@@ -84,7 +89,9 @@ function DashboardContent() {
         {biggestMovers.length > 0 && (
           <div className="card" style={{ marginBottom: '28px', background: 'var(--bg-card)' }}>
             <div className="card-header">
-              <span className="card-title">🚀 Biggest Movers (Last 24h Velocity)</span>
+              <span className="card-title">
+                <IconTrendingUp size={16} /> Biggest Movers (Last 24h Velocity)
+              </span>
               <Link href="/intelligence" className="btn btn-ghost btn-sm">Full Report →</Link>
             </div>
             <div className="grid-3" style={{ marginBottom: 0 }}>

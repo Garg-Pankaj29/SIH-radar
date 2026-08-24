@@ -4,6 +4,7 @@ import { DataProvider, useData } from "../../lib/DataContext";
 import Header from "../../components/Header";
 import Link from "next/link";
 import { SKILLS, getCompBadgeClass, getOppBadgeClass } from "../../lib/utils";
+import { IconTeam, IconTrophy, IconCheck, IconPlus } from "../../components/Icons";
 
 function TeamFitContent() {
   const { teamSkills, updateTeamSkills, psData, loading } = useData();
@@ -26,7 +27,6 @@ function TeamFitContent() {
     const gaps = [];
 
     psTechs.forEach(tech => {
-      // Map tech tag to skills
       const hasSkill = teamSkills.some(skill => {
         const sLower = skill.toLowerCase();
         const tLower = tech.toLowerCase();
@@ -45,12 +45,7 @@ function TeamFitContent() {
     const rawScore = Math.round((matchCount / totalReq) * 100);
     const fitScore = teamSkills.length === 0 ? 50 : Math.min(rawScore, 100);
 
-    return {
-      ...p,
-      fitScore,
-      strongMatches,
-      gaps,
-    };
+    return { ...p, fitScore, strongMatches, gaps };
   }).sort((a, b) => b.fitScore - a.fitScore);
 
   return (
@@ -58,9 +53,9 @@ function TeamFitContent() {
       <Header />
       <main className="container page">
         <div style={{ marginBottom: '24px' }}>
-          <h1 className="page-title">⚡ Team Skill Fit Engine</h1>
+          <h1 className="page-title"><IconTeam size={22} className="icon-inline" /> Team Skill Fit Engine</h1>
           <p className="page-subtitle">
-            Configure your team's core technical skill set to calculate personalized match scores &amp; gap analysis across all 226 PSs.
+            Configure your team&apos;s core technical skill set to calculate personalized match scores &amp; gap analysis across all 226 PSs.
           </p>
         </div>
 
@@ -78,7 +73,7 @@ function TeamFitContent() {
                   className={`skill-chip ${isSelected ? "selected" : ""}`}
                   onClick={() => toggleSkill(skill)}
                 >
-                  {isSelected ? "✓ " : "+ "}{skill}
+                  {isSelected ? <><IconCheck size={13} /> {skill}</> : <><IconPlus size={13} /> {skill}</>}
                 </button>
               );
             })}
@@ -87,8 +82,8 @@ function TeamFitContent() {
 
         {/* Ranked Recommendations */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-          <h2 style={{ fontSize: '1.1rem', fontWeight: '800' }}>
-            🏆 Top Recommended PS Candidates for Your Team ({psWithFit.length})
+          <h2 className="section-title">
+            <IconTrophy size={18} /> Top Recommended PS Candidates ({psWithFit.length})
           </h2>
           <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
             Ranked by team skill alignment
