@@ -523,3 +523,57 @@ def calculate_team_fit(team_skills, ps_tech_tags, ps_description=""):
         "skill_gaps": list(gaps),
         "note": None,
     }
+
+
+# ── Gemini API Integration ──────────────────────────────────────────────────
+
+def analyze_ps_with_gemini(ps_title, ps_description, api_key=None):
+    """Analyze a problem statement using Google Gemini API.
+
+    Returns AI-generated summary, tech recommendations, and complexity insights.
+    Falls back gracefully if API call fails or key is missing.
+    """
+    import os
+    import json
+    import urllib.request
+
+    key = api_key or os.environ.get("GEMINI_API_KEY")
+    if not key:
+        return None
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={key}"
+    prompt = f"""
+Analyze the following Smart India Hackathon 2026 Problem Statement:
+Title: {ps_title}
+Description: {ps_description[:1000]}
+
+Provide a JSON response with:
+1. "ai_summary": 2-sentence executive summary for student hackathon teams.
+2. "suggested_tech_stack": list of 3-5 recommended technologies/frameworks.
+3. "key_challenges": list of 2 potential technical hurdles.
+Respond ONLY with valid JSON.
+"""
+
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            res_data = json.loads(resp.read().decode("utf-8"))
+            text = res_data["candidates"][0]["content"]["parts"][0]["text"]
+            # Clean JSON markdown if wrapped
+            if "```json" in text:
+                text = text.split("```json")[1].split("```")[0].strip()
+            elif "```" in text:
+                text = text.split("```")[1].split("```")[0].strip()
+            return json.loads(text)
+    except Exception as e:
+        print(f"Gemini API Notice: {e}")
+        return None
+

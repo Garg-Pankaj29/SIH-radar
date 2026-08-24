@@ -13,8 +13,19 @@ from flask_cors import CORS
 
 from backend.api_data import build_api_data
 
+# Load local .env file if present
+ENV_FILE = Path(__file__).parent.parent / ".env"
+if ENV_FILE.exists():
+    with open(ENV_FILE, "r") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip())
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for Vercel frontend requests
+
 
 API_DIR = Path(__file__).parent.parent / "data" / "api"
 
