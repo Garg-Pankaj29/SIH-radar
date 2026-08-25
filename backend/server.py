@@ -38,6 +38,10 @@ def load_api_file(filename):
     with open(filepath, "r", encoding="utf-8") as f:
         return json.load(f)
 
+@app.route("/health", methods=["GET"])
+def health():
+    return {"status": "ok"}, 200
+
 
 @app.route("/", methods=["GET"])
 def health_check():
