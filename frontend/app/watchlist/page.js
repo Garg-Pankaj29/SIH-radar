@@ -1,51 +1,69 @@
 "use client";
+import dynamic from "next/dynamic";
 import { DataProvider, useData } from "../../lib/DataContext";
-import Header from "../../components/Header";
+import AppShell from "../../components/AppShell";
 import PSTable from "../../components/PSTable";
 import Link from "next/link";
-import { IconStar } from "../../components/Icons";
+import { LuBookmark, LuPlus } from "react-icons/lu";
 
 function WatchlistContent() {
-  const { watchlist, getPS, loading } = useData();
+  const { watchlist, getPS, loading, error } = useData();
 
-  if (loading) return <div className="container page">Loading Watchlist...</div>;
+  if (loading) {
+    return (
+      <AppShell title="Candidate Watchlist" subtitle="Bookmarked problem statements">
+        <div className="loading-state">
+          <div className="loading-spinner" />
+          <div className="loading-text">Loading Watchlist...</div>
+        </div>
+      </AppShell>
+    );
+  }
 
-  const watchedData = watchlist.map(id => getPS(id)).filter(Boolean);
+  if (error) {
+    return (
+      <AppShell title="Candidate Watchlist" subtitle="Bookmarked problem statements">
+        <div className="error-state">Failed to load watchlist: {error}</div>
+      </AppShell>
+    );
+  }
+
+  const watchedData = watchlist.map((id) => getPS(id)).filter(Boolean);
 
   return (
-    <>
-      <Header />
-      <main className="container page">
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-          <div>
-            <h1 className="page-title"><IconStar size={22} className="icon-inline" /> Candidate Watchlist</h1>
-            <p className="page-subtitle">
-              Bookmarked problem statements with real-time submission &amp; velocity tracking ({watchedData.length} saved)
-            </p>
+    <AppShell
+      title="Candidate Watchlist"
+      subtitle={`Bookmarked problem statements with real-time submission & velocity tracking (${watchedData.length} saved)`}
+    >
+      {watchedData.length === 0 ? (
+        <div className="card empty-state" style={{ textAlign: "center", padding: "48px 24px" }}>
+          <div style={{ display: "inline-flex", padding: "16px", background: "var(--bg-elevated)", borderRadius: "50%", marginBottom: "16px", color: "var(--accent-light)" }}>
+            <LuBookmark size={36} />
           </div>
+          <div style={{ fontSize: "1.15rem", fontWeight: "700", color: "var(--text-primary)", marginBottom: "8px" }}>
+            Your watchlist is currently empty
+          </div>
+          <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", maxWidth: "440px", margin: "0 auto 20px", lineHeight: "1.6" }}>
+            Click the star or bookmark icon next to any problem statement in the table or detail page to shortlist it for your team.
+          </p>
+          <Link href="/ps" className="btn btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+            <LuPlus size={16} />
+            <span>Browse Problem Statements</span>
+          </Link>
         </div>
-
-        {watchedData.length === 0 ? (
-          <div className="card empty-state">
-            <div className="empty-state-icon"><IconStar size={48} /></div>
-            <div className="empty-state-text">Your watchlist is currently empty.</div>
-            <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', marginTop: '8px' }}>
-              Click the star icon next to any problem statement on the dashboard to bookmark it.
-            </p>
-            <Link href="/" className="btn btn-primary" style={{ marginTop: '16px' }}>Browse Problem Statements</Link>
-          </div>
-        ) : (
-          <PSTable data={watchedData} />
-        )}
-      </main>
-    </>
+      ) : (
+        <PSTable data={watchedData} />
+      )}
+    </AppShell>
   );
 }
+
+const DynamicContent = dynamic(() => Promise.resolve(WatchlistContent), { ssr: false });
 
 export default function WatchlistPage() {
   return (
     <DataProvider>
-      <WatchlistContent />
+      <DynamicContent />
     </DataProvider>
   );
 }

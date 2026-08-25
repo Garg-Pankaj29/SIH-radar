@@ -1,61 +1,79 @@
 "use client";
 import { formatNumber } from "../lib/utils";
+import {
+  LuFileText,
+  LuCode,
+  LuCpu,
+  LuSend,
+  LuChartPie,
+  LuGem,
+} from "react-icons/lu";
 
 export default function KPICards({ kpis }) {
   if (!kpis) return null;
 
+  const cards = [
+    {
+      label: "Total PS",
+      value: formatNumber(kpis.total_ps),
+      sub: "All Problem Statements",
+      iconClass: "kpi-icon-green",
+      Icon: LuFileText,
+    },
+    {
+      label: "Software",
+      value: formatNumber(kpis.software_count),
+      sub: `${kpis.total_ps > 0 ? ((kpis.software_count / kpis.total_ps) * 100).toFixed(1) : 0}% of total`,
+      iconClass: "kpi-icon-green",
+      Icon: LuCode,
+    },
+    {
+      label: "Hardware",
+      value: formatNumber(kpis.hardware_count),
+      sub: `${kpis.total_ps > 0 ? ((kpis.hardware_count / kpis.total_ps) * 100).toFixed(1) : 0}% of total`,
+      iconClass: "kpi-icon-green",
+      Icon: LuCpu,
+    },
+    {
+      label: "Total Submissions",
+      value: formatNumber(kpis.total_submissions),
+      sub: "Across all PS",
+      iconClass: "kpi-icon-warm",
+      Icon: LuSend,
+    },
+    {
+      label: "Average Fill",
+      value: `${kpis.average_fill}%`,
+      sub: "Submission capacity used",
+      iconClass: "kpi-icon-warm",
+      Icon: LuChartPie,
+    },
+    {
+      label: "Hidden Gems",
+      value: formatNumber(kpis.hidden_gem_count || 0),
+      sub: "Low comp, high potential",
+      iconClass: "kpi-icon-green",
+      Icon: LuGem,
+    },
+  ];
+
   return (
     <div className="kpi-grid">
-      <div className="kpi-card animate-in">
-        <div className="kpi-label">Total PSs</div>
-        <div className="kpi-value">{formatNumber(kpis.total_ps)}</div>
-        <div className="kpi-sub">
-          <span className="badge badge-software">{kpis.software_count} SW</span>{" "}
-          <span className="badge badge-hardware">{kpis.hardware_count} HW</span>
-        </div>
-      </div>
-
-      <div className="kpi-card animate-in">
-        <div className="kpi-label">Observed Submissions</div>
-        <div className="kpi-value">{formatNumber(kpis.total_submissions)}</div>
-        <div className="kpi-sub">Total national ideas submitted</div>
-      </div>
-
-      <div className="kpi-card animate-in">
-        <div className="kpi-label">Average Fill</div>
-        <div className="kpi-value" style={{ color: kpis.average_fill > 50 ? 'var(--red)' : kpis.average_fill > 20 ? 'var(--yellow)' : 'var(--green)' }}>
-          {kpis.average_fill}%
-        </div>
-        <div className="kpi-sub">Capacity utilization across all PSs</div>
-      </div>
-
-      <div className="kpi-card animate-in">
-        <div className="kpi-label">Fastest Growing</div>
-        <div className="kpi-value" style={{ fontSize: '1.25rem', color: 'var(--accent-light)' }}>
-          {kpis.fastest_growing ? kpis.fastest_growing.ps_number : "N/A"}
-        </div>
-        <div className="kpi-sub">
-          {kpis.fastest_growing ? `+${kpis.fastest_growing.growth_24h} in 24h` : "No recent velocity spike"}
-        </div>
-      </div>
-
-      <div className="kpi-card animate-in">
-        <div className="kpi-label">Most Crowded</div>
-        <div className="kpi-value" style={{ fontSize: '1.25rem', color: 'var(--red)' }}>
-          {kpis.most_crowded ? kpis.most_crowded.ps_number : "N/A"}
-        </div>
-        <div className="kpi-sub">
-          {kpis.most_crowded ? `${kpis.most_crowded.fill_percentage}% cap filled` : "None"}
-        </div>
-      </div>
-
-      <div className="kpi-card animate-in">
-        <div className="kpi-label">Hidden Gems</div>
-        <div className="kpi-value" style={{ color: 'var(--green)' }}>
-          {formatNumber(kpis.hidden_gem_count || 0)}
-        </div>
-        <div className="kpi-sub">Low competition + high resources</div>
-      </div>
+      {cards.map((card, i) => {
+        const IconComponent = card.Icon;
+        return (
+          <div className="kpi-card" key={i}>
+            <div className={`kpi-icon ${card.iconClass}`}>
+              <IconComponent size={20} />
+            </div>
+            <div className="kpi-info">
+              <div className="kpi-label">{card.label}</div>
+              <div className="kpi-value">{card.value}</div>
+              <div className="kpi-sub">{card.sub}</div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
