@@ -14,8 +14,8 @@ export const OPP_COLORS = {
 };
 
 export const OPP_LABELS = {
-  "HOT": "🔥 Hot", "CROWDED": "🚫 Crowded", "EMERGING": "🚀 Emerging",
-  "HIDDEN GEM": "💎 Hidden Gem", "WATCH": "👀 Watch",
+  "HOT": "Hot", "CROWDED": "Crowded", "EMERGING": "Emerging",
+  "HIDDEN GEM": "Hidden Gem", "WATCH": "Watch",
 };
 
 export function getCompBadgeClass(level) {

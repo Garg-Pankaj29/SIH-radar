@@ -6,32 +6,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap');
 
 :root {
-  /* Dark Mode (Default) — Deep Forest Green Theme */
+  /* Dark Mode (Default) — High-Contrast Deep Forest Green Theme */
   --bg-dark: #060f08;
   --bg-sidebar: #040a05;
   --bg-card: #0c180e;
   --bg-elevated: #122416;
   --bg-hover: #19311f;
-  --border-color: #172d1b;
-  --border-subtle: #224328;
+  --border-color: #19331e;
+  --border-subtle: #24462a;
 
-  --text-primary: #f0fdf4;
-  --text-secondary: #8cae92;
-  --text-muted: #5b7e61;
+  --text-primary: #ffffff;
+  --text-secondary: #c5dcc9;
+  --text-muted: #8fae93;
 
   --accent: #52b788;
   --accent-light: #74c69d;
-  --accent-glow: rgba(82, 183, 136, 0.15);
+  --accent-glow: rgba(82, 183, 136, 0.2);
 
   --accent-warm: #e8a54b;
-  --accent-warm-glow: rgba(232, 165, 75, 0.15);
+  --accent-warm-glow: rgba(232, 165, 75, 0.2);
 
   --green: #52b788;
-  --green-glow: rgba(82, 183, 136, 0.15);
+  --green-glow: rgba(82, 183, 136, 0.2);
   --yellow: #e8a54b;
-  --yellow-glow: rgba(232, 165, 75, 0.15);
+  --yellow-glow: rgba(232, 165, 75, 0.2);
   --red: #e76f51;
-  --red-glow: rgba(231, 111, 81, 0.15);
+  --red-glow: rgba(231, 111, 81, 0.2);
   --cyan: #48cae4;
   --purple: #b5838d;
 
@@ -66,7 +66,7 @@
 
   --text-primary: #1a2e1c;
   --text-secondary: #4a634e;
-  --text-muted: #7a947e;
+  --text-muted: #6b886f;
 
   --accent: #2d6a4f;
   --accent-light: #40916c;
@@ -193,7 +193,7 @@ button {
 
 .sidebar-brand-sub {
   font-size: 0.68rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1.25;
   margin-top: 2px;
 }
@@ -214,13 +214,13 @@ button {
   border-radius: var(--radius-md);
   font-size: 0.83rem;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.75);
   transition: all 0.15s ease;
 }
 
 .sidebar-nav a:hover {
   color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav a.active {
@@ -235,7 +235,7 @@ button {
 
 .sidebar-footer {
   padding: 14px 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-meta {
@@ -247,7 +247,7 @@ button {
 
 .sidebar-meta-text {
   font-size: 0.68rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -255,7 +255,7 @@ button {
 
 .sidebar-meta-date {
   font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.95);
   font-weight: 600;
   margin-top: 2px;
 }
@@ -267,14 +267,14 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.08);
   transition: all 0.2s ease;
 }
 
 .sidebar-refresh-btn:hover {
   color: #ffffff;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.18);
 }
 
 .sidebar-refresh-btn.spinning svg {
@@ -352,13 +352,13 @@ button {
   position: absolute;
   right: 14px;
   top: 18px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.85);
   padding: 4px;
 }
 
 /* ==========================================================================
    MAIN CONTENT
-   ========================================================================= */
+   ========================================================================== */
 
 .main-content {
   margin-left: var(--sidebar-width);
@@ -402,13 +402,14 @@ button {
 .dash-title {
   font-size: 1.6rem;
   font-weight: 800;
+  color: var(--text-primary);
   letter-spacing: -0.02em;
   line-height: 1.15;
 }
 
 .dash-subtitle {
   font-size: 0.82rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-weight: 600;
 }
 
@@ -421,7 +422,7 @@ button {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-full);
   font-size: 0.75rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   max-width: 650px;
   line-height: 1.35;
 }
@@ -442,7 +443,7 @@ button {
   border-radius: var(--radius-full);
   padding: 7px 16px;
   width: 240px;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   transition: all 0.2s ease;
 }
 
@@ -511,6 +512,7 @@ button {
 .card-title {
   font-size: 0.95rem;
   font-weight: 700;
+  color: var(--text-primary);
   letter-spacing: -0.01em;
 }
 
@@ -600,7 +602,7 @@ button {
 
 .kpi-sub {
   font-size: 0.68rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -626,7 +628,7 @@ button {
 
 /* Opportunity Radar Info Modal / Popover */
 .radar-info-toggle-btn {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -662,7 +664,7 @@ button {
 }
 
 .radar-info-close {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   padding: 2px;
   border-radius: var(--radius-sm);
 }
@@ -763,7 +765,7 @@ button {
 
 .trending-desc {
   font-size: 0.68rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 .trending-count {
@@ -803,11 +805,12 @@ button {
 .watchlist-item-ps {
   font-size: 0.8rem;
   font-weight: 700;
+  color: var(--text-primary);
 }
 
 .watchlist-item-sub {
   font-size: 0.68rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 .watchlist-item-right {
@@ -875,6 +878,37 @@ button {
 }
 
 /* ==========================================================================
+   WATCHLIST STAR BUTTON STYLES (HIGH CONTRAST)
+   ========================================================================== */
+
+.watchlist-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #8fae93; /* Crisp, clearly visible outline */
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.watchlist-btn:hover {
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.35);
+  transform: scale(1.12);
+}
+
+.watchlist-btn.active {
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.2);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
+/* ==========================================================================
    TABLES & MOBILE SCROLLING FIXES
    ========================================================================== */
 
@@ -893,7 +927,7 @@ button {
   width: 100%;
   min-width: 680px !important;
   border-collapse: collapse;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
 }
 
 .ps-mini-table th {
@@ -901,7 +935,7 @@ button {
   padding: 8px 12px;
   color: var(--text-muted);
   font-weight: 700;
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   border-bottom: 1px solid var(--border-color);
   white-space: nowrap;
@@ -910,6 +944,7 @@ button {
 .ps-mini-table td {
   padding: 10px 12px;
   border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
   white-space: nowrap;
 }
 
@@ -933,7 +968,7 @@ th {
   padding: 10px 14px;
   color: var(--text-muted);
   font-weight: 700;
-  font-size: 0.73rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   border-bottom: 1px solid var(--border-color);
   background: var(--bg-card);
@@ -944,6 +979,7 @@ th {
 td {
   padding: 12px 14px;
   border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
   white-space: nowrap;
 }
 
@@ -967,58 +1003,58 @@ tr:hover {
 }
 
 .badge-software {
-  background: rgba(82, 183, 136, 0.15);
-  color: var(--green);
+  background: rgba(82, 183, 136, 0.18);
+  color: #74c69d;
 }
 
 .badge-hardware {
-  background: rgba(232, 165, 75, 0.15);
-  color: var(--accent-warm);
+  background: rgba(232, 165, 75, 0.18);
+  color: #f0b56b;
 }
 
 .badge-high {
-  background: rgba(231, 111, 81, 0.15);
-  color: #e76f51;
+  background: rgba(231, 111, 81, 0.18);
+  color: #f28b72;
 }
 
 .badge-medium {
-  background: rgba(232, 165, 75, 0.15);
-  color: #e8a54b;
+  background: rgba(232, 165, 75, 0.18);
+  color: #f0b56b;
 }
 
 .badge-low {
-  background: rgba(82, 183, 136, 0.15);
-  color: #52b788;
+  background: rgba(82, 183, 136, 0.18);
+  color: #74c69d;
 }
 
 .badge-none {
-  background: rgba(122, 140, 126, 0.15);
-  color: #7a8c7e;
+  background: rgba(143, 174, 147, 0.18);
+  color: #a3c2a7;
 }
 
 .badge-hot {
-  background: rgba(230, 126, 34, 0.15);
-  color: #e67e22;
+  background: rgba(230, 126, 34, 0.18);
+  color: #f39c12;
 }
 
 .badge-crowded {
-  background: rgba(231, 111, 81, 0.15);
-  color: #e76f51;
+  background: rgba(231, 111, 81, 0.18);
+  color: #f28b72;
 }
 
 .badge-emerging {
-  background: rgba(72, 202, 228, 0.15);
-  color: #48cae4;
+  background: rgba(72, 202, 228, 0.18);
+  color: #64d2e8;
 }
 
 .badge-hidden {
-  background: rgba(82, 183, 136, 0.15);
-  color: #52b788;
+  background: rgba(82, 183, 136, 0.18);
+  color: #74c69d;
 }
 
 .badge-watch {
-  background: rgba(232, 165, 75, 0.15);
-  color: #e8a54b;
+  background: rgba(232, 165, 75, 0.18);
+  color: #f0b56b;
 }
 
 /* Fill bar */
@@ -1241,7 +1277,7 @@ tr:hover {
 
 .app-footer-center {
   font-size: 0.82rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   text-align: center;
 }
 
@@ -1258,7 +1294,7 @@ tr:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   padding: 6px;
   border-radius: var(--radius-md);
   transition: all 0.15s ease;

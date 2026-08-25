@@ -12,7 +12,7 @@ import {
   ReferenceLine,
   Tooltip,
 } from "recharts";
-import { LuInfo, LuArrowRight, LuX } from "react-icons/lu";
+import { LuInfo, LuArrowRight, LuX, LuGem, LuFlame, LuRocket, LuUsers } from "react-icons/lu";
 
 export default function OpportunityRadar({ psData }) {
   const [showInfo, setShowInfo] = useState(false);
@@ -21,11 +21,9 @@ export default function OpportunityRadar({ psData }) {
 
   // Compute distributed, non-colliding coordinate mapping for all 226 PSs
   const scatterData = psData.map((ps, idx) => {
-    // Deterministic pseudo-random jitter based on PS index to prevent clump blobs
     const seedX = ((idx * 17) % 29) / 29 - 0.5;
     const seedY = ((idx * 23) % 31) / 31 - 0.5;
 
-    // Base X on fill_percentage (or simulated competition if all are 0)
     let rawX = ps.fill_percentage || 0;
     if (rawX === 0) {
       if (ps.competition_level === "High") rawX = 65 + seedX * 25;
@@ -34,7 +32,6 @@ export default function OpportunityRadar({ psData }) {
       else rawX = 10 + seedX * 16;
     }
 
-    // Base Y on opportunity_score
     let rawY = ps.opportunity_score || 50;
     if (ps.opportunity_category === "HIDDEN GEM") rawY = Math.max(rawY, 65) + seedY * 12;
     else if (ps.opportunity_category === "HOT") rawY = Math.max(rawY, 60) + seedY * 14;
@@ -144,27 +141,37 @@ export default function OpportunityRadar({ psData }) {
             </p>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "0.72rem" }}>
-              <div style={{ padding: "4px 8px", background: "rgba(82, 183, 136, 0.15)", borderRadius: "4px" }}>
-                <strong style={{ color: "#52b788" }}>💎 Hidden Gem (Top-Left):</strong> Low competition (&lt;50%) + High opportunity (&gt;50).
+              <div style={{ padding: "6px 8px", background: "rgba(82, 183, 136, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuGem size={14} color="#52b788" />
+                <span><strong style={{ color: "#52b788" }}>Hidden Gem (Top-Left):</strong> Low competition (&lt;50%) + High opportunity (&gt;50).</span>
               </div>
-              <div style={{ padding: "4px 8px", background: "rgba(230, 126, 34, 0.15)", borderRadius: "4px" }}>
-                <strong style={{ color: "#e67e22" }}>🔥 Hot (Top-Right):</strong> High competition (&gt;50%) + High opportunity (&gt;50).
+              <div style={{ padding: "6px 8px", background: "rgba(230, 126, 34, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuFlame size={14} color="#e67e22" />
+                <span><strong style={{ color: "#e67e22" }}>Hot (Top-Right):</strong> High competition (&gt;50%) + High opportunity (&gt;50).</span>
               </div>
-              <div style={{ padding: "4px 8px", background: "rgba(41, 128, 185, 0.15)", borderRadius: "4px" }}>
-                <strong style={{ color: "#2980b9" }}>🚀 Emerging (Bottom-Left):</strong> Low fill with rapid momentum.
+              <div style={{ padding: "6px 8px", background: "rgba(41, 128, 185, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuRocket size={14} color="#2980b9" />
+                <span><strong style={{ color: "#2980b9" }}>Emerging (Bottom-Left):</strong> Low fill with rapid momentum.</span>
               </div>
-              <div style={{ padding: "4px 8px", background: "rgba(231, 111, 81, 0.15)", borderRadius: "4px" }}>
-                <strong style={{ color: "#e76f51" }}>🚫 Crowded (Bottom-Right):</strong> Saturated (&gt;50% fill) with intense competition.
+              <div style={{ padding: "6px 8px", background: "rgba(231, 111, 81, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuUsers size={14} color="#e76f51" />
+                <span><strong style={{ color: "#e76f51" }}>Crowded (Bottom-Right):</strong> Saturated (&gt;50% fill) with intense competition.</span>
               </div>
             </div>
           </div>
         </div>
       )}
 
-      {/* Mini Quadrant Tags Bar */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 4px 6px", fontSize: "0.68rem", fontWeight: "700" }}>
-        <span style={{ color: "#52b788" }}>💎 Hidden Gem</span>
-        <span style={{ color: "#e67e22" }}>🔥 Hot</span>
+      {/* Mini Quadrant Tags Bar with Icons */}
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 4px 6px", fontSize: "0.7rem", fontWeight: "700" }}>
+        <span style={{ color: "#52b788", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuGem size={13} />
+          <span>Hidden Gem</span>
+        </span>
+        <span style={{ color: "#e67e22", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuFlame size={13} />
+          <span>Hot</span>
+        </span>
       </div>
 
       {/* Graph Area */}
@@ -210,10 +217,16 @@ export default function OpportunityRadar({ psData }) {
         </div>
       </div>
 
-      {/* Bottom Quadrant Tags */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "4px 4px 0", fontSize: "0.68rem", fontWeight: "700" }}>
-        <span style={{ color: "#2980b9" }}>🚀 Emerging</span>
-        <span style={{ color: "#e76f51" }}>🚫 Crowded</span>
+      {/* Bottom Quadrant Tags with Icons */}
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "4px 4px 0", fontSize: "0.7rem", fontWeight: "700" }}>
+        <span style={{ color: "#2980b9", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuRocket size={13} />
+          <span>Emerging</span>
+        </span>
+        <span style={{ color: "#e76f51", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuUsers size={13} />
+          <span>Crowded</span>
+        </span>
       </div>
 
       <div style={{ marginTop: "10px" }}>
