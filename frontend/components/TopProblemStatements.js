@@ -1,13 +1,14 @@
 "use client";
 import Link from "next/link";
+import { LuArrowRight } from "react-icons/lu";
 
 function getOppBadgeClass(cat) {
   const map = {
-    "HOT": "badge-hot",
-    "CROWDED": "badge-crowded",
-    "EMERGING": "badge-emerging",
+    HOT: "badge-hot",
+    CROWDED: "badge-crowded",
+    EMERGING: "badge-emerging",
     "HIDDEN GEM": "badge-hidden",
-    "WATCH": "badge-watch",
+    WATCH: "badge-watch",
   };
   return map[cat] || "badge-none";
 }
@@ -30,7 +31,7 @@ export default function TopProblemStatements({ psData }) {
         <table className="ps-mini-table">
           <thead>
             <tr>
-              <th>PS No.</th>
+              <th style={{ width: "60px" }}>PS No.</th>
               <th>Title</th>
               <th>Organization</th>
               <th>Category</th>
@@ -48,20 +49,24 @@ export default function TopProblemStatements({ psData }) {
                     {ps.sno || ps.ps_number.replace("SIH26", "")}
                   </Link>
                 </td>
-                <td style={{ maxWidth: "200px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                  {ps.title?.length > 35 ? ps.title.slice(0, 35) + "…" : ps.title}
+                <td style={{ maxWidth: "220px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                  <Link href={`/ps/${ps.ps_number}`} style={{ color: "inherit" }}>
+                    {ps.title?.length > 40 ? ps.title.slice(0, 40) + "…" : ps.title}
+                  </Link>
                 </td>
-                <td style={{ fontSize: "0.78rem", color: "var(--text-secondary)" }}>
+                <td style={{ fontSize: "0.78rem", color: "var(--text-secondary)", maxWidth: "160px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                   {ps.organization?.length > 25 ? ps.organization.slice(0, 25) + "…" : ps.organization}
                 </td>
                 <td>
-                  <span style={{ fontSize: "0.78rem" }}>{ps.category}</span>
+                  <span className={`badge ${ps.category === "Software" ? "badge-software" : "badge-hardware"}`}>
+                    {ps.category}
+                  </span>
                 </td>
                 <td style={{ fontWeight: 600 }}>{ps.fill_percentage}%</td>
                 <td style={{ color: "var(--green)", fontWeight: 600 }}>
                   +{ps.velocity?.growth_24h || 0}
                 </td>
-                <td>{ps.days_remaining ?? "—"}</td>
+                <td>{ps.days_remaining !== null ? `${ps.days_remaining}d` : "—"}</td>
                 <td>
                   <span className={`badge ${getOppBadgeClass(ps.opportunity_category)}`}>
                     {ps.opportunity_category}
@@ -74,12 +79,10 @@ export default function TopProblemStatements({ psData }) {
       </div>
 
       <div style={{ padding: "14px 20px 0", textAlign: "center" }}>
-        <a href="/ps" className="card-link" style={{ justifyContent: "center" }}>
-          View all problem statements
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-          </svg>
-        </a>
+        <Link href="/ps" className="card-link" style={{ justifyContent: "center" }}>
+          <span>View all problem statements</span>
+          <LuArrowRight size={14} />
+        </Link>
       </div>
     </div>
   );

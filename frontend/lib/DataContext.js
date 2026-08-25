@@ -10,6 +10,8 @@ export function DataProvider({ children }) {
   const [trends, setTrends] = useState({});
   const [metadata, setMetadata] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [lastRefreshTime, setLastRefreshTime] = useState(null);
   const [error, setError] = useState(null);
   const [watchlist, setWatchlist] = useState([]);
   const [teamSkills, setTeamSkills] = useState([]);
@@ -17,91 +19,171 @@ export function DataProvider({ children }) {
   const [darkMode, setDarkMode] = useState(true);
   const [compareList, setCompareList] = useState([]);
 
+  // Load persisted states from localStorage
   useEffect(() => {
-    const saved = localStorage.getItem("sih_watchlist");
-    if (saved) setWatchlist(JSON.parse(saved));
-    const skills = localStorage.getItem("sih_team_skills");
-    if (skills) setTeamSkills(JSON.parse(skills));
-    const prefs = localStorage.getItem("sih_team_prefs");
-    if (prefs) setTeamPrefs(JSON.parse(prefs));
-    const theme = localStorage.getItem("sih_theme");
-    if (theme === "light") { setDarkMode(false); document.documentElement.setAttribute("data-theme", "light"); }
-  }, []);
+    try {
+      const savedWatchlist = localStorage.getItem("sih_watchlist");
+      if (savedWatchlist) setWatchlist(JSON.parse(savedWatchlist));
 
-  useEffect(() => {
-    async function load() {
-      try {
-        const baseUrl = (process.env.NEXT_PUBLIC_API_URL || "").replace(/\/$/, "");
-        const apiPath = baseUrl ? `${baseUrl}/api` : "/api";
+      const savedCompare = localStorage.getItem("sih_compare");
+      if (savedCompare) setCompareList(JSON.parse(savedCompare));
 
-        const [psRes, kpiRes, themeRes, trendRes, metaRes] = await Promise.all([
-          fetch(`${apiPath}/problem_statements.json`),
-          fetch(`${apiPath}/kpis.json`),
-          fetch(`${apiPath}/themes.json`),
-          fetch(`${apiPath}/trends.json`),
-          fetch(`${apiPath}/metadata.json`),
-        ]);
+      const skills = localStorage.getItem("sih_team_skills");
+      if (skills) setTeamSkills(JSON.parse(skills));
 
-        setPsData(await psRes.json());
-        setKpis(await kpiRes.json());
-        setThemes(await themeRes.json());
-        setTrends(await trendRes.json());
-        setMetadata(await metaRes.json());
-      } catch (e) {
-        setError(e.message);
-      } finally {
-        setLoading(false);
+      const prefs = localStorage.getItem("sih_team_prefs");
+      if (prefs) setTeamPrefs(JSON.parse(prefs));
+
+      const theme = localStorage.getItem("sih_theme");
+      if (theme === "light") {
+        setDarkMode(false);
+        document.documentElement.setAttribute("data-theme", "light");
       }
+    } catch (e) {
+      console.error("Failed to load local storage preferences", e);
     }
-    load();
   }, []);
+
+  const loadData = useCallback(async (isManual = false) => {
+    if (isManual) setIsRefreshing(true);
+    try {
+      const baseUrl = (process.env.NEXT_PUBLIC_API_URL || "").replace(/\/$/, "");
+      const apiPath = baseUrl ? `${baseUrl}/api` : "/api";
+
+      // Add cache buster when manual refreshing
+      const cacheBust = isManual ? `?t=${Date.now()}` : "";
+
+      const [psRes, kpiRes, themeRes, trendRes, metaRes] = await Promise.all([
+        fetch(`${apiPath}/problem_statements.json${cacheBust}`),
+        fetch(`${apiPath}/kpis.json${cacheBust}`),
+        fetch(`${apiPath}/themes.json${cacheBust}`),
+        fetch(`${apiPath}/trends.json${cacheBust}`),
+        fetch(`${apiPath}/metadata.json${cacheBust}`),
+      ]);
+
+      const [ps, kp, th, tr, mt] = await Promise.all([
+        psRes.json(),
+        kpiRes.json(),
+        themeRes.json(),
+        trendRes.json(),
+        metaRes.json(),
+      ]);
+
+      setPsData(ps);
+      setKpis(kp);
+      setThemes(th);
+      setTrends(tr);
+      setMetadata(mt);
+      setLastRefreshTime(new Date());
+      setError(null);
+    } catch (e) {
+      console.error("Data load error:", e);
+      setError(e.message);
+    } finally {
+      setLoading(false);
+      if (isManual) setIsRefreshing(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    loadData(false);
+  }, [loadData]);
+
+  const refreshData = useCallback(() => {
+    return loadData(true);
+  }, [loadData]);
 
   const toggleWatchlist = useCallback((psNum) => {
     setWatchlist((prev) => {
       const next = prev.includes(psNum) ? prev.filter((p) => p !== psNum) : [...prev, psNum];
-      localStorage.setItem("sih_watchlist", JSON.stringify(next));
-      return next;
-    });
-  }, []);
-
-  const updateTeamSkills = useCallback((skills) => {
-    setTeamSkills(skills);
-    localStorage.setItem("sih_team_skills", JSON.stringify(skills));
-  }, []);
-
-  const updateTeamPrefs = useCallback((prefs) => {
-    setTeamPrefs(prefs);
-    localStorage.setItem("sih_team_prefs", JSON.stringify(prefs));
-  }, []);
-
-  const toggleTheme = useCallback(() => {
-    setDarkMode((prev) => {
-      const next = !prev;
-      document.documentElement.setAttribute("data-theme", next ? "dark" : "light");
-      localStorage.setItem("sih_theme", next ? "dark" : "light");
+      try {
+        localStorage.setItem("sih_watchlist", JSON.stringify(next));
+      } catch (e) {}
       return next;
     });
   }, []);
 
   const toggleCompare = useCallback((psNum) => {
     setCompareList((prev) => {
-      if (prev.includes(psNum)) return prev.filter((p) => p !== psNum);
-      if (prev.length >= 5) return prev;
-      return [...prev, psNum];
+      const next = prev.includes(psNum)
+        ? prev.filter((p) => p !== psNum)
+        : prev.length >= 5
+        ? prev
+        : [...prev, psNum];
+      try {
+        localStorage.setItem("sih_compare", JSON.stringify(next));
+      } catch (e) {}
+      return next;
     });
   }, []);
 
-  const getPS = useCallback((psNum) => psData.find((p) => p.ps_number === psNum), [psData]);
+  const updateTeamSkills = useCallback((skills) => {
+    setTeamSkills(skills);
+    try {
+      localStorage.setItem("sih_team_skills", JSON.stringify(skills));
+    } catch (e) {}
+  }, []);
+
+  const updateTeamPrefs = useCallback((prefs) => {
+    setTeamPrefs(prefs);
+    try {
+      localStorage.setItem("sih_team_prefs", JSON.stringify(prefs));
+    } catch (e) {}
+  }, []);
+
+  const toggleTheme = useCallback(() => {
+    setDarkMode((prev) => {
+      const next = !prev;
+      document.documentElement.setAttribute("data-theme", next ? "dark" : "light");
+      try {
+        localStorage.setItem("sih_theme", next ? "dark" : "light");
+      } catch (e) {}
+      return next;
+    });
+  }, []);
+
+  const getPS = useCallback(
+    (psNum) => {
+      if (!psNum) return null;
+      const cleanNum = String(psNum).trim().toLowerCase();
+      return psData.find(
+        (p) =>
+          p.ps_number?.toLowerCase() === cleanNum ||
+          String(p.sno) === cleanNum ||
+          p.ps_number?.toLowerCase().replace("sih26", "") === cleanNum ||
+          cleanNum.replace("sih26", "") === String(p.sno)
+      );
+    },
+    [psData]
+  );
 
   return (
-    <DataContext.Provider value={{
-      psData, kpis, themes, trends, metadata, loading, error,
-      watchlist, toggleWatchlist,
-      teamSkills, updateTeamSkills, teamPrefs, updateTeamPrefs,
-      darkMode, toggleTheme,
-      compareList, toggleCompare, setCompareList,
-      getPS,
-    }}>
+    <DataContext.Provider
+      value={{
+        psData,
+        kpis,
+        themes,
+        trends,
+        metadata,
+        loading,
+        isRefreshing,
+        lastRefreshTime,
+        refreshData,
+        error,
+        watchlist,
+        toggleWatchlist,
+        teamSkills,
+        updateTeamSkills,
+        teamPrefs,
+        updateTeamPrefs,
+        darkMode,
+        toggleTheme,
+        compareList,
+        toggleCompare,
+        setCompareList,
+        getPS,
+      }}
+    >
       {children}
     </DataContext.Provider>
   );

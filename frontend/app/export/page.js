@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import { DataProvider, useData } from "../../lib/DataContext";
 import AppShell from "../../components/AppShell";
 import { exportCSV } from "../../lib/utils";
+import { LuDownload, LuDatabase, LuStar, LuGitCompare } from "react-icons/lu";
 
 function ExportContent() {
   const { psData, watchlist, compareList, getPS, loading, error } = useData();
@@ -26,50 +27,66 @@ function ExportContent() {
     );
   }
 
-  const watchedData = watchlist.map(id => getPS(id)).filter(Boolean);
-  const comparedData = compareList.map(id => getPS(id)).filter(Boolean);
+  const watchedData = watchlist.map((id) => getPS(id)).filter(Boolean);
+  const comparedData = compareList.map((id) => getPS(id)).filter(Boolean);
 
   return (
     <AppShell
       title="Reports & Export Center"
-      subtitle="Download comprehensive intelligence reports in CSV and JSON formats for team distribution or custom analysis."
+      subtitle="Download comprehensive intelligence reports in CSV format for team distribution or custom analysis."
     >
-      <div className="grid-3">
+      <div className="kpi-grid" style={{ gridTemplateColumns: "repeat(3, 1fr)", marginBottom: "24px" }}>
         {/* All PS Export */}
-        <div className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: '220px' }}>
+        <div className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", minHeight: "220px" }}>
           <div>
-            <div style={{ fontSize: '1.15rem', fontWeight: '800', marginBottom: '8px' }}>Full Dataset Report</div>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '16px', lineHeight: '1.6' }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "1.1rem", fontWeight: "800", marginBottom: "8px" }}>
+              <LuDatabase size={20} color="var(--accent-light)" />
+              <span>Full Dataset Report</span>
+            </div>
+            <p style={{ fontSize: "0.85rem", color: "var(--text-secondary)", marginBottom: "16px", lineHeight: "1.6" }}>
               Complete breakdown of all 226 SIH 2026 problem statements including submissions, fill %, competition, opportunity signals, and tech tags.
             </p>
           </div>
-          <button className="btn btn-primary" onClick={() => exportCSV(psData, "SIH_2026_All_Problem_Statements.csv")}>
-            Download All PSs (CSV)
+          <button
+            className="btn btn-primary"
+            onClick={() => exportCSV(psData, "SIH_2026_All_Problem_Statements.csv")}
+            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
+          >
+            <LuDownload size={15} />
+            <span>Download All PSs (CSV)</span>
           </button>
         </div>
 
         {/* Watchlist Export */}
-        <div className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: '220px' }}>
+        <div className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", minHeight: "220px" }}>
           <div>
-            <div style={{ fontSize: '1.15rem', fontWeight: '800', marginBottom: '8px' }}>Candidate Watchlist</div>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '16px', lineHeight: '1.6' }}>
-              Download your team's shortlisted candidate problem statements ({watchedData.length} saved).
+            <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "1.1rem", fontWeight: "800", marginBottom: "8px" }}>
+              <LuStar size={20} color="var(--accent-warm)" />
+              <span>Candidate Watchlist</span>
+            </div>
+            <p style={{ fontSize: "0.85rem", color: "var(--text-secondary)", marginBottom: "16px", lineHeight: "1.6" }}>
+              Download your team&apos;s shortlisted candidate problem statements ({watchedData.length} saved).
             </p>
           </div>
           <button
             className="btn btn-secondary"
             disabled={watchedData.length === 0}
             onClick={() => exportCSV(watchedData, "SIH_Watchlist_Report.csv")}
+            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
           >
-            {watchedData.length === 0 ? "Watchlist Empty" : `Download Watchlist (${watchedData.length})`}
+            <LuDownload size={15} />
+            <span>{watchedData.length === 0 ? "Watchlist Empty" : `Download Watchlist (${watchedData.length})`}</span>
           </button>
         </div>
 
         {/* Comparison Export */}
-        <div className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: '220px' }}>
+        <div className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", minHeight: "220px" }}>
           <div>
-            <div style={{ fontSize: '1.15rem', fontWeight: '800', marginBottom: '8px' }}>Side-by-Side Comparison</div>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '16px', lineHeight: '1.6' }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "1.1rem", fontWeight: "800", marginBottom: "8px" }}>
+              <LuGitCompare size={20} color="var(--cyan)" />
+              <span>Side-by-Side Comparison</span>
+            </div>
+            <p style={{ fontSize: "0.85rem", color: "var(--text-secondary)", marginBottom: "16px", lineHeight: "1.6" }}>
               Download selected comparison matrix records ({comparedData.length} selected).
             </p>
           </div>
@@ -77,8 +94,10 @@ function ExportContent() {
             className="btn btn-secondary"
             disabled={comparedData.length === 0}
             onClick={() => exportCSV(comparedData, "SIH_Comparison_Report.csv")}
+            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
           >
-            {comparedData.length === 0 ? "No Items Selected" : `Download Comparison (${comparedData.length})`}
+            <LuDownload size={15} />
+            <span>{comparedData.length === 0 ? "No Items Selected" : `Download Comparison (${comparedData.length})`}</span>
           </button>
         </div>
       </div>

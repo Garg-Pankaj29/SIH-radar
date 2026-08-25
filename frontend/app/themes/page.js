@@ -34,8 +34,8 @@ function ThemesContent() {
       subtitle="Analyze national submission distribution and density across official SIH 2026 hackathon themes"
     >
       {/* Bar Chart */}
-      <div className="card chart-card" style={{ height: '380px', marginBottom: '28px' }}>
-        <div style={{ fontWeight: '700', fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '16px', textTransform: 'uppercase' }}>
+      <div className="card chart-card" style={{ height: "380px", marginBottom: "28px" }}>
+        <div style={{ fontWeight: "700", fontSize: "0.85rem", color: "var(--text-secondary)", marginBottom: "16px", textTransform: "uppercase" }}>
           Problem Statement Count by Theme
         </div>
         <ResponsiveContainer width="100%" height="100%">
@@ -43,7 +43,7 @@ function ThemesContent() {
             <XAxis dataKey="theme" stroke="var(--text-muted)" angle={-45} textAnchor="end" interval={0} fontSize={11} />
             <YAxis stroke="var(--text-muted)" />
             <Tooltip
-              contentStyle={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)', borderRadius: 'var(--radius-md)', fontSize: '0.8rem' }}
+              contentStyle={{ background: "var(--bg-card)", borderColor: "var(--border-color)", borderRadius: "var(--radius-md)", fontSize: "0.8rem" }}
             />
             <Bar dataKey="ps_count" fill="var(--accent)" radius={[4, 4, 0, 0]}>
               {themeList.map((entry, index) => (
@@ -55,15 +55,15 @@ function ThemesContent() {
       </div>
 
       {/* Theme Grid */}
-      <div className="grid-3">
-        {themeList.map(t => (
+      <div className="kpi-grid" style={{ gridTemplateColumns: "repeat(3, 1fr)" }}>
+        {themeList.map((t) => (
           <div key={t.theme} className="card">
-            <div style={{ fontWeight: '800', fontSize: '1rem', marginBottom: '6px' }}>{t.theme}</div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '12px' }}>
+            <div style={{ fontWeight: "800", fontSize: "1rem", marginBottom: "6px" }}>{t.theme}</div>
+            <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.85rem", color: "var(--text-secondary)", marginBottom: "12px" }}>
               <span>{t.ps_count} Problem Statements</span>
-              <span style={{ fontWeight: '700', color: 'var(--accent-light)' }}>{t.average_fill}% Avg Fill</span>
+              <span style={{ fontWeight: "700", color: "var(--accent-light)" }}>{t.average_fill}% Avg Fill</span>
             </div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+            <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
               Total Ideas Submitted: <strong>{t.total_submissions}</strong>
             </div>
           </div>

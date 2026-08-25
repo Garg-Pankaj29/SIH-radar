@@ -59,6 +59,11 @@ def health_check():
     })
 
 
+@app.route("/health", methods=["GET"])
+def health():
+    return {"status": "ok"}, 200
+
+
 @app.route("/api/problem_statements.json", methods=["GET"])
 def get_problem_statements():
     return jsonify(load_api_file("problem_statements.json"))

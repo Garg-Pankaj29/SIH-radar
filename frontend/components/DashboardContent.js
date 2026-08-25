@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import { useData } from "../lib/DataContext";
 import Sidebar from "./Sidebar";
 import KPICards from "./KPICards";
@@ -10,9 +11,27 @@ import WatchlistPreview from "./WatchlistPreview";
 import TopProblemStatements from "./TopProblemStatements";
 import ThemeSaturation from "./ThemeSaturation";
 import Footer from "./Footer";
+import {
+  LuInfo,
+  LuSearch,
+  LuBookmark,
+  LuSun,
+  LuMoon,
+} from "react-icons/lu";
 
 export default function DashboardContent() {
-  const { psData, kpis, themes, metadata, loading, error, trends, watchlist, darkMode, toggleTheme } = useData();
+  const {
+    psData,
+    kpis,
+    themes,
+    metadata,
+    loading,
+    error,
+    trends,
+    watchlist,
+    darkMode,
+    toggleTheme,
+  } = useData();
   const [searchVal, setSearchVal] = useState("");
 
   if (loading) {
@@ -59,21 +78,16 @@ export default function DashboardContent() {
               </div>
 
               <div className="dash-disclaimer">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M12 16v-4" />
-                  <path d="M12 8h.01" />
-                </svg>
-                Data is based on publicly available SIH submission counts and related metadata. Submission count is a competition-demand proxy, not website traffic.
+                <LuInfo size={16} style={{ flexShrink: 0 }} />
+                <span>
+                  Data is based on publicly available SIH submission counts and related metadata. Submission count is a competition-demand proxy, not website traffic.
+                </span>
               </div>
             </div>
 
             <div className="dash-header-right">
               <div className="dash-search">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="11" cy="11" r="8" />
-                  <path d="m21 21-4.3-4.3" />
-                </svg>
+                <LuSearch size={16} />
                 <input
                   type="text"
                   placeholder="Search PS, Org, Theme..."
@@ -82,28 +96,19 @@ export default function DashboardContent() {
                 />
               </div>
 
-              {/* Bookmark Icon */}
-              <button className="dash-icon-btn" title="Bookmarks">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
-                </svg>
-              </button>
+              {/* Bookmark Button */}
+              <Link href="/watchlist" className="dash-icon-btn" title="View Watchlist" aria-label="Watchlist">
+                <LuBookmark size={18} />
+              </Link>
 
-              {/* Profile / Theme Toggle */}
-              <button className="dash-icon-btn" onClick={toggleTheme} title="Toggle theme">
-                {darkMode ? (
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <circle cx="12" cy="12" r="4" />
-                    <path d="M12 2v2" /><path d="M12 20v2" />
-                    <path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" />
-                    <path d="M2 12h2" /><path d="M20 12h2" />
-                    <path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" />
-                  </svg>
-                ) : (
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-                  </svg>
-                )}
+              {/* Theme Toggle */}
+              <button
+                className="dash-icon-btn"
+                onClick={toggleTheme}
+                title="Toggle theme"
+                aria-label="Toggle theme"
+              >
+                {darkMode ? <LuSun size={18} /> : <LuMoon size={18} />}
               </button>
             </div>
           </div>

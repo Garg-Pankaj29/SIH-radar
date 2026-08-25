@@ -4,6 +4,7 @@ import { DataProvider, useData } from "../../lib/DataContext";
 import AppShell from "../../components/AppShell";
 import PSTable from "../../components/PSTable";
 import Link from "next/link";
+import { LuBookmark, LuPlus } from "react-icons/lu";
 
 function WatchlistContent() {
   const { watchlist, getPS, loading, error } = useData();
@@ -27,7 +28,7 @@ function WatchlistContent() {
     );
   }
 
-  const watchedData = watchlist.map(id => getPS(id)).filter(Boolean);
+  const watchedData = watchlist.map((id) => getPS(id)).filter(Boolean);
 
   return (
     <AppShell
@@ -35,14 +36,20 @@ function WatchlistContent() {
       subtitle={`Bookmarked problem statements with real-time submission & velocity tracking (${watchedData.length} saved)`}
     >
       {watchedData.length === 0 ? (
-        <div className="card empty-state">
-          <div style={{ fontSize: '1.1rem', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '8px' }}>
+        <div className="card empty-state" style={{ textAlign: "center", padding: "48px 24px" }}>
+          <div style={{ display: "inline-flex", padding: "16px", background: "var(--bg-elevated)", borderRadius: "50%", marginBottom: "16px", color: "var(--accent-light)" }}>
+            <LuBookmark size={36} />
+          </div>
+          <div style={{ fontSize: "1.15rem", fontWeight: "700", color: "var(--text-primary)", marginBottom: "8px" }}>
             Your watchlist is currently empty
           </div>
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '420px', margin: '0 auto 16px' }}>
-            Click the bookmark or star icon next to any problem statement in the dashboard or table to shortlist it for your team.
+          <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", maxWidth: "440px", margin: "0 auto 20px", lineHeight: "1.6" }}>
+            Click the star or bookmark icon next to any problem statement in the table or detail page to shortlist it for your team.
           </p>
-          <Link href="/ps" className="btn btn-primary">Browse Problem Statements</Link>
+          <Link href="/ps" className="btn btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+            <LuPlus size={16} />
+            <span>Browse Problem Statements</span>
+          </Link>
         </div>
       ) : (
         <PSTable data={watchedData} />

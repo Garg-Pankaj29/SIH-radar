@@ -1,5 +1,7 @@
 "use client";
+import Link from "next/link";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
+import { LuArrowRight } from "react-icons/lu";
 
 export default function CompetitionOverview({ kpis }) {
   if (!kpis) return null;
@@ -14,7 +16,6 @@ export default function CompetitionOverview({ kpis }) {
 
   const total = data.reduce((s, d) => s + d.value, 0);
 
-  // We need raw hex colors for Recharts (CSS vars don't work in SVG fill)
   const COLORS = ["#b0b0b0", "#52b788", "#e8a54b", "#c0392b"];
 
   return (
@@ -75,12 +76,10 @@ export default function CompetitionOverview({ kpis }) {
       </div>
 
       <div style={{ marginTop: "16px" }}>
-        <a href="/ps" className="card-link">
-          View all PS
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-          </svg>
-        </a>
+        <Link href="/ps" className="card-link">
+          <span>View all PS</span>
+          <LuArrowRight size={14} />
+        </Link>
       </div>
     </div>
   );

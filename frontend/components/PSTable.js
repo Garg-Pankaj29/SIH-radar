@@ -3,6 +3,15 @@ import { useState } from "react";
 import Link from "next/link";
 import { useData } from "../lib/DataContext";
 import { getCompBadgeClass, getOppBadgeClass, getFillClass, truncate } from "../lib/utils";
+import {
+  LuStar,
+  LuPlus,
+  LuCheck,
+  LuChevronLeft,
+  LuChevronRight,
+  LuArrowUp,
+  LuArrowDown,
+} from "react-icons/lu";
 
 export default function PSTable({ data }) {
   const { watchlist, toggleWatchlist, compareList, toggleCompare } = useData();
@@ -34,31 +43,42 @@ export default function PSTable({ data }) {
   const totalPages = Math.ceil(sorted.length / pageSize) || 1;
   const pageData = sorted.slice((page - 1) * pageSize, page * pageSize);
 
+  const renderSortIndicator = (field) => {
+    if (sortField !== field) return null;
+    return sortOrder === "asc" ? (
+      <LuArrowUp size={12} style={{ display: "inline", marginLeft: "4px" }} />
+    ) : (
+      <LuArrowDown size={12} style={{ display: "inline", marginLeft: "4px" }} />
+    );
+  };
+
   return (
     <div>
-      <div className="table-wrap">
+      <div className="table-wrap" style={{ overflowX: "auto", WebkitOverflowScrolling: "touch" }}>
         <table>
           <thead>
             <tr>
-              <th style={{ width: '40px' }}>★</th>
-              <th onClick={() => handleSort("ps_number")}>
-                PS # {sortField === "ps_number" && (sortOrder === "asc" ? "▲" : "▼")}
+              <th style={{ width: "40px", textAlign: "center" }}>
+                <LuStar size={14} style={{ display: "inline" }} />
               </th>
-              <th onClick={() => handleSort("title")}>
-                Title {sortField === "title" && (sortOrder === "asc" ? "▲" : "▼")}
+              <th onClick={() => handleSort("ps_number")} style={{ cursor: "pointer" }}>
+                PS # {renderSortIndicator("ps_number")}
               </th>
-              <th onClick={() => handleSort("category")}>Category</th>
-              <th onClick={() => handleSort("theme")}>Theme</th>
-              <th onClick={() => handleSort("ideas_submitted")}>
-                Submissions {sortField === "ideas_submitted" && (sortOrder === "asc" ? "▲" : "▼")}
+              <th onClick={() => handleSort("title")} style={{ cursor: "pointer" }}>
+                Title {renderSortIndicator("title")}
               </th>
-              <th onClick={() => handleSort("fill_percentage")}>
-                Fill % {sortField === "fill_percentage" && (sortOrder === "asc" ? "▲" : "▼")}
+              <th onClick={() => handleSort("category")} style={{ cursor: "pointer" }}>Category</th>
+              <th onClick={() => handleSort("theme")} style={{ cursor: "pointer" }}>Theme</th>
+              <th onClick={() => handleSort("ideas_submitted")} style={{ cursor: "pointer" }}>
+                Submissions {renderSortIndicator("ideas_submitted")}
               </th>
-              <th onClick={() => handleSort("competition_level")}>Competition</th>
-              <th onClick={() => handleSort("opportunity_category")}>Opportunity Signal</th>
-              <th onClick={() => handleSort("days_remaining")}>Deadline</th>
-              <th style={{ width: '60px' }}>Compare</th>
+              <th onClick={() => handleSort("fill_percentage")} style={{ cursor: "pointer" }}>
+                Fill % {renderSortIndicator("fill_percentage")}
+              </th>
+              <th onClick={() => handleSort("competition_level")} style={{ cursor: "pointer" }}>Competition</th>
+              <th onClick={() => handleSort("opportunity_category")} style={{ cursor: "pointer" }}>Opportunity Signal</th>
+              <th onClick={() => handleSort("days_remaining")} style={{ cursor: "pointer" }}>Deadline</th>
+              <th style={{ width: "70px", textAlign: "center" }}>Compare</th>
             </tr>
           </thead>
           <tbody>
@@ -75,51 +95,52 @@ export default function PSTable({ data }) {
 
                 return (
                   <tr key={r.ps_number}>
-                    <td onClick={(e) => e.stopPropagation()}>
+                    <td onClick={(e) => e.stopPropagation()} style={{ textAlign: "center" }}>
                       <button
                         className={`watchlist-btn ${isSaved ? "active" : ""}`}
                         onClick={() => toggleWatchlist(r.ps_number)}
                         title={isSaved ? "Remove from watchlist" : "Add to watchlist"}
+                        aria-label="Toggle watchlist"
                       >
-                        {isSaved ? "★" : "☆"}
+                        <LuStar size={15} fill={isSaved ? "currentColor" : "none"} />
                       </button>
                     </td>
 
-                    <td style={{ fontWeight: '700' }}>
+                    <td style={{ fontWeight: "700" }}>
                       <Link href={`/ps/${r.ps_number}`}>{r.ps_number}</Link>
                     </td>
 
                     <td>
-                      <Link href={`/ps/${r.ps_number}`} style={{ color: 'inherit' }}>
-                        <span style={{ fontWeight: '600' }}>{truncate(r.title, 55)}</span>
+                      <Link href={`/ps/${r.ps_number}`} style={{ color: "inherit" }}>
+                        <span style={{ fontWeight: "600" }}>{truncate(r.title, 55)}</span>
                       </Link>
-                      <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{r.organization}</div>
+                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>{r.organization}</div>
                     </td>
 
                     <td>
-                      <span className={`badge ${r.category === 'Software' ? 'badge-software' : 'badge-hardware'}`}>
+                      <span className={`badge ${r.category === "Software" ? "badge-software" : "badge-hardware"}`}>
                         {r.category}
                       </span>
                     </td>
 
-                    <td style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>{r.theme}</td>
+                    <td style={{ fontSize: "0.8rem", color: "var(--text-secondary)" }}>{r.theme}</td>
 
-                    <td style={{ fontWeight: '700', textAlign: 'center' }}>
-                      {r.ideas_submitted} <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>/ 500</span>
+                    <td style={{ fontWeight: "700", textAlign: "center" }}>
+                      {r.ideas_submitted} <span style={{ fontSize: "0.7rem", color: "var(--text-muted)" }}>/ 500</span>
                       {r.velocity?.growth_24h > 0 && (
-                        <div style={{ fontSize: '0.7rem', color: 'var(--green)' }}>+{r.velocity.growth_24h} in 24h</div>
+                        <div style={{ fontSize: "0.7rem", color: "var(--green)" }}>+{r.velocity.growth_24h} in 24h</div>
                       )}
                     </td>
 
                     <td>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <div className="fill-bar" style={{ width: '60px' }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                        <div className="fill-bar" style={{ width: "60px" }}>
                           <div
                             className={`fill-bar-inner ${getFillClass(r.fill_percentage)}`}
                             style={{ width: `${Math.min(r.fill_percentage, 100)}%` }}
                           />
                         </div>
-                        <span style={{ fontSize: '0.8rem', fontWeight: '600' }}>{r.fill_percentage}%</span>
+                        <span style={{ fontSize: "0.8rem", fontWeight: "600" }}>{r.fill_percentage}%</span>
                       </div>
                     </td>
 
@@ -135,17 +156,28 @@ export default function PSTable({ data }) {
                       </span>
                     </td>
 
-                    <td style={{ fontSize: '0.8rem', whiteSpace: 'nowrap' }}>
+                    <td style={{ fontSize: "0.8rem", whiteSpace: "nowrap" }}>
                       {r.days_remaining !== null ? `${r.days_remaining}d left` : "—"}
                     </td>
 
-                    <td onClick={(e) => e.stopPropagation()}>
+                    <td onClick={(e) => e.stopPropagation()} style={{ textAlign: "center" }}>
                       <button
                         className={`btn btn-sm ${isCompared ? "btn-primary" : "btn-secondary"}`}
                         onClick={() => toggleCompare(r.ps_number)}
-                        style={{ padding: '2px 8px', fontSize: '0.7rem' }}
+                        style={{ padding: "4px 8px", fontSize: "0.72rem", display: "inline-flex", alignItems: "center", gap: "4px" }}
+                        title={isCompared ? "Remove from comparison" : "Add to comparison"}
                       >
-                        {isCompared ? "✓ Added" : "+ Add"}
+                        {isCompared ? (
+                          <>
+                            <LuCheck size={12} />
+                            <span>Added</span>
+                          </>
+                        ) : (
+                          <>
+                            <LuPlus size={12} />
+                            <span>Add</span>
+                          </>
+                        )}
                       </button>
                     </td>
                   </tr>
@@ -158,14 +190,26 @@ export default function PSTable({ data }) {
 
       {totalPages > 1 && (
         <div className="pagination">
-          <button className="page-btn" disabled={page === 1} onClick={() => setPage(page - 1)}>
-            ◀ Prev
+          <button
+            className="page-btn"
+            disabled={page === 1}
+            onClick={() => setPage(page - 1)}
+            style={{ display: "inline-flex", alignItems: "center", gap: "4px" }}
+          >
+            <LuChevronLeft size={14} />
+            <span>Prev</span>
           </button>
-          <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: '0 8px' }}>
+          <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)", margin: "0 8px" }}>
             Page {page} of {totalPages} ({sorted.length} records)
           </span>
-          <button className="page-btn" disabled={page === totalPages} onClick={() => setPage(page + 1)}>
-            Next ▶
+          <button
+            className="page-btn"
+            disabled={page === totalPages}
+            onClick={() => setPage(page + 1)}
+            style={{ display: "inline-flex", alignItems: "center", gap: "4px" }}
+          >
+            <span>Next</span>
+            <LuChevronRight size={14} />
           </button>
         </div>
       )}

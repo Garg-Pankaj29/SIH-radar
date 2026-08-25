@@ -57,11 +57,11 @@ function PSListContent() {
     >
       <FilterPanel filters={filters} setFilters={setFilters} />
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-        <div style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--text-secondary)' }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "14px", flexWrap: "wrap", gap: "8px" }}>
+        <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "var(--text-secondary)" }}>
           Showing {filteredData.length} Problem Statements
         </div>
-        <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
+        <div style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>
           Click any column header to sort
         </div>
       </div>
