@@ -22,9 +22,10 @@ export default function TopProblemStatements({ psData }) {
     .slice(0, 5);
 
   return (
-    <div className="card" style={{ padding: "20px 0" }}>
+    <div className="card" style={{ padding: "20px 0", minWidth: 0, width: "100%" }}>
       <div className="card-header" style={{ padding: "0 20px", marginBottom: "12px" }}>
         <span className="card-title">Top Problem Statements</span>
+        <span style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>Swipe horizontally to view all columns →</span>
       </div>
 
       <div className="ps-table-wrap">

@@ -1,24 +1,23 @@
 /* ==========================================================================
    SIH OPPORTUNITY RADAR — COMPLETE DESIGN SYSTEM
-   Forest Green & Warm Copper Palette | Light & Dark Mode
+   Deep Forest Green & Warm Copper Palette | Light & Dark Mode
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap');
 
-/* ---------- LIGHT MODE (Default) ---------- */
 :root {
-  /* Dark Mode (Default) — Forest Green Palette */
-  --bg-dark: #0d1a0f;
-  --bg-sidebar: #09120a;
-  --bg-card: #132416;
-  --bg-elevated: #1a2f1e;
-  --bg-hover: #223c27;
-  --border-color: #1e3822;
-  --border-subtle: #2d4e32;
+  /* Dark Mode (Default) — Deep Forest Green Theme */
+  --bg-dark: #060f08;
+  --bg-sidebar: #040a05;
+  --bg-card: #0c180e;
+  --bg-elevated: #122416;
+  --bg-hover: #19311f;
+  --border-color: #172d1b;
+  --border-subtle: #224328;
 
   --text-primary: #f0fdf4;
-  --text-secondary: #a3c4a8;
-  --text-muted: #6b8f71;
+  --text-secondary: #8cae92;
+  --text-muted: #5b7e61;
 
   --accent: #52b788;
   --accent-light: #74c69d;
@@ -36,22 +35,21 @@
   --cyan: #48cae4;
   --purple: #b5838d;
 
-  --donut-none: #b0b0b0;
+  --donut-none: #7a8c7e;
   --donut-low: #52b788;
   --donut-medium: #e8a54b;
-  --donut-high: #c0392b;
+  --donut-high: #e76f51;
 
   --radius-sm: 6px;
   --radius-md: 10px;
-  --radius-lg: 14px;
-  --radius-xl: 18px;
+  --radius-lg: 16px;
   --radius-full: 9999px;
 
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.55);
 
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
   --sidebar-width: 220px;
@@ -96,10 +94,7 @@
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-/* ==========================================================================
-   BASE RESETS
-   ========================================================================== */
-
+/* Base resets */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -107,13 +102,15 @@
 }
 
 html, body {
-  background-color: var(--bg-body);
+  background-color: var(--bg-dark);
   color: var(--text-primary);
   font-family: var(--font-sans);
   font-size: 14px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -134,6 +131,8 @@ button {
   display: flex;
   min-height: 100vh;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 /* ==========================================================================
@@ -159,7 +158,6 @@ button {
 .sidebar::-webkit-scrollbar {
   display: none;
 }
-.sidebar::-webkit-scrollbar { display: none; }
 
 .sidebar-brand {
   padding: 20px 18px 12px;
@@ -344,7 +342,7 @@ button {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(4px);
   z-index: 190;
 }
@@ -360,7 +358,7 @@ button {
 
 /* ==========================================================================
    MAIN CONTENT
-   ========================================================================== */
+   ========================================================================= */
 
 .main-content {
   margin-left: var(--sidebar-width);
@@ -369,12 +367,16 @@ button {
   display: flex;
   flex-direction: column;
   width: calc(100% - var(--sidebar-width));
+  max-width: calc(100% - var(--sidebar-width));
+  min-width: 0;
 }
 
 .main-inner {
   flex: 1;
   padding: 24px clamp(16px, 2.5vw, 40px) 32px;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 /* Dashboard Header */
@@ -385,6 +387,8 @@ button {
   margin-bottom: 24px;
   flex-wrap: wrap;
   gap: 16px;
+  width: 100%;
+  min-width: 0;
 }
 
 .dash-header-left {
@@ -392,6 +396,7 @@ button {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  min-width: 0;
 }
 
 .dash-title {
@@ -425,6 +430,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .dash-search {
@@ -486,6 +492,9 @@ button {
   padding: 20px;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .card:hover {
@@ -526,6 +535,8 @@ button {
   grid-template-columns: repeat(6, 1fr);
   gap: 14px;
   margin-bottom: 20px;
+  width: 100%;
+  min-width: 0;
 }
 
 .kpi-card {
@@ -537,6 +548,7 @@ button {
   align-items: center;
   gap: 12px;
   transition: all 0.2s ease;
+  min-width: 0;
 }
 
 .kpi-card:hover {
@@ -600,12 +612,16 @@ button {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-bottom: 20px;
+  width: 100%;
+  min-width: 0;
 }
 
 .dashboard-bottom {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 16px;
+  width: 100%;
+  min-width: 0;
 }
 
 /* Opportunity Radar Info Modal / Popover */
@@ -812,6 +828,7 @@ button {
   flex-direction: column;
   gap: 12px;
   width: 100%;
+  min-width: 0;
 }
 
 .theme-sat-item {
@@ -820,6 +837,7 @@ button {
   gap: 10px;
   font-size: 0.75rem;
   width: 100%;
+  min-width: 0;
 }
 
 .theme-sat-label {
@@ -838,6 +856,7 @@ button {
   background: var(--bg-elevated);
   border-radius: var(--radius-full);
   overflow: hidden;
+  min-width: 50px;
 }
 
 .theme-sat-fill {
@@ -852,6 +871,7 @@ button {
   font-weight: 700;
   font-size: 0.72rem;
   color: var(--text-primary);
+  flex-shrink: 0;
 }
 
 /* ==========================================================================
@@ -860,14 +880,18 @@ button {
 
 .ps-table-wrap, .table-wrap {
   width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  touch-action: pan-x pan-y;
   display: block;
+  padding-bottom: 4px;
 }
 
 .ps-mini-table {
   width: 100%;
-  min-width: 650px;
+  min-width: 680px !important;
   border-collapse: collapse;
   font-size: 0.8rem;
 }
@@ -899,6 +923,7 @@ button {
 
 table {
   width: 100%;
+  min-width: 720px;
   border-collapse: collapse;
   font-size: 0.85rem;
 }
@@ -913,11 +938,13 @@ th {
   border-bottom: 1px solid var(--border-color);
   background: var(--bg-card);
   user-select: none;
+  white-space: nowrap;
 }
 
 td {
   padding: 12px 14px;
   border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
 }
 
 tr:hover {
@@ -950,8 +977,8 @@ tr:hover {
 }
 
 .badge-high {
-  background: rgba(192, 57, 43, 0.15);
-  color: #c0392b;
+  background: rgba(231, 111, 81, 0.15);
+  color: #e76f51;
 }
 
 .badge-medium {
@@ -965,8 +992,8 @@ tr:hover {
 }
 
 .badge-none {
-  background: rgba(176, 176, 176, 0.15);
-  color: #b0b0b0;
+  background: rgba(122, 140, 126, 0.15);
+  color: #7a8c7e;
 }
 
 .badge-hot {
@@ -975,13 +1002,13 @@ tr:hover {
 }
 
 .badge-crowded {
-  background: rgba(192, 57, 43, 0.15);
-  color: #c0392b;
+  background: rgba(231, 111, 81, 0.15);
+  color: #e76f51;
 }
 
 .badge-emerging {
-  background: rgba(41, 128, 185, 0.15);
-  color: #2980b9;
+  background: rgba(72, 202, 228, 0.15);
+  color: #48cae4;
 }
 
 .badge-hidden {
@@ -1009,7 +1036,7 @@ tr:hover {
 
 .fill-low { background: #52b788; }
 .fill-medium { background: #e8a54b; }
-.fill-high { background: #c0392b; }
+.fill-high { background: #e76f51; }
 
 /* Buttons */
 .btn {
@@ -1058,14 +1085,7 @@ tr:hover {
   font-size: 0.75rem;
 }
 
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-}
-
-/* Filter panel & select */
+/* Filter Panel */
 .filter-panel {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -1075,6 +1095,8 @@ tr:hover {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  width: 100%;
+  min-width: 0;
 }
 
 .filter-row {
@@ -1206,6 +1228,7 @@ tr:hover {
   border-top: 1px solid var(--border-color);
   background: var(--bg-card);
   width: 100%;
+  margin-top: auto;
 }
 
 .app-footer-inner {
@@ -1287,6 +1310,7 @@ tr:hover {
   .main-content {
     margin-left: 0;
     width: 100%;
+    max-width: 100%;
     padding-top: 56px;
   }
 
@@ -1317,7 +1341,11 @@ tr:hover {
     width: 100%;
   }
 
-  .ps-table-wrap {
-    overflow-x: auto;
+  .main-inner {
+    padding: 16px 12px 24px;
+  }
+
+  .card {
+    padding: 14px;
   }
 }
