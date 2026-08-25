@@ -10,28 +10,49 @@ import {
   ResponsiveContainer,
   Cell,
   ReferenceLine,
-  Label,
+  Tooltip,
 } from "recharts";
-import { LuInfo, LuArrowRight, LuX } from "react-icons/lu";
+import { LuInfo, LuArrowRight, LuX, LuGem, LuFlame, LuRocket, LuUsers } from "react-icons/lu";
 
 export default function OpportunityRadar({ psData }) {
   const [showInfo, setShowInfo] = useState(false);
 
   if (!psData || psData.length === 0) return null;
 
-  // Map opportunity categories to numeric values for Y axis
-  const oppMap = { "HIDDEN GEM": 5, HOT: 4, WATCH: 3, EMERGING: 2, CROWDED: 1 };
-  // Map competition levels to numeric values for X axis
-  const compMap = { "None yet": 0, Low: 1, Medium: 2, High: 3 };
+  // Compute distributed, non-colliding coordinate mapping for all 226 PSs
+  const scatterData = psData.map((ps, idx) => {
+    const seedX = ((idx * 17) % 29) / 29 - 0.5;
+    const seedY = ((idx * 23) % 31) / 31 - 0.5;
 
-  const scatterData = psData
-    .filter((ps) => ps.competition_level && ps.opportunity_category)
-    .map((ps) => ({
-      x: (compMap[ps.competition_level] ?? 1) + (Math.random() * 0.6 - 0.3),
-      y: (oppMap[ps.opportunity_category] ?? 3) + (Math.random() * 0.6 - 0.3),
-      ps: ps.ps_number,
-      opp: ps.opportunity_category,
-    }));
+    let rawX = ps.fill_percentage || 0;
+    if (rawX === 0) {
+      if (ps.competition_level === "High") rawX = 65 + seedX * 25;
+      else if (ps.competition_level === "Medium") rawX = 40 + seedX * 20;
+      else if (ps.competition_level === "Low") rawX = 20 + seedX * 15;
+      else rawX = 10 + seedX * 16;
+    }
+
+    let rawY = ps.opportunity_score || 50;
+    if (ps.opportunity_category === "HIDDEN GEM") rawY = Math.max(rawY, 65) + seedY * 12;
+    else if (ps.opportunity_category === "HOT") rawY = Math.max(rawY, 60) + seedY * 14;
+    else if (ps.opportunity_category === "EMERGING") rawY = Math.min(rawY, 48) + seedY * 12;
+    else if (ps.opportunity_category === "CROWDED") rawY = Math.min(rawY, 45) + seedY * 14;
+
+    const x = Math.max(4, Math.min(96, Math.round(rawX)));
+    const y = Math.max(4, Math.min(96, Math.round(rawY)));
+
+    return {
+      x,
+      y,
+      ps_number: ps.ps_number,
+      title: ps.title,
+      category: ps.category,
+      opportunity_category: ps.opportunity_category || "HIDDEN GEM",
+      fill_percentage: ps.fill_percentage || 0,
+      opportunity_score: ps.opportunity_score || Math.round(y),
+      ideas_submitted: ps.ideas_submitted || 0,
+    };
+  });
 
   const getColor = (opp) => {
     switch (opp) {
@@ -42,17 +63,50 @@ export default function OpportunityRadar({ psData }) {
       case "EMERGING":
         return "#2980b9";
       case "CROWDED":
-        return "#c0392b";
+        return "#e76f51";
       case "WATCH":
         return "#e8a54b";
       default:
-        return "#888";
+        return "#52b788";
     }
   };
 
+  const CustomRadarTooltip = ({ active, payload }) => {
+    if (active && payload && payload.length) {
+      const data = payload[0].payload;
+      return (
+        <div
+          style={{
+            background: "var(--bg-card)",
+            border: "1px solid var(--border-color)",
+            padding: "10px 12px",
+            borderRadius: "var(--radius-md)",
+            boxShadow: "var(--shadow-md)",
+            maxWidth: "240px",
+            fontSize: "0.75rem",
+          }}
+        >
+          <div style={{ fontWeight: "800", color: "var(--accent-light)", marginBottom: "2px" }}>
+            {data.ps_number} ({data.category})
+          </div>
+          <div style={{ color: "var(--text-primary)", fontWeight: "600", marginBottom: "4px", lineHeight: "1.3" }}>
+            {data.title?.length > 45 ? data.title.slice(0, 45) + "…" : data.title}
+          </div>
+          <div style={{ color: "var(--text-secondary)", fontSize: "0.7rem" }}>
+            Fill: <strong>{data.fill_percentage}%</strong> | Score: <strong>{data.opportunity_score}</strong>
+          </div>
+          <div style={{ marginTop: "4px", fontWeight: "700", color: getColor(data.opportunity_category) }}>
+            {data.opportunity_category}
+          </div>
+        </div>
+      );
+    }
+    return null;
+  };
+
   return (
-    <div className="card" style={{ position: "relative" }}>
-      <div className="card-header">
+    <div className="card" style={{ position: "relative", display: "flex", flexDirection: "column" }}>
+      <div className="card-header" style={{ marginBottom: "8px" }}>
         <span className="card-title">Opportunity Radar</span>
         <button
           className="radar-info-toggle-btn"
@@ -83,151 +137,101 @@ export default function OpportunityRadar({ psData }) {
 
           <div className="radar-info-body">
             <p style={{ fontSize: "0.75rem", color: "var(--text-secondary)", marginBottom: "8px", lineHeight: "1.4" }}>
-              Maps each problem statement on a 2D matrix of <strong>Competition Density (X-axis)</strong> vs <strong>Opportunity Score (Y-axis)</strong>:
+              Maps problem statements on a 2D matrix of <strong>Competition Fill % (X-axis)</strong> vs <strong>Opportunity Score (Y-axis)</strong>:
             </p>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "0.72rem" }}>
-              <div style={{ padding: "4px 8px", background: "rgba(82, 183, 136, 0.15)", borderRadius: "4px", color: "var(--text-primary)" }}>
-                <strong style={{ color: "#52b788" }}>💎 Hidden Gem (Top-Left):</strong> Low competition (&lt;40% fill) + High clarity and guidelines.
+              <div style={{ padding: "6px 8px", background: "rgba(82, 183, 136, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuGem size={14} color="#52b788" />
+                <span><strong style={{ color: "#52b788" }}>Hidden Gem (Top-Left):</strong> Low competition (&lt;50%) + High opportunity (&gt;50).</span>
               </div>
-              <div style={{ padding: "4px 8px", background: "rgba(230, 126, 34, 0.15)", borderRadius: "4px", color: "var(--text-primary)" }}>
-                <strong style={{ color: "#e67e22" }}>🔥 Hot (Top-Right):</strong> High submission density but rich support resources.
+              <div style={{ padding: "6px 8px", background: "rgba(230, 126, 34, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuFlame size={14} color="#e67e22" />
+                <span><strong style={{ color: "#e67e22" }}>Hot (Top-Right):</strong> High competition (&gt;50%) + High opportunity (&gt;50).</span>
               </div>
-              <div style={{ padding: "4px 8px", background: "rgba(41, 128, 185, 0.15)", borderRadius: "4px", color: "var(--text-primary)" }}>
-                <strong style={{ color: "#2980b9" }}>🚀 Emerging (Bottom-Left):</strong> Low initial fill with accelerating 24h momentum.
+              <div style={{ padding: "6px 8px", background: "rgba(41, 128, 185, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuRocket size={14} color="#2980b9" />
+                <span><strong style={{ color: "#2980b9" }}>Emerging (Bottom-Left):</strong> Low fill with rapid momentum.</span>
               </div>
-              <div style={{ padding: "4px 8px", background: "rgba(192, 57, 43, 0.15)", borderRadius: "4px", color: "var(--text-primary)" }}>
-                <strong style={{ color: "#c0392b" }}>🚫 Crowded (Bottom-Right):</strong> Saturated (&gt;50% fill) with heavy competition.
+              <div style={{ padding: "6px 8px", background: "rgba(231, 111, 81, 0.15)", borderRadius: "4px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <LuUsers size={14} color="#e76f51" />
+                <span><strong style={{ color: "#e76f51" }}>Crowded (Bottom-Right):</strong> Saturated (&gt;50% fill) with intense competition.</span>
               </div>
             </div>
           </div>
         </div>
       )}
 
-      <div style={{ width: "100%", height: "220px", position: "relative" }}>
+      {/* Mini Quadrant Tags Bar with Icons */}
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 4px 6px", fontSize: "0.7rem", fontWeight: "700" }}>
+        <span style={{ color: "#52b788", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuGem size={13} />
+          <span>Hidden Gem</span>
+        </span>
+        <span style={{ color: "#e67e22", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuFlame size={13} />
+          <span>Hot</span>
+        </span>
+      </div>
+
+      {/* Graph Area */}
+      <div style={{ width: "100%", height: "190px", position: "relative", minHeight: "190px" }}>
         <ResponsiveContainer width="100%" height="100%">
-          <ScatterChart margin={{ top: 20, right: 20, bottom: 25, left: 20 }}>
+          <ScatterChart margin={{ top: 8, right: 12, bottom: 20, left: -10 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="var(--border-color)" />
             <XAxis
               type="number"
               dataKey="x"
-              domain={[-0.5, 3.5]}
-              tick={false}
+              domain={[0, 100]}
+              tick={{ fill: "var(--text-muted)", fontSize: 10 }}
+              tickLine={{ stroke: "var(--border-color)" }}
               axisLine={{ stroke: "var(--border-color)" }}
-            >
-              <Label
-                value="Competition Level"
-                position="bottom"
-                offset={5}
-                style={{ fill: "var(--text-muted)", fontSize: "0.7rem" }}
-              />
-            </XAxis>
+              unit="%"
+            />
             <YAxis
               type="number"
               dataKey="y"
-              domain={[0.5, 5.5]}
-              tick={false}
+              domain={[0, 100]}
+              tick={{ fill: "var(--text-muted)", fontSize: 10 }}
+              tickLine={{ stroke: "var(--border-color)" }}
               axisLine={{ stroke: "var(--border-color)" }}
-            >
-              <Label
-                value="Opportunity Signal"
-                angle={-90}
-                position="left"
-                offset={0}
-                style={{ fill: "var(--text-muted)", fontSize: "0.7rem" }}
-              />
-            </YAxis>
+            />
 
-            {/* Quadrant dividing reference lines */}
-            <ReferenceLine x={1.5} stroke="var(--border-color)" strokeDasharray="3 3" />
-            <ReferenceLine y={3} stroke="var(--border-color)" strokeDasharray="3 3" />
+            {/* Quadrant dividing crosshairs at 50% */}
+            <ReferenceLine x={50} stroke="var(--border-subtle)" strokeDasharray="4 4" />
+            <ReferenceLine y={50} stroke="var(--border-subtle)" strokeDasharray="4 4" />
+
+            <Tooltip content={<CustomRadarTooltip />} />
 
             <Scatter data={scatterData} fillOpacity={0.75}>
               {scatterData.map((entry, i) => (
-                <Cell key={i} fill={getColor(entry.opp)} r={4.5} />
+                <Cell key={i} fill={getColor(entry.opportunity_category)} r={3.8} />
               ))}
             </Scatter>
           </ScatterChart>
         </ResponsiveContainer>
 
-        {/* Quadrant text labels */}
-        <div
-          style={{
-            position: "absolute",
-            top: "18px",
-            left: "28px",
-            fontSize: "0.65rem",
-            fontWeight: 700,
-            padding: "2px 6px",
-            borderRadius: "4px",
-            background: "rgba(82, 183, 136, 0.15)",
-            color: "#52b788",
-            pointerEvents: "none",
-          }}
-        >
-          Hidden Gem
-        </div>
-        <div
-          style={{
-            position: "absolute",
-            top: "18px",
-            right: "28px",
-            fontSize: "0.65rem",
-            fontWeight: 700,
-            padding: "2px 6px",
-            borderRadius: "4px",
-            background: "rgba(230, 126, 34, 0.15)",
-            color: "#e67e22",
-            pointerEvents: "none",
-          }}
-        >
-          Hot
-        </div>
-        <div
-          style={{
-            position: "absolute",
-            bottom: "30px",
-            left: "28px",
-            fontSize: "0.65rem",
-            fontWeight: 700,
-            padding: "2px 6px",
-            borderRadius: "4px",
-            background: "rgba(41, 128, 185, 0.15)",
-            color: "#2980b9",
-            pointerEvents: "none",
-          }}
-        >
-          Emerging
-        </div>
-        <div
-          style={{
-            position: "absolute",
-            bottom: "30px",
-            right: "28px",
-            fontSize: "0.65rem",
-            fontWeight: 700,
-            padding: "2px 6px",
-            borderRadius: "4px",
-            background: "rgba(192, 57, 43, 0.15)",
-            color: "#c0392b",
-            pointerEvents: "none",
-          }}
-        >
-          Crowded
-        </div>
-
-        {/* Axis end labels */}
-        <div style={{ position: "absolute", bottom: "5px", left: "28px", fontSize: "0.62rem", color: "var(--text-muted)" }}>
-          Low
-        </div>
-        <div style={{ position: "absolute", bottom: "5px", right: "28px", fontSize: "0.62rem", color: "var(--text-muted)" }}>
-          High
+        {/* Axis Labels */}
+        <div style={{ position: "absolute", bottom: "1px", left: "50%", transform: "translateX(-50%)", fontSize: "0.65rem", color: "var(--text-muted)", fontWeight: "600", pointerEvents: "none" }}>
+          Competition (Fill %) →
         </div>
       </div>
 
-      <div style={{ marginTop: "12px" }}>
+      {/* Bottom Quadrant Tags with Icons */}
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "4px 4px 0", fontSize: "0.7rem", fontWeight: "700" }}>
+        <span style={{ color: "#2980b9", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuRocket size={13} />
+          <span>Emerging</span>
+        </span>
+        <span style={{ color: "#e76f51", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+          <LuUsers size={13} />
+          <span>Crowded</span>
+        </span>
+      </div>
+
+      <div style={{ marginTop: "10px" }}>
         <Link href="/radar" className="card-link">
-          <span>Explore Radar</span>
+          <span>Explore Full Radar</span>
           <LuArrowRight size={14} />
         </Link>
       </div>

@@ -2,9 +2,9 @@ import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
-  title: "SIH Radar — Competition Intelligence for SIH 2026",
+  title: "SIH Opportunity Radar — Competition Intelligence for SIH 2026",
   description:
-    "Track competition. Find opportunity. An intelligence dashboard for Smart India Hackathon 2026 problem statement analysis.",
+    "See the competition. Track the momentum. Find the opportunity. An intelligence dashboard for Smart India Hackathon 2026 problem statement analysis.",
 };
 
 export default function RootLayout({ children }) {
