@@ -1,50 +1,62 @@
 "use client";
+import dynamic from "next/dynamic";
 import { DataProvider, useData } from "../../lib/DataContext";
-import Header from "../../components/Header";
+import AppShell from "../../components/AppShell";
 import PSTable from "../../components/PSTable";
 import Link from "next/link";
 
 function WatchlistContent() {
-  const { watchlist, getPS, loading } = useData();
+  const { watchlist, getPS, loading, error } = useData();
 
-  if (loading) return <div className="container page">Loading Watchlist...</div>;
+  if (loading) {
+    return (
+      <AppShell title="Candidate Watchlist" subtitle="Bookmarked problem statements">
+        <div className="loading-state">
+          <div className="loading-spinner" />
+          <div className="loading-text">Loading Watchlist...</div>
+        </div>
+      </AppShell>
+    );
+  }
+
+  if (error) {
+    return (
+      <AppShell title="Candidate Watchlist" subtitle="Bookmarked problem statements">
+        <div className="error-state">Failed to load watchlist: {error}</div>
+      </AppShell>
+    );
+  }
 
   const watchedData = watchlist.map(id => getPS(id)).filter(Boolean);
 
   return (
-    <>
-      <Header />
-      <main className="container page">
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-          <div>
-            <h1 className="page-title">⭐ Candidate Watchlist</h1>
-            <p className="page-subtitle">
-              Bookmarked problem statements with real-time submission &amp; velocity tracking ({watchedData.length} saved)
-            </p>
+    <AppShell
+      title="Candidate Watchlist"
+      subtitle={`Bookmarked problem statements with real-time submission & velocity tracking (${watchedData.length} saved)`}
+    >
+      {watchedData.length === 0 ? (
+        <div className="card empty-state">
+          <div style={{ fontSize: '1.1rem', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '8px' }}>
+            Your watchlist is currently empty
           </div>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '420px', margin: '0 auto 16px' }}>
+            Click the bookmark or star icon next to any problem statement in the dashboard or table to shortlist it for your team.
+          </p>
+          <Link href="/ps" className="btn btn-primary">Browse Problem Statements</Link>
         </div>
-
-        {watchedData.length === 0 ? (
-          <div className="card empty-state">
-            <div className="empty-state-icon">⭐</div>
-            <div className="empty-state-text">Your watchlist is currently empty.</div>
-            <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px' }}>
-              Click the star icon (☆) next to any problem statement on the dashboard to bookmark it.
-            </p>
-            <Link href="/" className="btn btn-primary" style={{ marginTop: '16px' }}>Browse Problem Statements</Link>
-          </div>
-        ) : (
-          <PSTable data={watchedData} />
-        )}
-      </main>
-    </>
+      ) : (
+        <PSTable data={watchedData} />
+      )}
+    </AppShell>
   );
 }
+
+const DynamicContent = dynamic(() => Promise.resolve(WatchlistContent), { ssr: false });
 
 export default function WatchlistPage() {
   return (
     <DataProvider>
-      <WatchlistContent />
+      <DynamicContent />
     </DataProvider>
   );
 }
