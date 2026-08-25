@@ -3,7 +3,6 @@
 <div align="center">
 
 [![Live Web App](https://img.shields.io/badge/Live_App-sih--radar--pi.vercel.app-2d6a4f?style=for-the-badge&logo=vercel&logoColor=white)](https://sih-radar-pi.vercel.app/)
-[![API Backend](https://img.shields.io/badge/Render_API-Live-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://sih-radar-backend.onrender.com/api/kpis.json)
 [![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react)](https://react.js.org/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python)](https://python.org/)
@@ -12,24 +11,15 @@
 
 <br />
 
-# 🚀 [Launch Live App: sih-radar-pi.vercel.app](https://sih-radar-pi.vercel.app/)
+# 🚀 [Launch Live Intelligence Platform: sih-radar-pi.vercel.app](https://sih-radar-pi.vercel.app/)
 
 **"See the competition. Track the momentum. Find the opportunity."**
 
 *A competitive intelligence engine and decision-support platform for Smart India Hackathon (SIH 2026).*
 
-[🌐 Try Live Website](https://sih-radar-pi.vercel.app/) • [🎯 User Guide](#-how-to-use-the-platform) • [📊 Features](#-feature-matrix) • [🏗 Architecture](#-architecture--tech-stack) • [💻 Local Setup](#-local-development) • [👨‍💻 Author](#-author)
+[🌐 Launch Website](https://sih-radar-pi.vercel.app/) • [🎯 User Guide](#-how-to-use-the-platform) • [📊 Features](#-feature-matrix) • [🏗 Architecture](#-architecture--tech-stack) • [💻 Local Setup](#-local-development) • [👨‍💻 Author](#-author)
 
 </div>
-
----
-
-## 🌟 Live Application Links
-
-| Application | Provider | Direct Access URL | Deployment Status |
-|---|---|---|---|
-| **Live Intelligence Dashboard** | **Vercel** | [**`https://sih-radar-pi.vercel.app/`**](https://sih-radar-pi.vercel.app/) | [![Vercel](https://img.shields.io/badge/Vercel-Online-brightgreen)](https://sih-radar-pi.vercel.app/) |
-| **Backend Analytics API** | **Render** | [**`https://sih-radar-backend.onrender.com/api/kpis.json`**](https://sih-radar-backend.onrender.com/api/kpis.json) | [![Render](https://img.shields.io/badge/Render-Active-brightgreen)](https://sih-radar-backend.onrender.com/api/kpis.json) |
 
 ---
 
@@ -118,7 +108,7 @@ The platform features a **Forest Green & Warm Copper** design system with full p
 
 ```
 SIH_Radar/
-├── backend/                  # Python ETL, Analytics & Intelligence Engine (Render)
+├── backend/                  # Python ETL, Analytics & Intelligence Engine
 │   ├── api_data.py           # Snapshot ingestion, enrichment & API JSON generator
 │   └── tracker.py            # Velocity math, similarity engine & heuristics
 ├── frontend/                 # Next.js 16 (Turbopack) & React 19 Web App (Vercel)
@@ -135,29 +125,7 @@ SIH_Radar/
 
 - **Frontend**: Next.js 16 (Turbopack), React 19, Vanilla CSS (Design Tokens), Recharts 3.
 - **Backend**: Python 3.10+, Requests, OpenPyXL.
-- **Hosting & CI/CD**: Vercel (Frontend), Render (Backend Python API), GitHub Actions.
-
----
-
-## 🚢 Deploy Your Own
-
-### 1. Deploy Backend on Render
-
-1. Fork this repository to your GitHub account.
-2. Log in to [Render Dashboard](https://dashboard.render.com/) and create a new **Web Service**.
-3. Connect your forked repo and set:
-   - **Environment**: `Python`
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python -m backend.api_data && python -m http.server 5000 --directory data`
-4. Copy your live Render URL (e.g. `https://your-backend.onrender.com`).
-
-### 2. Deploy Frontend on Vercel
-
-1. Log in to [Vercel Dashboard](https://vercel.com/) and click **Add New Project**.
-2. Import your GitHub repository and set **Root Directory** to `frontend`.
-3. Add the Environment Variable:
-   - `NEXT_PUBLIC_API_URL` = `https://your-backend.onrender.com`
-4. Click **Deploy**. Your dashboard will be live at `https://your-app.vercel.app`!
+- **Deployment**: Vercel (Production Web App), GitHub Actions (Scheduled automated updates).
 
 ---
 
@@ -210,7 +178,7 @@ Open **`http://localhost:3000`** in your browser.
 ## 👨‍💻 Author
 
 Developed by **Pankaj Garg**:
-- **Live App**: [**sih-radar-pi.vercel.app**](https://sih-radar-pi.vercel.app/)
+- **Live Platform**: [**sih-radar-pi.vercel.app**](https://sih-radar-pi.vercel.app/)
 - **GitHub**: [@Garg-Pankaj29](https://github.com/Garg-Pankaj29)
 - **Repository**: [Garg-Pankaj29/SIH-radar](https://github.com/Garg-Pankaj29/SIH-radar)
 
