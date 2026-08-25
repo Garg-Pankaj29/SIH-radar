@@ -47,18 +47,16 @@ export function DataProvider({ children }) {
   const loadData = useCallback(async (isManual = false) => {
     if (isManual) setIsRefreshing(true);
     try {
-      const baseUrl = (process.env.NEXT_PUBLIC_API_URL || "").replace(/\/$/, "");
-      const apiPath = baseUrl ? `${baseUrl}/api` : "/api";
-
-      // Add cache buster when manual refreshing
+      // All API calls go through Next.js server-side proxy routes.
+      // The real backend URL is NEVER exposed to the client bundle.
       const cacheBust = isManual ? `?t=${Date.now()}` : "";
 
       const [psRes, kpiRes, themeRes, trendRes, metaRes] = await Promise.all([
-        fetch(`${apiPath}/problem_statements.json${cacheBust}`),
-        fetch(`${apiPath}/kpis.json${cacheBust}`),
-        fetch(`${apiPath}/themes.json${cacheBust}`),
-        fetch(`${apiPath}/trends.json${cacheBust}`),
-        fetch(`${apiPath}/metadata.json${cacheBust}`),
+        fetch(`/api/ps${cacheBust}`),
+        fetch(`/api/kpis${cacheBust}`),
+        fetch(`/api/themes${cacheBust}`),
+        fetch(`/api/trends${cacheBust}`),
+        fetch(`/api/metadata${cacheBust}`),
       ]);
 
       const [ps, kp, th, tr, mt] = await Promise.all([
