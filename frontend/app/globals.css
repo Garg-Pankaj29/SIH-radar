@@ -1034,17 +1034,48 @@ button { font-family: var(--font-sans); cursor: pointer; border: none; backgroun
    ========================================================================== */
 
 .app-footer {
-  padding: 18px 28px;
-  text-align: center;
-  font-size: 0.78rem;
-  color: var(--text-muted);
+  padding: 16px clamp(20px, 2.5vw, 40px);
   border-top: 1px solid var(--border-color);
-  margin-left: var(--sidebar-width);
+  background: var(--bg-card);
+  width: 100%;
 }
 
-.app-footer strong {
-  color: var(--text-secondary);
+.app-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.app-footer-center {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.app-footer-center strong {
+  color: var(--text-primary);
   font-weight: 700;
+}
+
+.app-footer-github {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  padding: 6px;
+  border-radius: var(--radius-md);
+  transition: all 0.15s ease;
+}
+
+.app-footer-github:hover {
+  color: var(--text-primary);
+  background: var(--bg-elevated);
 }
 
 /* ==========================================================================
