@@ -373,7 +373,7 @@ button {
 
 .main-inner {
   flex: 1;
-  padding: 24px clamp(16px, 2.5vw, 40px) 32px;
+  padding: 24px clamp(16px, 2vw, 36px) 32px;
   width: 100%;
   max-width: 100%;
   min-width: 0;
@@ -626,6 +626,26 @@ button {
   min-width: 0;
 }
 
+/* Responsive Grid for Reports / Export */
+.export-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  min-width: 0;
+  margin-bottom: 24px;
+}
+
+/* Responsive Grid for Alerts */
+.alerts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  min-width: 0;
+  margin-bottom: 24px;
+}
+
 /* Opportunity Radar Info Modal / Popover */
 .radar-info-toggle-btn {
   color: var(--text-secondary);
@@ -673,16 +693,41 @@ button {
   color: var(--text-primary);
 }
 
-/* Competition Donut Center Label */
+/* Competition Donut & Legend Container */
+.comp-overview-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+.comp-donut-box {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.donut-center-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
 .donut-center-value {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 800;
   color: var(--text-primary);
   line-height: 1.1;
 }
 
 .donut-center-text {
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   font-weight: 700;
   color: var(--text-muted);
   letter-spacing: 0.05em;
@@ -691,45 +736,66 @@ button {
 .comp-legend {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 6px;
   flex: 1;
+  min-width: 0;
 }
 
 .comp-legend-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  gap: 6px;
   font-size: 0.73rem;
+  min-width: 0;
+}
+
+.comp-legend-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
 }
 
 .comp-legend-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
 .comp-legend-label {
   color: var(--text-secondary);
-  flex: 1;
+  font-size: 0.73rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .comp-legend-value {
   font-weight: 700;
   color: var(--text-primary);
+  font-size: 0.73rem;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.comp-legend-pct {
+  color: var(--text-muted);
+  font-weight: 500;
 }
 
 /* Trending Now List */
 .trending-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .trending-item {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   padding: 8px 10px;
   border-radius: var(--radius-md);
   background: var(--bg-elevated);
@@ -774,55 +840,72 @@ button {
   color: var(--text-primary);
 }
 
-/* Watchlist Preview Items */
+/* Watchlist Preview Items (2-row structured layout) */
 .watchlist-items {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 100%;
 }
 
 .watchlist-item {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  gap: 4px;
   padding: 8px 10px;
   border-radius: var(--radius-md);
   background: var(--bg-elevated);
+  width: 100%;
+  min-width: 0;
+}
+
+.watchlist-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+
+.watchlist-item-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
 }
 
 .watchlist-item-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
-.watchlist-item-info {
-  flex: 1;
-  min-width: 0;
-}
-
 .watchlist-item-ps {
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.watchlist-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
 }
 
 .watchlist-item-sub {
-  font-size: 0.68rem;
-  color: var(--text-secondary);
-}
-
-.watchlist-item-right {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .watchlist-item-change {
-  font-size: 0.72rem;
   font-weight: 600;
   color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 /* Theme Saturation Bars */
@@ -888,7 +971,7 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #8fae93; /* Crisp, clearly visible outline */
+  color: #8fae93;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid var(--border-color);
   transition: all 0.15s ease;
@@ -1306,18 +1389,27 @@ tr:hover {
 }
 
 /* ==========================================================================
-   RESPONSIVE BREAKPOINTS
+   RESPONSIVE BREAKPOINTS (ALL SCREEN SIZES)
    ========================================================================== */
 
-@media (max-width: 1200px) {
-  .kpi-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+@media (max-width: 1400px) {
   .dashboard-middle {
     grid-template-columns: repeat(2, 1fr);
   }
+  .kpi-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
   .dashboard-bottom {
     grid-template-columns: 1fr;
+  }
+  .export-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .alerts-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1361,6 +1453,14 @@ tr:hover {
   .kpi-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .export-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .alerts-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1383,5 +1483,15 @@ tr:hover {
 
   .card {
     padding: 14px;
+  }
+
+  .comp-overview-wrap {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .comp-legend {
+    width: 100%;
   }
 }

@@ -9,69 +9,67 @@ export default function CompetitionOverview({ kpis }) {
   const dist = kpis.competition_distribution || {};
   const data = [
     { name: "None Yet", value: dist["None yet"] || 0, color: "var(--donut-none)" },
-    { name: "Low Competition", value: dist["Low"] || 0, color: "var(--donut-low)" },
-    { name: "Medium Competition", value: dist["Medium"] || 0, color: "var(--donut-medium)" },
-    { name: "High Competition", value: dist["High"] || 0, color: "var(--donut-high)" },
+    { name: "Low", value: dist["Low"] || 0, color: "var(--donut-low)" },
+    { name: "Medium", value: dist["Medium"] || 0, color: "var(--donut-medium)" },
+    { name: "High", value: dist["High"] || 0, color: "var(--donut-high)" },
   ];
 
   const total = data.reduce((s, d) => s + d.value, 0);
-
-  const COLORS = ["#b0b0b0", "#52b788", "#e8a54b", "#c0392b"];
+  const COLORS = ["#7a8c7e", "#52b788", "#e8a54b", "#e76f51"];
 
   return (
-    <div className="card">
-      <div className="card-header">
-        <span className="card-title">Competition Overview</span>
-      </div>
-
-      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-        {/* Donut Chart */}
-        <div style={{ width: "150px", height: "150px", position: "relative", flexShrink: 0 }}>
-          <ResponsiveContainer width="100%" height="100%">
-            <PieChart>
-              <Pie
-                data={data}
-                cx="50%"
-                cy="50%"
-                innerRadius={45}
-                outerRadius={68}
-                dataKey="value"
-                stroke="none"
-                startAngle={90}
-                endAngle={-270}
-              >
-                {data.map((entry, i) => (
-                  <Cell key={entry.name} fill={COLORS[i]} />
-                ))}
-              </Pie>
-            </PieChart>
-          </ResponsiveContainer>
-          {/* Center label */}
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              textAlign: "center",
-            }}
-          >
-            <div className="donut-center-value">{total}</div>
-            <div className="donut-center-text">TOTAL</div>
-          </div>
+    <div className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+      <div>
+        <div className="card-header">
+          <span className="card-title">Competition Overview</span>
         </div>
 
-        {/* Legend */}
-        <div className="comp-legend">
-          {data.map((item, i) => (
-            <div className="comp-legend-item" key={item.name}>
-              <span className="comp-legend-dot" style={{ background: COLORS[i] }} />
-              <span className="comp-legend-label">{item.name}</span>
-              <span className="comp-legend-value">
-                {item.value} ({total > 0 ? ((item.value / total) * 100).toFixed(1) : 0}%)
-              </span>
+        <div className="comp-overview-wrap">
+          {/* Donut Chart */}
+          <div className="comp-donut-box">
+            <ResponsiveContainer width="100%" height="100%">
+              <PieChart>
+                <Pie
+                  data={data}
+                  cx="50%"
+                  cy="50%"
+                  innerRadius={38}
+                  outerRadius={58}
+                  dataKey="value"
+                  stroke="none"
+                  startAngle={90}
+                  endAngle={-270}
+                >
+                  {data.map((entry, i) => (
+                    <Cell key={entry.name} fill={COLORS[i]} />
+                  ))}
+                </Pie>
+              </PieChart>
+            </ResponsiveContainer>
+            {/* Center label */}
+            <div className="donut-center-label">
+              <div className="donut-center-value">{total}</div>
+              <div className="donut-center-text">TOTAL</div>
             </div>
-          ))}
+          </div>
+
+          {/* Legend */}
+          <div className="comp-legend">
+            {data.map((item, i) => {
+              const pct = total > 0 ? ((item.value / total) * 100).toFixed(0) : 0;
+              return (
+                <div className="comp-legend-item" key={item.name}>
+                  <div className="comp-legend-left">
+                    <span className="comp-legend-dot" style={{ background: COLORS[i] }} />
+                    <span className="comp-legend-label">{item.name}</span>
+                  </div>
+                  <span className="comp-legend-value">
+                    {item.value} <span className="comp-legend-pct">({pct}%)</span>
+                  </span>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
 
