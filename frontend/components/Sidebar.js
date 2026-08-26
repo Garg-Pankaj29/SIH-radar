@@ -78,7 +78,7 @@ export default function Sidebar({ metadata }) {
       {/* Mobile Top Header (Visible on screens <= 900px) */}
       <header className="mobile-header">
         <div className="mobile-header-brand">
-          <div className="sidebar-logo" style={{ width: "34px", height: "34px", background: "transparent", boxShadow: "none" }}>
+          <div className="sidebar-logo" style={{ width: "34px", height: "34px" }}>
             <img
               src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
               alt="SIH Opportunity Radar Logo"
@@ -124,7 +124,7 @@ export default function Sidebar({ metadata }) {
       <aside className={`sidebar ${mobileMenuOpen ? "mobile-open" : ""}`}>
         {/* Brand */}
         <div className="sidebar-brand">
-          <div className="sidebar-logo" style={{ width: "42px", height: "42px", background: "transparent", boxShadow: "none" }}>
+          <div className="sidebar-logo">
             <img
               src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
               alt="SIH Opportunity Radar Logo"
