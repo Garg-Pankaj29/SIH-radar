@@ -1350,6 +1350,12 @@ tr:hover {
     padding-top: 56px;
   }
 
+  /* Hide the AppShell dash-header theme toggle on mobile — 
+     the mobile top header bar already provides one */
+  .dash-header .dash-icon-btn {
+    display: none;
+  }
+
   .dashboard-middle {
     grid-template-columns: 1fr;
   }
