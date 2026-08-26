@@ -14,11 +14,11 @@ export default function Header({ searchVal, setSearchVal }) {
         <Link href="/" className="header-brand">
           <div className="header-logo" style={{ background: "transparent", boxShadow: "none", width: "32px", height: "32px" }}>
             <img
-              src="/logo.png"
+              src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
               alt="SIH Radar Logo"
               width={32}
               height={32}
-              style={{ objectFit: "contain", borderRadius: "50%", display: "block" }}
+              style={{ objectFit: "contain", display: "block" }}
             />
           </div>
           <div className="header-title-wrap">

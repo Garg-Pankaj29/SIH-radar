@@ -80,11 +80,11 @@ export default function Sidebar({ metadata }) {
         <div className="mobile-header-brand">
           <div className="sidebar-logo" style={{ width: "34px", height: "34px", background: "transparent", boxShadow: "none" }}>
             <img
-              src="/logo.png"
+              src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
               alt="SIH Opportunity Radar Logo"
               width={34}
               height={34}
-              style={{ objectFit: "contain", borderRadius: "50%", display: "block" }}
+              style={{ objectFit: "contain", display: "block" }}
             />
           </div>
           <span className="sidebar-brand-title" style={{ fontSize: "1.05rem" }}>
@@ -126,11 +126,11 @@ export default function Sidebar({ metadata }) {
         <div className="sidebar-brand">
           <div className="sidebar-logo" style={{ width: "42px", height: "42px", background: "transparent", boxShadow: "none" }}>
             <img
-              src="/logo.png"
+              src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
               alt="SIH Opportunity Radar Logo"
               width={42}
               height={42}
-              style={{ objectFit: "contain", borderRadius: "50%", display: "block" }}
+              style={{ objectFit: "contain", display: "block" }}
             />
           </div>
           <div className="sidebar-brand-text">
