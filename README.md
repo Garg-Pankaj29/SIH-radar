@@ -12,58 +12,58 @@
 
 <br />
 
-# 🚀 [Launch Live Intelligence Platform: sih-radar-pi.vercel.app](https://sih-radar-pi.vercel.app/)
+# [Launch Live Intelligence Platform: sih-radar-pi.vercel.app](https://sih-radar-pi.vercel.app/)
 
 **"See the competition. Track the momentum. Find the opportunity."**
 
 *A strategic competitive intelligence engine and decision-support platform for Smart India Hackathon (SIH 2026).*
 
-[🌐 Launch Website](https://sih-radar-pi.vercel.app/) • [🎯 User Guide](#-how-to-use-the-platform) • [📊 Feature Matrix](#-feature-matrix) • [🏗 Architecture](#-architecture--tech-stack) • [💻 Cross-Platform Setup](#-cross-platform-local-development) • [🔧 Troubleshooting](#-os-specific-troubleshooting) • [🤝 Contributing](CONTRIBUTION.md)
+[Launch Website](https://sih-radar-pi.vercel.app/) • [User Guide](#how-to-use-the-platform) • [Feature Matrix](#feature-matrix) • [Architecture](#architecture--tech-stack) • [Cross-Platform Setup](#cross-platform-local-development) • [Troubleshooting](#os-specific-troubleshooting) • [Contributing](CONTRIBUTION.md)
 
 </div>
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [📖 What is SIH Opportunity Radar?](#-what-is-sih-opportunity-radar)
-- [🎯 How to Use the Platform](#-how-to-use-the-platform)
-- [🎨 UI Design & Color Themes](#-ui-design--color-themes)
-- [📊 Feature Matrix](#-feature-matrix)
-- [🏗 Architecture & Tech Stack](#-architecture--tech-stack)
-- [💻 Cross-Platform Local Development](#-cross-platform-local-development)
+- [Overview](#overview)
+- [How to Use the Platform](#how-to-use-the-platform)
+- [UI Design & Color Themes](#ui-design--color-themes)
+- [Feature Matrix](#feature-matrix)
+- [Architecture & Tech Stack](#architecture--tech-stack)
+- [Cross-Platform Local Development](#cross-platform-local-development)
   - [Prerequisites](#prerequisites)
-  - [🐧 Linux Setup Guide](#-linux-setup-guide)
-  - [🪟 Windows Setup Guide (PowerShell / Command Prompt / WSL)](#-windows-setup-guide)
-  - [🍎 macOS Setup Guide](#-macos-setup-guide)
-- [⚙️ Environment Configuration](#️-environment-configuration)
-- [📊 Standalone Excel Report Generator](#-standalone-excel-report-generator)
-- [📐 Methodology & Heuristics](#-methodology--heuristics)
-- [🔧 OS-Specific Troubleshooting](#-os-specific-troubleshooting)
-- [🚀 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
-- [👨‍💻 Author](#-author)
-- [📄 License](#-license)
+  - [Linux Setup Guide](#linux-setup-guide)
+  - [Windows Setup Guide](#windows-setup-guide)
+  - [macOS Setup Guide](#macos-setup-guide)
+- [Environment Configuration](#environment-configuration)
+- [Standalone Excel Report Generator](#standalone-excel-report-generator)
+- [Methodology & Heuristics](#methodology--heuristics)
+- [OS-Specific Troubleshooting](#os-specific-troubleshooting)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
 
 ---
 
-## 📖 What is SIH Opportunity Radar?
+## Overview
 
 Selecting the right problem statement is the single most critical strategic decision in **Smart India Hackathon (SIH 2026)**. With **226 official problem statements** and tens of thousands of student teams submitting across India, browsing raw portal listings makes it difficult to assess competition density, track deadline crunches, and identify true technical matches.
 
 **SIH Opportunity Radar** transforms public SIH submission counters and problem metadata into actionable, real-time intelligence:
 
-- 💎 **Detect "Hidden Gems"**: High-potential problem statements with low competition density (<40% capacity) and high resource completeness.
-- ⚡ **Track 24-Hour Velocity**: Identify sudden surges in submissions across India before a PS reaches its 500-idea national cap.
-- 🧩 **Personalized Team Fit Engine**: Match your team's technical skills (Python, React, ML, C++, IoT, GIS, etc.) against NLP-extracted domain requirements.
-- 📊 **2D Opportunity Radar**: Interactive scatter matrix plotting capacity fill percentage against calculated opportunity scores.
-- ⚖️ **Side-by-Side PS Comparator**: Benchmark up to 5 problem statements concurrently across 10+ technical and competitive metrics.
-- 🚨 **Deadline & Capacity Alerts**: Monitor approaching deadlines (<14d, <5d) and capacity saturation (>50% filled).
-- 📁 **Data Export Suite**: Export your custom watchlist, comparative evaluation matrices, or full datasets into clean CSV format or formatted Excel workbooks.
+- **Detect "Hidden Gems"**: High-potential problem statements with low competition density (<40% capacity) and high resource completeness.
+- **Track 24-Hour Velocity**: Identify sudden surges in submissions across India before a PS reaches its 500-idea national cap.
+- **Personalized Team Fit Engine**: Match your team's technical skills (Python, React, ML, C++, IoT, GIS, etc.) against NLP-extracted domain requirements.
+- **2D Opportunity Radar**: Interactive scatter matrix plotting capacity fill percentage against calculated opportunity scores.
+- **Side-by-Side PS Comparator**: Benchmark up to 5 problem statements concurrently across 10+ technical and competitive metrics.
+- **Deadline & Capacity Alerts**: Monitor approaching deadlines (<14d, <5d) and capacity saturation (>50% filled).
+- **Data Export Suite**: Export your custom watchlist, comparative evaluation matrices, or full datasets into clean CSV format or formatted Excel workbooks.
 
 ---
 
-## 🎯 How to Use the Platform
+## How to Use the Platform
 
 Here is the recommended workflow for student teams, team leaders, and hackathon mentors:
 
@@ -100,7 +100,7 @@ Here is the recommended workflow for student teams, team leaders, and hackathon 
 
 ---
 
-## 🎨 UI Design & Color Themes
+## UI Design & Color Themes
 
 The platform features a **Forest Green & Warm Copper** design system with full parity between **Dark Mode** and **Light Mode**:
 
@@ -111,7 +111,7 @@ The platform features a **Forest Green & Warm Copper** design system with full p
 
 ---
 
-## 📊 Feature Matrix
+## Feature Matrix
 
 | Feature | Route | Description |
 |---|---|---|
@@ -130,7 +130,7 @@ The platform features a **Forest Green & Warm Copper** design system with full p
 
 ---
 
-## 🏗 Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ```
 SIH_Radar/
@@ -166,7 +166,7 @@ SIH_Radar/
 
 ---
 
-## 💻 Cross-Platform Local Development
+## Cross-Platform Local Development
 
 SIH Opportunity Radar is engineered to run seamlessly across **Linux**, **Windows**, and **macOS**. Follow the instructions below for your operating system.
 
@@ -179,7 +179,7 @@ Ensure you have the following installed on your system:
 
 ---
 
-### 🐧 Linux Setup Guide
+### Linux Setup Guide
 
 *Supported on Ubuntu, Debian, Fedora, Arch, and derivatives.*
 
@@ -224,7 +224,7 @@ Open **`http://localhost:3000`** in your browser.
 
 ---
 
-### 🪟 Windows Setup Guide
+### Windows Setup Guide
 
 *Supported on Windows 10 & 11 via PowerShell, Command Prompt (cmd.exe), or WSL2.*
 
@@ -285,11 +285,11 @@ npm run dev
 
 #### Option C: Windows Subsystem for Linux (WSL 2)
 
-If you use WSL (Ubuntu on Windows), simply follow the [🐧 Linux Setup Guide](#-linux-setup-guide) directly inside your WSL terminal.
+If you use WSL (Ubuntu on Windows), simply follow the [Linux Setup Guide](#linux-setup-guide) directly inside your WSL terminal.
 
 ---
 
-### 🍎 macOS Setup Guide
+### macOS Setup Guide
 
 *Supported on Apple Silicon (M1/M2/M3/M4) and Intel Macs.*
 
@@ -315,7 +315,8 @@ python3 -m backend.api_data --demo
 python3 -m backend.server
 ```
 
-> **macOS Note regarding Port 5000**: On macOS Monterey, Ventura, Sonoma, and Sequoia, Apple's **AirPlay Receiver** service may occupy port `5000`. You can either run the backend on port `5001` via `PORT=5001 python3 -m backend.server`, or disable AirPlay Receiver in *System Settings → General → AirDrop & Handoff → AirPlay Receiver*.
+> [!NOTE]
+> **macOS AirPlay Port 5000 Collision**: On macOS Monterey, Ventura, Sonoma, and Sequoia, Apple's AirPlay Receiver service may occupy port `5000`. You can either run the backend on port `5001` via `PORT=5001 python3 -m backend.server`, or disable AirPlay Receiver in *System Settings → General → AirDrop & Handoff → AirPlay Receiver*.
 
 #### 2. Set Up the Next.js Frontend
 
@@ -331,7 +332,7 @@ Open **`http://localhost:3000`** in your browser.
 
 ---
 
-## ⚙️ Environment Configuration
+## Environment Configuration
 
 Copy the example environment configuration to customize your backend or frontend settings:
 
@@ -359,7 +360,7 @@ cp .env.example .env
 
 ---
 
-## 📊 Standalone Excel Report Generator
+## Standalone Excel Report Generator
 
 Want a comprehensive offline spreadsheet report without running the web server? Run the standalone Python script:
 
@@ -372,28 +373,28 @@ python sih_traffic_tracker.py SIH2026_PS_Traffic_Report.xlsx
 ```
 
 **Output Features**:
-- 📑 **Ranked Overview Tab**: All 226 problem statements sorted by capacity fill percentage.
-- 🎨 **Color-Coded Status**: High (≥50%), Medium (10–49%), Low (1–9%), and None Yet (0%).
-- 📖 **Read Me Methodology Tab**: Built-in definitions, formulas, and hackathon strategy guide.
+- **Ranked Overview Tab**: All 226 problem statements sorted by capacity fill percentage.
+- **Color-Coded Status**: High (≥50%), Medium (10–49%), Low (1–9%), and None Yet (0%).
+- **Read Me Methodology Tab**: Built-in definitions, formulas, and hackathon strategy guide.
 
 ---
 
-## 📐 Methodology & Heuristics
+## Methodology & Heuristics
 
 1. **Competition-Demand Proxy**: The official public signal provided by SIH is the submitted idea counter (`ideas_submitted / 500`). The system treats this as a proxy for competition demand — **not** website traffic analytics or win probabilities.
 2. **Opportunity Score (0–100)**: Calculated from capacity fill percentage, resource completeness (clear description, contact info, guidelines, dataset availability), and timeline urgency.
 3. **Quadrant System**:
-   - 💎 **Hidden Gems**: Fill < 40% + High Opportunity Score.
-   - 🔥 **Hot**: Fill > 40% + High Opportunity Score (competitive candidates).
-   - 🚀 **Emerging**: Low initial fill with accelerating 24-hour velocity.
-   - 🚫 **Crowded**: Fill > 50% with saturated national submissions.
+   - **Hidden Gems**: Fill < 40% + High Opportunity Score.
+   - **Hot**: Fill > 40% + High Opportunity Score (competitive candidates).
+   - **Emerging**: Low initial fill with accelerating 24-hour velocity.
+   - **Crowded**: Fill > 50% with saturated national submissions.
 
 ---
 
-## 🔧 OS-Specific Troubleshooting
+## OS-Specific Troubleshooting
 
 <details>
-<summary><strong>🪟 Windows Issues & Fixes</strong></summary>
+<summary><strong>Windows Issues & Fixes</strong></summary>
 
 - **Issue: `Activate.ps1 cannot be loaded because running scripts is disabled on this system`**
   - *Fix*: Run PowerShell as Administrator or user and execute:
@@ -413,7 +414,7 @@ python sih_traffic_tracker.py SIH2026_PS_Traffic_Report.xlsx
 </details>
 
 <details>
-<summary><strong>🍎 macOS Issues & Fixes</strong></summary>
+<summary><strong>macOS Issues & Fixes</strong></summary>
 
 - **Issue: `Address already in use: 5000` (AirPlay Collision)**
   - *Fix*: Run backend on an alternative port:
@@ -429,7 +430,7 @@ python sih_traffic_tracker.py SIH2026_PS_Traffic_Report.xlsx
 </details>
 
 <details>
-<summary><strong>🐧 Linux Issues & Fixes</strong></summary>
+<summary><strong>Linux Issues & Fixes</strong></summary>
 
 - **Issue: `The virtual environment was not created successfully because ensurepip is not available`**
   - *Fix* (Debian/Ubuntu):
@@ -447,7 +448,7 @@ python sih_traffic_tracker.py SIH2026_PS_Traffic_Report.xlsx
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - **Python Backend**: Deployable with zero configuration to [Render.com](https://render.com) using Gunicorn (`gunicorn backend.server:app`).
 - **Frontend**: Deployable to [Vercel](https://vercel.com) with root directory set to `frontend`.
@@ -455,13 +456,13 @@ python sih_traffic_tracker.py SIH2026_PS_Traffic_Report.xlsx
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, bug reports, and suggestions are warmly welcomed! Please read our [**Contributing Guide (CONTRIBUTION.md)**](CONTRIBUTION.md) for full development workflows, code standards, and PR submission guidelines.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed by **Pankaj Garg**:
 - **Live Platform**: [**sih-radar-pi.vercel.app**](https://sih-radar-pi.vercel.app/)
@@ -470,7 +471,7 @@ Developed by **Pankaj Garg**:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 

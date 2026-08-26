@@ -1,12 +1,12 @@
 # Contributing to SIH Opportunity Radar
 
-Thank you for your interest in contributing to **SIH Opportunity Radar**! We are thrilled to welcome your ideas, bug fixes, algorithmic improvements, and UI enhancements.
+Thank you for your interest in contributing to **SIH Opportunity Radar**! We welcome your ideas, bug fixes, algorithmic improvements, and UI enhancements.
 
-Whether you are improving our competitive heuristics, optimizing Next.js dashboard performance, or fixing cross-platform compatibility, this guide will help you get started quickly.
+Whether you are refining our competitive heuristics, optimizing Next.js dashboard performance, or improving cross-platform compatibility, this guide will help you get started quickly.
 
 ---
 
-## 🧭 Code of Conduct & Contribution Philosophy
+## Code of Conduct & Contribution Philosophy
 
 1. **Accuracy & Data Integrity First**: This platform is actively relied upon by student developers and hackathon teams to make strategic decisions. We never fabricate numbers, mask missing fields with silent falsified zeroes, or introduce biased heuristics.
 2. **Lightweight & Modular**: Keep dependencies minimal. Prefer standard libraries, native CSS tokens, and well-scoped components over bulky third-party libraries.
@@ -15,7 +15,7 @@ Whether you are improving our competitive heuristics, optimizing Next.js dashboa
 
 ---
 
-## 🛠 Project Architecture Overview
+## Project Architecture Overview
 
 ```
 SIH_Radar/
@@ -46,7 +46,7 @@ SIH_Radar/
 
 ---
 
-## 💻 Local Development Setup (By Operating System)
+## Local Development Setup (By Operating System)
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ Ensure you have installed:
 
 ---
 
-### 🐧 1. Linux Setup (Ubuntu / Debian / Fedora / Arch)
+### 1. Linux Setup (Ubuntu / Debian / Fedora / Arch)
 
 ```bash
 # 1. Clone your fork of the repository
@@ -86,7 +86,7 @@ The web dashboard will be available at **`http://localhost:3000`**.
 
 ---
 
-### 🪟 2. Windows Setup (PowerShell / Command Prompt)
+### 2. Windows Setup (PowerShell / Command Prompt)
 
 #### Using Windows PowerShell:
 
@@ -135,7 +135,7 @@ npm run dev
 
 ---
 
-### 🍎 3. macOS Setup (Apple Silicon & Intel)
+### 3. macOS Setup (Apple Silicon & Intel)
 
 ```bash
 # 1. Clone your fork
@@ -159,13 +159,14 @@ npm install
 npm run dev
 ```
 
-> **macOS Port 5000 Collision**: If running the backend API server on macOS Monterey+, AirPlay Receiver might use port `5000`. You can pass `PORT=5001 python3 -m backend.server` or turn off AirPlay Receiver in *System Settings → General → AirDrop & Handoff*.
+> [!NOTE]
+> **macOS AirPlay Port 5000 Collision**: If running the backend API server on macOS Monterey+, AirPlay Receiver might use port `5000`. You can pass `PORT=5001 python3 -m backend.server` or turn off AirPlay Receiver in *System Settings → General → AirDrop & Handoff*.
 
 ---
 
-## 📝 Development Guidelines & Standards
+## Development Guidelines & Standards
 
-### 🌐 Frontend Guidelines (Next.js 16 & React 19)
+### Frontend Guidelines (Next.js 16 & React 19)
 
 1. **Mandatory AppShell Layout**: Every page route under `frontend/app/` must be wrapped in `AppShell` with standard sidebar navigation, responsive drawer, top search/actions, and footer.
 2. **SSR Hydration Safety**: Subpages fetching client context or rendering SVGs dynamically must use:
@@ -183,7 +184,7 @@ npm run dev
 
 ---
 
-### 🐍 Backend Guidelines (Python 3.10+)
+### Backend Guidelines (Python 3.10+)
 
 1. **Pure, Deterministic Logic**: Scoring calculations (`opportunity_score`), parsing (`parse_ideas`), and text-extraction heuristics must be pure, testable, and deterministic.
 2. **Cross-Platform Paths**: Always use `pathlib.Path` instead of hardcoded `/` or `\` slash strings.
@@ -193,7 +194,7 @@ npm run dev
 
 ---
 
-## 🔄 Step-by-Step Pull Request Workflow
+## Step-by-Step Pull Request Workflow
 
 ### 1. Create a Branch
 
@@ -267,7 +268,7 @@ git commit -m "docs: add Windows PowerShell execution policy instructions"
 
 ---
 
-## 🐛 Reporting Bugs & Submitting Issues
+## Reporting Bugs & Submitting Issues
 
 When creating an issue on GitHub, please include:
 - **Environment**: Your OS (Linux distribution, Windows 10/11, or macOS version), Node.js version, and Python version.
@@ -277,9 +278,7 @@ When creating an issue on GitHub, please include:
 
 ---
 
-## ⚖️ Questions or Mentorship?
+## Community & Questions
 
 If you have questions, ideas, or need guidance on contributing, feel free to open a [GitHub Discussion](https://github.com/Garg-Pankaj29/SIH-radar/discussions) or connect with the author:
 - **Pankaj Garg** — [@Garg-Pankaj29](https://github.com/Garg-Pankaj29)
-
-Happy Building! 🚀
