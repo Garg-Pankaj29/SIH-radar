@@ -10,10 +10,10 @@ import TrendingNow from "./TrendingNow";
 import WatchlistPreview from "./WatchlistPreview";
 import TopProblemStatements from "./TopProblemStatements";
 import ThemeSaturation from "./ThemeSaturation";
+import SearchBar from "./SearchBar";
 import Footer from "./Footer";
 import {
   LuInfo,
-  LuSearch,
   LuBookmark,
   LuSun,
   LuMoon,
@@ -86,15 +86,7 @@ export default function DashboardContent() {
             </div>
 
             <div className="dash-header-right">
-              <div className="dash-search">
-                <LuSearch size={16} />
-                <input
-                  type="text"
-                  placeholder="Search PS, Org, Theme..."
-                  value={searchVal}
-                  onChange={(e) => setSearchVal(e.target.value)}
-                />
-              </div>
+              <SearchBar searchVal={searchVal} setSearchVal={setSearchVal} />
 
               {/* Bookmark Button */}
               <Link href="/watchlist" className="dash-icon-btn" title="View Watchlist" aria-label="Watchlist">
