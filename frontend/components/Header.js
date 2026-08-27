@@ -12,14 +12,10 @@ export default function Header({ searchVal, setSearchVal }) {
       <div className="header-inner">
         {/* Brand Logo & Title */}
         <Link href="/" className="header-brand">
-          <div className="header-logo" style={{ background: "transparent", boxShadow: "none", width: "32px", height: "32px" }}>
-            <img
-              src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
-              alt="SIH Radar Logo"
-              width={32}
-              height={32}
-              style={{ objectFit: "contain", display: "block" }}
-            />
+          <div className="header-logo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14" />
+            </svg>
           </div>
           <div className="header-title-wrap">
             <span className="header-title">Opportunity Radar</span>

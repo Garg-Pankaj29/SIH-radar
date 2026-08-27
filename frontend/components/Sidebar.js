@@ -79,13 +79,7 @@ export default function Sidebar({ metadata }) {
       <header className="mobile-header">
         <div className="mobile-header-brand">
           <div className="sidebar-logo" style={{ width: "34px", height: "34px" }}>
-            <img
-              src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
-              alt="SIH Opportunity Radar Logo"
-              width={34}
-              height={34}
-              style={{ objectFit: "contain", display: "block" }}
-            />
+            <LuRadar size={18} color="#ffffff" />
           </div>
           <span className="sidebar-brand-title" style={{ fontSize: "1.05rem" }}>
             SIH Radar
@@ -125,13 +119,7 @@ export default function Sidebar({ metadata }) {
         {/* Brand */}
         <div className="sidebar-brand">
           <div className="sidebar-logo">
-            <img
-              src={darkMode ? "/logo-dark.png" : "/logo-light.png"}
-              alt="SIH Opportunity Radar Logo"
-              width={42}
-              height={42}
-              style={{ objectFit: "contain", display: "block" }}
-            />
+            <LuRadar size={22} color="#ffffff" />
           </div>
           <div className="sidebar-brand-text">
             <span className="sidebar-brand-title">SIH Radar</span>
