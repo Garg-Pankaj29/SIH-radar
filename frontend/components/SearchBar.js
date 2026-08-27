@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import { useData } from "../lib/DataContext";
 import Link from "next/link";
 import {
@@ -19,6 +20,7 @@ import {
  */
 export default function SearchBar({ searchVal, setSearchVal }) {
   const { psData } = useData();
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [activeIdx, setActiveIdx] = useState(-1);
   const containerRef = useRef(null);
@@ -117,11 +119,17 @@ export default function SearchBar({ searchVal, setSearchVal }) {
 
   const handleSelect = useCallback(
     (item) => {
-      setSearchVal(item.label);
       setOpen(false);
       inputRef.current?.blur();
+      if (item.href) {
+        // PS item — navigate to detail page
+        router.push(item.href);
+      } else {
+        // Org/Theme — navigate to PS listing with search pre-filled
+        router.push(`/ps?q=${encodeURIComponent(item.label)}`);
+      }
     },
-    [setSearchVal]
+    [router]
   );
 
   const handleKeyDown = useCallback(
