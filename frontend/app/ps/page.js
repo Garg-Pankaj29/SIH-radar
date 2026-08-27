@@ -1,6 +1,7 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
+import { useSearchParams } from "next/navigation";
 import { DataProvider, useData } from "../../lib/DataContext";
 import AppShell from "../../components/AppShell";
 import FilterPanel from "../../components/FilterPanel";
@@ -9,7 +10,14 @@ import { searchFilter } from "../../lib/utils";
 
 function PSListContent() {
   const { psData, loading, error } = useData();
-  const [searchVal, setSearchVal] = useState("");
+  const searchParams = useSearchParams();
+  const [searchVal, setSearchVal] = useState(searchParams.get("q") || "");
+
+  // Sync searchVal when URL query changes (e.g. navigating from SearchBar dropdown)
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q) setSearchVal(q);
+  }, [searchParams]);
   const [filters, setFilters] = useState({
     category: "All",
     competition: "All",
