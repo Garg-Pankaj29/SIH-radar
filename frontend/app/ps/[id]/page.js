@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import { DataProvider, useData } from "../../../lib/DataContext";
 import AppShell from "../../../components/AppShell";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { getCompBadgeClass, getOppBadgeClass, getFillClass } from "../../../lib/utils";
 import {
   LuStar,
@@ -16,6 +16,7 @@ import {
 
 function PSDetailContent() {
   const { id } = useParams();
+  const router = useRouter();
   const { getPS, watchlist, toggleWatchlist, compareList, toggleCompare, loading, error } = useData();
 
   if (loading) {
@@ -75,8 +76,14 @@ function PSDetailContent() {
       }
     >
       <div style={{ marginBottom: "16px" }}>
-        <Link
-          href="/ps"
+        <button
+          onClick={() => {
+            if (typeof window !== "undefined" && window.history.length > 1) {
+              router.back();
+            } else {
+              router.push("/ps");
+            }
+          }}
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -84,11 +91,15 @@ function PSDetailContent() {
             fontSize: "0.85rem",
             color: "var(--accent)",
             fontWeight: "600",
+            background: "none",
+            border: "none",
+            padding: 0,
+            cursor: "pointer",
           }}
         >
           <LuArrowLeft size={16} />
           <span>Back to Problem Statements</span>
-        </Link>
+        </button>
       </div>
 
       <div className="card" style={{ marginBottom: "24px" }}>

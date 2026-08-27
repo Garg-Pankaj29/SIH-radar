@@ -11,13 +11,44 @@ import { searchFilter } from "../../lib/utils";
 function PSListContent() {
   const { psData, loading, error } = useData();
   const searchParams = useSearchParams();
-  const [searchVal, setSearchVal] = useState(searchParams.get("q") || "");
+
+  // Initialize searchVal from URL params or sessionStorage
+  const [searchVal, setSearchVal] = useState(() => {
+    const q = searchParams.get("q");
+    if (q) return q;
+    if (typeof window !== "undefined") {
+      return sessionStorage.getItem("sih_ps_search") || "";
+    }
+    return "";
+  });
 
   // Sync searchVal when URL query changes (e.g. navigating from SearchBar dropdown)
   useEffect(() => {
     const q = searchParams.get("q");
-    if (q) setSearchVal(q);
+    if (q !== null && q !== undefined && q !== "") {
+      setSearchVal(q);
+      try {
+        sessionStorage.setItem("sih_ps_search", q);
+      } catch (e) {}
+    }
   }, [searchParams]);
+
+  const handleSearchChange = (val) => {
+    setSearchVal(val);
+    try {
+      if (typeof window !== "undefined") {
+        const url = new URL(window.location.href);
+        if (val && val.trim()) {
+          sessionStorage.setItem("sih_ps_search", val);
+          url.searchParams.set("q", val);
+        } else {
+          sessionStorage.removeItem("sih_ps_search");
+          url.searchParams.delete("q");
+        }
+        window.history.replaceState({}, "", url.toString());
+      }
+    } catch (e) {}
+  };
   const [filters, setFilters] = useState({
     category: "All",
     competition: "All",
@@ -61,7 +92,7 @@ function PSListContent() {
       title="Problem Statements"
       subtitle={`National problem statement repository (${filteredData.length} of ${psData.length} statements)`}
       searchVal={searchVal}
-      setSearchVal={setSearchVal}
+      setSearchVal={handleSearchChange}
     >
       <FilterPanel filters={filters} setFilters={setFilters} />
 

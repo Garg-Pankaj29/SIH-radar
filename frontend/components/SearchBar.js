@@ -134,27 +134,43 @@ export default function SearchBar({ searchVal, setSearchVal }) {
 
   const handleKeyDown = useCallback(
     (e) => {
-      if (!open || !hasResults) return;
-
       if (e.key === "ArrowDown") {
+        if (!open || !hasResults) return;
         e.preventDefault();
         setActiveIdx((prev) => (prev < flatItems.length - 1 ? prev + 1 : 0));
       } else if (e.key === "ArrowUp") {
+        if (!open || !hasResults) return;
         e.preventDefault();
         setActiveIdx((prev) => (prev > 0 ? prev - 1 : flatItems.length - 1));
-      } else if (e.key === "Enter" && activeIdx >= 0) {
+      } else if (e.key === "Enter") {
         e.preventDefault();
-        handleSelect(flatItems[activeIdx]);
+        if (open && activeIdx >= 0) {
+          handleSelect(flatItems[activeIdx]);
+        } else if (searchVal && searchVal.trim()) {
+          setOpen(false);
+          inputRef.current?.blur();
+          router.push(`/ps?q=${encodeURIComponent(searchVal.trim())}`);
+        }
       } else if (e.key === "Escape") {
         setOpen(false);
       }
     },
-    [open, hasResults, flatItems, activeIdx, handleSelect]
+    [open, hasResults, flatItems, activeIdx, handleSelect, searchVal, router]
   );
 
   const handleClear = useCallback(() => {
     setSearchVal("");
     setOpen(false);
+    try {
+      if (typeof window !== "undefined") {
+        sessionStorage.removeItem("sih_ps_search");
+        if (window.location.pathname === "/ps") {
+          const url = new URL(window.location.href);
+          url.searchParams.delete("q");
+          window.history.replaceState({}, "", url.toString());
+        }
+      }
+    } catch (e) {}
     inputRef.current?.focus();
   }, [setSearchVal]);
 
