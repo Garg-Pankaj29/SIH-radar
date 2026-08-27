@@ -1,8 +1,9 @@
 "use client";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
+import SearchBar from "./SearchBar";
 import { useData } from "../lib/DataContext";
-import { LuSearch, LuSun, LuMoon } from "react-icons/lu";
+import { LuSun, LuMoon } from "react-icons/lu";
 
 export default function AppShell({ children, title, subtitle, searchVal, setSearchVal, actions }) {
   const { metadata, darkMode, toggleTheme } = useData();
@@ -24,15 +25,7 @@ export default function AppShell({ children, title, subtitle, searchVal, setSear
 
               <div className="dash-header-right">
                 {setSearchVal && (
-                  <div className="dash-search">
-                    <LuSearch size={16} />
-                    <input
-                      type="text"
-                      placeholder="Search PS, Org, Theme..."
-                      value={searchVal || ""}
-                      onChange={(e) => setSearchVal(e.target.value)}
-                    />
-                  </div>
+                  <SearchBar searchVal={searchVal} setSearchVal={setSearchVal} />
                 )}
 
                 {actions}
@@ -58,3 +51,4 @@ export default function AppShell({ children, title, subtitle, searchVal, setSear
     </div>
   );
 }
+
