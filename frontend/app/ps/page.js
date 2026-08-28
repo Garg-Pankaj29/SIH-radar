@@ -49,14 +49,39 @@ function PSListContent() {
       }
     } catch (e) {}
   };
-  const [filters, setFilters] = useState({
+  const DEFAULT_FILTERS = {
     category: "All",
     competition: "All",
     opportunity: "All",
     complexity: "All",
     theme: "All",
     datasetOnly: false,
+  };
+
+  const [filters, setFilters] = useState(() => {
+    let initial = { ...DEFAULT_FILTERS };
+    if (typeof window !== "undefined") {
+      try {
+        const saved = sessionStorage.getItem("sih_ps_filters");
+        if (saved) {
+          initial = { ...initial, ...JSON.parse(saved) };
+        }
+      } catch (e) {}
+    }
+    return initial;
   });
+
+  const handleFilterChange = (updater) => {
+    setFilters((prev) => {
+      const next = typeof updater === "function" ? updater(prev) : updater;
+      try {
+        if (typeof window !== "undefined") {
+          sessionStorage.setItem("sih_ps_filters", JSON.stringify(next));
+        }
+      } catch (e) {}
+      return next;
+    });
+  };
 
   if (loading) {
     return (
@@ -94,7 +119,7 @@ function PSListContent() {
       searchVal={searchVal}
       setSearchVal={handleSearchChange}
     >
-      <FilterPanel filters={filters} setFilters={setFilters} />
+      <FilterPanel filters={filters} setFilters={handleFilterChange} />
 
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "14px", flexWrap: "wrap", gap: "8px" }}>
         <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "var(--text-secondary)" }}>

@@ -56,6 +56,43 @@ export function searchFilter(ps, query) {
   );
 }
 
+export function calculateDaysRemaining(deadlineStr) {
+  if (!deadlineStr) return null;
+  try {
+    const deadline = new Date(deadlineStr);
+    if (isNaN(deadline.getTime())) return null;
+
+    // Compare date components normalized to midnight
+    const now = new Date();
+    const todayMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const deadlineMidnight = new Date(deadline.getFullYear(), deadline.getMonth(), deadline.getDate());
+
+    const diffTime = deadlineMidnight.getTime() - todayMidnight.getTime();
+    const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+    return Math.max(diffDays, 0);
+  } catch (e) {
+    return null;
+  }
+}
+
+export function calculateDeadlinePressure(fillPct = 0, daysLeft = null, velocity24h = 0) {
+  if (daysLeft === null || daysLeft === undefined) return "Unknown";
+  if (daysLeft <= 0) return "Closed";
+  if (daysLeft <= 3) return "Critical";
+  if (daysLeft <= 7) {
+    if (fillPct >= 50 || velocity24h >= 10) return "Critical";
+    return "High";
+  }
+  if (daysLeft <= 14) {
+    if (fillPct >= 70) return "Critical";
+    if (fillPct >= 30 || velocity24h >= 5) return "High";
+    return "Moderate";
+  }
+  if (fillPct >= 80) return "High";
+  if (fillPct >= 40) return "Moderate";
+  return "Low";
+}
+
 export function exportCSV(data, filename = "sih_export.csv") {
   const headers = ["PS Number","Title","Organization","Category","Theme","Submissions","Capacity","Fill %","Competition","Opportunity","Days Left"];
   const rows = data.map(r => [
@@ -70,3 +107,4 @@ export function exportCSV(data, filename = "sih_export.csv") {
   a.href = url; a.download = filename; a.click();
   URL.revokeObjectURL(url);
 }
+

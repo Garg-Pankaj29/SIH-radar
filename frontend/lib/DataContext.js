@@ -1,5 +1,6 @@
 "use client";
 import { createContext, useContext, useState, useEffect, useCallback } from "react";
+import { calculateDaysRemaining, calculateDeadlinePressure } from "./utils";
 
 const DataContext = createContext(null);
 
@@ -67,7 +68,22 @@ export function DataProvider({ children }) {
         metaRes.json(),
       ]);
 
-      setPsData(ps);
+      // Dynamically calculate live real-time days remaining and deadline pressure
+      const enrichedPs = (Array.isArray(ps) ? ps : []).map((item) => {
+        const liveDays = calculateDaysRemaining(item.deadline_date || item.deadline);
+        const daysLeft = liveDays !== null ? liveDays : item.days_remaining;
+        return {
+          ...item,
+          days_remaining: daysLeft,
+          deadline_pressure: calculateDeadlinePressure(
+            item.fill_percentage || 0,
+            daysLeft,
+            item.velocity?.velocity_24h || 0
+          ),
+        };
+      });
+
+      setPsData(enrichedPs);
       setKpis(kp);
       setThemes(th);
       setTrends(tr);
