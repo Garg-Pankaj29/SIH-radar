@@ -134,6 +134,9 @@ The platform features a **Forest Green & Warm Copper** design system with full p
 
 ```
 SIH_Radar/
+├── .github/                  # GitHub Actions automation
+│   └── workflows/
+│       └── keep-alive.yml    # Health check & cron automation
 ├── backend/                  # Python ETL, Analytics & Intelligence Engine
 │   ├── __init__.py
 │   ├── analytics_engine.py   # Statistical aggregation, metrics, & score calculation
@@ -151,11 +154,9 @@ SIH_Radar/
 ├── data/                     # Snapshots & historical feeds
 │   ├── api/                  # Generated JSON API endpoints
 │   └── snapshots/            # Timestamped problem statement snapshots
-├── docs/                     # Documentation & deployment guides
 ├── sih_traffic_tracker.py    # Standalone CLI & Excel report generator (.xlsx)
 ├── requirements.txt          # Python backend dependencies
 ├── package.json              # Root project metadata
-├── PRD.md                    # Product Requirements Document
 ├── RULES.md                  # Non-negotiable architectural & data rules
 └── CONTRIBUTION.md           # Contribution guidelines & development workflow
 ```
@@ -337,8 +338,11 @@ Open **`http://localhost:3000`** in your browser.
 Copy the example environment configuration to customize your backend or frontend settings:
 
 ```bash
-# In project root:
+# In project root for backend:
 cp .env.example .env
+
+# In frontend/ directory for Next.js web app:
+cp frontend/.env.example frontend/.env.local
 ```
 
 ### Backend Variables (`.env`)
@@ -356,7 +360,10 @@ cp .env.example .env
 
 | Variable | Default | Description |
 |---|---|---|
-| `NEXT_PUBLIC_API_URL` | `""` *(Uses static `/api` fallback)* | Remote backend URL (e.g. `https://sih-radar-backend.onrender.com`) |
+| `API_BACKEND_URL` | `""` *(Uses static `/api` fallback)* | Server-only remote backend URL (e.g. `https://<your-backend-app>.onrender.com`) |
+
+> [!IMPORTANT]
+> **Security & Zero Client-Side Exposure**: `API_BACKEND_URL` is intentionally **NOT** prefixed with `NEXT_PUBLIC_`. All client requests route through Next.js server-side proxies (`/api/*`), ensuring your upstream backend endpoint, infrastructure domains, and rate limits remain hidden from the browser bundle and public network traffic.
 
 ---
 
@@ -448,11 +455,29 @@ python sih_traffic_tracker.py SIH2026_PS_Traffic_Report.xlsx
 
 ---
 
-## Deployment
+## Deployment Guide
 
-- **Python Backend**: Deployable with zero configuration to [Render.com](https://render.com) using Gunicorn (`gunicorn backend.server:app`).
-- **Frontend**: Deployable to [Vercel](https://vercel.com) with root directory set to `frontend`.
-- For a complete step-by-step production deployment guide, refer to [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
+### 1. Python Analytics Backend ([Render.com](https://render.com))
+
+1. Connect your repository to **Render** as a **Web Service**.
+2. Configure settings:
+   - **Environment**: `Python 3`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `gunicorn backend.server:app`
+3. Add Environment Variables:
+   - `DEMO_MODE`: `false` (or `true` for simulated demo velocity)
+   - `ALLOWED_ORIGINS`: `https://<your-frontend-app>.vercel.app`
+
+### 2. Next.js Web App ([Vercel](https://vercel.com))
+
+1. Import the repository into **Vercel**.
+2. Configure project settings:
+   - **Framework Preset**: `Next.js`
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm run build`
+3. Add Server-Only Environment Variable:
+   - `API_BACKEND_URL`: `https://<your-backend-app>.onrender.com`
+4. Click **Deploy** to launch on your custom domain or `*.vercel.app`.
 
 ---
 

@@ -19,6 +19,9 @@ Whether you are refining our competitive heuristics, optimizing Next.js dashboar
 
 ```
 SIH_Radar/
+├── .github/                  # GitHub Actions automation
+│   └── workflows/
+│       └── keep-alive.yml    # Health check & cron automation
 ├── backend/                  # Python ETL, Analytics & Intelligence Engine
 │   ├── __init__.py
 │   ├── analytics_engine.py   # Statistical aggregation, metrics, & score calculation
@@ -36,10 +39,9 @@ SIH_Radar/
 ├── data/                     # Snapshots & historical feeds
 │   ├── api/                  # Generated JSON API endpoints
 │   └── snapshots/            # Timestamped problem statement snapshots
-├── docs/                     # Documentation & deployment guides
 ├── sih_traffic_tracker.py    # Standalone CLI & Excel report generator (.xlsx)
 ├── requirements.txt          # Python backend dependencies
-├── PRD.md                    # Product Requirements Document
+├── package.json              # Root project configuration
 ├── RULES.md                  # Non-negotiable architectural & data rules
 └── CONTRIBUTION.md           # Contribution guidelines (This document)
 ```
