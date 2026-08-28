@@ -11,21 +11,77 @@ import { searchFilter } from "../../lib/utils";
 function PSListContent() {
   const { psData, loading, error } = useData();
   const searchParams = useSearchParams();
-  const [searchVal, setSearchVal] = useState(searchParams.get("q") || "");
+
+  // Initialize searchVal from URL params or sessionStorage
+  const [searchVal, setSearchVal] = useState(() => {
+    const q = searchParams.get("q");
+    if (q) return q;
+    if (typeof window !== "undefined") {
+      return sessionStorage.getItem("sih_ps_search") || "";
+    }
+    return "";
+  });
 
   // Sync searchVal when URL query changes (e.g. navigating from SearchBar dropdown)
   useEffect(() => {
     const q = searchParams.get("q");
-    if (q) setSearchVal(q);
+    if (q !== null && q !== undefined && q !== "") {
+      setSearchVal(q);
+      try {
+        sessionStorage.setItem("sih_ps_search", q);
+      } catch (e) {}
+    }
   }, [searchParams]);
-  const [filters, setFilters] = useState({
+
+  const handleSearchChange = (val) => {
+    setSearchVal(val);
+    try {
+      if (typeof window !== "undefined") {
+        const url = new URL(window.location.href);
+        if (val && val.trim()) {
+          sessionStorage.setItem("sih_ps_search", val);
+          url.searchParams.set("q", val);
+        } else {
+          sessionStorage.removeItem("sih_ps_search");
+          url.searchParams.delete("q");
+        }
+        window.history.replaceState({}, "", url.toString());
+      }
+    } catch (e) {}
+  };
+  const DEFAULT_FILTERS = {
     category: "All",
     competition: "All",
     opportunity: "All",
     complexity: "All",
     theme: "All",
     datasetOnly: false,
+  };
+
+  const [filters, setFilters] = useState(() => {
+    let initial = { ...DEFAULT_FILTERS };
+    if (typeof window !== "undefined") {
+      try {
+        const saved = sessionStorage.getItem("sih_ps_filters");
+        if (saved) {
+          initial = { ...initial, ...JSON.parse(saved) };
+        }
+      } catch (e) {}
+    }
+    return initial;
   });
+
+  const handleFilterChange = (updater) => {
+    setFilters((prev) => {
+      const next = typeof updater === "function" ? updater(prev) : updater;
+      try {
+        if (typeof window !== "undefined") {
+          sessionStorage.setItem("sih_ps_filters", JSON.stringify(next));
+        }
+      } catch (e) {}
+      return next;
+    });
+  };
 
   if (loading) {
     return (
@@ -61,9 +117,9 @@ function PSListContent() {
       title="Problem Statements"
       subtitle={`National problem statement repository (${filteredData.length} of ${psData.length} statements)`}
       searchVal={searchVal}
-      setSearchVal={setSearchVal}
+      setSearchVal={handleSearchChange}
     >
-      <FilterPanel filters={filters} setFilters={setFilters} />
+      <FilterPanel filters={filters} setFilters={handleFilterChange} />
 
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "14px", flexWrap: "wrap", gap: "8px" }}>
         <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "var(--text-secondary)" }}>

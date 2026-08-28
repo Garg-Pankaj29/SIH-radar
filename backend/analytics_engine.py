@@ -48,7 +48,8 @@ def days_remaining(deadline_date_str, reference_date=None):
     try:
         deadline = datetime.strptime(deadline_date_str, "%Y-%m-%d")
         ref = reference_date or datetime.now()
-        delta = (deadline - ref).days
+        ref_date = ref.date() if isinstance(ref, datetime) else ref
+        delta = (deadline.date() - ref_date).days
         return max(delta, 0)
     except ValueError:
         return None
