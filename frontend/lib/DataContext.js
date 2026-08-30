@@ -60,16 +60,20 @@ export function DataProvider({ children }) {
         fetch(`/api/metadata${cacheBust}`),
       ]);
 
-      const [ps, kp, th, tr, mt] = await Promise.all([
-        psRes.json(),
-        kpiRes.json(),
-        themeRes.json(),
-        trendRes.json(),
-        metaRes.json(),
-      ]);
+      const ps = psRes.ok ? await psRes.json() : [];
+      const kp = kpiRes.ok ? await kpiRes.json() : null;
+      const th = themeRes.ok ? await themeRes.json() : {};
+      const tr = trendRes.ok ? await trendRes.json() : {};
+      const mt = metaRes.ok ? await metaRes.json() : null;
+
+      const validPs = Array.isArray(ps) ? ps : [];
+      const validKp = kp && !kp.error ? kp : null;
+      const validTh = th && !th.error ? th : {};
+      const validTr = tr && !tr.error ? tr : {};
+      const validMt = mt && !mt.error ? mt : null;
 
       // Dynamically calculate live real-time days remaining and deadline pressure
-      const enrichedPs = (Array.isArray(ps) ? ps : []).map((item) => {
+      const enrichedPs = validPs.map((item) => {
         const liveDays = calculateDaysRemaining(item.deadline_date || item.deadline);
         const daysLeft = liveDays !== null ? liveDays : item.days_remaining;
         return {
@@ -84,10 +88,10 @@ export function DataProvider({ children }) {
       });
 
       setPsData(enrichedPs);
-      setKpis(kp);
-      setThemes(th);
-      setTrends(tr);
-      setMetadata(mt);
+      setKpis(validKp);
+      setThemes(validTh);
+      setTrends(validTr);
+      setMetadata(validMt);
       setLastRefreshTime(new Date());
       setError(null);
     } catch (e) {

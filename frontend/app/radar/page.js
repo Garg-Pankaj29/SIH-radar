@@ -41,28 +41,6 @@ function RadarContent() {
     category: p.category,
   }));
 
-  const CustomTooltip = ({ active, payload }) => {
-    if (active && payload && payload.length) {
-      const data = payload[0].payload;
-      return (
-        <div style={{ background: "var(--bg-card)", border: "1px solid var(--border-color)", padding: "12px", borderRadius: "var(--radius-md)", boxShadow: "var(--shadow-md)", maxWidth: "280px" }}>
-          <div style={{ fontWeight: "800", color: "var(--accent-light)" }}>{data.ps_number} ({data.category})</div>
-          <div style={{ fontSize: "0.8rem", color: "var(--text-primary)", margin: "4px 0" }}>{data.title}</div>
-          <div style={{ fontSize: "0.75rem", color: "var(--text-secondary)" }}>
-            Fill: <strong>{data.fill_percentage}%</strong> ({data.ideas_submitted}/500)
-          </div>
-          <div style={{ fontSize: "0.75rem", color: "var(--text-secondary)" }}>
-            Opp Score: <strong>{data.opportunity_score}/100</strong>
-          </div>
-          <div style={{ fontSize: "0.75rem", fontWeight: "700", marginTop: "4px", color: OPP_COLORS[data.opportunity_category] || "var(--accent)" }}>
-            Signal: {data.opportunity_category}
-          </div>
-        </div>
-      );
-    }
-    return null;
-  };
-
   return (
     <AppShell
       title="Opportunity Radar Matrix"
@@ -159,3 +137,26 @@ export default function OpportunityRadarPage() {
     </DataProvider>
   );
 }
+
+function CustomTooltip({ active, payload }) {
+  if (active && payload && payload.length) {
+    const data = payload[0].payload;
+    return (
+      <div style={{ background: "var(--bg-card)", border: "1px solid var(--border-color)", padding: "12px", borderRadius: "var(--radius-md)", boxShadow: "var(--shadow-md)", maxWidth: "280px" }}>
+        <div style={{ fontWeight: "800", color: "var(--accent-light)" }}>{data.ps_number} ({data.category})</div>
+        <div style={{ fontSize: "0.8rem", color: "var(--text-primary)", margin: "4px 0" }}>{data.title}</div>
+        <div style={{ fontSize: "0.75rem", color: "var(--text-secondary)" }}>
+          Fill: <strong>{data.fill_percentage}%</strong> ({data.ideas_submitted}/500)
+        </div>
+        <div style={{ fontSize: "0.75rem", color: "var(--text-secondary)" }}>
+          Opp Score: <strong>{data.opportunity_score}/100</strong>
+        </div>
+        <div style={{ fontSize: "0.75rem", fontWeight: "700", marginTop: "4px", color: OPP_COLORS[data.opportunity_category] || "var(--accent)" }}>
+          Signal: {data.opportunity_category}
+        </div>
+      </div>
+    );
+  }
+  return null;
+}
+

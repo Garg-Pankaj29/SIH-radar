@@ -22,6 +22,7 @@ import {
   LuSun,
   LuMoon,
 } from "react-icons/lu";
+import { LightbulbIcon } from "@animateicons/react/lucide";
 
 export const NAV_ITEMS = [
   { href: "/", label: "Dashboard", icon: LuLayoutDashboard },
@@ -79,7 +80,7 @@ export default function Sidebar({ metadata }) {
       <header className="mobile-header">
         <div className="mobile-header-brand">
           <div className="sidebar-logo" style={{ width: "34px", height: "34px" }}>
-            <LuRadar size={18} color="#ffffff" />
+            <LightbulbIcon size={20} color="#f45b48" />
           </div>
           <span className="sidebar-brand-title" style={{ fontSize: "1.05rem" }}>
             SIH Radar
@@ -119,7 +120,7 @@ export default function Sidebar({ metadata }) {
         {/* Brand */}
         <div className="sidebar-brand">
           <div className="sidebar-logo">
-            <LuRadar size={22} color="#ffffff" />
+            <LightbulbIcon size={24} color="#f45b48" />
           </div>
           <div className="sidebar-brand-text">
             <span className="sidebar-brand-title">SIH Radar</span>

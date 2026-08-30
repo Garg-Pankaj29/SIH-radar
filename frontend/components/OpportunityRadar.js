@@ -54,56 +54,6 @@ export default function OpportunityRadar({ psData }) {
     };
   });
 
-  const getColor = (opp) => {
-    switch (opp) {
-      case "HIDDEN GEM":
-        return "#52b788";
-      case "HOT":
-        return "#e67e22";
-      case "EMERGING":
-        return "#2980b9";
-      case "CROWDED":
-        return "#e76f51";
-      case "WATCH":
-        return "#e8a54b";
-      default:
-        return "#52b788";
-    }
-  };
-
-  const CustomRadarTooltip = ({ active, payload }) => {
-    if (active && payload && payload.length) {
-      const data = payload[0].payload;
-      return (
-        <div
-          style={{
-            background: "var(--bg-card)",
-            border: "1px solid var(--border-color)",
-            padding: "10px 12px",
-            borderRadius: "var(--radius-md)",
-            boxShadow: "var(--shadow-md)",
-            maxWidth: "240px",
-            fontSize: "0.75rem",
-          }}
-        >
-          <div style={{ fontWeight: "800", color: "var(--accent-light)", marginBottom: "2px" }}>
-            {data.ps_number} ({data.category})
-          </div>
-          <div style={{ color: "var(--text-primary)", fontWeight: "600", marginBottom: "4px", lineHeight: "1.3" }}>
-            {data.title?.length > 45 ? data.title.slice(0, 45) + "…" : data.title}
-          </div>
-          <div style={{ color: "var(--text-secondary)", fontSize: "0.7rem" }}>
-            Fill: <strong>{data.fill_percentage}%</strong> | Score: <strong>{data.opportunity_score}</strong>
-          </div>
-          <div style={{ marginTop: "4px", fontWeight: "700", color: getColor(data.opportunity_category) }}>
-            {data.opportunity_category}
-          </div>
-        </div>
-      );
-    }
-    return null;
-  };
-
   return (
     <div className="card" style={{ position: "relative", display: "flex", flexDirection: "column" }}>
       <div className="card-header" style={{ marginBottom: "8px" }}>
@@ -238,3 +188,54 @@ export default function OpportunityRadar({ psData }) {
     </div>
   );
 }
+
+function getColor(opp) {
+  switch (opp) {
+    case "HIDDEN GEM":
+      return "#52b788";
+    case "HOT":
+      return "#e67e22";
+    case "EMERGING":
+      return "#2980b9";
+    case "CROWDED":
+      return "#e76f51";
+    case "WATCH":
+      return "#e8a54b";
+    default:
+      return "#52b788";
+  }
+}
+
+function CustomRadarTooltip({ active, payload }) {
+  if (active && payload && payload.length) {
+    const data = payload[0].payload;
+    return (
+      <div
+        style={{
+          background: "var(--bg-card)",
+          border: "1px solid var(--border-color)",
+          padding: "10px 12px",
+          borderRadius: "var(--radius-md)",
+          boxShadow: "var(--shadow-md)",
+          maxWidth: "240px",
+          fontSize: "0.75rem",
+        }}
+      >
+        <div style={{ fontWeight: "800", color: "var(--accent-light)", marginBottom: "2px" }}>
+          {data.ps_number} ({data.category})
+        </div>
+        <div style={{ color: "var(--text-primary)", fontWeight: "600", marginBottom: "4px", lineHeight: "1.3" }}>
+          {data.title?.length > 45 ? data.title.slice(0, 45) + "…" : data.title}
+        </div>
+        <div style={{ color: "var(--text-secondary)", fontSize: "0.7rem" }}>
+          Fill: <strong>{data.fill_percentage}%</strong> | Score: <strong>{data.opportunity_score}</strong>
+        </div>
+        <div style={{ marginTop: "4px", fontWeight: "700", color: getColor(data.opportunity_category) }}>
+          {data.opportunity_category}
+        </div>
+      </div>
+    );
+  }
+  return null;
+}
+
