@@ -170,13 +170,41 @@ button {
 .sidebar-logo {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #52b788 0%, #2d6a4f 100%);
-  border-radius: 50%;
+  background: rgba(244, 91, 72, 0.12);
+  border: 1px solid rgba(244, 91, 72, 0.3);
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(82, 183, 136, 0.3);
+  box-shadow: 0 2px 12px rgba(244, 91, 72, 0.2);
+  transition: all 0.2s ease;
+}
+
+.sidebar-logo:hover {
+  background: rgba(244, 91, 72, 0.2);
+  box-shadow: 0 0 16px rgba(244, 91, 72, 0.4);
+  transform: scale(1.05);
+}
+
+.header-logo {
+  width: 36px;
+  height: 36px;
+  background: rgba(244, 91, 72, 0.12);
+  border: 1px solid rgba(244, 91, 72, 0.3);
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 10px rgba(244, 91, 72, 0.18);
+  transition: all 0.2s ease;
+}
+
+.header-logo:hover {
+  background: rgba(244, 91, 72, 0.2);
+  box-shadow: 0 0 14px rgba(244, 91, 72, 0.35);
+  transform: scale(1.05);
 }
 
 .sidebar-brand-text {

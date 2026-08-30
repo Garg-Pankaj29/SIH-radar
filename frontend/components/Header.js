@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useData } from "../lib/DataContext";
+import { LightbulbIcon } from "@animateicons/react/lucide";
 
 export default function Header({ searchVal, setSearchVal }) {
   const pathname = usePathname();
@@ -13,9 +14,7 @@ export default function Header({ searchVal, setSearchVal }) {
         {/* Brand Logo & Title */}
         <Link href="/" className="header-brand">
           <div className="header-logo">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14" />
-            </svg>
+            <LightbulbIcon size={20} color="#f45b48" />
           </div>
           <div className="header-title-wrap">
             <span className="header-title">Opportunity Radar</span>
