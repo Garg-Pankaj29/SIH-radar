@@ -134,7 +134,7 @@ def calculate_velocity(history):
         closest, diff_seconds = find_closest(target)
 
         if closest and diff_seconds < hours * 3600 * 1.5:
-            growth = now_sub - closest["submitted"]
+            growth = max(0, now_sub - closest["submitted"])
             elapsed_days = max((now_ts - datetime.fromisoformat(closest["timestamp"])).total_seconds() / 86400, 0.01)
             velocity = round(growth / elapsed_days, 1)
             results[f"velocity_{label}"] = velocity
@@ -147,7 +147,7 @@ def calculate_velocity(history):
     first = history[0]
     first_ts = datetime.fromisoformat(first["timestamp"])
     total_days = max((now_ts - first_ts).total_seconds() / 86400, 0.01)
-    total_growth = now_sub - first["submitted"]
+    total_growth = max(0, now_sub - first["submitted"])
     results["velocity_overall"] = round(total_growth / total_days, 1)
 
     # Momentum classification (HEURISTIC)

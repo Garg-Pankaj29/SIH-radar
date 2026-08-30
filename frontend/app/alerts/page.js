@@ -186,8 +186,8 @@ function AlertsContent() {
               </div>
 
               <div style={{ textAlign: "right" }}>
-                <div style={{ fontWeight: "800", color: "var(--green)" }}>
-                  +{ps.velocity?.growth_24h} in 24h
+                <div style={{ fontWeight: "800", color: (ps.velocity?.growth_24h || 0) > 0 ? "var(--green)" : "var(--text-secondary)" }}>
+                  {ps.velocity?.growth_24h > 0 ? `+${ps.velocity.growth_24h}` : (ps.velocity?.growth_24h || 0)} in 24h
                 </div>
                 <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
                   Fill: {ps.fill_percentage}%
