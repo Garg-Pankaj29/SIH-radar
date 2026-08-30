@@ -20,6 +20,7 @@ import {
   LuMenu,
   LuX,
   LuSun,
+  LuMoon,
 } from "react-icons/lu";
 import { LightbulbIcon } from "@animateicons/react/lucide";
 

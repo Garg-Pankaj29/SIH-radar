@@ -1,27 +1,34 @@
+import fallbackData from "@/data/api/metadata.json";
+
 /**
  * API Proxy: /api/metadata → backend /api/metadata.json
  * Hides the real backend URL from the client bundle.
+ * Falls back to bundled static dataset if backend is unreachable or not configured.
  */
 export async function GET() {
   const backend = process.env.API_BACKEND_URL;
-  if (!backend) {
-    return Response.json({ error: "Backend not configured" }, { status: 503 });
-  }
-  try {
-    const res = await fetch(`${backend}/api/metadata.json`, {
-      next: { revalidate: 60 },
-      headers: { "Accept": "application/json" },
-    });
-    if (!res.ok) {
-      return Response.json({ error: "Upstream error" }, { status: res.status });
+  if (backend) {
+    try {
+      const res = await fetch(`${backend}/api/metadata.json`, {
+        next: { revalidate: 60 },
+        headers: { "Accept": "application/json" },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        return Response.json(data, {
+          headers: {
+            "Cache-Control": "public, s-maxage=60, stale-while-revalidate=120",
+          },
+        });
+      }
+    } catch (e) {
+      console.warn("Backend unreachable, serving bundled data fallback:", e.message);
     }
-    const data = await res.json();
-    return Response.json(data, {
-      headers: {
-        "Cache-Control": "public, s-maxage=60, stale-while-revalidate=120",
-      },
-    });
-  } catch (e) {
-    return Response.json({ error: "Failed to reach backend" }, { status: 502 });
   }
+
+  return Response.json(fallbackData, {
+    headers: {
+      "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600",
+    },
+  });
 }
