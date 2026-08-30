@@ -35,7 +35,7 @@ function ExportContent() {
       title="Reports & Export Center"
       subtitle="Download comprehensive intelligence reports in CSV format for team distribution or custom analysis."
     >
-      <div className="kpi-grid" style={{ gridTemplateColumns: "repeat(3, 1fr)", marginBottom: "24px" }}>
+      <div className="export-grid">
         {/* All PS Export */}
         <div className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", minHeight: "220px" }}>
           <div>
@@ -50,7 +50,7 @@ function ExportContent() {
           <button
             className="btn btn-primary"
             onClick={() => exportCSV(psData, "SIH_2026_All_Problem_Statements.csv")}
-            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
+            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px", width: "100%" }}
           >
             <LuDownload size={15} />
             <span>Download All PSs (CSV)</span>
@@ -72,7 +72,7 @@ function ExportContent() {
             className="btn btn-secondary"
             disabled={watchedData.length === 0}
             onClick={() => exportCSV(watchedData, "SIH_Watchlist_Report.csv")}
-            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
+            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px", width: "100%" }}
           >
             <LuDownload size={15} />
             <span>{watchedData.length === 0 ? "Watchlist Empty" : `Download Watchlist (${watchedData.length})`}</span>
@@ -94,7 +94,7 @@ function ExportContent() {
             className="btn btn-secondary"
             disabled={comparedData.length === 0}
             onClick={() => exportCSV(comparedData, "SIH_Comparison_Report.csv")}
-            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
+            style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px", width: "100%" }}
           >
             <LuDownload size={15} />
             <span>{comparedData.length === 0 ? "No Items Selected" : `Download Comparison (${comparedData.length})`}</span>

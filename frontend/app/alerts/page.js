@@ -46,9 +46,9 @@ function AlertsContent() {
       subtitle="Real-time automated triggers for deadline crunches, sudden submission surges, and capacity thresholds."
     >
       {/* Alert Summary Cards */}
-      <div className="kpi-grid" style={{ gridTemplateColumns: "repeat(3, 1fr)", marginBottom: "24px" }}>
+      <div className="alerts-grid">
         <div className="card" style={{ borderLeft: "4px solid var(--red)", display: "flex", gap: "14px", alignItems: "center" }}>
-          <div style={{ width: "42px", height: "42px", borderRadius: "50%", background: "rgba(231, 111, 81, 0.15)", color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ width: "42px", height: "42px", borderRadius: "50%", background: "rgba(231, 111, 81, 0.15)", color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
             <LuClock size={22} />
           </div>
           <div>
@@ -65,7 +65,7 @@ function AlertsContent() {
         </div>
 
         <div className="card" style={{ borderLeft: "4px solid var(--accent-warm)", display: "flex", gap: "14px", alignItems: "center" }}>
-          <div style={{ width: "42px", height: "42px", borderRadius: "50%", background: "rgba(232, 165, 75, 0.15)", color: "var(--accent-warm)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ width: "42px", height: "42px", borderRadius: "50%", background: "rgba(232, 165, 75, 0.15)", color: "var(--accent-warm)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
             <LuZap size={22} />
           </div>
           <div>
@@ -82,7 +82,7 @@ function AlertsContent() {
         </div>
 
         <div className="card" style={{ borderLeft: "4px solid var(--cyan)", display: "flex", gap: "14px", alignItems: "center" }}>
-          <div style={{ width: "42px", height: "42px", borderRadius: "50%", background: "rgba(72, 202, 228, 0.15)", color: "var(--cyan)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ width: "42px", height: "42px", borderRadius: "50%", background: "rgba(72, 202, 228, 0.15)", color: "var(--cyan)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
             <LuTriangleAlert size={22} />
           </div>
           <div>
@@ -122,7 +122,7 @@ function AlertsContent() {
               }}
             >
               <div>
-                <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                <div style={{ display: "flex", gap: "8px", alignItems: "center", flexWrap: "wrap" }}>
                   <Link href={`/ps/${ps.ps_number}`} style={{ fontWeight: "800", color: "var(--accent-light)" }}>
                     {ps.ps_number}
                   </Link>
@@ -171,7 +171,7 @@ function AlertsContent() {
               }}
             >
               <div>
-                <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                <div style={{ display: "flex", gap: "8px", alignItems: "center", flexWrap: "wrap" }}>
                   <Link href={`/ps/${ps.ps_number}`} style={{ fontWeight: "800", color: "var(--accent-light)" }}>
                     {ps.ps_number}
                   </Link>
