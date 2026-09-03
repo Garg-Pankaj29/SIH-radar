@@ -35,7 +35,23 @@ export async function GET() {
 
   // Try to recompute KPIs with live counts
   try {
-    const liveCounts = await fetchLiveSubmissionCounts();
+    let liveCounts = await fetchLiveSubmissionCounts();
+    
+    // If live scrape failed (e.g. Vercel WAF block), use the counts baked into fallbackPs
+    if (!liveCounts || liveCounts.size === 0) {
+      liveCounts = new Map();
+      if (Array.isArray(fallbackPs)) {
+        for (const item of fallbackPs) {
+          if (item.ideas_submitted > 0) {
+            liveCounts.set(item.ps_number, {
+              submitted: item.ideas_submitted,
+              capacity: item.submission_capacity || 500
+            });
+          }
+        }
+      }
+    }
+
     if (liveCounts && liveCounts.size > 0) {
       // Merge live counts into PS data and recompute KPIs
       const basePsData = Array.isArray(fallbackPs) ? [...fallbackPs] : [];

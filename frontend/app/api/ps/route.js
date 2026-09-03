@@ -35,9 +35,25 @@ export async function GET() {
     psData = Array.isArray(fallbackData) ? [...fallbackData] : [];
   }
 
-  // Merge live submission counts from sih.gov.in
+  // Merge live submission counts from sih.gov.in (or fallback to bundled data)
   try {
-    const liveCounts = await fetchLiveSubmissionCounts();
+    let liveCounts = await fetchLiveSubmissionCounts();
+    
+    // If live scrape failed (e.g. Vercel WAF block), use the counts baked into fallbackData
+    if (!liveCounts || liveCounts.size === 0) {
+      liveCounts = new Map();
+      if (Array.isArray(fallbackData)) {
+        for (const item of fallbackData) {
+          if (item.ideas_submitted > 0) {
+            liveCounts.set(item.ps_number, {
+              submitted: item.ideas_submitted,
+              capacity: item.submission_capacity || 500
+            });
+          }
+        }
+      }
+    }
+
     if (liveCounts && liveCounts.size > 0) {
       psData = mergeliveCounts(psData, liveCounts);
     }
