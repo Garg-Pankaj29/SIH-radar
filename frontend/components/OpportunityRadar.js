@@ -25,12 +25,11 @@ export default function OpportunityRadar({ psData }) {
     const seedY = ((idx * 23) % 31) / 31 - 0.5;
 
     let rawX = ps.fill_percentage || 0;
-    if (rawX === 0) {
-      if (ps.competition_level === "High") rawX = 65 + seedX * 25;
-      else if (ps.competition_level === "Medium") rawX = 40 + seedX * 20;
-      else if (ps.competition_level === "Low") rawX = 20 + seedX * 15;
-      else rawX = 10 + seedX * 16;
-    }
+    
+    // The previous jitter artificially inflated 0-submission PSs to 10-25% fill!
+    // Instead, we will plot them at their actual fill rate, but add a tiny micro-jitter (+/- 1.5%)
+    // so the dots don't perfectly overlap, while remaining visually accurate.
+    rawX = rawX + (seedX * 3);
 
     let rawY = ps.opportunity_score || 50;
     if (ps.opportunity_category === "HIDDEN GEM") rawY = Math.max(rawY, 65) + seedY * 12;
@@ -38,7 +37,8 @@ export default function OpportunityRadar({ psData }) {
     else if (ps.opportunity_category === "EMERGING") rawY = Math.min(rawY, 48) + seedY * 12;
     else if (ps.opportunity_category === "CROWDED") rawY = Math.min(rawY, 45) + seedY * 14;
 
-    const x = Math.max(4, Math.min(96, Math.round(rawX)));
+    // Constrain X to 1-99 to avoid clipping at the very edge of the SVG
+    const x = Math.max(1, Math.min(99, rawX));
     const y = Math.max(4, Math.min(96, Math.round(rawY)));
 
     return {
