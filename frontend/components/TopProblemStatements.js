@@ -63,12 +63,9 @@ export default function TopProblemStatements({ psData }) {
                     {ps.category}
                   </span>
                 </td>
-                <td style={{ color: (ps.velocity?.growth_24h || 0) > 0 ? "var(--green)" : "var(--text-secondary)", fontWeight: 600 }}>
-                  {ps.velocity?.growth_24h > 0
-                    ? `+${ps.velocity.growth_24h}`
-                    : (ps.velocity?.growth_24h === 0 || ps.velocity?.growth_24h == null)
-                    ? "0"
-                    : `${ps.velocity.growth_24h}`}
+                <td style={{ fontWeight: 600 }}>{ps.fill_percentage}%</td>
+                <td style={{ color: "var(--green)", fontWeight: 600 }}>
+                  +{ps.velocity?.growth_24h || 0}
                 </td>
                 <td>{ps.days_remaining !== null ? `${ps.days_remaining}d` : "—"}</td>
                 <td>

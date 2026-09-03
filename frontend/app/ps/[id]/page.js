@@ -148,8 +148,9 @@ function PSDetailContent() {
                 </div>
               </div>
               <div style={{ padding: "10px 14px", background: "var(--bg-elevated)", borderRadius: "var(--radius-md)" }}>
-                <div style={{ fontSize: "0.9rem", fontWeight: "700", marginTop: "2px", color: (ps.velocity?.growth_24h || 0) > 0 ? "var(--green)" : "var(--text-secondary)" }}>
-                  {ps.velocity?.growth_24h > 0 ? `+${ps.velocity.growth_24h}` : (ps.velocity?.growth_24h ?? 0)} in 24h
+                <div style={{ fontSize: "0.72rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: "700" }}>24h Velocity</div>
+                <div style={{ fontSize: "0.9rem", fontWeight: "700", marginTop: "2px", color: "var(--green)" }}>
+                  +{ps.velocity?.growth_24h || 0} in 24h
                 </div>
               </div>
               <div style={{ padding: "10px 14px", background: "var(--bg-elevated)", borderRadius: "var(--radius-md)" }}>
