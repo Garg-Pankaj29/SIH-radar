@@ -61,7 +61,7 @@ function TeamFitContent() {
 
       const totalReq = psTechs.length || 1;
       const rawScore = Math.round((matchCount / totalReq) * 100);
-      const fitScore = teamSkills.length === 0 ? 50 : Math.min(rawScore, 100);
+      const fitScore = teamSkills.length === 0 ? 0 : Math.min(rawScore, 100);
 
       return {
         ...p,
@@ -120,7 +120,9 @@ function TeamFitContent() {
                   <span style={{ fontWeight: "800", color: "var(--accent-light)" }}>#{idx + 1}</span>
                   <span className="badge badge-software">{p.ps_number}</span>
                   <span className={`badge ${p.category === "Software" ? "badge-software" : "badge-hardware"}`}>{p.category}</span>
-                  <span className={`badge ${getCompBadgeClass(p.competition_level)}`}>{p.competition_level} Comp</span>
+                  <span className={`badge ${getCompBadgeClass(p.competition_level)}`}>
+                    {p.competition_level === "None yet" ? "None yet" : `${p.competition_level} Comp`}
+                  </span>
                   <span className={`badge ${getOppBadgeClass(p.opportunity_category)}`}>{p.opportunity_category}</span>
                 </div>
                 <Link href={`/ps/${p.ps_number}`}>
