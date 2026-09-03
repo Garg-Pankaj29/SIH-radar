@@ -2,9 +2,12 @@
 Data Fetcher — SIH Opportunity Radar
 -------------------------------------
 Fetches SIH 2026 problem-statement data from the community-maintained
-GitHub mirror and normalizes it into our internal schema.
+GitHub mirror (for rich metadata) and the official sih.gov.in page
+(for live submission counts), then merges them into our internal schema.
 
-Data source: community-maintained scrape of sih.gov.in (unofficial).
+Data sources:
+  - GitHub mirror: descriptions, dataset links, contacts, etc.
+  - sih.gov.in: live idea-submission counts (the ground truth).
 """
 import json
 import re
@@ -15,6 +18,8 @@ PRIMARY_URL = (
     "https://raw.githubusercontent.com/vedantchalke36/"
     "sih-2026-problem-statements/main/data/sih2026_ps.json"
 )
+
+SIH_GOV_URL = "https://sih.gov.in/sih2026PS"
 
 USER_AGENT = "SIH-Opportunity-Radar/1.0 (student-project; not affiliated with SIH/MIC/AICTE)"
 
@@ -35,6 +40,43 @@ def fetch_raw_data(url=PRIMARY_URL, timeout=30):
     return data
 
 
+def fetch_live_submission_counts(url=SIH_GOV_URL, timeout=30):
+    """Scrape live idea-submission counts directly from sih.gov.in.
+
+    The SIH PS page renders each problem statement in a table row with:
+        <td>SIH26XXX</td>
+        <td>X/500</td>
+
+    Returns a dict mapping ps_number → (submitted, capacity).
+    Returns empty dict on failure (caller falls back to mirror data).
+    """
+    try:
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            ),
+            "Accept": "text/html,application/xhtml+xml",
+        }
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            html = resp.read().decode("utf-8")
+
+        # Pattern: <td>SIH26XXX</td> ... <td>X/500</td>
+        pattern = r"<td>(SIH\d+)</td>\s*<td>(\d+)/(\d+)</td>"
+        matches = re.findall(pattern, html)
+
+        counts = {}
+        for ps_num, submitted, capacity in matches:
+            counts[ps_num] = (int(submitted), int(capacity))
+
+        return counts
+    except Exception as e:
+        print(f"Warning: Could not fetch live counts from sih.gov.in: {e}")
+        print("Falling back to GitHub mirror submission counts.")
+        return {}
+
+
 def parse_ideas(ideas_str):
     """Parse 'X/Y' format into (submitted, capacity).
 
@@ -47,9 +89,20 @@ def parse_ideas(ideas_str):
     return 0, 500
 
 
-def normalize_record(raw):
-    """Convert a raw PS record into our internal schema."""
-    submitted, capacity = parse_ideas(raw.get("ideas"))
+def normalize_record(raw, live_counts=None):
+    """Convert a raw PS record into our internal schema.
+
+    If live_counts is provided, uses live data from sih.gov.in for
+    submission counts instead of the (potentially stale) mirror data.
+    """
+    ps_number = raw.get("ps_number", "")
+
+    # Prefer live submission counts from sih.gov.in over mirror data
+    if live_counts and ps_number in live_counts:
+        submitted, capacity = live_counts[ps_number]
+    else:
+        submitted, capacity = parse_ideas(raw.get("ideas"))
+
     fill_pct = round(100 * submitted / capacity, 2) if capacity else 0.0
     deadline_str = raw.get("deadline_date", "")
 
@@ -62,7 +115,7 @@ def normalize_record(raw):
             deadline_date = None
 
     return {
-        "ps_number": raw.get("ps_number", ""),
+        "ps_number": ps_number,
         "sno": raw.get("sno", 0),
         "title": raw.get("title", "").strip(),
         "organization": raw.get("org", "").strip(),
@@ -79,7 +132,7 @@ def normalize_record(raw):
         "youtube": raw.get("youtube", "").strip(),
         "contact": raw.get("contact", "").strip(),
         "scraped_at": raw.get("scraped_at", ""),
-        "source": "community-github-mirror",
+        "source": "community-github-mirror+sih-gov-live",
         "source_url": PRIMARY_URL,
     }
 
@@ -87,9 +140,23 @@ def normalize_record(raw):
 def fetch_and_normalize(url=PRIMARY_URL):
     """Fetch data and return list of normalized records.
 
+    Merges rich metadata from the GitHub mirror with live submission
+    counts scraped directly from sih.gov.in.
     Validates each record and skips invalid ones.
     """
     raw_data = fetch_raw_data(url)
+
+    # Fetch live submission counts from sih.gov.in
+    print("Fetching live submission counts from sih.gov.in...")
+    live_counts = fetch_live_submission_counts()
+    if live_counts:
+        non_zero = sum(1 for v in live_counts.values() if v[0] > 0)
+        total_subs = sum(v[0] for v in live_counts.values())
+        print(f"Live counts: {len(live_counts)} PS found, "
+              f"{non_zero} with submissions, {total_subs} total ideas.")
+    else:
+        print("No live counts available, using mirror data only.")
+
     records = []
     seen_ps = set()
 
@@ -100,7 +167,7 @@ def fetch_and_normalize(url=PRIMARY_URL):
         if ps_num in seen_ps:
             continue  # skip duplicates
         seen_ps.add(ps_num)
-        records.append(normalize_record(raw))
+        records.append(normalize_record(raw, live_counts))
 
     return records
 
@@ -109,3 +176,6 @@ if __name__ == "__main__":
     records = fetch_and_normalize()
     print(f"Fetched and normalized {len(records)} problem statements.")
     print(f"Sample: {records[0]['ps_number']} — {records[0]['title'][:60]}...")
+    total_subs = sum(r["ideas_submitted"] for r in records)
+    non_zero = sum(1 for r in records if r["ideas_submitted"] > 0)
+    print(f"Total submissions: {total_subs} across {non_zero} PS")

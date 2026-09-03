@@ -10,7 +10,7 @@ import math
 from datetime import datetime, timedelta
 from pathlib import Path
 
-SNAPSHOTS_DIR = Path(__file__).parent.parent / "data" / "snapshots"
+SNAPSHOTS_DIR = Path(__file__).parent.parent / "data" / "demo_snapshots"
 
 
 def generate_demo_history(records, days=14, seed=42):

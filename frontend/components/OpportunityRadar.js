@@ -25,12 +25,11 @@ export default function OpportunityRadar({ psData }) {
     const seedY = ((idx * 23) % 31) / 31 - 0.5;
 
     let rawX = ps.fill_percentage || 0;
-    if (rawX === 0) {
-      if (ps.competition_level === "High") rawX = 65 + seedX * 25;
-      else if (ps.competition_level === "Medium") rawX = 40 + seedX * 20;
-      else if (ps.competition_level === "Low") rawX = 20 + seedX * 15;
-      else rawX = 10 + seedX * 16;
-    }
+    
+    // Spread the dots slightly so they don't form a perfect vertical line at 0
+    // We make the jitter strictly positive (0.5 to 2.5) for items with near-zero fill
+    // so they are fully visible and look like a cluster rather than a squashed line.
+    rawX = rawX + 0.5 + Math.abs(seedX * 4);
 
     let rawY = ps.opportunity_score || 50;
     if (ps.opportunity_category === "HIDDEN GEM") rawY = Math.max(rawY, 65) + seedY * 12;
@@ -38,7 +37,8 @@ export default function OpportunityRadar({ psData }) {
     else if (ps.opportunity_category === "EMERGING") rawY = Math.min(rawY, 48) + seedY * 12;
     else if (ps.opportunity_category === "CROWDED") rawY = Math.min(rawY, 45) + seedY * 14;
 
-    const x = Math.max(4, Math.min(96, Math.round(rawX)));
+    // Constrain X and Y bounds
+    const x = Math.max(0.5, Math.min(99.5, rawX));
     const y = Math.max(4, Math.min(96, Math.round(rawY)));
 
     return {

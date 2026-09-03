@@ -42,11 +42,26 @@ def save_snapshot(records, timestamp=None):
     return str(filepath)
 
 
-def list_snapshots():
-    """List all available snapshots, sorted newest first."""
+def list_snapshots(include_demo=False):
+    """List all available snapshots, sorted newest first.
+    
+    By default (include_demo=False), filters out simulated/demo snapshots.
+    """
     ensure_dir()
     files = sorted(SNAPSHOTS_DIR.glob("*.json"), reverse=True)
-    return [str(f) for f in files]
+    if include_demo:
+        return [str(f) for f in files]
+
+    valid_files = []
+    for f in files:
+        try:
+            with open(f, "r", encoding="utf-8") as fp:
+                data = json.load(fp)
+                if not data.get("_demo_mode"):
+                    valid_files.append(str(f))
+        except Exception:
+            continue
+    return valid_files
 
 
 def load_snapshot(filepath):
@@ -55,23 +70,29 @@ def load_snapshot(filepath):
         return json.load(f)
 
 
-def load_latest_snapshot():
+def load_latest_snapshot(include_demo=False):
     """Load the most recent snapshot. Returns None if no snapshots exist."""
-    snapshots = list_snapshots()
+    snapshots = list_snapshots(include_demo=include_demo)
     if not snapshots:
         return None
     return load_snapshot(snapshots[0])
 
 
-def load_snapshot_by_date(date_str):
+def load_snapshot_by_date(date_str, include_demo=False):
     """Load a snapshot matching a date string (YYYY-MM-DD).
 
     Returns the most recent snapshot from that date, or None.
     """
     ensure_dir()
     matches = sorted(SNAPSHOTS_DIR.glob(f"{date_str}*.json"), reverse=True)
-    if matches:
-        return load_snapshot(str(matches[0]))
+    for match in matches:
+        try:
+            with open(match, "r", encoding="utf-8") as fp:
+                data = json.load(fp)
+                if include_demo or not data.get("_demo_mode"):
+                    return data
+        except Exception:
+            continue
     return None
 
 
@@ -123,12 +144,12 @@ def compute_deltas(current_records, previous_records):
     return deltas
 
 
-def get_historical_submissions(ps_number, max_snapshots=30):
+def get_historical_submissions(ps_number, max_snapshots=30, include_demo=False):
     """Get submission history for a PS from available snapshots.
 
     Returns list of {timestamp, submitted, fill_percentage}.
     """
-    snapshots = list_snapshots()
+    snapshots = list_snapshots(include_demo=include_demo)
     history = []
 
     for snap_path in snapshots[:max_snapshots]:

@@ -61,7 +61,7 @@ function ThemesContent() {
             <div style={{ fontWeight: "800", fontSize: "1rem", marginBottom: "6px" }}>{t.theme}</div>
             <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.85rem", color: "var(--text-secondary)", marginBottom: "12px" }}>
               <span>{t.ps_count} Problem Statements</span>
-              <span style={{ fontWeight: "700", color: "var(--accent-light)" }}>{t.average_fill}% Avg Fill</span>
+              <span style={{ fontWeight: "700", color: "var(--accent-light)" }}>{t.avg_fill}% Avg Fill</span>
             </div>
             <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
               Total Ideas Submitted: <strong>{t.total_submissions}</strong>

@@ -55,7 +55,7 @@ def build_api_data():
         print("Demo overlay applied.")
 
     # Load historical data for velocity calculations
-    snapshots = list_snapshots()
+    snapshots = list_snapshots(include_demo=DEMO_MODE)
     prev_snapshot = None
     if len(snapshots) >= 2:
         prev_snapshot = load_snapshot(snapshots[1])
@@ -176,25 +176,33 @@ def build_api_data():
         "disclaimer": "Data is based on publicly available SIH submission counts. This is not an official SIH product.",
     }
 
-    # Write API files
+    # Write API files to data/api and frontend destinations
     print("Writing API data files...")
+    target_dirs = [
+        API_DIR,
+        Path(__file__).parent.parent / "frontend" / "data" / "api",
+        Path(__file__).parent.parent / "frontend" / "public" / "api",
+        Path(__file__).parent.parent / "frontend" / "public" / "data",
+    ]
 
-    with open(API_DIR / "problem_statements.json", "w") as f:
-        json.dump(enriched, f, indent=2, ensure_ascii=False)
+    for d in target_dirs:
+        d.mkdir(parents=True, exist_ok=True)
+        with open(d / "problem_statements.json", "w", encoding="utf-8") as f:
+            json.dump(enriched, f, indent=2, ensure_ascii=False)
 
-    with open(API_DIR / "kpis.json", "w") as f:
-        json.dump(kpis, f, indent=2)
+        with open(d / "kpis.json", "w", encoding="utf-8") as f:
+            json.dump(kpis, f, indent=2)
 
-    with open(API_DIR / "themes.json", "w") as f:
-        json.dump(themes, f, indent=2, ensure_ascii=False)
+        with open(d / "themes.json", "w", encoding="utf-8") as f:
+            json.dump(themes, f, indent=2, ensure_ascii=False)
 
-    with open(API_DIR / "trends.json", "w") as f:
-        json.dump({"biggest_movers": movers, "deltas": deltas}, f, indent=2)
+        with open(d / "trends.json", "w", encoding="utf-8") as f:
+            json.dump({"biggest_movers": movers, "deltas": deltas}, f, indent=2)
 
-    with open(API_DIR / "metadata.json", "w") as f:
-        json.dump(meta, f, indent=2)
+        with open(d / "metadata.json", "w", encoding="utf-8") as f:
+            json.dump(meta, f, indent=2)
 
-    print(f"API data written to {API_DIR}")
+    print(f"API data written to {API_DIR} and frontend locations")
     print(f"Demo mode: {DEMO_MODE}")
     return enriched
 
