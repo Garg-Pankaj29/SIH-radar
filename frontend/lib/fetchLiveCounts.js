@@ -127,7 +127,7 @@ function recomputeKpis(psData) {
   const fills = psData.map((r) => r.fill_percentage || 0);
   const avgFill =
     fills.length > 0
-      ? Math.round((fills.reduce((s, f) => s + f, 0) / fills.length) * 10) / 10
+      ? Math.round((fills.reduce((s, f) => s + f, 0) / fills.length) * 100) / 100
       : 0;
 
   const compDist = { "None yet": 0, Low: 0, Medium: 0, High: 0 };
@@ -198,7 +198,7 @@ function recomputeThemes(psData) {
   return Object.values(themeMap).map((t) => {
     const avgFill =
       t.fills.length > 0
-        ? Math.round((t.fills.reduce((s, f) => s + f, 0) / t.fills.length) * 10) / 10
+        ? Math.round((t.fills.reduce((s, f) => s + f, 0) / t.fills.length) * 100) / 100
         : 0;
     return {
       theme: t.theme,
