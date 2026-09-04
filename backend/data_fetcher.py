@@ -62,13 +62,20 @@ def fetch_live_submission_counts(url=SIH_GOV_URL, timeout=30):
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             html = resp.read().decode("utf-8")
 
-        # Pattern: <td>SIH26XXX</td> ... <td>X/500</td>
-        pattern = r"<td>(SIH\d+)</td>\s*<td>(\d+)/(\d+)</td>"
-        matches = re.findall(pattern, html)
+        # Pattern: <td>SIH26XXX</td> ... <td>X/500</td> ... <td>Theme</td> ... <td>Deadline</td>
+        pattern = r"<td>(SIH\d+)</td>\s*<td>(\d+)/(\d+)</td>\s*<td>.*?</td>\s*<td>(.*?)</td>"
+        matches = re.findall(pattern, html, re.DOTALL)
 
         counts = {}
-        for ps_num, submitted, capacity in matches:
-            counts[ps_num] = (int(submitted), int(capacity))
+        for ps_num, submitted, capacity, deadline_raw in matches:
+            # Try to parse "30 September 2026" into "2026-09-30"
+            deadline_date = None
+            try:
+                deadline_date = datetime.strptime(deadline_raw.strip(), "%d %B %Y").strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+            
+            counts[ps_num] = (int(submitted), int(capacity), deadline_raw.strip(), deadline_date)
 
         return counts
     except Exception as e:
@@ -97,18 +104,30 @@ def normalize_record(raw, live_counts=None):
     """
     ps_number = raw.get("ps_number", "")
 
+    live_deadline_raw = ""
+    live_deadline_date = None
+
     # Prefer live submission counts from sih.gov.in over mirror data
     if live_counts and ps_number in live_counts:
-        submitted, capacity = live_counts[ps_number]
+        submitted, capacity, live_deadline_raw, live_deadline_date = live_counts[ps_number]
     else:
         submitted, capacity = parse_ideas(raw.get("ideas"))
 
     fill_pct = round(100 * submitted / capacity, 2) if capacity else 0.0
-    deadline_str = raw.get("deadline_date", "")
 
-    # Parse deadline
-    # Hardcoding to correct SIH deadline (Sept 12) since community mirror has it wrong as Sept 30
-    deadline_date = "2026-09-12"
+    # Prefer live deadline from sih.gov.in, otherwise use mirror
+    final_deadline_raw = live_deadline_raw if live_deadline_raw else raw.get("deadline", "").strip()
+    
+    if live_deadline_date:
+        final_deadline_date = live_deadline_date
+    else:
+        deadline_str = raw.get("deadline_date", "")
+        final_deadline_date = None
+        if deadline_str:
+            try:
+                final_deadline_date = datetime.strptime(deadline_str, "%Y-%m-%d").strftime("%Y-%m-%d")
+            except ValueError:
+                final_deadline_date = None
 
     return {
         "ps_number": ps_number,
@@ -118,8 +137,8 @@ def normalize_record(raw, live_counts=None):
         "department": raw.get("department", "").strip(),
         "category": raw.get("category", "").strip(),
         "theme": raw.get("theme", "").strip(),
-        "deadline": raw.get("deadline", "").strip(),
-        "deadline_date": deadline_date,
+        "deadline": final_deadline_raw,
+        "deadline_date": final_deadline_date,
         "ideas_submitted": submitted,
         "submission_capacity": capacity,
         "fill_percentage": fill_pct,
