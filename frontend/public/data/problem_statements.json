@@ -9,9 +9,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 5,
+    "ideas_submitted": 2,
     "submission_capacity": 500,
-    "fill_percentage": 1.0,
+    "fill_percentage": 0.4,
     "description": "Background:\nThe North Eastern Region (NER) frequently faces landslides, flash floods, road blockages, and slope failures due to heavy rainfall, fragile terrain, and unplanned hill cutting. These incidents often disrupt connectivity, damage infrastructure, delay emergency response, and isolate remote villages for days. Currently, monitoring of vulnerable zones is mostly reactive and dependent on manual reporting. There is limited use of real-time predictive systems for identifying high-risk zones and issuing early warnings to authorities and local communities. With increasing climate vulnerability in the region, there is a need for an AI-enabled real-time monitoring and prediction system that can help authorities take preventive action before disasters occur.\nDescription:\nThis problem statement proposes the development of an Al-powered early warning and monitoring platform capable of predicting and tracking landslide-prone areas in real time across the North Eastern Region. The solution should:\na. Collect and analyse data from: Rainfall patterns Soil moisture sensors Satellite imagery Terrain/slope data Historical landslide records b. Use AI/ML models to identify high-risk zones and predict possible landslide events.\nc. Provide real-time alerts to district administrations, disaster management authorities, and local communities.\nd. Integrate GIS mapping for visualization of vulnerable roads, villages, and infrastructure.\ne. Allow citizens/field officials to upload geo-tagged photos/videos of cracks, slope movement or blocked roads.\nf. Generate dashboards showing:\n• Risk severity levels\n• Road connectivity status\n• Weather-linked risk forecasts\n• Emergency response prioritisation. Support multilingual notifications and low-network/offline functionality for remote areas.\nExpected Solution:\nA scalable Al-based software platform with:\n• Real-time GIS dashboard and risk heatmaps\n• AI/ML-based predictive analytics engine\n• Mobile/web application for field reporting and alerts.\n• Integration with IMD weather APIs, satellite feeds, and sensor data\n• Automated SMS/app-based early warning system\n• Cloud-based architecture with offline sync support for remote regions The solution should improve disaster preparedness, reduce loss of life and infrastructure damage, and strengthen climate-resilient governance in the North Eastern Region.",
     "dataset_link": "",
     "youtube": "",
@@ -96,13 +96,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.4,
+    "opportunity_score": 78.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 133.8,
+      "estimated_cap_days": 134.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~3.7/day), cap may be reached in ~133.8 days. This is an estimate."
+      "note": "At current velocity (~3.7/day), cap may be reached in ~134.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -150,6 +150,10 @@
         "submitted": 1
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 5
       },
@@ -169,9 +173,9 @@
     "theme": "Transportation & Logistics",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Background:\nThe North Eastern Region (NER) faces major logistics and accessibility challenges due to difficult terrain, extreme weather conditions, limited transport connectivity, and frequent road disruptions caused by landslides, floods, and infrastructure gaps. Transportation of essential goods such as medicines, food supplies, construction materials, and agricultural produce to remote districts often gets delayed, leading to supply shortages, increased costs, and disruption in public service delivery. Currently, there is no integrated intelligent platform that can provide real-time logistics visibility, route accessibility status, predictive disruption alerts, and optimized transportation planning for the region. To strengthen regional connectivity and support infrastructure-led development initiatives, there is a need for an Al-enabled logistics intelligence system tailored for the unique geographical and operational challenges of NER.\nDescription:\nThis problem statement seeks the development of an Al-powered Smart and in Logistics Accessibility Intelligence Platform for the North Eastern Region (NER) to address challenges related to difficult terrain, weather-induced disruptions, and limited transport connectivity remote areas. The platform should use Artificial Intelligence (Al), Machine Learning (ML), GIS mapping, weather data, and real-time field inputs to monitor transportation networks and improve movement of essential goods and services across the region. The platform should:\na. Monitoring real-time road, bridge, and transport accessibility across districts and remote locations b. Predicting possible route disruptions caused by landslides, floods, heavy rainfall, road damage, or traffic congestion c. Providing Al-based alternate route suggestions and estimated travel delays d. Tracking movement of vehicles carrying essential commodities, medicines, agricultural produce, and construction materials through GPS integration e. Generating automated alerts for blocked roads, inaccessible regions, delayed deliveries, and high-risk transport corridors f. Enabling field officials and local authorities to upload geo-tagged updates, photographs, and incident reports from remote locations g. Creating centralized dashboards for visualizing:\n• District-wise connectivity status\n• Logistics bottlenecks and supply chain gaps Emergency and disaster-time accessibility routes\n• Real-time movement and delivery status of essential supplies h. Supporting multilingual notifications and offline data synchronization for low-network areas The platform should help improve regional connectivity, strengthen emergency response systems, reduce supply chain disruptions, and support efficient planning and monitoring of logistics operations in the North Eastern Region.\nExpected Solution:\n• A scalable Al-based software platform integrated with GIS and real-time analytics featuring:\n• Al-powered route prediction and optimization engine\n• GIS-enabled accessibility monitoring dashboard\n• GPS-based vehicle tracking system\n• Real-time alert and notification mechanism\n• Mobile/web application for field-level reporting and monitoring Integration capability with weather APIs, transport databases, and government monitoring systems\n• Cloud-based infrastructure with secure data management and offline support The platform should improve regional logistics efficiency, reduce supply disruptions, strengthen emergency response capability, and support infrastructure and economic development across the North Eastern Region.",
     "dataset_link": "",
     "youtube": "",
@@ -179,7 +183,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -254,13 +258,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.9,
+    "opportunity_score": 79.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -305,6 +309,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -467,6 +475,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -624,6 +636,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -774,6 +790,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -933,6 +953,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -1087,6 +1111,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -1248,6 +1276,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -1397,6 +1429,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -1557,6 +1593,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -1710,6 +1750,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -1871,6 +1915,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -2027,6 +2075,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -2190,6 +2242,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -2341,6 +2397,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -2500,6 +2560,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -2654,6 +2718,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -2815,6 +2883,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -2968,6 +3040,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -3125,6 +3201,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -3274,6 +3354,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -3412,6 +3496,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -3554,6 +3642,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -3718,6 +3810,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -3876,6 +3972,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -4041,6 +4141,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -4190,6 +4294,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -4350,6 +4458,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -4497,6 +4609,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -4629,6 +4745,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -4765,6 +4885,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -4784,9 +4908,9 @@
     "theme": "Smart Automation",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Expected Solution: Develop a platform that:\n• Enables farmer registration and slot booking.\n• Provides real-time queue management.\n• Sends SMS/app notifications.\n• Tracks procurement and payment status.\n• Reduces congestion and waiting time at procurement centres.",
     "dataset_link": "",
     "youtube": "",
@@ -4794,7 +4918,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -4863,13 +4987,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.9,
+    "opportunity_score": 79.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -4917,6 +5041,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -4936,9 +5064,9 @@
     "theme": "Agriculture, FoodTech & Rural Development",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Expected Solution: Create a digital marketplace that:\n• Connects farmers/FPOs directly with consumers and bulk buyers.\n• Provides logistics support.\n• Uses AI for demand forecasting and route optimization.\nBenefits:\n• Better prices for farmers.\n• Lower prices for consumers.\n• Reduced supply chain inefficiencies.",
     "dataset_link": "",
     "youtube": "",
@@ -4946,7 +5074,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -5015,13 +5143,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 84.9,
+    "opportunity_score": 85.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -5054,6 +5182,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -5213,6 +5345,10 @@
         "submitted": 1
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -5363,6 +5499,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -5520,6 +5660,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -5681,6 +5825,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -5836,6 +5984,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -5995,6 +6147,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -6145,6 +6301,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -6304,6 +6464,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -6439,6 +6603,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -6596,6 +6764,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -6615,9 +6787,9 @@
     "theme": "Smart Automation",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 5,
+    "ideas_submitted": 4,
     "submission_capacity": 500,
-    "fill_percentage": 1.0,
+    "fill_percentage": 0.8,
     "description": "Background:\nA significant gap exists between the skills acquired in academic institutions and the competencies expected by industries. Students often struggle to identify the skills required for their desired career paths, while industries face challenges in finding candidates with the right skill sets. Similarly, academicians have limited visibility into industry internship opportunities that could help them gain practical exposure and align teaching with current industry practices. There is a need for a unified platform that connects students, industries, and academicians, enabling seamless collaboration and skill development.\nDescription:\nThe proposed solution is a centralized Academia–Industry Collaboration Portal that serves as a one-stop platform for students, industries, and academicians.\nKey features include:\n• Skill Assessment: Students complete a questionnaire to evaluate their technical and soft skills shared by industry. The system generates a skill profile and identifies strengths and skill gaps based on current industry requirements.\n• Skill Mapping: Based on the assessment, the platform recommends relevant industries, job roles, and skill development programs aligned with industry requirements.\n• Industry Internship & Job Opportunities: Industries can post internships, projects, apprenticeships, and entry-level job openings with required skills. Students receive recommendations based on their skill profiles and can apply directly.\n• Industry Learning Programs: Companies can publish training programs, certification courses, workshops, and mentorship initiatives to help students acquire in-demand skills before applying.\n• Allow students to search, apply, and track internship and placement opportunities through a single platform.\n• Provide a dedicated portal for academicians to explore faculty internships, industrial training, Faculty Development Programs (FDPs), consultancy opportunities, and collaborative research projects.\n• Facilitate industry–academia collaboration through mentorship programs, workshops, guest lectures, innovation challenges, and live industry projects.\n• Enable institutions to monitor student skill development, internship participation, and placement progress through dashboards and analytics.\n• Maintain a digital portfolio for students containing verified skills, certifications, projects, internships, and achievements to improve employability.\nExpected solution:\nThe solution should provide:\nThe solution should provide a secure, scalable, and intelligent platform that supports the complete lifecycle of skill development, internships, and placements.\n• Skill Development-\n• Skill assessment through questionnaires and aptitude tests.\n• Skill profiling and identification of technical and soft skill gaps.\n• Personalized learning recommendations, certification programs, and industry-relevant training.\n• Career guidance based on individual skills, interests, and industry demand.\n• Student digital portfolios showcasing verified skills, certifications, projects, and achievements.\n• Internship-\n• Centralized internship portal where industries can post internship opportunities with required skills.\n• Matching of students to internships based on their skill profiles and career interests.\n• Internship application and tracking system for students.\n• Internship opportunities for academicians, industrial training, and Faculty Development Programs (FDPs).\n• Progress tracking, mentor feedback, and internship completion records.\n• Placement-\n• Industry portal for posting job opportunities with required qualifications and skill sets.\n• Recommendation engine to match students with relevant placement opportunities.\n• Candidate shortlisting based on skill compatibility and eligibility.\n• Application tracking and recruitment management for students and recruiters.\n• Analytics and reporting dashboards for institutions and industries to monitor placement readiness, recruitment outcomes, and skill demand trends.\nOverall Platform Features-\n• Role-based access for students, academicians, industries, and institutions.\n• Secure document management for resumes, certificates, internship reports, and academic records.\n• Collaboration features for industry mentorship, live projects, workshops, and research partnerships.\n• Integration with learning platforms, certification providers, and institutional databases.\n• Comprehensive analytics to support data-driven decisions for institutions, industries, and policymakers.",
     "dataset_link": "",
     "youtube": "",
@@ -6697,13 +6869,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.4,
+    "opportunity_score": 78.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 133.8,
+      "estimated_cap_days": 134.1,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~3.7/day), cap may be reached in ~133.8 days. This is an estimate."
+      "note": "At current velocity (~3.7/day), cap may be reached in ~134.1 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -6749,6 +6921,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 4
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -6892,6 +7068,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -7051,6 +7231,10 @@
         "submitted": 1
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -7070,9 +7254,9 @@
     "theme": "MedTech / BioTech / HealthTech",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 3,
+    "ideas_submitted": 2,
     "submission_capacity": 500,
-    "fill_percentage": 0.6,
+    "fill_percentage": 0.4,
     "description": "Background:\n1.1 The Clinical History-Taking Bottleneck in Indian Hospitals History taking - the structured elicitation of a patient's presenting complaints, history of present illness, past medical and surgical history, drug and allergy history, family and personal history, and a review of systems - is the single most important diagnostic activity in clinical medicine. Classical teaching holds that a well-conducted history yields the correct diagnosis in 70–80% of cases, even before examination or investigation. Yet in India's overburdened public hospital outpatient departments (OPDs), the time available for this critical interaction has collapsed to unsustainable levels.\nIndia operates one of the most patient-dense healthcare systems in the world. Tertiary government hospitals and apex institutions routinely register 4,000–10,000 OPD patients per day, with a doctor-to-patient consultation time frequently reported between 2 and 5 minutes - among the shortest globally (study published in BMJ Open, 2017, across 67 countries placed India's average primary-care consultation at just over 2 minutes). Within this window, the physician must simultaneously elicit history, examine the patient, review prior records, formulate a diagnosis, counsel, and prescribe. The result is systematic under-elicitation of history, missed comorbidities, repeated questioning across visits, and diagnostic error.\nAYUSH institutions face an additional layer of complexity. Ayurvedic history taking (Trividha, Ashtavidha, and Dashavidha Pariksha) requires detailed assessment of Prakriti (constitution), Vikriti (current imbalance), Agni (digestive capacity), Koshtha (bowel nature), Ahara-Vihara (diet and lifestyle), Nidana (causative factors), and Samprapti (pathogenesis) - a far more extensive history framework than allopathic intake. Capturing this depth manually within OPD time constraints is effectively impossible, forcing practitioners to abbreviate the very assessment that defines personalized Ayurvedic care.\n1.2 The Documentation and Records Fragmentation Problem Compounding the time problem is the fragmentation of patient records. Patients in India typically carry physical paper prescriptions, laboratory reports, discharge summaries, and imaging films from multiple prior providers. During consultation, the physician must manually scan through these unstructured documents - often handwritten, in varying languages, and chronologically disordered - consuming a significant fraction of the already-scarce consultation time. There is no point-of-entry mechanism to digitize, structure, and chronologically organize a patient's prior medical documents before they reach the consultation room.\nThe Ayushman Bharat Digital Mission (ABDM) has established the national digital health infrastructure - ABHA (Ayushman Bharat Health Account) IDs, the Health Information Exchange, and FHIR-based interoperability standards. However, the 'first-mile' problem remains unsolved: there is no efficient, patient-facing software platform that captures structured history and digitizes documents into the ABDM ecosystem before the clinical encounter begins.\n1.3 The Opportunity: AI-Powered Digital Clinical Intake Platform Self-service kiosks have transformed high-throughput service industries - ATMs in banking, self-check-in terminals in aviation, and ordering kiosks in quick-service restaurants - by offloading structured data-entry tasks from human staff to the user, dramatically improving throughput and accuracy. In healthcare, patient check-in kiosks are now widespread in developed-country hospitals, but these are limited to administrative check-in. None perform deep, AI-driven, multimodal clinical history acquisition with medical document digitization.\nThe convergence of mature enabling technologies - robust automatic speech recognition (ASR) for Indian languages and accents (Bhashini / AI4Bharat models), large language models for conversational clinical history elicitation, high-accuracy OCR for handwritten and printed medical documents, and ABDM's FHIR interoperability - now makes it feasible to build an AI-powered clinical history software platform.\nDescription:\n2.1 The Problem in Precise Terms There is no purpose-built, patient-facing software platform that enables patients to independently and comprehensively record their medical history - through both natural spoken conversation and guided touchscreen interaction - and simultaneously digitize their existing physical medical documents, generating a structured, physician-ready clinical history summary that integrates with the hospital information system and the ABDM ecosystem before the patient enters the consultation room.\n2.2 Why Existing Solutions Fall Short\n• Existing hospital registration systems (currently deployed in some Indian hospitals) capture only demographic and appointment data - name, age, department, token number. They do not elicit any clinical history or process medical documents.\n• Mobile health apps and tele-triage chatbots require smartphone literacy, stable connectivity, and patient enrolment ahead of the visit - excluding the large elderly, rural, low-literacy, and first-visit patient populations who form the bulk of government hospital OPD load.\n• Manual nurse-led triage / history desks are themselves human-resource-limited, do not scale to 5,000+ daily patients, and reintroduce the same time and transcription bottleneck the system is trying to eliminate.\n• Generic document scanners digitize images but do not extract, structure, or chronologically organize clinical content, nor link it to a structured history or ABHA record.\n2.3 Specific Challenges a Solution Must Overcome\n• Multilingual, multi-accent voice capture in noisy hospital environments across Hindi, English, and major regional languages, for patients of varying literacy and digital comfort.\n• Accessibility for low-literacy and elderly users through intuitive icon-driven UI, audio prompts, and conversational guidance - the software platform must be usable by a first-time, non-tech-savvy patient with zero training.\n• Accurate clinical history structuring converting free-form patient narration into a standardized, physician-readable history (chief complaint, HPI, past history, drug/allergy, family, personal, review of systems) - and, for AYUSH settings, Dashavidha Pariksha parameters.\n• Reliable medical document digitization OCR of handwritten and printed prescriptions, lab reports, and discharge summaries in multiple languages, with intelligent extraction of diagnoses, medications, and investigation values.\n• Privacy, consent, and data security compliance with the Digital Personal Data Protection Act 2023 and ABDM consent framework - handling sensitive health data within a secure software environment.\nExpected solution:\n3.1 Solution Overview - 'MediKiosk' AI Clinical History Software Platform The proposed solution - tentatively designated MediKiosk - a software platform for an AI-powered clinical history software platform that allows any patient to record a comprehensive medical history through natural voice conversation and guided touchscreen interaction, scan and digitize their existing physical medical documents, and generate a structured, physician-ready clinical history summary that is pushed to the hospital information system (HIS) and linked to the patient's ABHA record - all completed before the consultation, with minimal staff assistance required.\n• Insert Table*3.2 3.3 Software & AI Stack (Integrated)\nModule A - Conversational Multimodal History Engine A conversational AI engine that conducts a structured clinical history interview through both voice and touch. The patient speaks naturally in their preferred language; the engine asks intelligent follow-up questions (e.g., on stating 'chest pain', it probes onset, character, radiation, aggravating/relieving factors - the SOCRATES framework) and simultaneously offers touch-based multiple-choice options for patients who prefer tapping. Built on Indian-language ASR, a dialogue manager constrained by a clinical history ontology, and text-to-speech for audio prompts.\n• Adaptive questioning: dynamically branches based on chief complaint and prior answers, mirroring a physician's clinical reasoning to elicit a complete HPI and review of systems\n• Dual-mode input: every question answerable by speaking OR tapping, ensuring usability across literacy and comfort levels\n• AYUSH history mode: for Ayurvedic OPDs, an extended interview capturing Dashavidha Pariksha (Prakriti, Vikriti, Sara, Samhanana, Pramana, Satmya, Sattva, Ahara Shakti, Vyayama Shakti, Vaya) and Ahara-Vihara assessment\n• Red-flag detection: AI flags emergency symptoms (e.g., acute chest pain with dyspnoea, stroke symptoms) and triggers immediate priority alert to triage staff rather than routine queueing Module B - Medical Document Digitization & Intelligence An integrated scanning and document-AI pipeline that allows the patient to upload prior prescriptions, lab reports, and discharge summaries. The system performs high-accuracy OCR (printed and handwritten, multilingual), then extract and structure clinical entities.\n• Intelligent extraction: diagnoses, prescribed medications with dosages, investigation results with values and reference ranges, and procedure/surgery history\n• Chronological organization: automatically dates and orders documents into a coherent medical timeline for the physician\n• Abnormal-value highlighting: flags out-of-range lab values and potential drug interactions for physician attention Module C - Structured History Summary Generator An AI summarization engine that synthesizes the conversational history and the digitized documents into a single, concise, physician-ready clinical summary in standard format - presented on the consultation screen the moment the patient enters the room. The physician reads a complete, structured history in seconds rather than spending minutes eliciting it, and can edit/confirm before saving.\n• Standard clinical format: Chief complaint ? HPI ? Past medical/surgical ? Drug & allergy ? Family ? Personal ? ROS ? Prior investigations summary\n• Editable & verifiable: physician retains full control - the summary is a draft to accept, amend, or reject, never an autonomous diagnosis\n• Bilingual output: patient-facing audio confirmation in local language; physician-facing summary in English/Hindi Module D - Consent, Privacy & ABDM Integration A robust consent and security layer compliant with the Digital Personal Data Protection Act 2023 and the ABDM consent framework. The patient authenticates via ABHA ID, grants explicit consent for data capture and sharing, and the structured history is pushed to the hospital HIS/EMR and linked to the ABHA Personal Health Record via FHIR APIs.\n• Secure processing: voice and document AI are processed securely within the software platform\n• Session termination: temporary session data is cleared immediately after submission\n• Consent-first design: granular, revocable consent with audio explanation for low-literacy patients 3.4 End-to-End Patient Journey\n• Step 1 - Identify: Patient logs into the software platform, enters/scans ABHA ID or Aadhaar details or registers as new; selects language; grants consent (audio-guided)\n• Step 2 - Converse: AI conducts adaptive voice + touch history interview, capturing chief complaint, HPI, and full history; red flags trigger priority triage\n• Step 3 - Scan: Patient uploads prior prescriptions, lab reports, and discharge summaries; AI digitizes, structures, and timelines them\n• Step 4 - Summarize & Route: AI generates structured history summary, links to ABHA, pushes to HIS, updates the patient's digital record; summary appears on physician's screen at consultation\n• Step 5 - Consult: Physician reviews complete history in seconds, edits/confirms, and devotes the full consultation to examination, reasoning, and counselling",
     "dataset_link": "Additional Information regarding PS\nhttps://drive.google.com/file/d/1mQ6Qp2MKL8JXdL2kJYqV-SFqcfbxSvrd/view?usp=drive_link",
     "youtube": "",
@@ -7155,13 +7339,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.6,
+    "opportunity_score": 81.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 276.1,
+      "estimated_cap_days": 276.7,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~1.8/day), cap may be reached in ~276.1 days. This is an estimate."
+      "note": "At current velocity (~1.8/day), cap may be reached in ~276.7 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -7207,6 +7391,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -7339,6 +7527,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -7494,6 +7686,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -7654,6 +7850,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -7804,6 +8004,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -7965,6 +8169,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -8120,6 +8328,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -8285,6 +8497,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -8422,6 +8638,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 1
       },
       {
@@ -8573,6 +8793,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -8737,6 +8961,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -8895,6 +9123,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -9038,6 +9270,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -9188,6 +9424,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -9342,6 +9582,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -9491,6 +9735,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -9636,6 +9884,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -9774,6 +10026,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -9927,6 +10183,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -10076,6 +10336,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -10237,6 +10501,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -10394,6 +10662,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 2
       },
@@ -10549,6 +10821,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -10679,6 +10955,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -10833,6 +11113,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -10973,6 +11257,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -11132,6 +11420,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -11281,6 +11573,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -11300,9 +11596,9 @@
     "theme": "Smart Education",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "The solution should include secure signup and login functionality with three user roles: Trainee, Trainer, and Admin. Trainees should be able to create professional profiles with qualifications, work experience, interests, skills, and certificates, enroll in courses, access learning resources, attempt subject-wise MCQ assessments, and provide feedback on courses and training content.Trainers should be able to manage their profiles, create questionnaires with deadlines, monitor trainee participation and performance, and upload recorded lectures, presentations, and study materials in a trainer library accessible to trainees.The Admin module should provide user approval and role management features along with dashboards for monitoring courses, enrollments, certifications,assessments, and participation statistics. Admins should also be able to publish notifications, announcements, achievements, and newly added learning content on the homepage.The platform should support competency mapping for identifying suitable trainers for various subjects and should be scalable, secure, user-friendly, and accessible across devices to promote efficient learning and organizational capacity building.",
     "dataset_link": "",
     "youtube": "",
@@ -11310,7 +11606,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -11381,13 +11677,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 84.9,
+    "opportunity_score": 85.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -11426,6 +11722,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -11578,6 +11878,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 1
       },
       {
@@ -11737,6 +12041,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -11900,6 +12208,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -12054,6 +12366,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -12204,6 +12520,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -12362,6 +12682,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -12516,6 +12840,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -12535,9 +12863,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "In recent years, the frequency, duration, and intensity of heatwaves across India have escalated sharply due to climate change. However, traditional meteorological warnings rely almost exclusively on ambient dry-bulb temperature thresholds. This creates a critical vulnerability:standard forecasts ignore the deadly compounding effects of relative humidity, wind speed, and solar radiation on the human body.\nA temperature of 40°C at 20% humidity feels vastly different from 40°C at 70% humidity-the latter can be fatal. Current public health infrastructure lacks localized, impact-based forecasting that translates raw weather data into actual physiological risk, human thermal stress levels, and projected mortality rates.\nThe challenge is to design an intelligent, localized early warning system that shifts heatwave forecasting from 'what the weather will be' to 'what the weather will do' to human health.\nParticipants need to build a predictive platform that computes a comprehensive Human Thermal Stress Index (integrating temperature, humidity, wind, and radiation) and links it directly to an automated Mortality Risk Index. The system should offer high-resolution forecasts to help municipal corporations, healthcare systems, and disaster management authorities deploy targeted,preemptive interventions.\nDevelop algorithms to calculate advanced heat stress metrics such as the Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), or Heat Index (HI) rather than relying on temperature alone. Integrate historical public health, demographic (e.g., elderly or outdoor worker density), and localized weather data to predict heat-induced mortality and hospitalization spikes 3 to 5 days in advance. A dynamic GIS-mapped dashboard providing colorcoded, hyper-local alerts (Zone/Ward level) paired with actionable, automated public health advisories. An API capable of pushing automated SMS/WhatsApp regional alerts or localized triggers for city administration to initiate heat action plans (e.g., opening cooling centers, adjusting power grids, shifting outdoor work hours).",
     "dataset_link": "",
     "youtube": "",
@@ -12545,7 +12873,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -12618,13 +12946,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 84.9,
+    "opportunity_score": 85.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -12669,6 +12997,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -12828,6 +13160,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -12983,6 +13319,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -13135,6 +13475,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -13300,6 +13644,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -13455,6 +13803,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -13596,6 +13948,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -13754,6 +14110,10 @@
         "submitted": 1
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -13908,6 +14268,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -14046,6 +14410,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -14204,6 +14572,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -14366,6 +14738,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -14521,6 +14897,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -14681,6 +15061,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -14833,6 +15217,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -14991,6 +15379,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -15142,6 +15534,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -15161,9 +15557,9 @@
     "theme": "Smart Automation",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "• Background Government procurement through the Government e-Marketplace (GeM) involves verification of multiple statutory, regulatory and eligibility requirements of bidders.\nProcurement officers are required to examine and validate documents and information related to Udyam/MSME registration, GST registration and return filing, PAN and Income Tax compliance, Make in India/local content, EPFO/ESIC compliance, Startup India, NSIC, OEM authorization, DigiLocker, blacklisting/debarment and other applicable statutory requirements.\nThe verification process is largely document-intensive and requires cross-checking information across multiple government portals and databases. This results in significant manual effort, longer tender evaluation time and the possibility of inconsistencies or human errors.\n• Description The problem statement envisages development of an AI-powered integrated bid compliance verification platform that can automatically verify the eligibility and compliance status of bidders participating in GeM procurement.\nThe proposed platform shall integrate with relevant Government portals and databases and retrieve/verify bidder information such as Udyam Registration, GSTN, Income Tax, PAN, MCA21, Startup India, NSIC, EPFO, ESIC, DigiLocker, Make in India, BIS/DPIIT and other applicable sources.\nAn AI Verification Engine shall analyse the submitted bidder documents and portal-derived information, identify missing or inconsistent information, validate applicable compliance requirements and generate an overall compliance assessment. The system shall provide a Compliance Dashboard displaying the compliance score, risk level, document verification status, pending requirements and AI-generated recommendations. The final decision regarding qualification/disqualification shall remain with the Procurement Officer.\n• Expected Solution An AI-enabled integrated platform shall be developed for automated verification of bidder compliance in GeM procurement. The solution shall:\n1. Integrate with relevant Government portals/databases for automated verification.\n2. Verify Udyam/MSME status and other applicable statutory registrations.\n3. Verify GST registration and return filing status.\n4. Verify PAN and Income Tax compliance.\n5. Check Make in India/local content requirements.\n6. Verify EPFO/ESIC compliance wherever applicable.\n7. Verify Startup India, NSIC and OEM authorization requirements.\n8. Perform DigiLocker/document verification.\n9. Identify blacklisting and debarment status.\n10.Check other applicable statutory and tender-specific compliance requirements.\n11.Use AI to identify missing, inconsistent or non-compliant information.\n12. Generate an overall Compliance Score and Risk Level.\n13. Provide an AI-generated recommendation to the Procurement Officer.\n14.Maintain an auditable record of verification and compliance checks.\nThe final qualification/disqualification decision shall remain with the Procurement Officer, with the AI system functioning as a decision-support and verification tool.\n• Key Capabilities 1. Multi-Portal Integration – Udyam, GSTN, PAN, GEM etc., 2. AI Document Verification – Automated extraction,validation & cross-verification 3. Automated Compliance Engine – Tender-specific eligibility & statutory compliance checks 4. Risk & Compliance Scoring – Overall compliance score with bidder risk classification 5. AI Recommendation Engine – Identifies gaps,discrepancies & recommends compliance status 6. Audit Trail & Dashboard – Centralized verification status,evidence & decision support\n• Expected Impact\n• 60–80% Reduction in Verification Effort\n• Faster Tender Evaluation & Award\n• Improved Compliance & Transparency\n• Reduced Human Errors & Inconsistencies\n• Better Bidder Screening & Risk Identification\n• Standardized Verification Across CPSEs\n• Complete Auditability & Traceability",
     "dataset_link": "To be provided / Dummy bidder and tender datasets may be used for development and testing.",
     "youtube": "",
@@ -15171,7 +15567,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -15242,13 +15638,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.9,
+    "opportunity_score": 82.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -15293,6 +15689,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -15455,6 +15855,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 2
       },
@@ -15607,6 +16011,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -15766,6 +16174,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -15921,6 +16333,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -16083,6 +16499,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -16241,6 +16661,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -16373,6 +16797,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -16524,6 +16952,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -16690,6 +17122,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -16827,6 +17263,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -16990,6 +17430,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -17141,6 +17585,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -17299,6 +17747,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -17448,6 +17900,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -17605,6 +18061,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -17750,6 +18210,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -17886,6 +18350,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -18013,6 +18481,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -18154,6 +18626,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -18311,6 +18787,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -18448,6 +18928,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -18599,6 +19083,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -18759,6 +19247,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -18914,6 +19406,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -18933,9 +19429,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "• Background Organizations today rely heavily on centralized identity and access management systems, which create significant security and operational risks. These systems are vulnerable to cyber attacks, identity theft, unauthorized access, and single points of failure. Additionally, digital and physical asset ownership is often managed through disconnected or semi-centralized systems, making verification of authenticity, access rights, and ownership history difficult and unreliable. There is a growing need for a decentralized, tamper-proof system that can securely manage user identities, control access permissions, and ensure transparent ownership of digital assets\n• Detailed Description The system aims to introduce a blockchain-based framework that integrates decentralized identity management, access control, and NFT-based digital asset ownership. Each user is assigned a decentralized identifier, which serves as a secure and verifiable digital identity independent of centralized authorities and authenticated using cryptographic proofs. Digital assets are represented as Non-Fungible Tokens (NFTs),ensuring each asset is unique, traceable, and permanently recorded on the blockchain.These NFTs are directly allocated to user identities, establishing verifiable ownership that cannot be altered or duplicated.Smart contracts govern all operations within the platform, allowing only authorized administrators to mint NFTs and assign them to user identities, ensuring controlled asset creation and secure distribution. The system also implements Role-Based Access Control (RBAC), where administrators define roles such as Admin, Manager, Auditor,and User and assign specific access rights to each identity. These permissions are enforced automatically by smart contracts during all operations. Every activity, including identity creation, NFT creation, asset allocation, access rights assignment, ownership transfers, and permission updates, is immutably recorded on the blockchain, providing a transparent and tamper-proof audit trail for verifying ownership, authenticity, and access history.\n• Expected Solution The expected solution is a decentralized blockchain-based platform that integrates secure digital identity management, NFT-based asset ownership, and access control into a unified and trustless system. It utilizes decentralized identifiers to provide users with self-sovereign, cryptographically verifiable identities that function independently of centralized authorities. Digital assets are issued as Non-Fungible Tokens (NFTs), ensuring uniqueness, traceability, and immutable ownership, with each NFT directly linked to a user’s decentralized identity to establish a permanent and verifiable connection between assets and their owners.The system should be governed by smart contracts that enforce strict rules for NFT creation, allocation, transfer, and validation. Only authorized administrators are allowed to create NFTs and assign them to identities, ensuring secure and controlled asset governance while preventing unauthorized duplication or reassignment. Additionally, the platform should implement Role-Based Access Control (RBAC), where administrators define roles and assign access permissions that determine user privileges within the system. All identity operations, NFT transactions, and access control updates are permanently recorded on the blockchain, ensuring complete transparency, auditability,and tamper-proof verification of ownership, permissions, and transaction history.",
     "dataset_link": "",
     "youtube": "",
@@ -18943,7 +19439,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -19014,13 +19510,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 84.9,
+    "opportunity_score": 85.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -19065,6 +19561,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -19222,6 +19722,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -19384,6 +19888,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -19535,6 +20043,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -19694,6 +20206,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -19845,6 +20361,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 1
       },
       {
@@ -20003,6 +20523,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -20151,6 +20675,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 3
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -20305,6 +20833,10 @@
         "submitted": 1
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 3
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 3
       },
@@ -20453,6 +20985,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -20609,6 +21145,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -20749,6 +21289,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -20906,6 +21450,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -21058,6 +21606,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -21207,6 +21759,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -21367,6 +21923,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -21518,6 +22078,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -21675,6 +22239,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -21826,6 +22394,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -21982,6 +22554,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -22143,6 +22719,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -22298,6 +22878,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -22444,6 +23028,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -22584,6 +23172,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -22733,6 +23325,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -22891,6 +23487,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -23029,6 +23629,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -23175,6 +23779,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -23336,6 +23944,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -23475,6 +24087,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -23638,6 +24254,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 2
       },
@@ -23792,6 +24412,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -23954,6 +24578,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -24112,6 +24740,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -24264,6 +24896,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -24424,6 +25060,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -24563,6 +25203,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -24719,6 +25363,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -24871,6 +25519,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -25030,6 +25682,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -25165,6 +25821,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -25311,6 +25971,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -25469,6 +26133,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -25634,6 +26302,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -25784,6 +26456,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -25923,6 +26599,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -26057,6 +26737,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -26202,6 +26886,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -26352,6 +27040,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -26510,6 +27202,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -26664,6 +27360,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -26683,9 +27383,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Background The marine ecosystem plays a vital role in supporting livelihoods, food security, biodiversity, maritime transportation, coastal resilience, and the blue economy. Every day, vast volumes of satellite Earth Observation and oceanographic data, including Sea Surface Temperature (SST), chlorophyll concentration, and weather forecasts, are generated by ISRO and other global agencies.\nMarine stakeholders such as fishermen, researchers, coastal authorities, disaster management agencies, and maritime operators rely on timely access to oceanographic and meteorological information for operational planning and decision-making. As the volume, diversity, and complexity of marine data continue to increase, there is a growing need for an intelligent conversational platform that enables users to interact naturally with marine information, ask questions, explore scenarios, and receive synthesized, evidence-based recommendations tailored to their context.\nAdvances in Agentic AI, conversational intelligence, and geospatial technologies present an opportunity to fundamentally transform how marine information is accessed and utilized. By integrating satellite Earth Observation data with autonomous AI agents, intelligent conversational decision-support systems should be able to answer questions such as 'Where is the nearest Potential Fishing Zone today?', 'Is it safe to venture into the sea tomorrow morning?', or 'What are the tide, weather, and sea conditions near my fishing location?' and provide explainable, context-aware recommendations.\nDescription Develop an Agentic AI-powered conversational platform that enables users to access, analyze, and reason over marine information using natural language.\nThe platform should autonomously interpret user intent, decompose complex requests into executable tasks, coordinate multiple specialized AI agents, retrieve relevant marine and geospatial datasets, perform spatial-temporal reasoning, and synthesize actionable recommendations through a conversational interface.\nThe solution should be capable of integrating information from multiple sources, including satellite Earth Observation products, GIS layers, weather services, oceanographic observations, and marine advisories available in the public domain.\nTypical user queries include:\n• Where is the nearest Potential Fishing Zone (PFZ) today?\n• Is it safe to venture into the sea tomorrow morning?\n• What are the tide, weather, and sea conditions near my fishing location?\n• Are there any lightning or cyclone alerts in my area?\n• Which regions show high chlorophyll concentration and favourable sea surface temperature?\n• What is the safest route for a fishing vessel considering weather and sea-state conditions?\n• Why has fish productivity declined in a particular coastal region?\n• Which fishing zones should be avoided due to hazardous marine conditions or geofencing restrictions?\nThe platform should not merely retrieve information from individual datasets but intelligently correlate observations from multiple sources, explain the reasoning behind its recommendations, and present insights through conversational responses, maps, alerts, and interactive geospatial visualizations.\nExpected Solution Participants are expected to develop an Agentic AI-powered Marine Intelligence Platform that leverages collaborative AI agents, geospatial technologies, and satellite Earth Observation data to provide intelligent conversational decision support.\nThe solution should demonstrate the core principles of Agentic AI, including autonomous planning, reasoning, tool selection, task execution, collaboration among specialized agents, and explainable decision-making.\nThe platform should be capable of:\n• Understanding user intent expressed in natural language.\n• Automatically identifying the language of the user's query and responding in the same language, with emphasis on supporting Indian regional languages.\n• Supporting contextual, multi-turn conversations that enable users to refine queries and explore related scenarios.\n• Autonomously discovering, retrieving, and integrating relevant satellite, marine, meteorological, and geospatial datasets.\n• Performing spatial, temporal, and contextual reasoning by correlating observations from multiple heterogeneous data sources.\n• Generating explainable, evidence-based recommendations supported by maps, charts, geospatial visualizations, and marine advisories.\n• Enhancing fishermen safety through proactive alerts for adverse weather, high waves, lightning, cyclones, and other hazardous marine conditions.\n• Providing geofencing-based notifications when approaching international maritime boundaries, restricted waters, marine protected areas, ecologically sensitive zones, or other predefined operational boundaries.\n• Assisting with route optimization, safe navigation, and operational planning based on prevailing and forecast marine conditions.\n• Delivering reliable recommendations together with the supporting evidence and reasoning used to derive each response.\nParticipants are encouraged to design a modular multi-agent architecture comprising specialized AI agents for planning, marine data discovery, weather intelligence, ocean analytics, geospatial reasoning, risk assessment, visualization, reporting, and user interaction. The architecture should demonstrate autonomous collaboration among agents to solve complex marine intelligence problems while providing an intuitive conversational experience.",
     "dataset_link": "",
     "youtube": "",
@@ -26693,7 +27393,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -26768,13 +27468,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.9,
+    "opportunity_score": 79.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -26822,6 +27522,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -26841,9 +27545,9 @@
     "theme": "Robotics and Drones",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 2,
+    "ideas_submitted": 1,
     "submission_capacity": 500,
-    "fill_percentage": 0.4,
+    "fill_percentage": 0.2,
     "description": "Background India is highly vulnerable to natural disasters including floods, cyclones,earthquakes, landslides, and flash floods, which often result in damaged infrastructure, inaccessible terrain, and delayed rescue operations. During the first few critical hours after a disaster, responders need rapid situational awareness to locate survivors, assess hazards, and prioritize rescue efforts.Traditional ground-based assessments can be slow, dangerous, and resource-intensive, particularly in remote or heavily damaged areas. Autonomous drones equipped with on-device AI can provide real-time aerial intelligence while operating in environments with limited connectivity.\nDescription Develop an autonomous drone system capable of navigating disaster-affected areas and performing real-time detection of survivors and hazards using on-device AI. The drone should use RGB and thermal cameras to identify stranded individuals, detect signs of human presence, and recognize environmental hazards such as fire, floodwaters, damaged structures, exposed electrical lines,debris, landslides, or chemical leaks. The solution must process data locally on the drone to ensure low latency and continued operation even when network connectivity is unavailable. The drone should autonomously map affected regions,generate situational reports, and transmit actionable insights to emergency response teams. This concept aligns with existing edge-AI drone approaches for incident response and disaster assessment.\nExpected Solution The proposed solution should include some or all of the following:\n• Autonomous Navigation: GPS-enabled and GPS-denied navigation capabilities using AI, SLAM, and obstacle avoidance for operation in damaged environments.\n• On-Device AI Inference: Real-time detection of people, survivors, and disaster-related hazards without dependence on cloud connectivity.\n• Multi-Sensor Fusion: Integration of RGB cameras, thermal cameras, IMU,and GPS sensors for accurate identification and localization of victims.\n• Hazard Classification: Detection and classification of floods, fires, smoke,debris, unstable structures, landslide zones, and other safety threats.\n• Geo-Tagged Mapping: Creation of live disaster maps highlighting survivor locations, hazard zones, and safe access routes for rescue teams.\n• Emergency Alerting: Automatic generation of alerts and prioritized rescue recommendations based on detected risks.\n• Offline Resilience: Ability to function in communication-constrained environments with optional 5G/Wi-Fi connectivity when available.\n• Command Center Dashboard: Visualization of drone feeds, detected survivors, hazard markers, and mission status to support disaster management agencies.",
     "dataset_link": "",
     "youtube": "",
@@ -26928,13 +27632,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 72.8,
+    "opportunity_score": 72.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 553.3,
+      "estimated_cap_days": 554.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~553.3 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -26982,6 +27686,10 @@
         "submitted": 1
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 2
       },
@@ -27001,9 +27709,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Background India faces a growing range of environmental and climate-related risks including urban flooding, river floods, cyclones, forest fires, air pollution, droughts, landslides, and extreme weather events. Floods remain among the most frequent disasters across states such as Assam, Bihar, Kerala, and Maharashtra, while forest fires increasingly affect Uttarakhand, Himachal Pradesh, and central Indian forests. Air pollution continues to impact major urban centers, and climate change is increasing the frequency and intensity of these hazards. Government agencies such as NDMA, IMD, and ISRO already rely on environmental monitoring and early warning systems to support disaster management.\nTraditional monitoring systems often depend on centralized infrastructure and may not provide sufficiently localized, real-time intelligence. A distributed network of smart sensors powered by edge AI can improve early detection, reduce response times, and enable communities to act before environmental risks escalate into disasters.\nDescription Design an Environmental Intelligence Network, a distributed system of interconnected AI-powered sensor nodes deployable across cities, rivers, forests, industrial zones, and vulnerable communities. Each node should use local (on device) AI inference to continuously monitor environmental conditions and identify emerging risks such as:\n• Rising water levels and flash flooding\n• Forest fires and smoke events\n• Hazardous air pollution\n• Extreme heat conditions\n• Landslide precursors\n• Industrial emissions or chemical leaks\n• Water quality degradation The sensor network should process data locally to reduce latency, minimize bandwidth requirements, and continue operating even during network outages.\nOnly critical alerts, summarized insights, and risk assessments should be transmitted to regional control centers or disaster management authorities. Edge AI approaches enable devices to operate effectively in low-connectivity environments while providing rapid detection and decision support.\nExpected Solution The proposed solution should include:\n1. Distributed Smart Sensor Nodes\n• Environmental sensors for water level, rainfall, temperature, humidity,smoke, air quality (PM2.5/PM10), gas leakage, soil moisture, and vibration.\n• Solar-powered, low-maintenance deployments suitable for remote locations.\n2. On-Device AI Analytics\n• Real-time anomaly detection at the edge.\n• AI models capable of identifying flood risk, wildfire indicators, air-quality deterioration, and landslide warning signs.\n• Operation without continuous cloud connectivity.\n3. Multi-Hazard Early Warning System\n• Automated alerts for:\no Flooding and flash floods o Forest fires o Hazardous pollution episodes o Extreme weather conditions o Industrial safety incidents 4. Regional Environmental Risk Mapping\n• Geospatial visualization of sensor data.\n• Dynamic risk maps showing hotspots, risk trends, and affected zones.\n• Integration with emergency management dashboards.\n5. Community and Authority Notification\n• Mobile and web alerts for local authorities and citizens.\n• Prioritized warning levels based on severity and confidence scores.\n6. Cloud and Edge Hybrid Architecture\n• Edge processing for immediate decisions.\n• Centralized analytics for long-term trend analysis, forecasting, and policy support.\n7. Scalable and Cost-Effective Deployment\n• Modular architecture that can scale from a single village to a smart city or state-wide deployment.\n• Support for IoT protocols such as LoRaWAN, NB-IoT, Wi-Fi, or 5G.",
     "dataset_link": "",
     "youtube": "",
@@ -27011,7 +27719,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -27089,13 +27797,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 72.9,
+    "opportunity_score": 73.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -27140,6 +27848,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -27304,6 +28016,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -27462,6 +28178,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -27623,6 +28343,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -27780,6 +28504,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -27799,9 +28527,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "• Background Cyber fraud victims increasingly report suspect cryptocurrency wallet addresses used by fraudsters for collection of funds in cases involving:\n• investment scams,\n• task-based frauds,\n• sextortion,\n• ransomware,\n• phishing,\n• darknet transactions,\n• and organized cyber-enabled financial crimes.\nDuring investigations, the reported wallet addresses are often:\n• non-custodial wallets,\n• temporary burner wallets,\n• or intermediary wallets used for layering and laundering.\nThe inability to quickly identify the cryptocurrency exchange or VASP associated with these wallets delays:\n• freezing of assets,\n• preservation of evidence,\n• tracing of fund flows,\n• and victim fund recovery.\nManual blockchain tracing requires significant technical expertise and time, particularly in cases involving:\n• multi-chain transfers,\n• DeFi protocols,\n• mixers/tumblers,\n• bridges,\n• and privacy-enhancing mechanisms.\n• Description The proposed solution envisages a Real-Time Crypto Fraud Attribution System capable of automatically analyzing victim-reported wallet addresses and identifying the nearest exchange or VASP receiving direct deposits.\nThe system should:\n• ingest wallet addresses reported through cybercrime complaint systems,\n• automatically perform blockchain tracing,\n• identify associated exchanges or VASPs,\n• detect fund movement patterns,\n• and generate actionable intelligence for investigators.\nKey features may include:\n• blockchain transaction graph analysis,\n• clustering of exchange wallets,\n• detection of intermediary laundering wallets,\n• identification of cross-chain fund movement,\n• integration with SAHYOG and NCRP platforms,\n• automated alert generation,\n• and risk categorization of wallets.\nThe system should support multiple blockchain ecosystems and provide:\n• real-time tracing capability,\n• automated investigative recommendations,\n• and analytics dashboards for law enforcement agencies\n• Expected Solution A software platform capable of:\n• real-time blockchain intelligence generation,\n• automated VASP identification,\n• tracing of suspect wallets,\n• cross-chain transaction analytics,\n• fund-flow visualization,\n• integration with LEA systems,\n• and generation of standardized investigation reports.\nThe system should:\n• reduce response time in cyber fraud investigations,\n• improve freezing of proceeds of crime,\n• enhance coordination with VASPs,\n• and strengthen digital evidence collection capabilities.\nThe platform should further support:\n• API integrations,\n• scalable blockchain indexing,\n• AI/ML-assisted risk detection,\n• and automated pattern recognition for fraud typologies.",
     "dataset_link": "",
     "youtube": "",
@@ -27809,7 +28537,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -27883,13 +28611,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.9,
+    "opportunity_score": 79.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -27934,6 +28662,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -28094,6 +28826,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -28224,6 +28960,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -28243,9 +28983,9 @@
     "theme": "MedTech / BioTech / HealthTech",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "• Background Personnel serving in Central Armed Police Forces (CAPFs), Armed Forces, and other uniformed services operate under physically demanding, psychologically stressful, and often hazardous conditions.Extended deployments, operational pressures, separation from families,irregular working hours, and exposure to traumatic incidents can significantly impact mental well-being.Currently, stress identification largely depends on manual observation and self-reporting, which may delay timely intervention. There is a need for a proactive, technology-driven solution that can identify early indicators of stress, burnout, and psychological distress while maintaining privacy and organizational trust.\n• Description The proposed solution aims to develop an AI-powered Personnel Stress and Welfare Monitoring System capable of identifying potential indicators of stress, burnout, emotional fatigue, and welfare concerns through analysis of organizational and voluntarily provided wellness data.The system should:\n• Analyze HR-related indicators such as leave patterns,deployment history, duty schedules, transfer frequency, training commitments, and workload trends.\n• Support optional self-reporting and wellness assessments through a secure mobile application.\n• Incorporate voluntary biometric and wellness data, where authorized and legally permissible.\n• Detect behavioral patterns associated with elevated stress risk.\n• Generate risk assessments and welfare recommendations for authorized welfare officers and commanders.\n• Enable proactive counseling, welfare interventions, and workload balancing measures.\nThe system must be designed with strong privacy safeguards and focus on welfare support rather than disciplinary actions.\n• Expected Solution Develop an AI-driven predictive analytics platform comprising:\n• Personnel Wellness Monitoring Dashboard.\n• Mobile-based Wellness and Self-Assessment Application.\n• Predictive Behavioral Analytics Engine.\n• Stress and Burnout Risk Prediction Models.\n• Welfare Intervention Recommendation System.\n• Role-based Access Control and Privacy Management Framework.\n• Automated Alerts for authorized welfare personnel.\n• Data anonymization and secure storage mechanisms.\nThe solution should identify trends and risk factors while ensuring that individual dignity, confidentiality, and data protection requirements are maintained.\n• Expected Benefits 1. Early identification of personnel requiring welfare support.\n2. Reduction in stress-related incidents and operational fatigue.\n3. Improved mental well-being and workforce resilience.\n4. Enhanced readiness and operational effectiveness.\n5. Better workload distribution and personnel management.\n6. Improved retention and job satisfaction.\n7. Data-driven welfare planning and resource allocation.\n8. Reduction in incidents arising from prolonged occupational stress.\n• Preliminary Scope 1. Development of predictive behavioral analytics algorithms.\n2. Mobile-based wellness self-reporting platform.\n3. AI-driven stress and burnout risk assessment engine.\n4. Commander and Welfare Officer dashboard.\n5. Automated intervention recommendation system.\n6. Secure integration with HRMS and personnel management systems.\n7. Privacy-preserving analytics and role-based access controls.\n• Key Technical Challenges 1. Ensuring privacy and confidentiality of sensitive personnel data.\n2. Preventing stigmatization of personnel identified as potentially at risk.\n3. Minimizing false positives and false negatives in risk prediction.\n4. Ensuring ethical and transparent AI decision-making.\n5. Securing highly sensitive psychological and welfare-related information against cyber threats.\n6. Building trust among personnel regarding system usage and data protection.\n• Strategic Importance\n• Enhances force readiness and personnel welfare.\n• Supports evidence-based welfare management.\n• Strengthens organizational resilience and operational effectiveness.\n• Promotes preventive mental health care rather than reactive interventions.\n• Creates an indigenous capability tailored to the unique operational and cultural environment of Indian CAPFs and Armed Forces.\n• Potential Market 1. Central Armed Police Forces (CAPFs).\n2. Indian Armed Forces.\n3. State Police Organizations.\n4. Disaster Response and Emergency Services.\n5. Government Organizations with high-stress workforces.\n6. Corporate Human Resource and Employee Wellness Platforms.\n7. International security and workforce welfare markets.\n• Expected Impact The proposed AI-enabled Personnel Stress and Welfare Monitoring System will help transform welfare management from a reactive process to a proactive and preventive framework. By enabling early identification of stress indicators and facilitating timely interventions,the solution can improve personnel well-being, enhance operational effectiveness, and strengthen the long-term resilience of uniformed services while maintaining the highest standards of privacy, ethics, and data security.",
     "dataset_link": "Anonymized HR datasets, deployment records, leave history, wellness\nsurvey data, workload data, and simulated behavioral datasets.",
     "youtube": "",
@@ -28253,7 +28993,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -28328,13 +29068,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 87.9,
+    "opportunity_score": 88.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -28379,6 +29119,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -28538,6 +29282,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -28694,6 +29442,10 @@
         "submitted": 1
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -28840,6 +29592,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -28991,6 +29747,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -29149,6 +29909,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -29168,9 +29932,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 2,
+    "ideas_submitted": 1,
     "submission_capacity": 500,
-    "fill_percentage": 0.4,
+    "fill_percentage": 0.2,
     "description": "• Background Hilly states in India are highly vulnerable to landslides and flash floods,which often occur with very short warning times. These sudden events result in significant loss of lives and property, and current early warning mechanisms are inadequate for hyper-local prediction and timely evacuation.\n• Description The proposed initiative aims to develop a predictive system that integrates multiple data sources - rainfall data, soil moisture sensors,slope stability models, historical landslide inventories, and real-time IoT inputs. By combining these datasets, the system will generate hyper-local forecasts at the village or ward level, providing sufficient lead time for evacuation and risk mitigation.\n• Expected Solution A comprehensive flash flood prediction system that Integrates rainfall,soil moisture, slope stability, and historical disaster data, utilizes IoT sensors for real-time monitoring, issues hyper-local early warnings at village/ward level, and provides actionable lead time for evacuation and disaster preparedness.",
     "dataset_link": "",
     "youtube": "",
@@ -29248,13 +30012,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.8,
+    "opportunity_score": 78.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 276.7,
+      "estimated_cap_days": 277.2,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~1.8/day), cap may be reached in ~276.7 days. This is an estimate."
+      "note": "At current velocity (~1.8/day), cap may be reached in ~277.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -29300,6 +30064,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -29449,6 +30217,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -29468,9 +30240,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Student Innovation-Provide ideas in a decentralized and distributed ledger technology used to store digital information that powers cryptocurrencies and NFTs and can radically change multiple sectors.",
     "dataset_link": "",
     "youtube": "",
@@ -29478,7 +30250,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -29542,13 +30314,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.9,
+    "opportunity_score": 82.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -29593,6 +30365,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -29741,6 +30517,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -29883,6 +30663,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -30031,6 +30815,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -30050,9 +30838,9 @@
     "theme": "MedTech / BioTech / HealthTech",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Student Innovation-Cutting-edge technology in these sectors continues to be in demand. Recent shifts in healthcare trends, growing populations also present an array of opportunities for innovation.",
     "dataset_link": "",
     "youtube": "",
@@ -30060,7 +30848,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -30124,13 +30912,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.9,
+    "opportunity_score": 82.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -30178,6 +30966,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -30197,9 +30989,9 @@
     "theme": "Miscellaneous",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 2,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.4,
+    "fill_percentage": 0.0,
     "description": "Student Innovation-Technology ideas in tertiary sectors like Hospitality, Financial Services, Entertainment and Retail.",
     "dataset_link": "",
     "youtube": "",
@@ -30207,7 +30999,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -30273,13 +31065,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.8,
+    "opportunity_score": 82.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 276.7,
+      "estimated_cap_days": 277.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~1.8/day), cap may be reached in ~276.7 days. This is an estimate."
+      "note": "At current velocity (~1.8/day), cap may be reached in ~277.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -30324,6 +31116,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -30475,6 +31271,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -30617,6 +31417,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -30768,6 +31572,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -30915,6 +31723,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -30934,9 +31746,9 @@
     "theme": "Travel & Tourism",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Student Innovation-A solution/idea that can boost the current situation of the tourism industries including hotels, travel and others.",
     "dataset_link": "",
     "youtube": "",
@@ -30944,7 +31756,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -31006,13 +31818,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.9,
+    "opportunity_score": 82.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -31057,6 +31869,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -31208,6 +32024,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -31227,9 +32047,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 3,
+    "ideas_submitted": 2,
     "submission_capacity": 500,
-    "fill_percentage": 0.6,
+    "fill_percentage": 0.4,
     "description": "Student Innovation-Disaster management includes ideas related to risk mitigation, Planning and management before, after or during a disaster.",
     "dataset_link": "",
     "youtube": "",
@@ -31299,13 +32119,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.6,
+    "opportunity_score": 81.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 552.2,
+      "estimated_cap_days": 553.3,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~552.2 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~553.3 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -31353,6 +32173,10 @@
         "submitted": 2
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 2
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 3
       },
@@ -31372,9 +32196,9 @@
     "theme": "Smart Education",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 2,
+    "ideas_submitted": 1,
     "submission_capacity": 500,
-    "fill_percentage": 0.4,
+    "fill_percentage": 0.2,
     "description": "Student Innovation-Smart education,a concept that describes learning in digital age. It enables learners to learn more effectively, efficiently, flexibly and comfortably.",
     "dataset_link": "",
     "youtube": "",
@@ -31446,13 +32270,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.8,
+    "opportunity_score": 81.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 553.3,
+      "estimated_cap_days": 554.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~553.3 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -31485,6 +32309,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 1
       },
       {
@@ -31618,6 +32446,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -31765,6 +32597,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -31917,6 +32753,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -32063,6 +32903,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -32213,6 +33057,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -32357,6 +33205,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -32507,6 +33359,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -32653,6 +33509,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -32807,6 +33667,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -32826,9 +33690,9 @@
     "theme": "Renewable / Sustainable Energy",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Student Innovation-Innovative ideas that help manage and generate renewable /sustainable sources more efficiently",
     "dataset_link": "",
     "youtube": "",
@@ -32836,7 +33700,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -32903,13 +33767,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.9,
+    "opportunity_score": 82.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -32954,6 +33818,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -33103,6 +33971,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -33122,9 +33994,9 @@
     "theme": "Smart Automation",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 2,
+    "ideas_submitted": 1,
     "submission_capacity": 500,
-    "fill_percentage": 0.4,
+    "fill_percentage": 0.2,
     "description": "Student Innovation-Ideas focused on the intelligent use of resources for transforming and advancements of technology with combining the artificial intelligence to explore more various sources and get valuable insights.",
     "dataset_link": "",
     "youtube": "",
@@ -33199,13 +34071,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 84.8,
+    "opportunity_score": 84.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 276.7,
+      "estimated_cap_days": 277.2,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~1.8/day), cap may be reached in ~276.7 days. This is an estimate."
+      "note": "At current velocity (~1.8/day), cap may be reached in ~277.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -33251,6 +34123,10 @@
       {
         "timestamp": "2026-09-03T11:50:08.874640",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
       },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
@@ -33401,6 +34277,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -33545,6 +34425,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -33698,6 +34582,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -33717,9 +34605,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 0,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.0,
     "description": "Student Innovation-Disaster management includes ideas related to risk mitigation, Planning and management before, after or during a disaster.",
     "dataset_link": "",
     "youtube": "",
@@ -33727,7 +34615,7 @@
     "scraped_at": "2026-09-03",
     "source": "community-github-mirror+sih-gov-live",
     "source_url": "https://raw.githubusercontent.com/vedantchalke36/sih-2026-problem-statements/main/data/sih2026_ps.json",
-    "competition_level": "Low",
+    "competition_level": "None yet",
     "days_remaining": 26,
     "deadline_pressure": "Low",
     "velocity": {
@@ -33791,13 +34679,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.9,
+    "opportunity_score": 82.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 554.4,
+      "estimated_cap_days": 555.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~0.9/day), cap may be reached in ~554.4 days. This is an estimate."
+      "note": "At current velocity (~0.9/day), cap may be reached in ~555.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -33842,6 +34730,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -33982,6 +34874,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -34114,6 +35010,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -34262,6 +35162,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -34414,6 +35318,10 @@
       },
       {
         "timestamp": "2026-09-03T11:50:08.874640",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
         "submitted": 0
       },
       {
@@ -34570,6 +35478,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -34722,6 +35634,10 @@
         "submitted": 0
       },
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -34846,6 +35762,10 @@
       }
     ],
     "history": [
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
@@ -34992,6 +35912,10 @@
     ],
     "history": [
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 1
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 1
       },
@@ -35129,6 +36053,10 @@
     ],
     "history": [
       {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
+      {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
       },
@@ -35251,6 +36179,10 @@
       }
     ],
     "history": [
+      {
+        "timestamp": "2026-09-04T13:16:19.510511",
+        "submitted": 0
+      },
       {
         "timestamp": "2026-09-04T13:59:06.802960",
         "submitted": 0
