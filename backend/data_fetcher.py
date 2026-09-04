@@ -77,11 +77,14 @@ def fetch_live_submission_counts(url=SIH_GOV_URL, timeout=30):
             
             counts[ps_num] = (int(submitted), int(capacity), deadline_raw.strip(), deadline_date)
 
+        if not counts:
+            raise ValueError("Parsed 0 PS counts from sih.gov.in. Site structure might have changed or page is empty.")
+
         return counts
     except Exception as e:
-        print(f"Warning: Could not fetch live counts from sih.gov.in: {e}")
-        print("Falling back to GitHub mirror submission counts.")
-        return {}
+        print(f"Error: Could not fetch live counts from sih.gov.in: {e}")
+        print("Aborting to prevent corrupting historical data with fallback 0s.")
+        raise ValueError("Live scraping failed. Aborting.") from e
 
 
 def parse_ideas(ideas_str):
@@ -164,13 +167,11 @@ def fetch_and_normalize(url=PRIMARY_URL):
     # Fetch live submission counts from sih.gov.in
     print("Fetching live submission counts from sih.gov.in...")
     live_counts = fetch_live_submission_counts()
-    if live_counts:
-        non_zero = sum(1 for v in live_counts.values() if v[0] > 0)
-        total_subs = sum(v[0] for v in live_counts.values())
-        print(f"Live counts: {len(live_counts)} PS found, "
-              f"{non_zero} with submissions, {total_subs} total ideas.")
-    else:
-        print("No live counts available, using mirror data only.")
+    
+    non_zero = sum(1 for v in live_counts.values() if v[0] > 0)
+    total_subs = sum(v[0] for v in live_counts.values())
+    print(f"Live counts: {len(live_counts)} PS found, "
+          f"{non_zero} with submissions, {total_subs} total ideas.")
 
     records = []
     seen_ps = set()
