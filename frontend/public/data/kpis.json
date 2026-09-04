@@ -1,20 +1,24 @@
 {
-  "total_ps": 226,
-  "software_count": 172,
-  "hardware_count": 54,
-  "total_submissions": 0,
-  "average_fill": 0.0,
+  "total_ps": 233,
+  "software_count": 176,
+  "hardware_count": 57,
+  "total_submissions": 80,
+  "average_fill": 0.1,
   "competition_distribution": {
-    "None yet": 226,
-    "Low": 0,
+    "None yet": 179,
+    "Low": 54,
     "Medium": 0,
     "High": 0
   },
   "most_crowded": {
     "ps_number": "SIH26001",
     "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
-    "fill_percentage": 0.0
+    "fill_percentage": 1.0
   },
-  "fastest_growing": null,
-  "hidden_gem_count": 226
+  "fastest_growing": {
+    "ps_number": "SIH26001",
+    "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
+    "growth_24h": 4
+  },
+  "hidden_gem_count": 233
 }

@@ -266,7 +266,7 @@ def calculate_theme_saturation(records):
             "theme": theme,
             "ps_count": data["ps_count"],
             "total_submissions": data["total_submissions"],
-            "average_fill": avg_fill,
+            "avg_fill": avg_fill,
             "median_fill": median_fill,
             "max_fill": max_fill,
             "saturation": saturation,
