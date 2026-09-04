@@ -107,12 +107,8 @@ def normalize_record(raw, live_counts=None):
     deadline_str = raw.get("deadline_date", "")
 
     # Parse deadline
-    deadline_date = None
-    if deadline_str:
-        try:
-            deadline_date = datetime.strptime(deadline_str, "%Y-%m-%d").strftime("%Y-%m-%d")
-        except ValueError:
-            deadline_date = None
+    # Hardcoding to correct SIH deadline (Sept 12) since community mirror has it wrong as Sept 30
+    deadline_date = "2026-09-12"
 
     return {
         "ps_number": ps_number,
