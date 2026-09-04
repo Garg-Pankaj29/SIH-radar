@@ -212,9 +212,54 @@ function recomputeThemes(psData) {
   });
 }
 
+/**
+ * Recompute trends from updated PS data and live counts.
+ */
+function recomputeTrends(psData, fallbackTrends, liveCounts) {
+  if (!liveCounts || liveCounts.size === 0) return fallbackTrends;
+
+  const movers = [];
+  for (const ps of psData) {
+    const live = liveCounts.get(ps.ps_number);
+    if (!live) {
+      // Keep existing if no live data
+      const existing = fallbackTrends.biggest_movers?.find(m => m.ps_number === ps.ps_number);
+      if (existing) movers.push(existing);
+      continue;
+    }
+
+    const fallbackSub = ps.ideas_submitted || 0;
+    const fallbackGrowth = ps.velocity?.growth_24h ?? ps.velocity?.growth_7d ?? 0;
+    const liveSub = live.submitted;
+    
+    // Approximate new growth: previous growth + (live submissions - previous submissions)
+    const newGrowth = Math.max(0, fallbackGrowth + (liveSub - fallbackSub));
+
+    if (newGrowth > 0) {
+      movers.push({
+        ps_number: ps.ps_number,
+        title: ps.title,
+        growth: newGrowth,
+        period: ps.velocity?.growth_24h !== undefined ? "24h" : "7d",
+        current_submitted: liveSub,
+        fill_percentage: live.capacity > 0 ? Math.round((100 * liveSub) / live.capacity * 100) / 100 : 0
+      });
+    }
+  }
+
+  // Sort by highest growth
+  movers.sort((a, b) => b.growth - a.growth);
+
+  return {
+    ...fallbackTrends,
+    biggest_movers: movers.slice(0, 10)
+  };
+}
+
 export {
   fetchLiveSubmissionCounts,
   mergeliveCounts,
   recomputeKpis,
   recomputeThemes,
+  recomputeTrends,
 };
