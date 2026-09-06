@@ -13,6 +13,9 @@ import {
  * When live counts are available from sih.gov.in, we recompute theme
  * saturation on-the-fly from the live-merged PS data.
  */
+export const preferredRegion = 'bom1'; // Run in Mumbai to bypass government firewalls
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   let themes = null;
 

@@ -5,6 +5,9 @@ import fallbackData from "@/data/api/metadata.json";
  * Hides the real backend URL from the client bundle.
  * Falls back to bundled static dataset if backend is unreachable or not configured.
  */
+export const preferredRegion = 'bom1'; // Run in Mumbai to bypass government firewalls
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   const backend = process.env.API_BACKEND_URL;
   if (backend) {

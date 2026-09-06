@@ -14,5 +14,5 @@ else
     echo "$(date): Changes found. Committing and pushing."
     git add data/ frontend/data/ frontend/public/
     git commit -m "chore(data): auto-refresh SIH data from local cron"
-    git push
+    git push origin HEAD:main
 fi

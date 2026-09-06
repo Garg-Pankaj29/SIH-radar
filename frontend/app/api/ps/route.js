@@ -11,6 +11,9 @@ import { fetchLiveSubmissionCounts, mergeliveCounts } from "@/lib/fetchLiveCount
  *   the client always sees the most up-to-date idea counts — regardless
  *   of whether the backend has stale data or is offline.
  */
+export const preferredRegion = 'bom1'; // Run in Mumbai to bypass government firewalls
+export const dynamic = 'force-dynamic'; // Ensure it fetches fresh data
+
 export async function GET() {
   let psData = null;
 

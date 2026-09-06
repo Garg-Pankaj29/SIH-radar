@@ -12,6 +12,9 @@ import {
  * When live counts are available from sih.gov.in, we recompute trends
  * on-the-fly to show up-to-date 24h growth and biggest movers.
  */
+export const preferredRegion = 'bom1'; // Run in Mumbai to bypass government firewalls
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   let trends = null;
 

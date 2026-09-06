@@ -14,6 +14,9 @@ import {
  * on-the-fly from the live-merged PS data so total_submissions,
  * average_fill, and competition_distribution are always current.
  */
+export const preferredRegion = 'bom1'; // Run in Mumbai to bypass government firewalls
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   let kpis = null;
 
