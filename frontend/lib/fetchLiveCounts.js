@@ -14,12 +14,12 @@
  */
 
 const SIH_GOV_URL = "https://sih.gov.in/sih2026PS";
-const FETCH_TIMEOUT_MS = 15000;
+const FETCH_TIMEOUT_MS = 20000;
 
 // In-memory cache to avoid hammering sih.gov.in on every request
 let cachedCounts = null;
 let cacheTimestamp = 0;
-const CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes
+const CACHE_TTL_MS = 2 * 60 * 1000; // 2 minutes
 
 /**
  * Fetch live submission counts from sih.gov.in.
@@ -27,9 +27,13 @@ const CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes
  * Returns null on failure.
  */
 async function fetchLiveSubmissionCounts() {
+  const region = process.env.VERCEL_REGION || "local";
+  const ts = new Date().toISOString();
+
   // Return cached data if still fresh
   const now = Date.now();
   if (cachedCounts && now - cacheTimestamp < CACHE_TTL_MS) {
+    console.log(`[${ts}] [region=${region}] Live counts: returning cached data (${cachedCounts.size} PS, age=${Math.round((now - cacheTimestamp) / 1000)}s)`);
     return cachedCounts;
   }
 
@@ -37,8 +41,11 @@ async function fetchLiveSubmissionCounts() {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
 
+    console.log(`[${ts}] [region=${region}] Fetching live counts from sih.gov.in...`);
+
     const res = await fetch(SIH_GOV_URL, {
       signal: controller.signal,
+      cache: "no-store",
       headers: {
         "User-Agent":
           "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -47,12 +54,15 @@ async function fetchLiveSubmissionCounts() {
     });
     clearTimeout(timeoutId);
 
+    console.log(`[${ts}] [region=${region}] sih.gov.in response: status=${res.status}, type=${res.headers.get("content-type")}`);
+
     if (!res.ok) {
-      console.warn(`sih.gov.in returned ${res.status}`);
+      console.warn(`[${ts}] [region=${region}] sih.gov.in returned ${res.status} — live scrape FAILED`);
       return cachedCounts; // return stale cache if available
     }
 
     const html = await res.text();
+    console.log(`[${ts}] [region=${region}] sih.gov.in response body length: ${html.length} bytes`);
 
     // Pattern: <td>SIH26XXX</td>\s*<td>X/500</td>
     const pattern = /<td>(SIH\d+)<\/td>\s*<td>(\d+)\/(\d+)<\/td>/g;
@@ -68,14 +78,17 @@ async function fetchLiveSubmissionCounts() {
     if (counts.size > 0) {
       cachedCounts = counts;
       cacheTimestamp = now;
+      const totalSubs = [...counts.values()].reduce((s, v) => s + v.submitted, 0);
       console.log(
-        `Live counts: ${counts.size} PS fetched from sih.gov.in`
+        `[${ts}] [region=${region}] Live scrape SUCCESS: ${counts.size} PS, ${totalSubs} total submissions`
       );
+    } else {
+      console.warn(`[${ts}] [region=${region}] Live scrape returned 200 but parsed 0 PS — possible HTML structure change or firewall block (response length: ${html.length})`);
     }
 
     return counts.size > 0 ? counts : cachedCounts;
   } catch (e) {
-    console.warn("Could not fetch live counts from sih.gov.in:", e.message);
+    console.warn(`[${ts}] [region=${region}] Live scrape FAILED: ${e.message}`);
     return cachedCounts; // return stale cache if available
   }
 }

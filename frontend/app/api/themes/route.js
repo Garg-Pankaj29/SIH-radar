@@ -13,10 +13,14 @@ import {
  * When live counts are available from sih.gov.in, we recompute theme
  * saturation on-the-fly from the live-merged PS data.
  */
-export const preferredRegion = 'bom1'; // Run in Mumbai to bypass government firewalls
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET() {
+  const region = process.env.VERCEL_REGION || "local";
+  const ts = new Date().toISOString();
+  console.log(`[${ts}] [region=${region}] /api/themes — handler invoked`);
+
   let themes = null;
 
   // Try backend first
@@ -24,14 +28,14 @@ export async function GET() {
   if (backend) {
     try {
       const res = await fetch(`${backend}/api/themes.json`, {
-        next: { revalidate: 60 },
+        cache: "no-store",
         headers: { "Accept": "application/json" },
       });
       if (res.ok) {
         themes = await res.json();
       }
     } catch (e) {
-      console.warn("Backend unreachable, serving bundled data fallback:", e.message);
+      console.warn(`[${ts}] [region=${region}] /api/themes — backend unreachable: ${e.message}`);
     }
   }
 
@@ -69,7 +73,7 @@ export async function GET() {
       themes = liveThemesMap;
     }
   } catch (e) {
-    console.warn("Live Themes recomputation failed:", e.message);
+    console.warn(`[${ts}] [region=${region}] /api/themes — live Themes recomputation failed: ${e.message}`);
   }
 
   // Final fallback
@@ -77,7 +81,8 @@ export async function GET() {
 
   return Response.json(finalThemes, {
     headers: {
-      "Cache-Control": "public, s-maxage=60, stale-while-revalidate=120",
+      "Cache-Control": "no-cache, no-store, must-revalidate",
+      "Pragma": "no-cache",
     },
   });
 }

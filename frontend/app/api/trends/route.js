@@ -12,10 +12,14 @@ import {
  * When live counts are available from sih.gov.in, we recompute trends
  * on-the-fly to show up-to-date 24h growth and biggest movers.
  */
-export const preferredRegion = 'bom1'; // Run in Mumbai to bypass government firewalls
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET() {
+  const region = process.env.VERCEL_REGION || "local";
+  const ts = new Date().toISOString();
+  console.log(`[${ts}] [region=${region}] /api/trends — handler invoked`);
+
   let trends = null;
 
   // Try backend first
@@ -23,14 +27,14 @@ export async function GET() {
   if (backend) {
     try {
       const res = await fetch(`${backend}/api/trends.json`, {
-        next: { revalidate: 60 },
+        cache: "no-store",
         headers: { "Accept": "application/json" },
       });
       if (res.ok) {
         trends = await res.json();
       }
     } catch (e) {
-      console.warn("Backend unreachable, serving bundled data fallback:", e.message);
+      console.warn(`[${ts}] [region=${region}] /api/trends — backend unreachable: ${e.message}`);
     }
   }
 
@@ -59,7 +63,7 @@ export async function GET() {
       trends = recomputeTrends(basePsData, baseTrends, liveCounts);
     }
   } catch (e) {
-    console.warn("Live Trends recomputation failed:", e.message);
+    console.warn(`[${ts}] [region=${region}] /api/trends — live Trends recomputation failed: ${e.message}`);
   }
 
   // Final fallback
@@ -67,7 +71,8 @@ export async function GET() {
 
   return Response.json(finalTrends, {
     headers: {
-      "Cache-Control": "public, s-maxage=60, stale-while-revalidate=120",
+      "Cache-Control": "no-cache, no-store, must-revalidate",
+      "Pragma": "no-cache",
     },
   });
 }

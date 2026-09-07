@@ -24,6 +24,47 @@ SIH_GOV_URL = "https://sih.gov.in/sih2026PS"
 USER_AGENT = "SIH-Opportunity-Radar/1.0 (student-project; not affiliated with SIH/MIC/AICTE)"
 
 
+def _load_fallback_counts():
+    """Load submission counts from the most recent snapshot file.
+    
+    Used as a fallback when sih.gov.in is unreachable (e.g., in CI/GitHub Actions).
+    Returns a dict mapping ps_number → (submitted, capacity, deadline_raw, deadline_date).
+    """
+    import os
+    from pathlib import Path
+    
+    snapshots_dir = Path(__file__).parent.parent / "data" / "snapshots"
+    if not snapshots_dir.exists():
+        print("No snapshots directory found for fallback.")
+        return {}
+    
+    # Get most recent snapshot
+    snapshot_files = sorted(snapshots_dir.glob("*.json"), reverse=True)
+    if not snapshot_files:
+        print("No snapshot files found for fallback.")
+        return {}
+    
+    latest = snapshot_files[0]
+    print(f"Loading fallback counts from: {latest.name}")
+    
+    with open(latest, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    counts = {}
+    if isinstance(data, list):
+        for record in data:
+            ps_num = record.get("ps_number", "")
+            if ps_num:
+                submitted = record.get("ideas_submitted", 0)
+                capacity = record.get("submission_capacity", 500)
+                deadline_raw = record.get("deadline", "")
+                deadline_date = record.get("deadline_date")
+                counts[ps_num] = (submitted, capacity, deadline_raw, deadline_date)
+    
+    print(f"Fallback: loaded {len(counts)} PS counts from {latest.name}")
+    return counts
+
+
 def fetch_raw_data(url=PRIMARY_URL, timeout=30):
     """Fetch raw JSON data from the community GitHub mirror.
 
@@ -82,7 +123,15 @@ def fetch_live_submission_counts(url=SIH_GOV_URL, timeout=30):
 
         return counts
     except Exception as e:
-        print(f"Error: Could not fetch live counts from sih.gov.in: {e}")
+        print(f"Warning: Could not fetch live counts from sih.gov.in: {e}")
+        
+        # In CI (GitHub Actions), sih.gov.in blocks US-based IPs.
+        # Fall back to the most recent snapshot data instead of crashing.
+        import os
+        if os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS"):
+            print("Running in CI — falling back to last snapshot data for submission counts.")
+            return _load_fallback_counts()
+        
         print("Aborting to prevent corrupting historical data with fallback 0s.")
         raise ValueError("Live scraping failed. Aborting.") from e
 

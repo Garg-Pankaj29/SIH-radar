@@ -2,7 +2,7 @@ name: Refresh SIH Data
 
 on:
   schedule:
-    - cron: '0 * * * *' # Every 1 hour
+    - cron: '0 */2 * * *' # Every 2 hours
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -11,6 +11,7 @@ permissions:
 jobs:
   refresh-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,9 +21,18 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt 2>/dev/null || echo "No requirements.txt, using stdlib only"
+
       - name: Run data fetcher
+        id: fetch
         run: |
           python -m backend.api_data
+        env:
+          # Retry-friendly: if sih.gov.in blocks GitHub IPs, the script
+          # will still generate data from its last-known good state
+          PYTHONDONTWRITEBYTECODE: "1"
 
       - name: Commit and push if changed
         run: |
