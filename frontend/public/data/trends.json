@@ -41,14 +41,6 @@
       "fill_percentage": 0.8
     },
     {
-      "ps_number": "SIH26047",
-      "title": "Patient Case-Taking Software",
-      "growth": 2,
-      "period": "24h",
-      "current_submitted": 13,
-      "fill_percentage": 2.6
-    },
-    {
       "ps_number": "SIH26068",
       "title": "WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information",
       "growth": 2,
@@ -63,6 +55,14 @@
       "period": "24h",
       "current_submitted": 2,
       "fill_percentage": 0.4
+    },
+    {
+      "ps_number": "SIH26131",
+      "title": "Early detection and management of crop diseases and pest infestations",
+      "growth": 2,
+      "period": "24h",
+      "current_submitted": 7,
+      "fill_percentage": 1.4
     },
     {
       "ps_number": "SIH26173",
@@ -1124,11 +1124,11 @@
     },
     "SIH26131": {
       "ps_number": "SIH26131",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 6,
-      "current_submitted": 6,
-      "fill_change": 0.0
+      "current_submitted": 7,
+      "fill_change": 0.2
     },
     "SIH26132": {
       "ps_number": "SIH26132",
