@@ -49,6 +49,14 @@
       "fill_percentage": 1.0
     },
     {
+      "ps_number": "SIH26038",
+      "title": "Explainable AI for Diabetic Retinopathy Screening in Rural India",
+      "growth": 2,
+      "period": "24h",
+      "current_submitted": 4,
+      "fill_percentage": 0.8
+    },
+    {
       "ps_number": "SIH26132",
       "title": "Strengthening market linkages and price discovery for farmers",
       "growth": 2,
@@ -71,14 +79,6 @@
       "period": "24h",
       "current_submitted": 9,
       "fill_percentage": 1.8
-    },
-    {
-      "ps_number": "SIH26017",
-      "title": "Predictive Analytics System for Early Detection of Land Acquisition Delays",
-      "growth": 1,
-      "period": "24h",
-      "current_submitted": 1,
-      "fill_percentage": 0.2
     }
   ],
   "deltas": {
@@ -380,11 +380,11 @@
     },
     "SIH26038": {
       "ps_number": "SIH26038",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 3,
-      "current_submitted": 3,
-      "fill_change": 0.0
+      "current_submitted": 4,
+      "fill_change": 0.2
     },
     "SIH26039": {
       "ps_number": "SIH26039",
@@ -452,11 +452,11 @@
     },
     "SIH26047": {
       "ps_number": "SIH26047",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 11,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 12,
       "current_submitted": 12,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26048": {
       "ps_number": "SIH26048",
@@ -596,11 +596,11 @@
     },
     "SIH26065": {
       "ps_number": "SIH26065",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 0,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 1,
       "current_submitted": 1,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26066": {
       "ps_number": "SIH26066",
@@ -1540,11 +1540,11 @@
     },
     "SIH26183": {
       "ps_number": "SIH26183",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 2,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 3,
       "current_submitted": 3,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26184": {
       "ps_number": "SIH26184",
@@ -1652,11 +1652,11 @@
     },
     "SIH26197": {
       "ps_number": "SIH26197",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 3,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 4,
       "current_submitted": 4,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26198": {
       "ps_number": "SIH26198",
