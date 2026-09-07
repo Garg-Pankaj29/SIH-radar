@@ -12,7 +12,7 @@ import { fetchLiveSubmissionCounts } from "@/lib/fetchLiveCounts";
  */
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
-export const maxDuration = 30;
+// export const maxDuration = 10; // default for hobby is 10s
 
 export async function GET(request) {
   const region = process.env.VERCEL_REGION || "local";
