@@ -2,7 +2,7 @@ name: Refresh SIH Data
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Every 2 hours
+    - cron: '0 * * * *' # Every hour
   workflow_dispatch: # Allow manual trigger
 
 permissions:
