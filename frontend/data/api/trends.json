@@ -9,6 +9,14 @@
       "fill_percentage": 0.4
     },
     {
+      "ps_number": "SIH26047",
+      "title": "Patient Case-Taking Software",
+      "growth": 2,
+      "period": "24h",
+      "current_submitted": 13,
+      "fill_percentage": 2.6
+    },
+    {
       "ps_number": "SIH26001",
       "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
       "growth": 1,
@@ -41,14 +49,6 @@
       "fill_percentage": 1.0
     },
     {
-      "ps_number": "SIH26033",
-      "title": "Multiple intermediaries reduce farmers earnings and increase consumer prices.",
-      "growth": 1,
-      "period": "24h",
-      "current_submitted": 5,
-      "fill_percentage": 1.0
-    },
-    {
       "ps_number": "SIH26034",
       "title": "Software System to check compliance of Packaged Commodities under Legal Metrology(Packaged Commodities) Rules, 2011 by scanning products, images and labels.",
       "growth": 1,
@@ -73,12 +73,12 @@
       "fill_percentage": 0.8
     },
     {
-      "ps_number": "SIH26047",
-      "title": "Patient Case-Taking Software",
+      "ps_number": "SIH26059",
+      "title": "AI-Enabled Antarctic Sea-Ice, Iceberg Trajectory, and Navigation Decision Support System",
       "growth": 1,
       "period": "24h",
-      "current_submitted": 12,
-      "fill_percentage": 2.4
+      "current_submitted": 2,
+      "fill_percentage": 0.4
     }
   ],
   "deltas": {
@@ -452,11 +452,11 @@
     },
     "SIH26047": {
       "ps_number": "SIH26047",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 12,
-      "current_submitted": 12,
-      "fill_change": 0.0
+      "current_submitted": 13,
+      "fill_change": 0.2
     },
     "SIH26048": {
       "ps_number": "SIH26048",
@@ -548,11 +548,11 @@
     },
     "SIH26059": {
       "ps_number": "SIH26059",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 1,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 2,
       "current_submitted": 2,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26060": {
       "ps_number": "SIH26060",
@@ -644,11 +644,11 @@
     },
     "SIH26071": {
       "ps_number": "SIH26071",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 0,
-      "current_submitted": 0,
-      "fill_change": 0.0
+      "current_submitted": 1,
+      "fill_change": 0.2
     },
     "SIH26072": {
       "ps_number": "SIH26072",
