@@ -138,10 +138,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 10
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 10
       },
@@ -196,6 +192,10 @@
       {
         "timestamp": "2026-09-08T16:00:08.061316",
         "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
+        "submitted": 13
       }
     ]
   },
@@ -209,9 +209,9 @@
     "theme": "Transportation & Logistics",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 4,
+    "ideas_submitted": 6,
     "submission_capacity": 500,
-    "fill_percentage": 0.8,
+    "fill_percentage": 1.2,
     "description": "Background:\nThe North Eastern Region (NER) faces major logistics and accessibility challenges due to difficult terrain, extreme weather conditions, limited transport connectivity, and frequent road disruptions caused by landslides, floods, and infrastructure gaps. Transportation of essential goods such as medicines, food supplies, construction materials, and agricultural produce to remote districts often gets delayed, leading to supply shortages, increased costs, and disruption in public service delivery. Currently, there is no integrated intelligent platform that can provide real-time logistics visibility, route accessibility status, predictive disruption alerts, and optimized transportation planning for the region. To strengthen regional connectivity and support infrastructure-led development initiatives, there is a need for an Al-enabled logistics intelligence system tailored for the unique geographical and operational challenges of NER.\nDescription:\nThis problem statement seeks the development of an Al-powered Smart and in Logistics Accessibility Intelligence Platform for the North Eastern Region (NER) to address challenges related to difficult terrain, weather-induced disruptions, and limited transport connectivity remote areas. The platform should use Artificial Intelligence (Al), Machine Learning (ML), GIS mapping, weather data, and real-time field inputs to monitor transportation networks and improve movement of essential goods and services across the region. The platform should:\na. Monitoring real-time road, bridge, and transport accessibility across districts and remote locations b. Predicting possible route disruptions caused by landslides, floods, heavy rainfall, road damage, or traffic congestion c. Providing Al-based alternate route suggestions and estimated travel delays d. Tracking movement of vehicles carrying essential commodities, medicines, agricultural produce, and construction materials through GPS integration e. Generating automated alerts for blocked roads, inaccessible regions, delayed deliveries, and high-risk transport corridors f. Enabling field officials and local authorities to upload geo-tagged updates, photographs, and incident reports from remote locations g. Creating centralized dashboards for visualizing:\n• District-wise connectivity status\n• Logistics bottlenecks and supply chain gaps Emergency and disaster-time accessibility routes\n• Real-time movement and delivery status of essential supplies h. Supporting multilingual notifications and offline data synchronization for low-network areas The platform should help improve regional connectivity, strengthen emergency response systems, reduce supply chain disruptions, and support efficient planning and monitoring of logistics operations in the North Eastern Region.\nExpected Solution:\n• A scalable Al-based software platform integrated with GIS and real-time analytics featuring:\n• Al-powered route prediction and optimization engine\n• GIS-enabled accessibility monitoring dashboard\n• GPS-based vehicle tracking system\n• Real-time alert and notification mechanism\n• Mobile/web application for field-level reporting and monitoring Integration capability with weather APIs, transport databases, and government monitoring systems\n• Cloud-based infrastructure with secure data management and offline support The platform should improve regional logistics efficiency, reduce supply disruptions, strengthen emergency response capability, and support infrastructure and economic development across the North Eastern Region.",
     "dataset_link": "",
     "youtube": "",
@@ -223,13 +223,13 @@
     "days_remaining": 22,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 3.4,
+      "growth_24h": 2,
+      "velocity_48h": 3.4,
+      "growth_48h": 2,
+      "velocity_7d": 3.4,
+      "growth_7d": 2,
+      "velocity_overall": 3.4,
       "momentum": "Stable",
       "has_history": true
     },
@@ -294,13 +294,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.5,
+    "opportunity_score": 78.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 145.3,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~3.4/day), cap may be reached in ~145.3 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -335,10 +335,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
       {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
@@ -394,6 +390,10 @@
       {
         "timestamp": "2026-09-08T16:00:08.061316",
         "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
+        "submitted": 6
       }
     ]
   },
@@ -535,10 +535,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 5
       },
@@ -592,6 +588,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 7
       }
     ]
@@ -732,10 +732,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -789,6 +785,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -925,10 +925,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -982,6 +978,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -1121,10 +1121,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -1178,6 +1174,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -1318,10 +1318,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -1375,6 +1371,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -1516,10 +1516,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -1573,6 +1569,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -1708,10 +1708,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -1765,6 +1761,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -1905,10 +1905,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -1962,6 +1958,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -2101,10 +2101,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -2158,6 +2154,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -2299,10 +2299,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -2356,6 +2352,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -2498,10 +2498,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -2555,6 +2551,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -2698,10 +2698,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -2755,6 +2751,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -2891,10 +2891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -2948,6 +2944,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -3088,10 +3088,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -3145,6 +3141,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -3285,10 +3285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -3342,6 +3338,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -3483,10 +3483,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -3540,6 +3536,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -3679,10 +3679,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -3736,6 +3732,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -3873,10 +3873,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -3930,6 +3926,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -4062,10 +4062,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -4119,6 +4115,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -4243,10 +4243,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -4300,6 +4296,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -4425,10 +4425,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -4482,6 +4478,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -4626,10 +4626,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -4683,6 +4679,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -4827,10 +4827,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -4884,6 +4880,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -5029,10 +5029,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -5086,6 +5082,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -5221,10 +5221,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -5278,6 +5274,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -5418,10 +5418,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -5475,6 +5471,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -5605,10 +5605,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -5662,6 +5658,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -5780,10 +5780,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -5837,6 +5833,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -5953,10 +5953,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -6010,6 +6006,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -6145,10 +6145,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 6
       },
@@ -6202,6 +6198,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 8
       }
     ]
@@ -6325,10 +6325,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 5
       },
@@ -6382,6 +6378,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -6521,10 +6521,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -6578,6 +6574,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -6714,10 +6714,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -6771,6 +6767,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -6911,10 +6911,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -6968,6 +6964,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -7109,10 +7109,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -7166,6 +7162,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -7306,10 +7306,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -7363,6 +7359,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -7503,10 +7503,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -7560,6 +7556,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -7696,10 +7696,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 6
       },
@@ -7753,6 +7749,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 7
       }
     ]
@@ -7892,10 +7892,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -7949,6 +7945,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -8070,10 +8070,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -8127,6 +8123,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -8264,10 +8264,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -8321,6 +8317,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -8459,10 +8459,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 6
       },
@@ -8516,6 +8512,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 7
       }
     ]
@@ -8642,10 +8642,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -8699,6 +8695,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -8839,10 +8839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -8896,6 +8892,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -9037,10 +9037,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 13
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 13
       },
@@ -9094,6 +9090,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 14
       }
     ]
@@ -9210,10 +9210,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -9267,6 +9263,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -9405,10 +9405,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -9462,6 +9458,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -9602,10 +9602,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -9659,6 +9655,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -9795,10 +9795,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -9852,6 +9848,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -9993,10 +9993,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -10050,6 +10046,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -10191,10 +10191,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -10248,6 +10244,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -10393,10 +10393,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -10450,6 +10446,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -10573,10 +10573,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -10630,6 +10626,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -10764,10 +10764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -10821,6 +10817,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -10965,10 +10965,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -11022,6 +11018,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -11163,10 +11163,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -11220,6 +11216,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -11349,10 +11349,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -11406,6 +11402,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -11539,10 +11539,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -11596,6 +11592,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -11730,10 +11730,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -11787,6 +11783,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -11919,10 +11919,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -11976,6 +11972,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -12104,10 +12104,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -12161,6 +12157,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -12285,10 +12285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -12342,6 +12338,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -12475,10 +12475,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -12532,6 +12528,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -12667,10 +12667,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -12724,6 +12720,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -12865,10 +12865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -12922,6 +12918,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -13062,10 +13062,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 7
       },
@@ -13119,6 +13115,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 11
       }
     ]
@@ -13257,10 +13257,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -13314,6 +13310,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -13430,10 +13430,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -13487,6 +13483,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -13621,10 +13621,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -13678,6 +13674,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -13804,10 +13804,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -13861,6 +13857,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -14000,10 +14000,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -14057,6 +14053,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -14189,10 +14189,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -14246,6 +14242,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -14377,10 +14377,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -14434,6 +14430,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -14569,10 +14569,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -14626,6 +14622,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -14768,10 +14768,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -14825,6 +14821,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -14968,10 +14968,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -15025,6 +15021,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -15162,10 +15162,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -15219,6 +15215,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -15355,10 +15355,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -15412,6 +15408,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -15550,10 +15550,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -15607,6 +15603,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -15744,10 +15744,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -15801,6 +15797,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -15940,10 +15940,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -15997,6 +15993,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -16136,10 +16136,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -16193,6 +16189,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -16331,10 +16331,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -16388,6 +16384,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -16526,10 +16526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -16583,6 +16579,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -16728,10 +16728,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -16785,6 +16781,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -16923,10 +16923,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -16980,6 +16976,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -17107,10 +17107,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -17164,6 +17160,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -17302,10 +17302,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -17359,6 +17355,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -17496,10 +17496,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -17553,6 +17549,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -17677,10 +17677,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -17734,6 +17730,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -17874,10 +17874,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -17931,6 +17927,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -18074,10 +18074,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -18131,6 +18127,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -18271,10 +18271,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 5
       },
@@ -18328,6 +18324,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -18469,10 +18469,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -18526,6 +18522,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -18664,10 +18664,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -18721,6 +18717,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -18859,10 +18859,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -18916,6 +18912,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -19050,10 +19050,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -19107,6 +19103,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -19244,10 +19244,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -19301,6 +19297,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -19443,10 +19443,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -19500,6 +19496,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -19638,10 +19638,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -19696,6 +19692,10 @@
       {
         "timestamp": "2026-09-08T16:00:08.061316",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
+        "submitted": 3
       }
     ]
   },
@@ -19709,9 +19709,9 @@
     "theme": "Smart Automation",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 2,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.4,
     "description": "• Background The Infrastructure & Project Monitoring Division (IPMD), Ministry of Statistics and Programme Implementation (MoSPI) monitors the Central Sector Infrastructure Projects costing ?150 crore and above, across all the infrastructural Ministries/ Departments. The project monitoring was undertaken through the Online Computerised Monitoring System (OCMS) since 2006, which served as the primary repository of project-level information relating to project cost, expenditure, timelines and implementation status. Over nearly two decades, OCMS generated a valuable historical database capturing project implementation trends, cost overruns and time overruns across sectors. Later, OCMS was modernized to Project Assessment, Infrastructure Monitoring and Analytics for Nation-building (PAIMANA) portal, to enable a comprehensive and integrated project-monitoring ecosystem.\n• PAIMANA Portal and Data Ecosystem PAIMANA is a web-based integrated project-monitoring platform designed to function as a national repository of infrastructure projects. It captures project-level information relating to approved cost, revised cost, expenditure, implementation timelines, physical progress, milestones, implementing agencies and project status. The information on infrastructure projects is updated on a monthly basis, through role-based access and APIs.\nAs of April 2026 , the PAIMANA project-monitoring framework tracks 1,981 ongoing infrastructure projects across 17 Central Ministries/Departments covering 22 infrastructure sectors . These projects have an aggregate original cost of approximately ?37.13 lakh crore, revised cost of approximately ?42.78 lakh crore and cumulative expenditure of approximately ?20.36 lakh crore. The monitored portfolio covers major sectors including Transport & Logistics, Energy, Water & Sanitation, Communication, Social Infrastructure, Coal, Steel and Mining.\nDespite the availability of comprehensive project-monitoring data, infrastructure projects frequently encounter challenges such as cost overruns, time overruns, delays in milestone achievement, contractual and implementation bottlenecks, resource constraints and execution risks. These challenges often result in significant escalation of project costs and delays in the creation of public infrastructure assets.\nWhile the existing PAIMANA framework provides robust capabilities for monitoring and reporting project progress, there is a growing need to move beyond descriptive monitoring towards predictive and prescriptive monitoring. The scale, diversity and continuous availability of project data provide an opportunity to strengthen infrastructure project monitoring through data-driven analytical and decision-support systems.\n• AI Opportunity from PAIMANA Database The historical project-monitoring database available through OCMS combined with the recent PAIMANA portal provides a unique and comprehensive repository of infrastructure project data spanning nearly two decades. The database encompasses projects of varying sizes, sectors, geographical locations, implementing agencies, expenditure patterns and implementation timelines.\nThe availability of large-scale historical repository of project data together with continuously updated project information received through integrated digital systems provides a strong foundation for the application of Artificial Intelligence (AI), Machine Learning (ML) and Large Language Models (LLMs). These technologies can be leveraged to develop predictive analytics and early warning decision support systems for identifying cost overruns, schedule delays and implementation risks, thereby enabling proactive interventions and evidence-based decision-making in infrastructure project monitoring.\n• Problem Statement and Scope of Work for Hackathon Under the broader theme of 'AI for Infrastructure Monitoring', the proposed use-case seeks to develop an AI-powered Predictive Analytics and Early Warning System capable of analysing the large volume of project data available at PAIMANA portal, using Open-Source Tools and Softwares, to identify projects that are likely to experience cost escalation, schedule delays and implementation risks before such issues materialise.\nThe solution should assist policymakers, project administrators and monitoring agencies in prioritising interventions, improving project execution outcomes and enhancing the effectiveness of infrastructure project monitoring. The use-case aims to transform project monitoring from a descriptive reporting framework into a predictive and prescriptive decision-support system capable of generating actionable insights for evidence-based decision-making. In this regard, the proposed solution may address the following technical dimensions:\na)Development and evaluation of statistical analysis and predictive models using open-source tools and methodologies for analysing project performance and forecasting cost overruns, time overruns and implementation risks.\nb)Assessment of whether Artificial Intelligence (AI) and Machine Learning (ML) techniques provide significant gains over conventional statistical methods in terms of prediction accuracy, early warning capabilities and decision-support for infrastructure project monitoring.\nc)Development of prediction and analytical models based on the existing Common Upload Form (CUF) fields available in the project-monitoring framework, along with an assessment of the extent to which predictive performance is attributable to the current CUF fields vis-à-vis additional variables that are not presently captured in the CUF.\nIt is suggested/ desirable that the proposed solution may leverage any of the following (using Open-Source Tools/ Softwares); (a) Artificial Intelligence (AI), (b) Machine Learning (ML), (c) Big Data Analytics, (d) Forecast Modelling and (e) Large Language Models (LLMs); to predict cost and time overruns, generate project-level risk scores, identify emerging implementation challenges, and provide early warning signals and decision-support mechanisms for timely interventions. However, these suggested techniques are only indicative and non-exhaustive. The students may adopt alternative or additional methodologies, tools, frameworks, or analytical approaches, as deemed appropriate, to achieve the stated objectives.\n• Possible Expected Outcomes and Evaluation An indicative solution proposed by the student should comprise of any of the outcomes given below:\na. Cost Overrun Prediction Model;\nb. Time Overrun Prediction Model;\nc. Project Risk Scoring Framework;\nd. Early Warning Alert System;\ne. Benchmarking and Comparative Analytics Module;\nf. Cost Escalation Driver Analysis Module;\ng. AI-powered Monitoring Dashboard;\nh. LLM-enabled Project Intelligence Assistant;\ni. Documentation and deployment framework.\nThe above outcomes are indicative and non-exhaustive. Students may propose alternative outputs, features or solution components that effectively address the problem statement. It is desirable that only open-source tools/ software be used to achieve the stated objectives. The selection and application of such methods shall remain at the discretion of the student, subject to demonstrating their suitability, effectiveness, and alignment with the project requirements.",
     "dataset_link": "The Project Monitoring Report for the month of April, 2026 may be referred for developing an understanding on the key field/ parameters through https://paimana-proj.mospi.gov.in/ReportPage",
     "youtube": "",
@@ -19723,13 +19723,13 @@
     "days_remaining": 22,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 1.7,
-      "growth_24h": 1,
-      "velocity_48h": 1.7,
-      "growth_48h": 1,
-      "velocity_7d": 1.7,
-      "growth_7d": 1,
-      "velocity_overall": 1.7,
+      "velocity_24h": 3.4,
+      "growth_24h": 2,
+      "velocity_48h": 3.4,
+      "growth_48h": 2,
+      "velocity_7d": 3.4,
+      "growth_7d": 2,
+      "velocity_overall": 3.4,
       "momentum": "Stable",
       "has_history": true
     },
@@ -19792,13 +19792,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 87.9,
+    "opportunity_score": 87.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 293.5,
+      "estimated_cap_days": 146.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~1.7/day), cap may be reached in ~293.5 days. This is an estimate."
+      "note": "At current velocity (~3.4/day), cap may be reached in ~146.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -19833,10 +19833,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
       {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
@@ -19892,6 +19888,10 @@
       {
         "timestamp": "2026-09-08T16:00:08.061316",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
+        "submitted": 2
       }
     ]
   },
@@ -19905,9 +19905,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 3,
+    "ideas_submitted": 4,
     "submission_capacity": 500,
-    "fill_percentage": 0.6,
+    "fill_percentage": 0.8,
     "description": "• Background Recent advancements in generative AI and neural speech synthesis have made high-fidelity voice cloning possible from only a few seconds of recorded audio. Threat actors are exploiting these capabilities to impersonate CXOs,government officials, and trusted individuals in order to initiate fraudulent financial transactions, manipulate employees,or bypass verification procedures in high-risk workflows. Conventional call verification methods-such as caller ID, manual call-back, and basic voice familiarity-are no longer sufficient to distinguish genuine callers from AI-generated or manipulated voices, especially in high-pressure social engineering scenarios.\nThese attacks are increasingly orchestrated over VoIP, mobile networks, and enterprise collaboration platforms,sometimes combined with leaked personal information to create highly convincing narratives. The absence of automated detection of synthetic or cloned voices in real time significantly increases the likelihood of large-scale financial fraud and reputational damage to institutions that rely heavily on telephonic instructions and approvals.\n• Problem Statement Current telephony and communication ecosystems lack a robust, AI-driven mechanism to detect and flag voice cloning or synthetic speech impersonation during live calls. Existing solutions rarely perform granular analysis of acoustic artifacts, prosody, and speech generation patterns and typically cannot provide an actionable risk score while the conversation is ongoing.There is a need for an end-to-end security framework that can analyze incoming voice streams in near real time,determine the likelihood that the caller is using a cloned or AI-generated voice, and provide timely alerts and recommendations before sensitive actions-such as approval of fund transfers or disclosure of confidential information-are taken. The solution must be privacy-preserving, scalable across telecom and enterprise environments, and support multilingual contexts with diverse Indian accents and dialects.\n• Proposed Solution Develop an AI-powered, real-time voice integrity verification framework that integrates advanced deep learning,digital signal processing, and contextual analysis to detect AI-generated or manipulated voices. The system should continuously process live or near live audio streams from telephony, VoIP, and collaboration platforms,extract discriminative features, and compute a dynamic impersonation risk score.The framework should expose APIs and SDKs for seamless integration with banking applications, enterprise communication systems, and telecom operator infrastructures, enabling proactive fraud prevention and enhanced cyber resilience in voice channels.\n• Key Components\n• Multi-Layer Voice Authenticity Analysis o Acoustic and spectral analysis using deep learning models to detect synthesis artifacts, phase inconsistencies, and spectral signatures indicative of cloned or AI-generated audio.\no Prosody and behavioral analysis to model speech rhythm, pitch contours, pauses, and microvariations, differentiating natural human speech from neural TTS outputs.\no Cross-session consistency checks comparing ongoing call features against historical genuine samples (where available) to detect anomalies in speaker identity.\n• Real-Time Risk Scoring Engine o Continuous computation of a confidence/risk score indicating the probability of impersonation or synthetic speech.\no Threshold-based alerting logic configurable for different risk scenarios (for example, high-value transaction calls, privileged access approvals).\no Contextual enrichment using metadata such as call origin, known contact information, transaction context, and historical fraud indicators.\n• Alerting and User Interaction Layer o Multi-channel alert mechanisms (UI prompts, SMS/email, in-app notifications) for frontline staff and end users.\no Pre-transaction warning prompts recommending secondary verification such as call-back, multifactor authentication, or escalation to supervisors.\no Configurable workflows for banks,enterprises, and government agencies to define automated responses when impersonation risk crosses thresholds.\n• Privacy and Compliance Module o Minimal retention of voice recordings with options for on-device or edge inference to reduce central storage of sensitive audio data.\no Support for anonymization or feature-only logging to comply with data protection and privacy requirements.\n• Platform and Integration APIs o REST/gRPC APIs and SDKs for integration with core banking systems, contact center platforms, enterprise communication tools, and telecom networks.\no Support for multiple Indian languages and regional accents through language-agnostic feature extraction and language-specific acoustic models.\n• Expected Outcomes\n• Significant reduction in financial fraud and social engineering incidents driven by voice cloning and AIenabled impersonation.\n• Improved trust and assurance in voice-based communication channels for individuals, financial institutions, enterprises, and government organizations.\n• Early detection of AI-driven social engineering attacks, enabling proactive containment and incident response.\n• A reusable security layer for telecom operators and enterprises that strengthens overall cyber resilience and aligns with national cybersecurity objectives.",
     "dataset_link": "",
     "youtube": "",
@@ -19919,13 +19919,13 @@
     "days_remaining": 22,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 1.7,
+      "growth_24h": 1,
+      "velocity_48h": 1.7,
+      "growth_48h": 1,
+      "velocity_7d": 1.7,
+      "growth_7d": 1,
+      "velocity_overall": 1.7,
       "momentum": "Stable",
       "has_history": true
     },
@@ -19990,13 +19990,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 84.6,
+    "opportunity_score": 84.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 291.8,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~1.7/day), cap may be reached in ~291.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -20031,10 +20031,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
@@ -20090,6 +20086,10 @@
       {
         "timestamp": "2026-09-08T16:00:08.061316",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
+        "submitted": 4
       }
     ]
   },
@@ -20231,10 +20231,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -20288,6 +20284,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -20429,10 +20429,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -20486,6 +20482,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -20604,10 +20604,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -20661,6 +20657,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -20795,10 +20795,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -20852,6 +20848,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -20998,10 +20998,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -21055,6 +21051,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -21178,10 +21178,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -21235,6 +21231,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -21378,10 +21378,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -21435,6 +21431,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -21572,10 +21572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -21629,6 +21625,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -21767,10 +21767,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -21824,6 +21820,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -21959,10 +21959,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -22016,6 +22012,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -22153,10 +22153,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -22210,6 +22206,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -22338,10 +22338,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -22395,6 +22391,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -22514,10 +22514,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -22571,6 +22567,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -22684,10 +22684,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -22741,6 +22737,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -22865,10 +22865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -22922,6 +22918,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -23059,10 +23059,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -23116,6 +23112,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -23239,10 +23239,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -23296,6 +23292,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -23429,10 +23429,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -23486,6 +23482,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -23627,10 +23627,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -23684,6 +23680,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -23822,10 +23822,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -23879,6 +23875,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -24016,10 +24016,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -24073,6 +24069,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -24213,10 +24213,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -24270,6 +24266,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -24412,10 +24412,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -24469,6 +24465,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -24606,10 +24606,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -24663,6 +24659,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -24802,10 +24802,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -24859,6 +24855,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -24996,10 +24996,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -25053,6 +25049,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -25191,10 +25191,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 7
       },
@@ -25248,6 +25244,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 10
       }
     ]
@@ -25381,10 +25381,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 6
       },
@@ -25438,6 +25434,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 6
       }
     ]
@@ -25573,10 +25573,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -25630,6 +25626,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -25764,10 +25764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -25821,6 +25817,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -25957,10 +25957,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -26014,6 +26010,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -26140,10 +26140,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -26197,6 +26193,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -26334,10 +26334,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -26391,6 +26387,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -26526,10 +26526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -26583,6 +26579,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -26718,10 +26718,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -26775,6 +26771,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -26915,10 +26915,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -26972,6 +26968,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -27109,10 +27109,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -27166,6 +27162,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -27303,10 +27303,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -27360,6 +27356,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -27497,10 +27497,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -27554,6 +27550,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -27693,10 +27693,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -27750,6 +27746,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -27891,10 +27891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -27948,6 +27944,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -28086,10 +28086,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -28143,6 +28139,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -28272,10 +28272,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -28329,6 +28325,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -28455,10 +28455,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -28512,6 +28508,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -28644,10 +28644,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -28701,6 +28697,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -28839,10 +28839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -28896,6 +28892,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -29020,10 +29020,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -29077,6 +29073,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -29205,10 +29205,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -29262,6 +29258,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -29404,10 +29404,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -29461,6 +29457,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -29585,10 +29585,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -29642,6 +29638,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -29786,10 +29786,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -29843,6 +29839,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -29983,10 +29983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -30040,6 +30036,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -30182,10 +30182,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -30239,6 +30235,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -30380,10 +30380,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -30437,6 +30433,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -30575,10 +30575,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -30632,6 +30628,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -30772,10 +30772,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -30829,6 +30825,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -30954,10 +30954,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -31011,6 +31007,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -31147,10 +31147,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -31204,6 +31200,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -31342,10 +31342,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -31399,6 +31395,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -31538,10 +31538,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -31595,6 +31591,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -31716,10 +31716,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -31773,6 +31769,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -31902,10 +31902,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -31959,6 +31955,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -32100,10 +32100,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -32157,6 +32153,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -32302,10 +32302,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -32359,6 +32355,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -32492,10 +32492,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -32549,6 +32545,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -32671,10 +32671,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -32728,6 +32724,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -32848,10 +32848,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -32905,6 +32901,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -33033,10 +33033,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -33090,6 +33086,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -33223,10 +33223,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -33280,6 +33276,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -33418,10 +33418,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -33475,6 +33471,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -33612,10 +33612,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -33669,6 +33665,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -33810,10 +33810,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -33867,6 +33863,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -34010,10 +34010,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -34067,6 +34063,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -34211,10 +34211,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -34268,6 +34264,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -34412,10 +34412,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -34469,6 +34465,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -34612,10 +34612,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 7
       },
@@ -34669,6 +34665,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 7
       }
     ]
@@ -34811,10 +34811,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -34868,6 +34864,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -35008,10 +35008,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -35065,6 +35061,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -35205,10 +35205,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -35262,6 +35258,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -35402,10 +35402,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -35459,6 +35455,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -35572,10 +35572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -35629,6 +35625,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -35770,10 +35770,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -35827,6 +35823,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -35966,10 +35966,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -36023,6 +36019,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -36162,10 +36162,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -36219,6 +36215,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -36350,10 +36350,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -36407,6 +36403,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -36542,10 +36542,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -36599,6 +36595,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -36737,10 +36737,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -36794,6 +36790,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -36930,10 +36930,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -36987,6 +36983,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -37117,10 +37117,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -37174,6 +37170,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -37304,10 +37304,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -37361,6 +37357,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -37489,10 +37489,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -37546,6 +37542,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -37674,10 +37674,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -37731,6 +37727,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -37859,10 +37859,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -37916,6 +37912,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -38046,10 +38046,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 6
       },
@@ -38103,6 +38099,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 6
       }
     ]
@@ -38235,10 +38235,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -38292,6 +38288,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -38423,10 +38423,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -38480,6 +38476,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -38608,10 +38608,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -38665,6 +38661,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -38796,10 +38796,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -38853,6 +38849,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -38983,10 +38983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -39040,6 +39036,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -39168,10 +39168,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 4
       },
@@ -39225,6 +39221,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 5
       }
     ]
@@ -39356,10 +39356,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 6
       },
@@ -39413,6 +39409,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 7
       }
     ]
@@ -39541,10 +39541,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 9
       },
@@ -39598,6 +39594,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 10
       }
     ]
@@ -39716,10 +39716,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 7
       },
@@ -39773,6 +39769,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 7
       }
     ]
@@ -39889,10 +39889,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -39946,6 +39942,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -40076,10 +40076,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -40133,6 +40129,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -40265,10 +40265,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -40322,6 +40318,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -40454,10 +40454,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -40511,6 +40507,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -40641,10 +40641,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -40698,6 +40694,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -40828,10 +40828,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -40885,6 +40881,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -41015,10 +41015,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -41072,6 +41068,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -41204,10 +41204,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -41261,6 +41257,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -41395,10 +41395,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -41452,6 +41448,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -41585,10 +41585,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 5
       },
@@ -41642,6 +41638,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 6
       }
     ]
@@ -41771,10 +41771,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -41828,6 +41824,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -41961,10 +41961,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -42018,6 +42014,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 3
       }
     ]
@@ -42149,10 +42149,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -42206,6 +42202,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -42336,10 +42336,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -42393,6 +42389,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -42526,10 +42526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 3
       },
@@ -42583,6 +42579,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 4
       }
     ]
@@ -42713,10 +42713,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -42770,6 +42766,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -42890,10 +42890,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -42947,6 +42943,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -43065,10 +43065,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -43122,6 +43118,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -43253,10 +43253,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -43310,6 +43306,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -43449,10 +43449,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -43506,6 +43502,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -43646,10 +43646,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 1
       },
@@ -43703,6 +43699,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 1
       }
     ]
@@ -43842,10 +43842,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -43899,6 +43895,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -44019,10 +44019,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -44076,6 +44072,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -44216,10 +44216,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 2
       },
@@ -44273,6 +44269,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 2
       }
     ]
@@ -44405,10 +44405,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -44462,6 +44458,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
@@ -44580,10 +44580,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-08T01:45:07.543403",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-08T02:00:55.233812",
         "submitted": 0
       },
@@ -44637,6 +44633,10 @@
       },
       {
         "timestamp": "2026-09-08T16:00:08.061316",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-08T16:15:13.394467",
         "submitted": 0
       }
     ]
