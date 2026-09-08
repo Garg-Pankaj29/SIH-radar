@@ -1,41 +1,25 @@
 {
   "biggest_movers": [
     {
-      "ps_number": "SIH26047",
-      "title": "Patient Case-Taking Software",
-      "growth": 12,
-      "period": "24h",
-      "current_submitted": 14,
-      "fill_percentage": 2.8
-    },
-    {
-      "ps_number": "SIH26001",
-      "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
-      "growth": 11,
-      "period": "24h",
-      "current_submitted": 13,
-      "fill_percentage": 2.6
-    },
-    {
       "ps_number": "SIH26068",
       "title": "WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information",
-      "growth": 9,
+      "growth": 4,
       "period": "24h",
       "current_submitted": 11,
       "fill_percentage": 2.2
     },
     {
-      "ps_number": "SIH26032",
-      "title": "Farmers often face long waiting times, lack of information regarding procurement schedules, and uncertainty about procurement status.",
-      "growth": 8,
+      "ps_number": "SIH26001",
+      "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
+      "growth": 3,
       "period": "24h",
-      "current_submitted": 8,
-      "fill_percentage": 1.6
+      "current_submitted": 13,
+      "fill_percentage": 2.6
     },
     {
-      "ps_number": "SIH26206",
-      "title": "Student Innovation-Disaster management includes ideas related to risk mitigation, Planning and management before, after or during a disaster.",
-      "growth": 8,
+      "ps_number": "SIH26131",
+      "title": "Early detection and management of crop diseases and pest infestations",
+      "growth": 3,
       "period": "24h",
       "current_submitted": 10,
       "fill_percentage": 2.0
@@ -43,42 +27,58 @@
     {
       "ps_number": "SIH26003",
       "title": "AI-Based Cognitive Gaming and Memory Assistance Platform for Elderly Dementia Patients in North Eastern Region (NER)",
-      "growth": 7,
+      "growth": 2,
       "period": "24h",
       "current_submitted": 7,
       "fill_percentage": 1.4
     },
     {
-      "ps_number": "SIH26040",
-      "title": "Smart Water Purification and Quality Monitoring System for Rural and Mining-Affected Areas.",
-      "growth": 7,
-      "period": "24h",
-      "current_submitted": 7,
-      "fill_percentage": 1.4
-    },
-    {
-      "ps_number": "SIH26131",
-      "title": "Early detection and management of crop diseases and pest infestations",
-      "growth": 7,
+      "ps_number": "SIH26032",
+      "title": "Farmers often face long waiting times, lack of information regarding procurement schedules, and uncertainty about procurement status.",
+      "growth": 2,
       "period": "24h",
       "current_submitted": 8,
       "fill_percentage": 1.6
     },
     {
-      "ps_number": "SIH26205",
-      "title": "Student Innovation-Submit your ideas to address the growing pressures on the city\u2019s resources, transport networks, and logistic infrastructure.",
-      "growth": 7,
+      "ps_number": "SIH26043",
+      "title": "A digital platform to crowdsource societal challenges and facilitate collaborative problem solving through universities and industry partnerships",
+      "growth": 2,
       "period": "24h",
-      "current_submitted": 7,
-      "fill_percentage": 1.4
+      "current_submitted": 3,
+      "fill_percentage": 0.6
     },
     {
-      "ps_number": "SIH26180",
-      "title": "A field-deployable AI-powered Smart Farming Assistant that helps farmers detect crop diseases, pests, nutrient deficiencies, and irrigation needs at an early stage, while improving resilience against droughts, floods, heat waves, and other agricultural risks common in India. The solution should enable higher yields, lower input costs, more efficient water usage, and faster response to emerging threats through real-time on-device intelligence.",
-      "growth": 6,
+      "ps_number": "SIH26187",
+      "title": "AI-Based Intelligent Video Analytics Platform for Border Surveillance using existing CCTV Infrastructure.",
+      "growth": 2,
       "period": "24h",
-      "current_submitted": 7,
-      "fill_percentage": 1.4
+      "current_submitted": 3,
+      "fill_percentage": 0.6
+    },
+    {
+      "ps_number": "SIH26212",
+      "title": "Student Innovation-Solutions could be in the form of waste segregation, disposal, and improve sanitization system.",
+      "growth": 2,
+      "period": "24h",
+      "current_submitted": 2,
+      "fill_percentage": 0.4
+    },
+    {
+      "ps_number": "SIH26016",
+      "title": "Real-Time National Land Acquisition & Management System for End-to-End Digital Monitoring and Decision Support",
+      "growth": 1,
+      "period": "24h",
+      "current_submitted": 1,
+      "fill_percentage": 0.2
+    },
+    {
+      "ps_number": "SIH26031",
+      "title": "Quality assessment and grading of onions are often subjective and vary across procurement centers, resulting in disputes and inconsistencies.",
+      "growth": 1,
+      "period": "24h",
+      "current_submitted": 1,
+      "fill_percentage": 0.2
     }
   ],
   "deltas": {
@@ -676,11 +676,11 @@
     },
     "SIH26075": {
       "ps_number": "SIH26075",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 2,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 3,
       "current_submitted": 3,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26076": {
       "ps_number": "SIH26076",
@@ -1012,11 +1012,11 @@
     },
     "SIH26117": {
       "ps_number": "SIH26117",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 0,
-      "current_submitted": 0,
-      "fill_change": 0.0
+      "current_submitted": 1,
+      "fill_change": 0.2
     },
     "SIH26118": {
       "ps_number": "SIH26118",
@@ -1124,11 +1124,11 @@
     },
     "SIH26131": {
       "ps_number": "SIH26131",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 2,
       "previous_submitted": 8,
-      "current_submitted": 8,
-      "fill_change": 0.0
+      "current_submitted": 10,
+      "fill_change": 0.4
     },
     "SIH26132": {
       "ps_number": "SIH26132",
@@ -1492,11 +1492,11 @@
     },
     "SIH26177": {
       "ps_number": "SIH26177",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 4,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 5,
       "current_submitted": 5,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26178": {
       "ps_number": "SIH26178",
@@ -1572,11 +1572,11 @@
     },
     "SIH26187": {
       "ps_number": "SIH26187",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 2,
       "previous_submitted": 1,
-      "current_submitted": 1,
-      "fill_change": 0.0
+      "current_submitted": 3,
+      "fill_change": 0.4
     },
     "SIH26188": {
       "ps_number": "SIH26188",
@@ -1652,11 +1652,11 @@
     },
     "SIH26197": {
       "ps_number": "SIH26197",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 4,
-      "current_submitted": 4,
-      "fill_change": 0.0
+      "current_submitted": 5,
+      "fill_change": 0.2
     },
     "SIH26198": {
       "ps_number": "SIH26198",
@@ -1772,11 +1772,11 @@
     },
     "SIH26212": {
       "ps_number": "SIH26212",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 1,
-      "current_submitted": 1,
-      "fill_change": 0.0
+      "current_submitted": 2,
+      "fill_change": 0.2
     },
     "SIH26213": {
       "ps_number": "SIH26213",
@@ -1812,19 +1812,19 @@
     },
     "SIH26217": {
       "ps_number": "SIH26217",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 5,
-      "current_submitted": 5,
-      "fill_change": 0.0
+      "current_submitted": 6,
+      "fill_change": 0.2
     },
     "SIH26218": {
       "ps_number": "SIH26218",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 3,
-      "current_submitted": 3,
-      "fill_change": 0.0
+      "current_submitted": 4,
+      "fill_change": 0.2
     },
     "SIH26219": {
       "ps_number": "SIH26219",
@@ -1836,11 +1836,11 @@
     },
     "SIH26220": {
       "ps_number": "SIH26220",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 0,
-      "current_submitted": 0,
-      "fill_change": 0.0
+      "current_submitted": 1,
+      "fill_change": 0.2
     },
     "SIH26221": {
       "ps_number": "SIH26221",
