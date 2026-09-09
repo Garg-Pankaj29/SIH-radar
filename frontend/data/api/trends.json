@@ -41,14 +41,6 @@
       "fill_percentage": 2.6
     },
     {
-      "ps_number": "SIH26104",
-      "title": "AI-Powered Real-Time Detection and Prevention of Voice Cloning Impersonation Attacks",
-      "growth": 3,
-      "period": "24h",
-      "current_submitted": 9,
-      "fill_percentage": 1.8
-    },
-    {
       "ps_number": "SIH26177",
       "title": "A deployable AI-powered autonomous drone that aids search-and-rescue operations by detecting people and hazards, thereby improving responder safety and reducing victim discovery time.",
       "growth": 3,
@@ -79,6 +71,14 @@
       "period": "24h",
       "current_submitted": 2,
       "fill_percentage": 0.4
+    },
+    {
+      "ps_number": "SIH26068",
+      "title": "WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information",
+      "growth": 2,
+      "period": "24h",
+      "current_submitted": 16,
+      "fill_percentage": 3.2
     }
   ],
   "deltas": {
@@ -220,11 +220,11 @@
     },
     "SIH26018": {
       "ps_number": "SIH26018",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 4,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 5,
       "current_submitted": 5,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26019": {
       "ps_number": "SIH26019",
@@ -428,11 +428,11 @@
     },
     "SIH26044": {
       "ps_number": "SIH26044",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 12,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 13,
       "current_submitted": 13,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26045": {
       "ps_number": "SIH26045",
@@ -684,11 +684,11 @@
     },
     "SIH26076": {
       "ps_number": "SIH26076",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 1,
-      "current_submitted": 1,
-      "fill_change": 0.0
+      "current_submitted": 2,
+      "fill_change": 0.2
     },
     "SIH26077": {
       "ps_number": "SIH26077",
@@ -924,11 +924,11 @@
     },
     "SIH26106": {
       "ps_number": "SIH26106",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 3,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 4,
       "current_submitted": 4,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26107": {
       "ps_number": "SIH26107",
@@ -964,19 +964,19 @@
     },
     "SIH26111": {
       "ps_number": "SIH26111",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 0,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 1,
       "current_submitted": 1,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26112": {
       "ps_number": "SIH26112",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 1,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 2,
       "current_submitted": 2,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26113": {
       "ps_number": "SIH26113",
@@ -1516,11 +1516,11 @@
     },
     "SIH26180": {
       "ps_number": "SIH26180",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 10,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 11,
       "current_submitted": 11,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26181": {
       "ps_number": "SIH26181",
@@ -1692,11 +1692,11 @@
     },
     "SIH26202": {
       "ps_number": "SIH26202",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 6,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 7,
       "current_submitted": 7,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26203": {
       "ps_number": "SIH26203",
@@ -1836,11 +1836,11 @@
     },
     "SIH26220": {
       "ps_number": "SIH26220",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 3,
-      "current_submitted": 3,
-      "fill_change": 0.0
+      "current_submitted": 4,
+      "fill_change": 0.2
     },
     "SIH26221": {
       "ps_number": "SIH26221",
@@ -1940,11 +1940,11 @@
     },
     "SIH26233": {
       "ps_number": "SIH26233",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 0,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 1,
       "current_submitted": 1,
-      "fill_change": 0.2
+      "fill_change": 0.0
     }
   }
 }
