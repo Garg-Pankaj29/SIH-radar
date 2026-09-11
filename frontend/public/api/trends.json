@@ -3,7 +3,7 @@
     {
       "ps_number": "SIH26001",
       "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
-      "growth": 7,
+      "growth": 6,
       "period": "24h",
       "current_submitted": 37,
       "fill_percentage": 7.4
@@ -17,14 +17,6 @@
       "fill_percentage": 3.6
     },
     {
-      "ps_number": "SIH26047",
-      "title": "Patient Case-Taking Software",
-      "growth": 6,
-      "period": "24h",
-      "current_submitted": 39,
-      "fill_percentage": 7.8
-    },
-    {
       "ps_number": "SIH26040",
       "title": "Smart Water Purification and Quality Monitoring System for Rural and Mining-Affected Areas.",
       "growth": 5,
@@ -33,20 +25,20 @@
       "fill_percentage": 3.4
     },
     {
+      "ps_number": "SIH26047",
+      "title": "Patient Case-Taking Software",
+      "growth": 5,
+      "period": "24h",
+      "current_submitted": 39,
+      "fill_percentage": 7.8
+    },
+    {
       "ps_number": "SIH26217",
       "title": "Student Innovation-Innovative ideas that help manage and generate renewable /sustainable sources more efficiently",
       "growth": 5,
       "period": "24h",
       "current_submitted": 19,
       "fill_percentage": 3.8
-    },
-    {
-      "ps_number": "SIH26223",
-      "title": "Student Innovation-Disaster management includes ideas related to risk mitigation, Planning and management before, after or during a disaster.",
-      "growth": 5,
-      "period": "24h",
-      "current_submitted": 13,
-      "fill_percentage": 2.6
     },
     {
       "ps_number": "SIH26044",
@@ -79,6 +71,14 @@
       "period": "24h",
       "current_submitted": 11,
       "fill_percentage": 2.2
+    },
+    {
+      "ps_number": "SIH26223",
+      "title": "Student Innovation-Disaster management includes ideas related to risk mitigation, Planning and management before, after or during a disaster.",
+      "growth": 4,
+      "period": "24h",
+      "current_submitted": 13,
+      "fill_percentage": 2.6
     }
   ],
   "deltas": {
@@ -236,11 +236,11 @@
     },
     "SIH26020": {
       "ps_number": "SIH26020",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 0,
-      "current_submitted": 0,
-      "fill_change": 0.0
+      "current_submitted": 1,
+      "fill_change": 0.2
     },
     "SIH26021": {
       "ps_number": "SIH26021",
@@ -396,11 +396,11 @@
     },
     "SIH26040": {
       "ps_number": "SIH26040",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 16,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 17,
       "current_submitted": 17,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26041": {
       "ps_number": "SIH26041",
@@ -1612,19 +1612,19 @@
     },
     "SIH26192": {
       "ps_number": "SIH26192",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 3,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 4,
       "current_submitted": 4,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26193": {
       "ps_number": "SIH26193",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 9,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 10,
       "current_submitted": 10,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26194": {
       "ps_number": "SIH26194",
@@ -1756,11 +1756,11 @@
     },
     "SIH26210": {
       "ps_number": "SIH26210",
-      "status": "changed",
-      "submission_change": 2,
-      "previous_submitted": 9,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 11,
       "current_submitted": 11,
-      "fill_change": 0.4
+      "fill_change": 0.0
     },
     "SIH26211": {
       "ps_number": "SIH26211",
@@ -1812,11 +1812,11 @@
     },
     "SIH26217": {
       "ps_number": "SIH26217",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 18,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 19,
       "current_submitted": 19,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26218": {
       "ps_number": "SIH26218",
@@ -1852,19 +1852,19 @@
     },
     "SIH26222": {
       "ps_number": "SIH26222",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 7,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 8,
       "current_submitted": 8,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26223": {
       "ps_number": "SIH26223",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 12,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 13,
       "current_submitted": 13,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26224": {
       "ps_number": "SIH26224",
@@ -1884,11 +1884,11 @@
     },
     "SIH26226": {
       "ps_number": "SIH26226",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 2,
-      "current_submitted": 2,
-      "fill_change": 0.0
+      "current_submitted": 3,
+      "fill_change": 0.2
     },
     "SIH26227": {
       "ps_number": "SIH26227",
