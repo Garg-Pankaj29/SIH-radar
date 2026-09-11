@@ -138,10 +138,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 27
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 27
       },
@@ -196,6 +192,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 31
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 31
       }
     ]
   },
@@ -209,9 +209,9 @@
     "theme": "Transportation & Logistics",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 15,
+    "ideas_submitted": 16,
     "submission_capacity": 500,
-    "fill_percentage": 3.0,
+    "fill_percentage": 3.2,
     "description": "Background:\nThe North Eastern Region (NER) faces major logistics and accessibility challenges due to difficult terrain, extreme weather conditions, limited transport connectivity, and frequent road disruptions caused by landslides, floods, and infrastructure gaps. Transportation of essential goods such as medicines, food supplies, construction materials, and agricultural produce to remote districts often gets delayed, leading to supply shortages, increased costs, and disruption in public service delivery. Currently, there is no integrated intelligent platform that can provide real-time logistics visibility, route accessibility status, predictive disruption alerts, and optimized transportation planning for the region. To strengthen regional connectivity and support infrastructure-led development initiatives, there is a need for an Al-enabled logistics intelligence system tailored for the unique geographical and operational challenges of NER.\nDescription:\nThis problem statement seeks the development of an Al-powered Smart and in Logistics Accessibility Intelligence Platform for the North Eastern Region (NER) to address challenges related to difficult terrain, weather-induced disruptions, and limited transport connectivity remote areas. The platform should use Artificial Intelligence (Al), Machine Learning (ML), GIS mapping, weather data, and real-time field inputs to monitor transportation networks and improve movement of essential goods and services across the region. The platform should:\na. Monitoring real-time road, bridge, and transport accessibility across districts and remote locations b. Predicting possible route disruptions caused by landslides, floods, heavy rainfall, road damage, or traffic congestion c. Providing Al-based alternate route suggestions and estimated travel delays d. Tracking movement of vehicles carrying essential commodities, medicines, agricultural produce, and construction materials through GPS integration e. Generating automated alerts for blocked roads, inaccessible regions, delayed deliveries, and high-risk transport corridors f. Enabling field officials and local authorities to upload geo-tagged updates, photographs, and incident reports from remote locations g. Creating centralized dashboards for visualizing:\n• District-wise connectivity status\n• Logistics bottlenecks and supply chain gaps Emergency and disaster-time accessibility routes\n• Real-time movement and delivery status of essential supplies h. Supporting multilingual notifications and offline data synchronization for low-network areas The platform should help improve regional connectivity, strengthen emergency response systems, reduce supply chain disruptions, and support efficient planning and monitoring of logistics operations in the North Eastern Region.\nExpected Solution:\n• A scalable Al-based software platform integrated with GIS and real-time analytics featuring:\n• Al-powered route prediction and optimization engine\n• GIS-enabled accessibility monitoring dashboard\n• GPS-based vehicle tracking system\n• Real-time alert and notification mechanism\n• Mobile/web application for field-level reporting and monitoring Integration capability with weather APIs, transport databases, and government monitoring systems\n• Cloud-based infrastructure with secure data management and offline support The platform should improve regional logistics efficiency, reduce supply disruptions, strengthen emergency response capability, and support infrastructure and economic development across the North Eastern Region.",
     "dataset_link": "",
     "youtube": "",
@@ -223,13 +223,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 2.2,
+      "growth_24h": 1,
+      "velocity_48h": 2.2,
+      "growth_48h": 1,
+      "velocity_7d": 2.2,
+      "growth_7d": 1,
+      "velocity_overall": 2.2,
       "momentum": "Stable",
       "has_history": true
     },
@@ -294,13 +294,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 74.2,
+    "opportunity_score": 74.1,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 220.0,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~2.2/day), cap may be reached in ~220.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -335,10 +335,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 15
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 15
@@ -394,6 +390,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 15
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 16
       }
     ]
   },
@@ -535,10 +535,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 16
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 16
       },
@@ -592,6 +588,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 16
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 16
       }
     ]
@@ -732,10 +732,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -789,6 +785,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -925,10 +925,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -982,6 +978,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -1121,10 +1121,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -1178,6 +1174,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -1318,10 +1318,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -1375,6 +1371,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -1516,10 +1516,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -1573,6 +1569,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -1708,10 +1708,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -1765,6 +1761,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -1905,10 +1905,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -1962,6 +1958,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -2101,10 +2101,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -2158,6 +2154,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -2299,10 +2299,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -2356,6 +2352,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -2498,10 +2498,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -2556,6 +2552,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 0
       }
     ]
   },
@@ -2569,9 +2569,9 @@
     "theme": "Agriculture, FoodTech & Rural Development",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 2,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.4,
     "description": "Background:\nLand governance in lndia involves multiple institutions maintaining land-related information in fragmented and disconnected systems. Core datasets such as cadastral maps, Record of Rights (RoR), registration records, land use information, Master Plan, Building Permission, Restrictions, property taxation records, utility infrastructure, and other land-related databases are often managed Independently by different departments and agencies with limited interoperability. This results in duplication of effort, inconsistencies in records, delays in obtaining ownership information, lack of transparency in transactions, and inconvenience to citizens seeking land-related services.\nThe growing scale of urbanization, increasing land transactions, demand for efficient governance, and the need for transparent and citizen-centric public service delivery require a modern digital approach to land administration. With advances in GIS technologies, Digital Public lnfrastructure (DPl), cloud computing, interoperable APls, Al/ML analytics, and geospatial standards, there is an opportunity to transform land governance through a unified digital ecosystem.Land Stack is envisaged as an integrated GIS-based digital platform that brings together all land-related datasets, workflows, and services into a single interoperable framework. Built upon georeferenced cadastral maps and linked with record of rights(land ownership records), Land Stack can serve as foundational digital infrastructure for efficient land governance, informed decision making, improved service delivery.The proposed platform should support both rural and urban contexts and enable seamless coordination across departments, institutions, and citizen interfaces.\nDetailed Description:\nThe Department of Land Resources has initiated the development and deployment of Land Stack in pilot locations of Chandigarh and Tamil Nadu, launched on 31 December 2025. Following successful implementation, the platform is proposed to be expanded across lndia by covering one city and one village in every State and Union Territory, and subsequently scaled to achieve nationwide coverage.One of the major challenges in lndia is that land is a State subject, resulting in significant diversity in land administration systems across states. Variations exist in land record formats, database structures, units of measurement, number and type of fields, language, terminology, and administrative workflows.\nTherefore, the challenge is to conceptualize and develop a scalable prototype of Land Stack capable of integrating diverse land-related datasets, workflows, and services into a common interoperable State-level framework.\nThe proposed Land stack solution should organize information into three broad categories of spatial layers. The base layer should comprise georeferenced cadastral maps, parcel boundaries, and unique parcel identifiers such as ULPIN.\nThis foundational layer should provide the spatial framework upon which all governance and service-related datasets can be integrated.The essential layers should include core governance datasets linked to each parcel,such as Record of Rights (RoR), registration data, master plans, building permissions and approvals, encumbrance and mortgage records, land use and zoning information.These layers should collectively define ownership, rights,restrictions, liabilities, and permissible land use associated with each parcel.Beyond this, additional or use-case layers should extend the platform's governance and citizen service capabilities by integrating datasets such as utility infrastructure, property taxation records, valuation references, infrastructure networks,environmental or restriction zones, and other service linkages. Each land parcel should be uniquely identifiable and linked with multiple layers of governance and administrative information, with ULPIN serving as the suggested common identifier.The prototype should demonstrate integration of multiple land-related domains through parcel-level GlS visualization and data exploration tools. The system should support interoperability between departmental systems through open APls, standardized metadata structures, secure authentication mechanisms, role-based access controls, audit trails, and scalable digital architecture. Citizen-facing capabilities such as parcel search, ownership verification, transaction status tracking, service requests, and access to land-related information should also be incorporated.\nParticipants are encouraged to integrate innovative technologies including Artificial lntelligence (Al), Machine Learning (ML), satellite imagery-based change detection, predictive analytics, workflow automation, and decision-support dashboards to improve transparency, operational efficiency, and governance outcomes.The overall solution should be modular, scalable, configurable for different administrative contexts, and capable of serving as a replicable national framework for integrated digital land governance.\nExpected Solution:\nThe expected outcome is a functional prototype demonstrating the concept of Land stack as an integrated Gls-based Digital Public lnfrastructure for land governance.The solution should provide a unified digital platform capable of integrating multiple land-related datasets around a parcel-centric spatial framework and enabling seamless interaction between governance institutions, land administration agencles, and citizens. The prototype should demonstrate GIS-based parcel visualization,integration of mock or sample land-related datasets, role-based administrative dashboards, citizen-facing service interfaces, and interoperable workflows between land records, registration, dispute, planning, and fiscal systems.\nThe proposed solution should showcase efficient parcel-level information access, real-time or simulated workflow integration, cross-departmental data interoperability, analytics-driven governance insights, and transparent citizen service delivery mechanisms.lnnovative solutions that leverage Al/ML, geospatial intelligence, predictive analytics,workflow automation, API-based integration, mobile accessibility, and secure cloud- native architecture will be preferred.\nThe final prototype should demonstrate how fragmented land governance systems can be transformed into a unified, scalable, transparent, and citizen-centric Land Stack platform capable of improving land administration, enabling citizens to take informed decisions, accelerating transactions, strengthening planning, and enabling data-driven governance.\nFurther, participants are expected to prepare a Standard Technical Document containing details of API standards, interoperability standards, data schemas, system architecture, GIS standards, security frameworks, UI/UX guidelines, color schemas, and deployment and scalability considerations.",
     "dataset_link": "",
     "youtube": "",
@@ -2583,13 +2583,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 2.2,
+      "growth_24h": 1,
+      "velocity_48h": 2.2,
+      "growth_48h": 1,
+      "velocity_7d": 2.2,
+      "growth_7d": 1,
+      "velocity_overall": 2.2,
       "momentum": "Stable",
       "has_history": true
     },
@@ -2656,13 +2656,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 75.9,
+    "opportunity_score": 75.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 226.4,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~2.2/day), cap may be reached in ~226.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -2697,10 +2697,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
@@ -2756,6 +2752,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 2
       }
     ]
   },
@@ -2891,10 +2891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -2948,6 +2944,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -3088,10 +3088,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -3145,6 +3141,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -3285,10 +3285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -3342,6 +3338,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -3483,10 +3483,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -3540,6 +3536,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -3679,10 +3679,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -3736,6 +3732,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -3873,10 +3873,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -3930,6 +3926,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -4062,10 +4062,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -4119,6 +4115,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -4243,10 +4243,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -4300,6 +4296,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -4425,10 +4425,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -4482,6 +4478,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -4626,10 +4626,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -4683,6 +4679,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -4827,10 +4827,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -4884,6 +4880,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -5029,10 +5029,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -5086,6 +5082,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -5221,10 +5221,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
       },
@@ -5278,6 +5274,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -5418,10 +5418,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
       },
@@ -5475,6 +5471,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -5605,10 +5605,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -5662,6 +5658,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -5780,10 +5780,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -5837,6 +5833,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -5953,10 +5953,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -6010,6 +6006,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -6145,10 +6145,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 20
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 20
       },
@@ -6202,6 +6198,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 20
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 20
       }
     ]
@@ -6325,10 +6325,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 11
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 11
       },
@@ -6382,6 +6378,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 12
       }
     ]
@@ -6521,10 +6521,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 15
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 15
       },
@@ -6578,6 +6574,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 16
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 16
       }
     ]
@@ -6714,10 +6714,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -6771,6 +6767,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -6911,10 +6911,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -6968,6 +6964,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -7109,10 +7109,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -7166,6 +7162,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -7306,10 +7306,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -7363,6 +7359,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -7503,10 +7503,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -7560,6 +7556,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -7696,10 +7696,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 12
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 12
       },
@@ -7753,6 +7749,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 13
       }
     ]
@@ -7892,10 +7892,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -7949,6 +7945,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -8070,10 +8070,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 10
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 10
       },
@@ -8127,6 +8123,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 10
       }
     ]
@@ -8264,10 +8264,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -8322,6 +8318,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 6
       }
     ]
   },
@@ -8335,9 +8335,9 @@
     "theme": "Smart Automation",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 25,
+    "ideas_submitted": 26,
     "submission_capacity": 500,
-    "fill_percentage": 5.0,
+    "fill_percentage": 5.2,
     "description": "Background:\nA significant gap exists between the skills acquired in academic institutions and the competencies expected by industries. Students often struggle to identify the skills required for their desired career paths, while industries face challenges in finding candidates with the right skill sets. Similarly, academicians have limited visibility into industry internship opportunities that could help them gain practical exposure and align teaching with current industry practices. There is a need for a unified platform that connects students, industries, and academicians, enabling seamless collaboration and skill development.\nDescription:\nThe proposed solution is a centralized Academia–Industry Collaboration Portal that serves as a one-stop platform for students, industries, and academicians.\nKey features include:\n• Skill Assessment: Students complete a questionnaire to evaluate their technical and soft skills shared by industry. The system generates a skill profile and identifies strengths and skill gaps based on current industry requirements.\n• Skill Mapping: Based on the assessment, the platform recommends relevant industries, job roles, and skill development programs aligned with industry requirements.\n• Industry Internship & Job Opportunities: Industries can post internships, projects, apprenticeships, and entry-level job openings with required skills. Students receive recommendations based on their skill profiles and can apply directly.\n• Industry Learning Programs: Companies can publish training programs, certification courses, workshops, and mentorship initiatives to help students acquire in-demand skills before applying.\n• Allow students to search, apply, and track internship and placement opportunities through a single platform.\n• Provide a dedicated portal for academicians to explore faculty internships, industrial training, Faculty Development Programs (FDPs), consultancy opportunities, and collaborative research projects.\n• Facilitate industry–academia collaboration through mentorship programs, workshops, guest lectures, innovation challenges, and live industry projects.\n• Enable institutions to monitor student skill development, internship participation, and placement progress through dashboards and analytics.\n• Maintain a digital portfolio for students containing verified skills, certifications, projects, internships, and achievements to improve employability.\nExpected solution:\nThe solution should provide:\nThe solution should provide a secure, scalable, and intelligent platform that supports the complete lifecycle of skill development, internships, and placements.\n• Skill Development-\n• Skill assessment through questionnaires and aptitude tests.\n• Skill profiling and identification of technical and soft skill gaps.\n• Personalized learning recommendations, certification programs, and industry-relevant training.\n• Career guidance based on individual skills, interests, and industry demand.\n• Student digital portfolios showcasing verified skills, certifications, projects, and achievements.\n• Internship-\n• Centralized internship portal where industries can post internship opportunities with required skills.\n• Matching of students to internships based on their skill profiles and career interests.\n• Internship application and tracking system for students.\n• Internship opportunities for academicians, industrial training, and Faculty Development Programs (FDPs).\n• Progress tracking, mentor feedback, and internship completion records.\n• Placement-\n• Industry portal for posting job opportunities with required qualifications and skill sets.\n• Recommendation engine to match students with relevant placement opportunities.\n• Candidate shortlisting based on skill compatibility and eligibility.\n• Application tracking and recruitment management for students and recruiters.\n• Analytics and reporting dashboards for institutions and industries to monitor placement readiness, recruitment outcomes, and skill demand trends.\nOverall Platform Features-\n• Role-based access for students, academicians, industries, and institutions.\n• Secure document management for resumes, certificates, internship reports, and academic records.\n• Collaboration features for industry mentorship, live projects, workshops, and research partnerships.\n• Integration with learning platforms, certification providers, and institutional databases.\n• Comprehensive analytics to support data-driven decisions for institutions, industries, and policymakers.",
     "dataset_link": "",
     "youtube": "",
@@ -8349,13 +8349,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 2.2,
-      "growth_24h": 1,
-      "velocity_48h": 2.2,
-      "growth_48h": 1,
-      "velocity_7d": 2.2,
-      "growth_7d": 1,
-      "velocity_overall": 2.2,
+      "velocity_24h": 4.5,
+      "growth_24h": 2,
+      "velocity_48h": 4.5,
+      "growth_48h": 2,
+      "velocity_7d": 4.5,
+      "growth_7d": 2,
+      "velocity_overall": 4.5,
       "momentum": "Stable",
       "has_history": true
     },
@@ -8417,13 +8417,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 73.0,
+    "opportunity_score": 72.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 215.9,
+      "estimated_cap_days": 105.3,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~2.2/day), cap may be reached in ~215.9 days. This is an estimate."
+      "note": "At current velocity (~4.5/day), cap may be reached in ~105.3 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -8458,10 +8458,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 24
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 24
@@ -8517,6 +8513,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 25
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 26
       }
     ]
   },
@@ -8642,10 +8642,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -8699,6 +8695,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -8839,10 +8839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -8897,6 +8893,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 1
       }
     ]
   },
@@ -8910,9 +8910,9 @@
     "theme": "MedTech / BioTech / HealthTech",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 34,
+    "ideas_submitted": 35,
     "submission_capacity": 500,
-    "fill_percentage": 6.8,
+    "fill_percentage": 7.0,
     "description": "Background:\n1.1 The Clinical History-Taking Bottleneck in Indian Hospitals History taking - the structured elicitation of a patient's presenting complaints, history of present illness, past medical and surgical history, drug and allergy history, family and personal history, and a review of systems - is the single most important diagnostic activity in clinical medicine. Classical teaching holds that a well-conducted history yields the correct diagnosis in 70–80% of cases, even before examination or investigation. Yet in India's overburdened public hospital outpatient departments (OPDs), the time available for this critical interaction has collapsed to unsustainable levels.\nIndia operates one of the most patient-dense healthcare systems in the world. Tertiary government hospitals and apex institutions routinely register 4,000–10,000 OPD patients per day, with a doctor-to-patient consultation time frequently reported between 2 and 5 minutes - among the shortest globally (study published in BMJ Open, 2017, across 67 countries placed India's average primary-care consultation at just over 2 minutes). Within this window, the physician must simultaneously elicit history, examine the patient, review prior records, formulate a diagnosis, counsel, and prescribe. The result is systematic under-elicitation of history, missed comorbidities, repeated questioning across visits, and diagnostic error.\nAYUSH institutions face an additional layer of complexity. Ayurvedic history taking (Trividha, Ashtavidha, and Dashavidha Pariksha) requires detailed assessment of Prakriti (constitution), Vikriti (current imbalance), Agni (digestive capacity), Koshtha (bowel nature), Ahara-Vihara (diet and lifestyle), Nidana (causative factors), and Samprapti (pathogenesis) - a far more extensive history framework than allopathic intake. Capturing this depth manually within OPD time constraints is effectively impossible, forcing practitioners to abbreviate the very assessment that defines personalized Ayurvedic care.\n1.2 The Documentation and Records Fragmentation Problem Compounding the time problem is the fragmentation of patient records. Patients in India typically carry physical paper prescriptions, laboratory reports, discharge summaries, and imaging films from multiple prior providers. During consultation, the physician must manually scan through these unstructured documents - often handwritten, in varying languages, and chronologically disordered - consuming a significant fraction of the already-scarce consultation time. There is no point-of-entry mechanism to digitize, structure, and chronologically organize a patient's prior medical documents before they reach the consultation room.\nThe Ayushman Bharat Digital Mission (ABDM) has established the national digital health infrastructure - ABHA (Ayushman Bharat Health Account) IDs, the Health Information Exchange, and FHIR-based interoperability standards. However, the 'first-mile' problem remains unsolved: there is no efficient, patient-facing software platform that captures structured history and digitizes documents into the ABDM ecosystem before the clinical encounter begins.\n1.3 The Opportunity: AI-Powered Digital Clinical Intake Platform Self-service kiosks have transformed high-throughput service industries - ATMs in banking, self-check-in terminals in aviation, and ordering kiosks in quick-service restaurants - by offloading structured data-entry tasks from human staff to the user, dramatically improving throughput and accuracy. In healthcare, patient check-in kiosks are now widespread in developed-country hospitals, but these are limited to administrative check-in. None perform deep, AI-driven, multimodal clinical history acquisition with medical document digitization.\nThe convergence of mature enabling technologies - robust automatic speech recognition (ASR) for Indian languages and accents (Bhashini / AI4Bharat models), large language models for conversational clinical history elicitation, high-accuracy OCR for handwritten and printed medical documents, and ABDM's FHIR interoperability - now makes it feasible to build an AI-powered clinical history software platform.\nDescription:\n2.1 The Problem in Precise Terms There is no purpose-built, patient-facing software platform that enables patients to independently and comprehensively record their medical history - through both natural spoken conversation and guided touchscreen interaction - and simultaneously digitize their existing physical medical documents, generating a structured, physician-ready clinical history summary that integrates with the hospital information system and the ABDM ecosystem before the patient enters the consultation room.\n2.2 Why Existing Solutions Fall Short\n• Existing hospital registration systems (currently deployed in some Indian hospitals) capture only demographic and appointment data - name, age, department, token number. They do not elicit any clinical history or process medical documents.\n• Mobile health apps and tele-triage chatbots require smartphone literacy, stable connectivity, and patient enrolment ahead of the visit - excluding the large elderly, rural, low-literacy, and first-visit patient populations who form the bulk of government hospital OPD load.\n• Manual nurse-led triage / history desks are themselves human-resource-limited, do not scale to 5,000+ daily patients, and reintroduce the same time and transcription bottleneck the system is trying to eliminate.\n• Generic document scanners digitize images but do not extract, structure, or chronologically organize clinical content, nor link it to a structured history or ABHA record.\n2.3 Specific Challenges a Solution Must Overcome\n• Multilingual, multi-accent voice capture in noisy hospital environments across Hindi, English, and major regional languages, for patients of varying literacy and digital comfort.\n• Accessibility for low-literacy and elderly users through intuitive icon-driven UI, audio prompts, and conversational guidance - the software platform must be usable by a first-time, non-tech-savvy patient with zero training.\n• Accurate clinical history structuring converting free-form patient narration into a standardized, physician-readable history (chief complaint, HPI, past history, drug/allergy, family, personal, review of systems) - and, for AYUSH settings, Dashavidha Pariksha parameters.\n• Reliable medical document digitization OCR of handwritten and printed prescriptions, lab reports, and discharge summaries in multiple languages, with intelligent extraction of diagnoses, medications, and investigation values.\n• Privacy, consent, and data security compliance with the Digital Personal Data Protection Act 2023 and ABDM consent framework - handling sensitive health data within a secure software environment.\nExpected solution:\n3.1 Solution Overview - 'MediKiosk' AI Clinical History Software Platform The proposed solution - tentatively designated MediKiosk - a software platform for an AI-powered clinical history software platform that allows any patient to record a comprehensive medical history through natural voice conversation and guided touchscreen interaction, scan and digitize their existing physical medical documents, and generate a structured, physician-ready clinical history summary that is pushed to the hospital information system (HIS) and linked to the patient's ABHA record - all completed before the consultation, with minimal staff assistance required.\n• Insert Table*3.2 3.3 Software & AI Stack (Integrated)\nModule A - Conversational Multimodal History Engine A conversational AI engine that conducts a structured clinical history interview through both voice and touch. The patient speaks naturally in their preferred language; the engine asks intelligent follow-up questions (e.g., on stating 'chest pain', it probes onset, character, radiation, aggravating/relieving factors - the SOCRATES framework) and simultaneously offers touch-based multiple-choice options for patients who prefer tapping. Built on Indian-language ASR, a dialogue manager constrained by a clinical history ontology, and text-to-speech for audio prompts.\n• Adaptive questioning: dynamically branches based on chief complaint and prior answers, mirroring a physician's clinical reasoning to elicit a complete HPI and review of systems\n• Dual-mode input: every question answerable by speaking OR tapping, ensuring usability across literacy and comfort levels\n• AYUSH history mode: for Ayurvedic OPDs, an extended interview capturing Dashavidha Pariksha (Prakriti, Vikriti, Sara, Samhanana, Pramana, Satmya, Sattva, Ahara Shakti, Vyayama Shakti, Vaya) and Ahara-Vihara assessment\n• Red-flag detection: AI flags emergency symptoms (e.g., acute chest pain with dyspnoea, stroke symptoms) and triggers immediate priority alert to triage staff rather than routine queueing Module B - Medical Document Digitization & Intelligence An integrated scanning and document-AI pipeline that allows the patient to upload prior prescriptions, lab reports, and discharge summaries. The system performs high-accuracy OCR (printed and handwritten, multilingual), then extract and structure clinical entities.\n• Intelligent extraction: diagnoses, prescribed medications with dosages, investigation results with values and reference ranges, and procedure/surgery history\n• Chronological organization: automatically dates and orders documents into a coherent medical timeline for the physician\n• Abnormal-value highlighting: flags out-of-range lab values and potential drug interactions for physician attention Module C - Structured History Summary Generator An AI summarization engine that synthesizes the conversational history and the digitized documents into a single, concise, physician-ready clinical summary in standard format - presented on the consultation screen the moment the patient enters the room. The physician reads a complete, structured history in seconds rather than spending minutes eliciting it, and can edit/confirm before saving.\n• Standard clinical format: Chief complaint ? HPI ? Past medical/surgical ? Drug & allergy ? Family ? Personal ? ROS ? Prior investigations summary\n• Editable & verifiable: physician retains full control - the summary is a draft to accept, amend, or reject, never an autonomous diagnosis\n• Bilingual output: patient-facing audio confirmation in local language; physician-facing summary in English/Hindi Module D - Consent, Privacy & ABDM Integration A robust consent and security layer compliant with the Digital Personal Data Protection Act 2023 and the ABDM consent framework. The patient authenticates via ABHA ID, grants explicit consent for data capture and sharing, and the structured history is pushed to the hospital HIS/EMR and linked to the ABHA Personal Health Record via FHIR APIs.\n• Secure processing: voice and document AI are processed securely within the software platform\n• Session termination: temporary session data is cleared immediately after submission\n• Consent-first design: granular, revocable consent with audio explanation for low-literacy patients 3.4 End-to-End Patient Journey\n• Step 1 - Identify: Patient logs into the software platform, enters/scans ABHA ID or Aadhaar details or registers as new; selects language; grants consent (audio-guided)\n• Step 2 - Converse: AI conducts adaptive voice + touch history interview, capturing chief complaint, HPI, and full history; red flags trigger priority triage\n• Step 3 - Scan: Patient uploads prior prescriptions, lab reports, and discharge summaries; AI digitizes, structures, and timelines them\n• Step 4 - Summarize & Route: AI generates structured history summary, links to ABHA, pushes to HIS, updates the patient's digital record; summary appears on physician's screen at consultation\n• Step 5 - Consult: Physician reviews complete history in seconds, edits/confirms, and devotes the full consultation to examination, reasoning, and counselling",
     "dataset_link": "Additional Information regarding PS\nhttps://drive.google.com/file/d/1mQ6Qp2MKL8JXdL2kJYqV-SFqcfbxSvrd/view?usp=drive_link",
     "youtube": "",
@@ -8924,14 +8924,14 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 4.5,
-      "growth_24h": 2,
-      "velocity_48h": 4.5,
-      "growth_48h": 2,
-      "velocity_7d": 4.5,
-      "growth_7d": 2,
-      "velocity_overall": 4.5,
-      "momentum": "Stable",
+      "velocity_24h": 6.7,
+      "growth_24h": 3,
+      "velocity_48h": 6.7,
+      "growth_48h": 3,
+      "velocity_7d": 6.7,
+      "growth_7d": 3,
+      "velocity_overall": 6.7,
+      "momentum": "Rising",
       "has_history": true
     },
     "technology_tags": [
@@ -8995,13 +8995,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 74.9,
+    "opportunity_score": 66.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 103.6,
+      "estimated_cap_days": 69.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~4.5/day), cap may be reached in ~103.6 days. This is an estimate."
+      "note": "At current velocity (~6.7/day), cap may be reached in ~69.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -9036,10 +9036,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 32
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 32
@@ -9095,6 +9091,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 34
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 35
       }
     ]
   },
@@ -9210,10 +9210,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -9267,6 +9263,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -9405,10 +9405,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -9462,6 +9458,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -9602,10 +9602,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -9659,6 +9655,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -9795,10 +9795,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -9852,6 +9848,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -9993,10 +9993,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -10050,6 +10046,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -10191,10 +10191,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -10248,6 +10244,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -10393,10 +10393,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -10450,6 +10446,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -10573,10 +10573,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -10630,6 +10626,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -10764,10 +10764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -10821,6 +10817,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -10965,10 +10965,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -11022,6 +11018,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -11163,10 +11163,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -11220,6 +11216,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -11349,10 +11349,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -11406,6 +11402,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -11539,10 +11539,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -11596,6 +11592,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -11730,10 +11730,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -11787,6 +11783,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -11919,10 +11919,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -11976,6 +11972,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -12104,10 +12104,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -12161,6 +12157,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -12285,10 +12285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -12342,6 +12338,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -12475,10 +12475,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -12532,6 +12528,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -12667,10 +12667,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -12724,6 +12720,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -12865,10 +12865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -12922,6 +12918,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -13062,10 +13062,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 22
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 22
       },
@@ -13119,6 +13115,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 22
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 22
       }
     ]
@@ -13257,10 +13257,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -13314,6 +13310,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -13430,10 +13430,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -13487,6 +13483,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -13621,10 +13621,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -13678,6 +13674,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -13804,10 +13804,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -13861,6 +13857,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -14000,10 +14000,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -14057,6 +14053,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -14189,10 +14189,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -14246,6 +14242,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -14377,10 +14377,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
       },
@@ -14434,6 +14430,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -14569,10 +14569,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -14626,6 +14622,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -14768,10 +14768,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -14825,6 +14821,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -14968,10 +14968,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -15025,6 +15021,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -15162,10 +15162,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -15219,6 +15215,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -15355,10 +15355,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -15412,6 +15408,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -15550,10 +15550,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -15607,6 +15603,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -15744,10 +15744,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -15801,6 +15797,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -15940,10 +15940,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -15997,6 +15993,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -16136,10 +16136,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -16193,6 +16189,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -16331,10 +16331,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -16388,6 +16384,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -16526,10 +16526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -16583,6 +16579,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -16728,10 +16728,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -16785,6 +16781,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -16923,10 +16923,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -16980,6 +16976,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -17107,10 +17107,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
       },
@@ -17164,6 +17160,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 9
       }
     ]
@@ -17302,10 +17302,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
       },
@@ -17359,6 +17355,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -17496,10 +17496,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
       },
@@ -17553,6 +17549,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 8
       }
     ]
@@ -17677,10 +17677,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -17734,6 +17730,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -17874,10 +17874,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -17931,6 +17927,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -18074,10 +18074,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -18131,6 +18127,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -18271,10 +18271,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
       },
@@ -18328,6 +18324,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 8
       }
     ]
@@ -18469,10 +18469,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -18526,6 +18522,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -18664,10 +18664,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -18721,6 +18717,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -18859,10 +18859,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -18916,6 +18912,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -19050,10 +19050,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -19107,6 +19103,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -19244,10 +19244,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -19301,6 +19297,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -19443,10 +19443,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 14
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 14
       },
@@ -19500,6 +19496,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 15
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 15
       }
     ]
@@ -19638,10 +19638,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 9
       },
@@ -19695,6 +19691,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 9
       }
     ]
@@ -19834,10 +19834,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -19891,6 +19887,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -20032,10 +20032,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 16
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 16
       },
@@ -20089,6 +20085,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 16
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 16
       }
     ]
@@ -20231,10 +20231,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -20288,6 +20284,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -20429,10 +20429,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 10
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 10
       },
@@ -20486,6 +20482,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 11
       }
     ]
@@ -20604,10 +20604,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -20661,6 +20657,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -20795,10 +20795,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -20852,6 +20848,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -20998,10 +20998,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -21055,6 +21051,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -21178,10 +21178,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -21235,6 +21231,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -21378,10 +21378,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -21435,6 +21431,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -21572,10 +21572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -21629,6 +21625,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -21767,10 +21767,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 9
       },
@@ -21824,6 +21820,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 9
       }
     ]
@@ -21959,10 +21959,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -22016,6 +22012,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -22153,10 +22153,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -22210,6 +22206,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -22338,10 +22338,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -22395,6 +22391,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -22514,10 +22514,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 12
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 12
       },
@@ -22571,6 +22567,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 14
       }
     ]
@@ -22684,10 +22684,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -22741,6 +22737,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -22865,10 +22865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -22922,6 +22918,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -23059,10 +23059,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -23116,6 +23112,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -23239,10 +23239,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -23296,6 +23292,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -23429,10 +23429,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -23486,6 +23482,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -23627,10 +23627,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -23684,6 +23680,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -23822,10 +23822,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -23879,6 +23875,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -24016,10 +24016,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -24073,6 +24069,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -24213,10 +24213,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -24270,6 +24266,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -24412,10 +24412,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -24469,6 +24465,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -24606,10 +24606,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -24663,6 +24659,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -24802,10 +24802,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -24859,6 +24855,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -24996,10 +24996,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -25053,6 +25049,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -25191,10 +25191,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 22
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 22
       },
@@ -25248,6 +25244,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 22
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 22
       }
     ]
@@ -25381,10 +25381,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 11
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 11
       },
@@ -25438,6 +25434,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 11
       }
     ]
@@ -25573,10 +25573,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 18
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 18
       },
@@ -25630,6 +25626,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 18
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 18
       }
     ]
@@ -25764,10 +25764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -25821,6 +25817,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -25957,10 +25957,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -26014,6 +26010,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -26140,10 +26140,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -26197,6 +26193,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -26334,10 +26334,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -26391,6 +26387,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -26526,10 +26526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -26583,6 +26579,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -26718,10 +26718,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -26775,6 +26771,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -26915,10 +26915,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -26972,6 +26968,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -27109,10 +27109,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -27166,6 +27162,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -27303,10 +27303,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -27360,6 +27356,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -27497,10 +27497,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -27554,6 +27550,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -27693,10 +27693,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -27750,6 +27746,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -27891,10 +27891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -27948,6 +27944,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -28086,10 +28086,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -28143,6 +28139,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -28272,10 +28272,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -28329,6 +28325,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -28455,10 +28455,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -28512,6 +28508,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -28644,10 +28644,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -28701,6 +28697,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -28839,10 +28839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -28896,6 +28892,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -29020,10 +29020,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -29078,6 +29074,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 2
       }
     ]
   },
@@ -29091,9 +29091,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 3,
+    "ideas_submitted": 4,
     "submission_capacity": 500,
-    "fill_percentage": 0.6,
+    "fill_percentage": 0.8,
     "description": "• Background Social media platforms are complex ecosystems driven by human emotion, diverse demographics, and interconnected networks. To truly understand an online community, it is required look beneath the surface. This requires understanding how followers feel (Sentiment Analysis), who those followers are (Demographics), what topics are captivating them (Trend Tracking), and how they influence one another (Link Analysis). Combining these four vectors using AI is the key to unlocking true audience intelligence.\n• Description Participants will be challenged to design and build an AI-driven Social Media Analytics Framework that processes raw platform data to extract deep, actionable audience insights. The system must leverage advanced Artificial Intelligence and Machine Learning techniques to simultaneously infer follower sentiment, map audience demographics, identify top trending narratives, and perform link/network analysis to uncover how information and influence flow among followers.\n• Expected Solution AI solution must address the following five core components:\nA. Continuous Data Collection & Timeline Management: Design a multi-platform data ingestion pipeline capable of pulling live data, posts, user interactions, and comments. The architecture must support a structured, time-stamped historical database to map out the exact chronology of conversations. The pipeline platform requirements are categorized as follows:\n• Essentials (Must-Have): X (formerly Twitter) & Telegram.\n• Desirable (Good-to-Have): Instagram & Facebook.\n• Appreciable Additions: Reddit or YouTube (for extracting text-based context from video comments).\nB. Multi-Dimensional Sentiment Inference: Use Natural Language Processing (NLP) to detect nuanced emotions (e.g., sarcasm, anxiety, excitement, supportive, against etc.) within user posts and comment threads, mapping how these sentiments fluctuate along the established data timeline.\nC. Automated Demographic Profiling: Develop models to infer aggregate, anonymized follower demographics (such as age brackets, geographic distribution, language, and professional interests) based on public profile indicators, bio text, behavioral patterns etc.\nD. Real-Time Trend & Topic Detection: Automatically identify, rank, and predict rising trends, viral keywords, and shifting discussions as they emerge chronologically in the dataset.\nE. Link Analysis & Network Topology: Map the relationships among followers. Identify 'nodes of high influence' (key opinion leaders) and visualize how a trend or sentiment spreads from one user segment to another over time.",
     "dataset_link": "",
     "youtube": "",
@@ -29105,13 +29105,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 2.2,
+      "growth_24h": 1,
+      "velocity_48h": 2.2,
+      "growth_48h": 1,
+      "velocity_7d": 2.2,
+      "growth_7d": 1,
+      "velocity_overall": 2.2,
       "momentum": "Stable",
       "has_history": true
     },
@@ -29175,13 +29175,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 75.6,
+    "opportunity_score": 75.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 225.5,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~2.2/day), cap may be reached in ~225.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -29204,10 +29204,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
@@ -29263,6 +29259,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 4
       }
     ]
   },
@@ -29404,10 +29404,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
       },
@@ -29461,6 +29457,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 8
       }
     ]
@@ -29585,10 +29585,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -29642,6 +29638,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -29786,10 +29786,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -29843,6 +29839,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -29983,10 +29983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -30040,6 +30036,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -30182,10 +30182,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -30239,6 +30235,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -30380,10 +30380,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -30437,6 +30433,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -30575,10 +30575,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -30632,6 +30628,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -30772,10 +30772,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -30829,6 +30825,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -30954,10 +30954,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -31011,6 +31007,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -31147,10 +31147,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -31204,6 +31200,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -31342,10 +31342,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -31399,6 +31395,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -31538,10 +31538,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -31595,6 +31591,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -31716,10 +31716,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -31773,6 +31769,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -31902,10 +31902,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
       },
@@ -31960,6 +31956,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 8
       }
     ]
   },
@@ -31987,13 +31987,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 2.2,
-      "growth_24h": 1,
-      "velocity_48h": 2.2,
-      "growth_48h": 1,
-      "velocity_7d": 2.2,
-      "growth_7d": 1,
-      "velocity_overall": 2.2,
+      "velocity_24h": 0.0,
+      "growth_24h": 0,
+      "velocity_48h": 0.0,
+      "growth_48h": 0,
+      "velocity_7d": 0.0,
+      "growth_7d": 0,
+      "velocity_overall": 0.0,
       "momentum": "Stable",
       "has_history": true
     },
@@ -32061,10 +32061,10 @@
     "opportunity_score": 72.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 224.1,
-      "cap_before_deadline": false,
-      "forecast_available": true,
-      "note": "At current velocity (~2.2/day), cap may be reached in ~224.1 days. This is an estimate."
+      "estimated_cap_days": null,
+      "cap_before_deadline": null,
+      "forecast_available": false,
+      "note": "Forecast unavailable — insufficient velocity data."
     },
     "similar_ps": [
       {
@@ -32099,10 +32099,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
@@ -32157,6 +32153,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -32302,10 +32302,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -32359,6 +32355,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -32492,10 +32492,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -32549,6 +32545,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -32671,10 +32671,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -32728,6 +32724,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -32848,10 +32848,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -32905,6 +32901,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -33033,10 +33033,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -33090,6 +33086,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -33223,10 +33223,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -33280,6 +33276,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -33418,10 +33418,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -33475,6 +33471,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -33612,10 +33612,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -33670,6 +33666,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 3
       }
     ]
   },
@@ -33683,9 +33683,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 5,
+    "ideas_submitted": 6,
     "submission_capacity": 500,
-    "fill_percentage": 1.0,
+    "fill_percentage": 1.2,
     "description": "Background The marine ecosystem plays a vital role in supporting livelihoods, food security, biodiversity, maritime transportation, coastal resilience, and the blue economy. Every day, vast volumes of satellite Earth Observation and oceanographic data, including Sea Surface Temperature (SST), chlorophyll concentration, and weather forecasts, are generated by ISRO and other global agencies.\nMarine stakeholders such as fishermen, researchers, coastal authorities, disaster management agencies, and maritime operators rely on timely access to oceanographic and meteorological information for operational planning and decision-making. As the volume, diversity, and complexity of marine data continue to increase, there is a growing need for an intelligent conversational platform that enables users to interact naturally with marine information, ask questions, explore scenarios, and receive synthesized, evidence-based recommendations tailored to their context.\nAdvances in Agentic AI, conversational intelligence, and geospatial technologies present an opportunity to fundamentally transform how marine information is accessed and utilized. By integrating satellite Earth Observation data with autonomous AI agents, intelligent conversational decision-support systems should be able to answer questions such as 'Where is the nearest Potential Fishing Zone today?', 'Is it safe to venture into the sea tomorrow morning?', or 'What are the tide, weather, and sea conditions near my fishing location?' and provide explainable, context-aware recommendations.\nDescription Develop an Agentic AI-powered conversational platform that enables users to access, analyze, and reason over marine information using natural language.\nThe platform should autonomously interpret user intent, decompose complex requests into executable tasks, coordinate multiple specialized AI agents, retrieve relevant marine and geospatial datasets, perform spatial-temporal reasoning, and synthesize actionable recommendations through a conversational interface.\nThe solution should be capable of integrating information from multiple sources, including satellite Earth Observation products, GIS layers, weather services, oceanographic observations, and marine advisories available in the public domain.\nTypical user queries include:\n• Where is the nearest Potential Fishing Zone (PFZ) today?\n• Is it safe to venture into the sea tomorrow morning?\n• What are the tide, weather, and sea conditions near my fishing location?\n• Are there any lightning or cyclone alerts in my area?\n• Which regions show high chlorophyll concentration and favourable sea surface temperature?\n• What is the safest route for a fishing vessel considering weather and sea-state conditions?\n• Why has fish productivity declined in a particular coastal region?\n• Which fishing zones should be avoided due to hazardous marine conditions or geofencing restrictions?\nThe platform should not merely retrieve information from individual datasets but intelligently correlate observations from multiple sources, explain the reasoning behind its recommendations, and present insights through conversational responses, maps, alerts, and interactive geospatial visualizations.\nExpected Solution Participants are expected to develop an Agentic AI-powered Marine Intelligence Platform that leverages collaborative AI agents, geospatial technologies, and satellite Earth Observation data to provide intelligent conversational decision support.\nThe solution should demonstrate the core principles of Agentic AI, including autonomous planning, reasoning, tool selection, task execution, collaboration among specialized agents, and explainable decision-making.\nThe platform should be capable of:\n• Understanding user intent expressed in natural language.\n• Automatically identifying the language of the user's query and responding in the same language, with emphasis on supporting Indian regional languages.\n• Supporting contextual, multi-turn conversations that enable users to refine queries and explore related scenarios.\n• Autonomously discovering, retrieving, and integrating relevant satellite, marine, meteorological, and geospatial datasets.\n• Performing spatial, temporal, and contextual reasoning by correlating observations from multiple heterogeneous data sources.\n• Generating explainable, evidence-based recommendations supported by maps, charts, geospatial visualizations, and marine advisories.\n• Enhancing fishermen safety through proactive alerts for adverse weather, high waves, lightning, cyclones, and other hazardous marine conditions.\n• Providing geofencing-based notifications when approaching international maritime boundaries, restricted waters, marine protected areas, ecologically sensitive zones, or other predefined operational boundaries.\n• Assisting with route optimization, safe navigation, and operational planning based on prevailing and forecast marine conditions.\n• Delivering reliable recommendations together with the supporting evidence and reasoning used to derive each response.\nParticipants are encouraged to design a modular multi-agent architecture comprising specialized AI agents for planning, marine data discovery, weather intelligence, ocean analytics, geospatial reasoning, risk assessment, visualization, reporting, and user interaction. The architecture should demonstrate autonomous collaboration among agents to solve complex marine intelligence problems while providing an intuitive conversational experience.",
     "dataset_link": "",
     "youtube": "",
@@ -33697,13 +33697,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 2.2,
+      "growth_24h": 1,
+      "velocity_48h": 2.2,
+      "growth_48h": 1,
+      "velocity_7d": 2.2,
+      "growth_7d": 1,
+      "velocity_overall": 2.2,
       "momentum": "Stable",
       "has_history": true
     },
@@ -33768,13 +33768,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 75.4,
+    "opportunity_score": 75.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 224.5,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~2.2/day), cap may be reached in ~224.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -33809,10 +33809,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
@@ -33868,6 +33864,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 6
       }
     ]
   },
@@ -34010,10 +34010,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 13
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 13
       },
@@ -34068,6 +34064,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 13
       }
     ]
   },
@@ -34081,9 +34081,9 @@
     "theme": "Disaster Management",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 9,
+    "ideas_submitted": 10,
     "submission_capacity": 500,
-    "fill_percentage": 1.8,
+    "fill_percentage": 2.0,
     "description": "Background India faces a growing range of environmental and climate-related risks including urban flooding, river floods, cyclones, forest fires, air pollution, droughts, landslides, and extreme weather events. Floods remain among the most frequent disasters across states such as Assam, Bihar, Kerala, and Maharashtra, while forest fires increasingly affect Uttarakhand, Himachal Pradesh, and central Indian forests. Air pollution continues to impact major urban centers, and climate change is increasing the frequency and intensity of these hazards. Government agencies such as NDMA, IMD, and ISRO already rely on environmental monitoring and early warning systems to support disaster management.\nTraditional monitoring systems often depend on centralized infrastructure and may not provide sufficiently localized, real-time intelligence. A distributed network of smart sensors powered by edge AI can improve early detection, reduce response times, and enable communities to act before environmental risks escalate into disasters.\nDescription Design an Environmental Intelligence Network, a distributed system of interconnected AI-powered sensor nodes deployable across cities, rivers, forests, industrial zones, and vulnerable communities. Each node should use local (on device) AI inference to continuously monitor environmental conditions and identify emerging risks such as:\n• Rising water levels and flash flooding\n• Forest fires and smoke events\n• Hazardous air pollution\n• Extreme heat conditions\n• Landslide precursors\n• Industrial emissions or chemical leaks\n• Water quality degradation The sensor network should process data locally to reduce latency, minimize bandwidth requirements, and continue operating even during network outages.\nOnly critical alerts, summarized insights, and risk assessments should be transmitted to regional control centers or disaster management authorities. Edge AI approaches enable devices to operate effectively in low-connectivity environments while providing rapid detection and decision support.\nExpected Solution The proposed solution should include:\n1. Distributed Smart Sensor Nodes\n• Environmental sensors for water level, rainfall, temperature, humidity,smoke, air quality (PM2.5/PM10), gas leakage, soil moisture, and vibration.\n• Solar-powered, low-maintenance deployments suitable for remote locations.\n2. On-Device AI Analytics\n• Real-time anomaly detection at the edge.\n• AI models capable of identifying flood risk, wildfire indicators, air-quality deterioration, and landslide warning signs.\n• Operation without continuous cloud connectivity.\n3. Multi-Hazard Early Warning System\n• Automated alerts for:\no Flooding and flash floods o Forest fires o Hazardous pollution episodes o Extreme weather conditions o Industrial safety incidents 4. Regional Environmental Risk Mapping\n• Geospatial visualization of sensor data.\n• Dynamic risk maps showing hotspots, risk trends, and affected zones.\n• Integration with emergency management dashboards.\n5. Community and Authority Notification\n• Mobile and web alerts for local authorities and citizens.\n• Prioritized warning levels based on severity and confidence scores.\n6. Cloud and Edge Hybrid Architecture\n• Edge processing for immediate decisions.\n• Centralized analytics for long-term trend analysis, forecasting, and policy support.\n7. Scalable and Cost-Effective Deployment\n• Modular architecture that can scale from a single village to a smart city or state-wide deployment.\n• Support for IoT protocols such as LoRaWAN, NB-IoT, Wi-Fi, or 5G.",
     "dataset_link": "",
     "youtube": "",
@@ -34095,13 +34095,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 2.2,
-      "growth_24h": 1,
-      "velocity_48h": 2.2,
-      "growth_48h": 1,
-      "velocity_7d": 2.2,
-      "growth_7d": 1,
-      "velocity_overall": 2.2,
+      "velocity_24h": 4.5,
+      "growth_24h": 2,
+      "velocity_48h": 4.5,
+      "growth_48h": 2,
+      "velocity_7d": 4.5,
+      "growth_7d": 2,
+      "velocity_overall": 4.5,
       "momentum": "Stable",
       "has_history": true
     },
@@ -34169,13 +34169,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 68.9,
+    "opportunity_score": 68.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 223.2,
+      "estimated_cap_days": 108.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~2.2/day), cap may be reached in ~223.2 days. This is an estimate."
+      "note": "At current velocity (~4.5/day), cap may be reached in ~108.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -34210,10 +34210,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
@@ -34269,6 +34265,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 10
       }
     ]
   },
@@ -34412,10 +34412,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -34469,6 +34465,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -34612,10 +34612,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 16
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 16
       },
@@ -34669,6 +34665,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 16
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 16
       }
     ]
@@ -34811,10 +34811,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
       },
@@ -34868,6 +34864,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -35008,10 +35008,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -35065,6 +35061,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -35205,10 +35205,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -35262,6 +35258,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -35402,10 +35402,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -35459,6 +35455,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -35572,10 +35572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -35629,6 +35625,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -35770,10 +35770,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -35827,6 +35823,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -35966,10 +35966,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 10
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 10
       },
@@ -36023,6 +36019,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 10
       }
     ]
@@ -36162,10 +36162,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 14
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 14
       },
@@ -36220,6 +36216,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 14
       }
     ]
   },
@@ -36233,9 +36233,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 11,
+    "ideas_submitted": 12,
     "submission_capacity": 500,
-    "fill_percentage": 2.2,
+    "fill_percentage": 2.4,
     "description": "• Background Modern criminal activities are increasingly organized and interconnected. Criminals often operate through networks involving associates, intermediaries, financial channels, communication links,locations, and events. Law enforcement agencies collect large volumes of data from sources such as:\n• FIRs and police reports\n• Call Detail Records (CDRs)\n• Financial transaction records\n• Surveillance reports\n• Social media intelligence\n• Criminal history databases\n• Intelligence agency reports Despite having access to this information, investigators frequently face challenges in identifying hidden relationships among suspects because the data is fragmented, unstructured, and distributed across multiple systems. Manual analysis can be slow, labor-intensive, and prone to missing critical connections.With advances in Artificial Intelligence (AI), Machine Learning (ML),Natural Language Processing (NLP), and Graph Analytics, it is now possible to automatically discover relationships, detect patterns, and generate insights that can assist investigators in understanding criminal networks more effectively.\n• Description The objective is to develop an AI-powered system that can analyze large volumes of criminal and intelligence-related data to uncover hidden networks and relationships among individuals, organizations, locations,and events.\nThe system should:\n• Collect and process data from multiple sources.\n• Extract important entities such as people, locations, vehicles, phone numbers, and organizations.\n• Build relationship maps showing how different entities are connected.\n• Identify key individuals who play influential roles within criminal networks.\n• Detect suspicious patterns and unusual activities.\n• Assist investigators by providing visual and analytical insights.\n• Expected Solution Develop an AI-powered system that automatically analyzes structured and unstructured crime-related data to uncover criminal networks,identify key influencers, detect suspicious patterns, and provide actionable intelligence for investigators.",
     "dataset_link": "",
     "youtube": "",
@@ -36247,14 +36247,14 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 4.5,
-      "growth_24h": 2,
-      "velocity_48h": 4.5,
-      "growth_48h": 2,
-      "velocity_7d": 4.5,
-      "growth_7d": 2,
-      "velocity_overall": 4.5,
-      "momentum": "Stable",
+      "velocity_24h": 6.7,
+      "growth_24h": 3,
+      "velocity_48h": 6.7,
+      "growth_48h": 3,
+      "velocity_7d": 6.7,
+      "growth_7d": 3,
+      "velocity_overall": 6.7,
+      "momentum": "Rising",
       "has_history": true
     },
     "technology_tags": [
@@ -36314,13 +36314,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 80.7,
+    "opportunity_score": 72.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 108.7,
+      "estimated_cap_days": 72.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~4.5/day), cap may be reached in ~108.7 days. This is an estimate."
+      "note": "At current velocity (~6.7/day), cap may be reached in ~72.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -36349,10 +36349,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 9
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 9
@@ -36408,6 +36404,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 12
       }
     ]
   },
@@ -36542,10 +36542,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 5
       },
@@ -36599,6 +36595,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 5
       }
     ]
@@ -36737,10 +36737,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -36794,6 +36790,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -36930,10 +36930,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -36987,6 +36983,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -37117,10 +37117,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
       },
@@ -37174,6 +37170,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 8
       }
     ]
@@ -37304,10 +37304,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -37361,6 +37357,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -37489,10 +37489,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -37546,6 +37542,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -37674,10 +37674,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -37731,6 +37727,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -37859,10 +37859,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 11
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 11
       },
@@ -37916,6 +37912,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 11
       }
     ]
@@ -38046,10 +38046,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 17
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 17
       },
@@ -38103,6 +38099,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 19
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 19
       }
     ]
@@ -38235,10 +38235,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
       },
@@ -38292,6 +38288,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 9
       }
     ]
@@ -38423,10 +38423,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 4
       },
@@ -38480,6 +38476,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 4
       }
     ]
@@ -38608,10 +38608,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -38665,6 +38661,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -38796,10 +38796,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 13
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 13
       },
@@ -38853,6 +38849,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 14
       }
     ]
@@ -38983,10 +38983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -39040,6 +39036,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -39168,10 +39168,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 23
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 23
       },
@@ -39225,6 +39221,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 23
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 23
       }
     ]
@@ -39356,10 +39356,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 12
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 12
       },
@@ -39413,6 +39409,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 12
       }
     ]
@@ -39541,10 +39541,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 15
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 15
       },
@@ -39598,6 +39594,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 15
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 15
       }
     ]
@@ -39716,10 +39716,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 20
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 20
       },
@@ -39773,6 +39769,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 23
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 23
       }
     ]
@@ -39889,10 +39889,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -39946,6 +39942,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -40076,10 +40076,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
       },
@@ -40133,6 +40129,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 3
       }
     ]
@@ -40265,10 +40265,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -40322,6 +40318,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 8
       }
     ]
@@ -40454,10 +40454,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -40512,6 +40508,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 0
       }
     ]
   },
@@ -40525,9 +40525,9 @@
     "theme": "Clean & Green Technology",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 3,
+    "ideas_submitted": 4,
     "submission_capacity": 500,
-    "fill_percentage": 0.6,
+    "fill_percentage": 0.8,
     "description": "Student Innovation-Solutions could be in the form of waste segregation, disposal, and improve sanitization system.",
     "dataset_link": "",
     "youtube": "",
@@ -40539,13 +40539,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 2.2,
+      "growth_24h": 1,
+      "velocity_48h": 2.2,
+      "growth_48h": 1,
+      "velocity_7d": 2.2,
+      "growth_7d": 1,
+      "velocity_overall": 2.2,
       "momentum": "Stable",
       "has_history": true
     },
@@ -40599,13 +40599,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.6,
+    "opportunity_score": 78.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 225.5,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~2.2/day), cap may be reached in ~225.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -40640,10 +40640,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 3
@@ -40699,6 +40695,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 4
       }
     ]
   },
@@ -40828,10 +40828,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -40885,6 +40881,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -41015,10 +41015,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -41073,6 +41069,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 1
       }
     ]
   },
@@ -41086,9 +41086,9 @@
     "theme": "MedTech / BioTech / HealthTech",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 8,
+    "ideas_submitted": 9,
     "submission_capacity": 500,
-    "fill_percentage": 1.6,
+    "fill_percentage": 1.8,
     "description": "Student Innovation-Cutting-edge technology in these sectors continues to be in demand. Recent shifts in healthcare trends, growing populations also present an array of opportunities for innovation.",
     "dataset_link": "",
     "youtube": "",
@@ -41100,13 +41100,13 @@
     "days_remaining": 19,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 2.2,
+      "growth_24h": 1,
+      "velocity_48h": 2.2,
+      "growth_48h": 1,
+      "velocity_7d": 2.2,
+      "growth_7d": 1,
+      "velocity_overall": 2.2,
       "momentum": "Stable",
       "has_history": true
     },
@@ -41162,13 +41162,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.0,
+    "opportunity_score": 77.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 223.2,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~2.2/day), cap may be reached in ~223.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -41203,10 +41203,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
       {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
@@ -41262,6 +41258,10 @@
       {
         "timestamp": "2026-09-11T11:30:16.663455",
         "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
+        "submitted": 9
       }
     ]
   },
@@ -41395,10 +41395,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -41452,6 +41448,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -41585,10 +41585,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 14
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 14
       },
@@ -41642,6 +41638,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 14
       }
     ]
@@ -41771,10 +41771,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 7
       },
@@ -41828,6 +41824,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 7
       }
     ]
@@ -41961,10 +41961,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 9
       },
@@ -42018,6 +42014,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 9
       }
     ]
@@ -42149,10 +42149,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 10
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 10
       },
@@ -42206,6 +42202,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 11
       }
     ]
@@ -42336,10 +42336,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -42393,6 +42389,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -42526,10 +42526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 6
       },
@@ -42583,6 +42579,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 6
       }
     ]
@@ -42713,10 +42713,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 8
       },
@@ -42770,6 +42766,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 11
       }
     ]
@@ -42890,10 +42890,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -42947,6 +42943,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -43065,10 +43065,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -43122,6 +43118,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -43253,10 +43253,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -43310,6 +43306,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -43449,10 +43449,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -43506,6 +43502,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -43646,10 +43646,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -43703,6 +43699,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -43842,10 +43842,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -43899,6 +43895,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -44019,10 +44019,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -44076,6 +44072,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
@@ -44216,10 +44216,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 2
       },
@@ -44273,6 +44269,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 2
       }
     ]
@@ -44405,10 +44405,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 0
       },
@@ -44462,6 +44458,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 0
       }
     ]
@@ -44580,10 +44580,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-11T00:45:40.177595",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-11T01:00:08.114637",
         "submitted": 1
       },
@@ -44637,6 +44633,10 @@
       },
       {
         "timestamp": "2026-09-11T11:30:16.663455",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-11T11:45:47.078338",
         "submitted": 1
       }
     ]
