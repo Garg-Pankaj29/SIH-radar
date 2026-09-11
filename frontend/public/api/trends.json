@@ -3,10 +3,18 @@
     {
       "ps_number": "SIH26001",
       "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
-      "growth": 3,
+      "growth": 4,
       "period": "24h",
-      "current_submitted": 30,
-      "fill_percentage": 6.0
+      "current_submitted": 31,
+      "fill_percentage": 6.2
+    },
+    {
+      "ps_number": "SIH26047",
+      "title": "Patient Case-Taking Software",
+      "growth": 2,
+      "period": "24h",
+      "current_submitted": 34,
+      "fill_percentage": 6.8
     },
     {
       "ps_number": "SIH26189",
@@ -65,14 +73,6 @@
       "fill_percentage": 5.0
     },
     {
-      "ps_number": "SIH26047",
-      "title": "Patient Case-Taking Software",
-      "growth": 1,
-      "period": "24h",
-      "current_submitted": 33,
-      "fill_percentage": 6.6
-    },
-    {
       "ps_number": "SIH26059",
       "title": "AI-Enabled Antarctic Sea-Ice, Iceberg Trajectory, and Navigation Decision Support System",
       "growth": 1,
@@ -84,11 +84,11 @@
   "deltas": {
     "SIH26001": {
       "ps_number": "SIH26001",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 30,
-      "current_submitted": 30,
-      "fill_change": 0.0
+      "current_submitted": 31,
+      "fill_change": 0.2
     },
     "SIH26002": {
       "ps_number": "SIH26002",
@@ -452,11 +452,11 @@
     },
     "SIH26047": {
       "ps_number": "SIH26047",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 33,
-      "current_submitted": 33,
-      "fill_change": 0.0
+      "current_submitted": 34,
+      "fill_change": 0.2
     },
     "SIH26048": {
       "ps_number": "SIH26048",
@@ -604,11 +604,11 @@
     },
     "SIH26066": {
       "ps_number": "SIH26066",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 2,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 3,
       "current_submitted": 3,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26067": {
       "ps_number": "SIH26067",
@@ -660,11 +660,11 @@
     },
     "SIH26073": {
       "ps_number": "SIH26073",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 1,
-      "current_submitted": 1,
-      "fill_change": 0.0
+      "current_submitted": 2,
+      "fill_change": 0.2
     },
     "SIH26074": {
       "ps_number": "SIH26074",
@@ -1668,11 +1668,11 @@
     },
     "SIH26199": {
       "ps_number": "SIH26199",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 8,
-      "current_submitted": 8,
-      "fill_change": 0.0
+      "current_submitted": 9,
+      "fill_change": 0.2
     },
     "SIH26200": {
       "ps_number": "SIH26200",
@@ -1860,11 +1860,11 @@
     },
     "SIH26223": {
       "ps_number": "SIH26223",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 8,
-      "current_submitted": 8,
-      "fill_change": 0.0
+      "current_submitted": 9,
+      "fill_change": 0.2
     },
     "SIH26224": {
       "ps_number": "SIH26224",
