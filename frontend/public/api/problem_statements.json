@@ -23,13 +23,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 30.9,
+      "velocity_24h": 30.8,
       "growth_24h": 9,
-      "velocity_48h": 30.9,
+      "velocity_48h": 30.8,
       "growth_48h": 9,
-      "velocity_7d": 30.9,
+      "velocity_7d": 30.8,
       "growth_7d": 9,
-      "velocity_overall": 30.9,
+      "velocity_overall": 30.8,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -99,10 +99,10 @@
     "opportunity_score": 57.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 14.3,
+      "estimated_cap_days": 14.4,
       "cap_before_deadline": true,
       "forecast_available": true,
-      "note": "At current velocity (~30.9/day), cap may be reached in ~14.3 days. This is an estimate."
+      "note": "At current velocity (~30.8/day), cap may be reached in ~14.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -137,10 +137,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 49
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 49
@@ -196,6 +192,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 58
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 58
       }
     ]
   },
@@ -209,9 +209,9 @@
     "theme": "Transportation & Logistics",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 24,
+    "ideas_submitted": 25,
     "submission_capacity": 500,
-    "fill_percentage": 4.8,
+    "fill_percentage": 5.0,
     "description": "Background:\nThe North Eastern Region (NER) faces major logistics and accessibility challenges due to difficult terrain, extreme weather conditions, limited transport connectivity, and frequent road disruptions caused by landslides, floods, and infrastructure gaps. Transportation of essential goods such as medicines, food supplies, construction materials, and agricultural produce to remote districts often gets delayed, leading to supply shortages, increased costs, and disruption in public service delivery. Currently, there is no integrated intelligent platform that can provide real-time logistics visibility, route accessibility status, predictive disruption alerts, and optimized transportation planning for the region. To strengthen regional connectivity and support infrastructure-led development initiatives, there is a need for an Al-enabled logistics intelligence system tailored for the unique geographical and operational challenges of NER.\nDescription:\nThis problem statement seeks the development of an Al-powered Smart and in Logistics Accessibility Intelligence Platform for the North Eastern Region (NER) to address challenges related to difficult terrain, weather-induced disruptions, and limited transport connectivity remote areas. The platform should use Artificial Intelligence (Al), Machine Learning (ML), GIS mapping, weather data, and real-time field inputs to monitor transportation networks and improve movement of essential goods and services across the region. The platform should:\na. Monitoring real-time road, bridge, and transport accessibility across districts and remote locations b. Predicting possible route disruptions caused by landslides, floods, heavy rainfall, road damage, or traffic congestion c. Providing Al-based alternate route suggestions and estimated travel delays d. Tracking movement of vehicles carrying essential commodities, medicines, agricultural produce, and construction materials through GPS integration e. Generating automated alerts for blocked roads, inaccessible regions, delayed deliveries, and high-risk transport corridors f. Enabling field officials and local authorities to upload geo-tagged updates, photographs, and incident reports from remote locations g. Creating centralized dashboards for visualizing:\n• District-wise connectivity status\n• Logistics bottlenecks and supply chain gaps Emergency and disaster-time accessibility routes\n• Real-time movement and delivery status of essential supplies h. Supporting multilingual notifications and offline data synchronization for low-network areas The platform should help improve regional connectivity, strengthen emergency response systems, reduce supply chain disruptions, and support efficient planning and monitoring of logistics operations in the North Eastern Region.\nExpected Solution:\n• A scalable Al-based software platform integrated with GIS and real-time analytics featuring:\n• Al-powered route prediction and optimization engine\n• GIS-enabled accessibility monitoring dashboard\n• GPS-based vehicle tracking system\n• Real-time alert and notification mechanism\n• Mobile/web application for field-level reporting and monitoring Integration capability with weather APIs, transport databases, and government monitoring systems\n• Cloud-based infrastructure with secure data management and offline support The platform should improve regional logistics efficiency, reduce supply disruptions, strengthen emergency response capability, and support infrastructure and economic development across the North Eastern Region.",
     "dataset_link": "",
     "youtube": "",
@@ -223,13 +223,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 10.3,
-      "growth_24h": 3,
-      "velocity_48h": 10.3,
-      "growth_48h": 3,
-      "velocity_7d": 10.3,
-      "growth_7d": 3,
-      "velocity_overall": 10.3,
+      "velocity_24h": 13.7,
+      "growth_24h": 4,
+      "velocity_48h": 13.7,
+      "growth_48h": 4,
+      "velocity_7d": 13.7,
+      "growth_7d": 4,
+      "velocity_overall": 13.7,
       "momentum": "Rising",
       "has_history": true
     },
@@ -294,13 +294,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 65.1,
+    "opportunity_score": 65.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 46.2,
+      "estimated_cap_days": 34.7,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.3/day), cap may be reached in ~46.2 days. This is an estimate."
+      "note": "At current velocity (~13.7/day), cap may be reached in ~34.7 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -335,10 +335,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 21
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 21
@@ -394,6 +390,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 24
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 25
       }
     ]
   },
@@ -535,10 +535,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 24
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 24
       },
@@ -592,6 +588,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 28
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 28
       }
     ]
@@ -732,10 +732,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -789,6 +785,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -925,10 +925,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 14
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 14
       },
@@ -982,6 +978,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 17
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 17
       }
     ]
@@ -1121,10 +1121,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -1179,6 +1175,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 4
       }
     ]
   },
@@ -1206,13 +1206,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -1279,10 +1279,10 @@
     "opportunity_score": 66.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.4,
+      "estimated_cap_days": 71.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.4 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -1317,10 +1317,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 12
@@ -1376,6 +1372,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 14
       }
     ]
   },
@@ -1403,13 +1403,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -1477,10 +1477,10 @@
     "opportunity_score": 67.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.3,
+      "estimated_cap_days": 72.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.3 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -1515,10 +1515,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
@@ -1573,6 +1569,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -1708,10 +1708,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -1765,6 +1761,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -1905,10 +1905,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -1962,6 +1958,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -2101,10 +2101,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -2158,6 +2154,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -2299,10 +2299,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -2356,6 +2352,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -2498,10 +2498,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -2555,6 +2551,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -2698,10 +2698,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -2755,6 +2751,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -2891,10 +2891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -2949,6 +2945,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -2976,13 +2976,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -3049,10 +3049,10 @@
     "opportunity_score": 70.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.4,
+      "estimated_cap_days": 72.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.4 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -3087,10 +3087,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
@@ -3145,6 +3141,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 7
       }
     ]
@@ -3285,10 +3285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -3343,6 +3339,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 7
       }
     ]
   },
@@ -3370,13 +3370,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -3444,10 +3444,10 @@
     "opportunity_score": 69.4,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.6,
+      "estimated_cap_days": 71.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.6 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -3482,10 +3482,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 11
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 11
@@ -3540,6 +3536,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 13
       }
     ]
@@ -3679,10 +3679,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -3736,6 +3732,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -3873,10 +3873,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -3931,6 +3927,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 3
       }
     ]
   },
@@ -3958,13 +3958,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -4029,10 +4029,10 @@
     "opportunity_score": 73.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.6,
+      "estimated_cap_days": 72.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.6 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -4061,10 +4061,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
@@ -4119,6 +4115,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -4243,10 +4243,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -4300,6 +4296,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 7
       }
     ]
@@ -4425,10 +4425,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -4482,6 +4478,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -4626,10 +4626,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -4684,6 +4680,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 4
       }
     ]
   },
@@ -4711,13 +4711,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -4788,10 +4788,10 @@
     "opportunity_score": 60.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.0,
+      "estimated_cap_days": 72.1,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.0 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.1 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -4826,10 +4826,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 8
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 8
@@ -4885,6 +4881,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 10
       }
     ]
   },
@@ -4912,13 +4912,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -4990,10 +4990,10 @@
     "opportunity_score": 61.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.9,
+      "estimated_cap_days": 72.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.9 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -5028,10 +5028,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
@@ -5086,6 +5082,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -5221,10 +5221,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 8
       },
@@ -5278,6 +5274,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 11
       }
     ]
@@ -5418,10 +5418,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -5475,6 +5471,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -5605,10 +5605,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -5662,6 +5658,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -5780,10 +5780,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -5837,6 +5833,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -5953,10 +5953,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -6011,6 +6007,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 3
       }
     ]
   },
@@ -6038,13 +6038,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 30.9,
+      "velocity_24h": 30.8,
       "growth_24h": 9,
-      "velocity_48h": 30.9,
+      "velocity_48h": 30.8,
       "growth_48h": 9,
-      "velocity_7d": 30.9,
+      "velocity_7d": 30.8,
       "growth_7d": 9,
-      "velocity_overall": 30.9,
+      "velocity_overall": 30.8,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -6109,7 +6109,7 @@
       "estimated_cap_days": 15.0,
       "cap_before_deadline": true,
       "forecast_available": true,
-      "note": "At current velocity (~30.9/day), cap may be reached in ~15.0 days. This is an estimate."
+      "note": "At current velocity (~30.8/day), cap may be reached in ~15.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -6144,10 +6144,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 29
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 29
@@ -6203,6 +6199,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 38
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 38
       }
     ]
   },
@@ -6230,13 +6230,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 13.7,
-      "growth_24h": 4,
-      "velocity_48h": 13.7,
-      "growth_48h": 4,
-      "velocity_7d": 13.7,
-      "growth_7d": 4,
-      "velocity_overall": 13.7,
+      "velocity_24h": 10.3,
+      "growth_24h": 3,
+      "velocity_48h": 10.3,
+      "growth_48h": 3,
+      "velocity_7d": 10.3,
+      "growth_7d": 3,
+      "velocity_overall": 10.3,
       "momentum": "Rising",
       "has_history": true
     },
@@ -6298,10 +6298,10 @@
     "opportunity_score": 70.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 34.5,
+      "estimated_cap_days": 45.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~13.7/day), cap may be reached in ~34.5 days. This is an estimate."
+      "note": "At current velocity (~10.3/day), cap may be reached in ~45.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -6324,10 +6324,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 24
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 25
@@ -6382,6 +6378,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 28
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 28
       }
     ]
@@ -6521,10 +6521,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 22
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 22
       },
@@ -6578,6 +6574,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 30
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 30
       }
     ]
@@ -6714,10 +6714,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -6771,6 +6767,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -6911,10 +6911,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -6969,6 +6965,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 6
       }
     ]
   },
@@ -6996,14 +6996,14 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
-      "growth_24h": 2,
-      "velocity_48h": 6.9,
-      "growth_48h": 2,
-      "velocity_7d": 6.9,
-      "growth_7d": 2,
-      "velocity_overall": 6.9,
-      "momentum": "Rising",
+      "velocity_24h": 3.4,
+      "growth_24h": 1,
+      "velocity_48h": 3.4,
+      "growth_48h": 1,
+      "velocity_7d": 3.4,
+      "growth_7d": 1,
+      "velocity_overall": 3.4,
+      "momentum": "Stable",
       "has_history": true
     },
     "technology_tags": [
@@ -7067,13 +7067,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 69.6,
+    "opportunity_score": 77.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.7,
+      "estimated_cap_days": 143.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.7 days. This is an estimate."
+      "note": "At current velocity (~3.4/day), cap may be reached in ~143.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -7108,10 +7108,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 10
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 11
@@ -7167,6 +7163,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 12
       }
     ]
   },
@@ -7194,13 +7194,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -7267,10 +7267,10 @@
     "opportunity_score": 69.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.7,
+      "estimated_cap_days": 71.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -7305,10 +7305,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 10
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 10
@@ -7363,6 +7359,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 12
       }
     ]
@@ -7503,10 +7503,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 11
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 11
       },
@@ -7560,6 +7556,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 14
       }
     ]
@@ -7696,10 +7696,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 20
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 20
       },
@@ -7754,6 +7750,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 21
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 21
       }
     ]
   },
@@ -7781,13 +7781,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -7853,10 +7853,10 @@
     "opportunity_score": 73.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 72.0,
+      "estimated_cap_days": 73.1,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~72.0 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~73.1 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -7891,10 +7891,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
@@ -7949,6 +7945,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -8070,10 +8070,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 12
       },
@@ -8127,6 +8123,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 16
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 16
       }
     ]
@@ -8264,10 +8264,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
       },
@@ -8322,6 +8318,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 12
       }
     ]
   },
@@ -8335,9 +8335,9 @@
     "theme": "Smart Automation",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 38,
+    "ideas_submitted": 39,
     "submission_capacity": 500,
-    "fill_percentage": 7.6,
+    "fill_percentage": 7.8,
     "description": "Background:\nA significant gap exists between the skills acquired in academic institutions and the competencies expected by industries. Students often struggle to identify the skills required for their desired career paths, while industries face challenges in finding candidates with the right skill sets. Similarly, academicians have limited visibility into industry internship opportunities that could help them gain practical exposure and align teaching with current industry practices. There is a need for a unified platform that connects students, industries, and academicians, enabling seamless collaboration and skill development.\nDescription:\nThe proposed solution is a centralized Academia–Industry Collaboration Portal that serves as a one-stop platform for students, industries, and academicians.\nKey features include:\n• Skill Assessment: Students complete a questionnaire to evaluate their technical and soft skills shared by industry. The system generates a skill profile and identifies strengths and skill gaps based on current industry requirements.\n• Skill Mapping: Based on the assessment, the platform recommends relevant industries, job roles, and skill development programs aligned with industry requirements.\n• Industry Internship & Job Opportunities: Industries can post internships, projects, apprenticeships, and entry-level job openings with required skills. Students receive recommendations based on their skill profiles and can apply directly.\n• Industry Learning Programs: Companies can publish training programs, certification courses, workshops, and mentorship initiatives to help students acquire in-demand skills before applying.\n• Allow students to search, apply, and track internship and placement opportunities through a single platform.\n• Provide a dedicated portal for academicians to explore faculty internships, industrial training, Faculty Development Programs (FDPs), consultancy opportunities, and collaborative research projects.\n• Facilitate industry–academia collaboration through mentorship programs, workshops, guest lectures, innovation challenges, and live industry projects.\n• Enable institutions to monitor student skill development, internship participation, and placement progress through dashboards and analytics.\n• Maintain a digital portfolio for students containing verified skills, certifications, projects, internships, and achievements to improve employability.\nExpected solution:\nThe solution should provide:\nThe solution should provide a secure, scalable, and intelligent platform that supports the complete lifecycle of skill development, internships, and placements.\n• Skill Development-\n• Skill assessment through questionnaires and aptitude tests.\n• Skill profiling and identification of technical and soft skill gaps.\n• Personalized learning recommendations, certification programs, and industry-relevant training.\n• Career guidance based on individual skills, interests, and industry demand.\n• Student digital portfolios showcasing verified skills, certifications, projects, and achievements.\n• Internship-\n• Centralized internship portal where industries can post internship opportunities with required skills.\n• Matching of students to internships based on their skill profiles and career interests.\n• Internship application and tracking system for students.\n• Internship opportunities for academicians, industrial training, and Faculty Development Programs (FDPs).\n• Progress tracking, mentor feedback, and internship completion records.\n• Placement-\n• Industry portal for posting job opportunities with required qualifications and skill sets.\n• Recommendation engine to match students with relevant placement opportunities.\n• Candidate shortlisting based on skill compatibility and eligibility.\n• Application tracking and recruitment management for students and recruiters.\n• Analytics and reporting dashboards for institutions and industries to monitor placement readiness, recruitment outcomes, and skill demand trends.\nOverall Platform Features-\n• Role-based access for students, academicians, industries, and institutions.\n• Secure document management for resumes, certificates, internship reports, and academic records.\n• Collaboration features for industry mentorship, live projects, workshops, and research partnerships.\n• Integration with learning platforms, certification providers, and institutional databases.\n• Comprehensive analytics to support data-driven decisions for institutions, industries, and policymakers.",
     "dataset_link": "",
     "youtube": "",
@@ -8417,13 +8417,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 63.4,
+    "opportunity_score": 63.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 44.9,
+      "estimated_cap_days": 44.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.3/day), cap may be reached in ~44.9 days. This is an estimate."
+      "note": "At current velocity (~10.3/day), cap may be reached in ~44.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -8458,10 +8458,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 35
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 36
@@ -8517,6 +8513,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 38
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 39
       }
     ]
   },
@@ -8642,10 +8642,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 8
       },
@@ -8699,6 +8695,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -8839,10 +8839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -8897,6 +8893,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -8924,13 +8924,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 24.0,
+      "velocity_24h": 23.9,
       "growth_24h": 7,
-      "velocity_48h": 24.0,
+      "velocity_48h": 23.9,
       "growth_48h": 7,
-      "velocity_7d": 24.0,
+      "velocity_7d": 23.9,
       "growth_7d": 7,
-      "velocity_overall": 24.0,
+      "velocity_overall": 23.9,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -8998,10 +8998,10 @@
     "opportunity_score": 60.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 18.6,
+      "estimated_cap_days": 18.7,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~24.0/day), cap may be reached in ~18.6 days. This is an estimate."
+      "note": "At current velocity (~23.9/day), cap may be reached in ~18.7 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -9036,10 +9036,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 46
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 46
@@ -9094,6 +9090,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 53
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 53
       }
     ]
@@ -9210,10 +9210,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -9267,6 +9263,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -9405,10 +9405,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -9462,6 +9458,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -9602,10 +9602,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -9659,6 +9655,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -9795,10 +9795,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -9852,6 +9848,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 7
       }
     ]
@@ -9993,10 +9993,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -10050,6 +10046,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -10191,10 +10191,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -10249,6 +10245,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 4
       }
     ]
   },
@@ -10276,13 +10276,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -10354,10 +10354,10 @@
     "opportunity_score": 67.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.3,
+      "estimated_cap_days": 72.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.3 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -10392,10 +10392,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
@@ -10450,6 +10446,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -10573,10 +10573,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -10630,6 +10626,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -10764,10 +10764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -10821,6 +10817,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -10965,10 +10965,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -11022,6 +11018,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -11163,10 +11163,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -11220,6 +11216,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -11349,10 +11349,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -11406,6 +11402,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -11539,10 +11539,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -11597,6 +11593,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -11624,13 +11624,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -11691,10 +11691,10 @@
     "opportunity_score": 70.4,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.7,
+      "estimated_cap_days": 72.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -11729,10 +11729,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
@@ -11787,6 +11783,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -11919,10 +11919,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -11976,6 +11972,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -12104,10 +12104,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -12161,6 +12157,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -12285,10 +12285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -12342,6 +12338,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -12475,10 +12475,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -12532,6 +12528,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -12667,10 +12667,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -12724,6 +12720,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -12865,10 +12865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -12923,6 +12919,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 3
       }
     ]
   },
@@ -12950,13 +12950,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 20.6,
+      "velocity_24h": 20.5,
       "growth_24h": 6,
-      "velocity_48h": 20.6,
+      "velocity_48h": 20.5,
       "growth_48h": 6,
-      "velocity_7d": 20.6,
+      "velocity_7d": 20.5,
       "growth_7d": 6,
-      "velocity_overall": 20.6,
+      "velocity_overall": 20.5,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -13023,10 +13023,10 @@
     "opportunity_score": 60.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 22.7,
+      "estimated_cap_days": 22.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~20.6/day), cap may be reached in ~22.7 days. This is an estimate."
+      "note": "At current velocity (~20.5/day), cap may be reached in ~22.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -13061,10 +13061,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 27
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 27
@@ -13119,6 +13115,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 33
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 33
       }
     ]
@@ -13257,10 +13257,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -13314,6 +13310,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -13430,10 +13430,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -13487,6 +13483,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -13621,10 +13621,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -13678,6 +13674,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -13804,10 +13804,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -13861,6 +13857,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -14000,10 +14000,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -14057,6 +14053,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -14189,10 +14189,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -14247,6 +14243,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 1
       }
     ]
   },
@@ -14260,9 +14260,9 @@
     "theme": "Smart Education",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 9,
+    "ideas_submitted": 10,
     "submission_capacity": 500,
-    "fill_percentage": 1.8,
+    "fill_percentage": 2.0,
     "description": "The solution should include secure signup and login functionality with three user roles: Trainee, Trainer, and Admin. Trainees should be able to create professional profiles with qualifications, work experience, interests, skills, and certificates, enroll in courses, access learning resources, attempt subject-wise MCQ assessments, and provide feedback on courses and training content.Trainers should be able to manage their profiles, create questionnaires with deadlines, monitor trainee participation and performance, and upload recorded lectures, presentations, and study materials in a trainer library accessible to trainees.The Admin module should provide user approval and role management features along with dashboards for monitoring courses, enrollments, certifications,assessments, and participation statistics. Admins should also be able to publish notifications, announcements, achievements, and newly added learning content on the homepage.The platform should support competency mapping for identifying suitable trainers for various subjects and should be scalable, secure, user-friendly, and accessible across devices to promote efficient learning and organizational capacity building.",
     "dataset_link": "",
     "youtube": "",
@@ -14274,13 +14274,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 3.4,
+      "growth_24h": 1,
+      "velocity_48h": 3.4,
+      "growth_48h": 1,
+      "velocity_7d": 3.4,
+      "growth_7d": 1,
+      "velocity_overall": 3.4,
       "momentum": "Stable",
       "has_history": true
     },
@@ -14341,13 +14341,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 80.9,
+    "opportunity_score": 80.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 144.1,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~3.4/day), cap may be reached in ~144.1 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -14376,10 +14376,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
@@ -14435,6 +14431,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 10
       }
     ]
   },
@@ -14569,10 +14569,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -14626,6 +14622,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -14768,10 +14768,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -14825,6 +14821,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -14968,10 +14968,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -15025,6 +15021,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -15162,10 +15162,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -15219,6 +15215,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -15355,10 +15355,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -15412,6 +15408,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -15550,10 +15550,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -15607,6 +15603,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -15744,10 +15744,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -15801,6 +15797,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -15940,10 +15940,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -15997,6 +15993,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -16136,10 +16136,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -16193,6 +16189,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -16331,10 +16331,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -16388,6 +16384,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -16526,10 +16526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -16583,6 +16579,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -16728,10 +16728,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -16785,6 +16781,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -16923,10 +16923,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -16980,6 +16976,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -17107,10 +17107,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 18
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 18
       },
@@ -17164,6 +17160,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 21
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 21
       }
     ]
@@ -17302,10 +17302,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 10
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 10
       },
@@ -17359,6 +17355,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 13
       }
     ]
@@ -17496,10 +17496,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
       },
@@ -17554,6 +17550,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 13
       }
     ]
   },
@@ -17581,13 +17581,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 20.6,
-      "growth_24h": 6,
-      "velocity_48h": 20.6,
-      "growth_48h": 6,
-      "velocity_7d": 20.6,
-      "growth_7d": 6,
-      "velocity_overall": 20.6,
+      "velocity_24h": 17.1,
+      "growth_24h": 5,
+      "velocity_48h": 17.1,
+      "growth_48h": 5,
+      "velocity_7d": 17.1,
+      "growth_7d": 5,
+      "velocity_overall": 17.1,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -17650,10 +17650,10 @@
     "opportunity_score": 62.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 23.6,
+      "estimated_cap_days": 28.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~20.6/day), cap may be reached in ~23.6 days. This is an estimate."
+      "note": "At current velocity (~17.1/day), cap may be reached in ~28.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -17676,10 +17676,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 8
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
@@ -17735,6 +17731,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 14
       }
     ]
   },
@@ -17748,9 +17748,9 @@
     "theme": "MedTech / BioTech / HealthTech",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 7,
+    "ideas_submitted": 8,
     "submission_capacity": 500,
-    "fill_percentage": 1.4,
+    "fill_percentage": 1.6,
     "description": "• Background Victims and complainants belonging to Scheduled Castes and Scheduled Tribes who approach the National Helpline Against Atrocities (14566), Integrated Portal, chatbot, mobile application, IVRS, or other digital platforms often experience severe emotional distress arising from caste-based discrimination, violence, rape, gang rape, murder of family members, social boycott, displacement, threats, and prolonged legal proceedings. Presently, there is no standardized mechanism for assessing the psychological condition and vulnerability of victims at the time of first contact with authorities.\n• Problem Statement Design and develop an AI-enabled Real-Time Stress and Trauma Assessment Module that can assess the psychological stress, trauma, fear, anxiety, and vulnerability levels of victims/complainants interacting through NHAA (14566), the Integrated Portal, chatbot,IVRS, mobile application, or any other approved digital interface.\n• Expected Solution The solution should:\n• Analyse voice interactions, speech patterns, pauses, pitch variation, emotional indicators, and textual narratives.\n• Use Natural Language Processing (NLP), Speech Analytics, and Emotion AI to identify signs of trauma and distress.\n• Generate a Stress Vulnerability Index (SVI) on a predefined scale.\n• Categorize victims into Low, Moderate, High, and Critical Risk categories.\n• Detect indicators of severe trauma, fear, depression, suicidal ideation,intimidation, social isolation, and extreme vulnerability.\n• Automatically recommend counselling, legal aid, medical assistance, police intervention, witness protection, or emergency support based on risk level.\n• Support multilingual interactions, including major Indian languages and dialects.\n• Maintain privacy, informed consent, confidentiality, and ethical AI standards.\n• Expected Outcomes\n• Early identification of highly distressed victims.\n• Prioritization of counselling and rehabilitation services.\n• Improved victim-centric grievance redressal.\n• Better allocation of support resources.\n• Enhanced responsiveness of the helpline and integrated portal ecosystem.\n• Stakeholders:\n• Department of Social Justice and Empowerment\n• National Helpline Against Atrocities (14566)\n• State Governments and Union Territories\n• District Administrations\n• Counsellors and Mental Health Professionals\n• Law Enforcement Agencies\n• Rehabilitation and Welfare Authorities",
     "dataset_link": "",
     "youtube": "",
@@ -17762,13 +17762,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 3.4,
+      "growth_24h": 1,
+      "velocity_48h": 3.4,
+      "growth_48h": 1,
+      "velocity_7d": 3.4,
+      "growth_7d": 1,
+      "velocity_overall": 3.4,
       "momentum": "Stable",
       "has_history": true
     },
@@ -17832,13 +17832,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 75.2,
+    "opportunity_score": 75.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 144.7,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~3.4/day), cap may be reached in ~144.7 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -17873,10 +17873,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
@@ -17932,6 +17928,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 8
       }
     ]
   },
@@ -18074,10 +18074,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -18131,6 +18127,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -18271,10 +18271,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 12
       },
@@ -18328,6 +18324,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 13
       }
     ]
@@ -18469,10 +18469,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -18526,6 +18522,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -18664,10 +18664,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -18722,6 +18718,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -18749,13 +18749,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 3.4,
-      "growth_24h": 1,
-      "velocity_48h": 3.4,
-      "growth_48h": 1,
-      "velocity_7d": 3.4,
-      "growth_7d": 1,
-      "velocity_overall": 3.4,
+      "velocity_24h": 0.0,
+      "growth_24h": 0,
+      "velocity_48h": 0.0,
+      "growth_48h": 0,
+      "velocity_7d": 0.0,
+      "growth_7d": 0,
+      "velocity_overall": 0.0,
       "momentum": "Stable",
       "has_history": true
     },
@@ -18820,10 +18820,10 @@
     "opportunity_score": 69.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 146.2,
-      "cap_before_deadline": false,
-      "forecast_available": true,
-      "note": "At current velocity (~3.4/day), cap may be reached in ~146.2 days. This is an estimate."
+      "estimated_cap_days": null,
+      "cap_before_deadline": null,
+      "forecast_available": false,
+      "note": "Forecast unavailable — insufficient velocity data."
     },
     "similar_ps": [
       {
@@ -18858,10 +18858,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
@@ -18916,6 +18912,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -19050,10 +19050,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -19108,6 +19104,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -19135,13 +19135,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -19205,10 +19205,10 @@
     "opportunity_score": 70.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.3,
+      "estimated_cap_days": 72.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.3 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -19243,10 +19243,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
@@ -19301,6 +19297,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -19443,10 +19443,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 17
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 17
       },
@@ -19500,6 +19496,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 22
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 22
       }
     ]
@@ -19638,10 +19638,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 13
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 13
       },
@@ -19695,6 +19691,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 13
       }
     ]
@@ -19834,10 +19834,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -19891,6 +19887,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -20032,10 +20032,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 24
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 24
       },
@@ -20089,6 +20085,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 28
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 28
       }
     ]
@@ -20231,10 +20231,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -20289,6 +20285,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 6
       }
     ]
   },
@@ -20302,9 +20302,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 17,
+    "ideas_submitted": 18,
     "submission_capacity": 500,
-    "fill_percentage": 3.4,
+    "fill_percentage": 3.6,
     "description": "• Background Email continues to be one of the most widely used communication channels in government, education, banking,and enterprise ecosystems. However, it also remains one of the most exploited attack vectors for phishing,impersonation, business email compromise, financial fraud, credential theft, and malware delivery. Threat actors increasingly use spoofed domains, deceptive sender identities, social engineering techniques, and compromised infrastructure to send highly convincing fraudulent emails that appear legitimate to end users.Traditional email security controls such as spam filters, static blacklists, and rule-based signature mechanisms are often insufficient to detect sophisticated fraudulent emails. Attackers now use AI-generated language,domain lookalikes, display-name spoofing, hidden redirection links, and relay chains to evade standard detection systems. In many cases, even when a suspicious email is identified, organizations lack the technical capability to effectively trace the source path, identify probable sender infrastructure, correlate geolocation clues, and support investigation into the origin of the email.This gap creates major challenges for cybersecurity teams, law enforcement support, fraud response units, and institutional administrators who need not only to detect malicious emails but also to investigate their source and reveal indicators that may help identify the actor or infrastructure behind the attack.\n• Problem Statement Current email security ecosystems primarily focus on filtering or blocking suspicious content but provide limited intelligence for deep forensic tracing of fraudulent email origins. Existing tools often do not adequately correlate email headers, SMTP relay paths, SPF/DKIM/DMARC validation results, IP reputation, geolocation indicators, domain registration intelligence, and behavioral patterns to build a complete picture of the sender’s identity or operating location.There is a need for an AI-powered platform capable of detecting phishing, spoofed, impersonated, and fraudulent emails in real time or near real time, analyzing the complete technical structure of an email, tracing its transmission path across mail servers, estimating its origin with location, and generating forensic intelligence and investigative insights that assist in identifying malicious infrastructure, compromised systems, or threat actors behind the attack.The solution should support forensic analysis, fraud prevention, institutional email security, and investigation workflows while maintaining legal, privacy, and evidentiary standards.\n• Proposed Solution Develop an AI-Powered Email Threat Detection, GeoLocation and Forensic Intelligence Platform that combines Natural Language Processing (NLP), Machine Learning (ML), email header forensics, IP intelligence, domain analysis, and graph-based correlation to identify suspicious emails,detect advanced email threats, and investigate their probable origin.\nThe system should ingest raw email content, metadata, and headers; validate sender authentication mechanisms;\nextract indicators of compromise; reconstruct relay paths; analyze originating IP addresses and associated geolocation data; and generate a confidence-based assessment of fraud risk and probable sender origin. The platform should provide actionable alerts, visual trace maps, and forensic reports for security analysts,administrators, and investigators.\n• Key Components\n• Fraudulent Email Detection Engine o NLP-based analysis of email subject lines, body text, urgency cues, impersonation language, and social engineering patterns.\no Detection of phishing indicators such as spoofed sender addresses, deceptive domains, suspicious attachments, malicious links, and obfuscated URLs.\no AI/ML models to classify emails as legitimate, suspicious, impersonated, phishing, or fraud-related.\no Identification of business email compromise patterns such as payment diversion, fake invoice requests, credential harvesting attempts, and executive impersonation.\n• Email Header and Protocol Analysis Module o Deep analysis of email headers including Return-Path, Received headers, Message-ID, Reply-To,DKIM signatures, SPF alignment, and DMARC status.\no Detection of anomalies in mail routing, forged sender fields, relay manipulation, and spoofed transmission records.\no Validation of whether the email was sent through authorized infrastructure or suspicious relay paths.\n• Origin Traceability and Location Analysis o Extraction of originating IP addresses from header chains and identification of the earliest reliable sending node.\no IP geolocation mapping to estimate the likely country, region, city, ISP, hosting provider, or proxy service associated with the email source.\no Correlation with VPN, TOR, open relay, botnet, or cloud-hosted infrastructure indicators where applicable.\no Domain intelligence analysis using WHOIS data, DNS records, MX records, hosting fingerprints,and registrar details to identify suspicious sender infrastructure.\n• Identity Correlation and Attribution Support o Correlation of email indicators with known threat intelligence, blacklists, previous incidents,domain clusters, and repeated fraud campaigns.\no Graph-based relationship analysis between sender domains, IP addresses, aliases, reply chains, and linked infrastructure.\no Confidence-based investigative assessment to assist in revealing probable sender identity, associated infrastructure, or campaign-level attribution patterns.\no Support for flagging whether the email likely originated from a compromised account, spoofed domain, anonymized infrastructure, or direct malicious actor environment.\n• Alerting, Dashboard, and Forensic Reporting o Real-time alerts for high-risk emails before user interaction or administrative approval.\no Analyst dashboard showing fraud score, spoofing indicators, sender trace path, geolocation map,and attribution confidence.\no Generation of structured forensic reports for institutional action, legal review, cyber incident response, and support to law enforcement agencies.\no Searchable case management view for grouping related fraudulent emails into campaigns.\n• Privacy, Legal, and Compliance Safeguards o Controlled handling of personal data and metadata in accordance with organizational privacy policies.\no Logging, evidence preservation, and chain-of-custody support for investigation purposes.\noConfigurable retention and masking mechanisms for sensitive communication data.\n• Expected Outcomes\n• Early and accurate detection of fraudulent, spoofed, and phishing-based email attacks.\n• Improved ability to trace suspicious email origin paths and identify probable source infrastructure.\n• Enhanced fraud investigation capability through geolocation analysis, domain intelligence, and sender attribution support.\n• Reduced financial loss, reputational damage, and unauthorized disclosure of confidential information caused by email-based fraud.\n• Better institutional readiness for cyber incident response, forensic investigation, and enforcement coordination.",
     "dataset_link": "",
     "youtube": "",
@@ -20316,13 +20316,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
-      "growth_24h": 2,
-      "velocity_48h": 6.9,
-      "growth_48h": 2,
-      "velocity_7d": 6.9,
-      "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_24h": 10.3,
+      "growth_24h": 3,
+      "velocity_48h": 10.3,
+      "growth_48h": 3,
+      "velocity_7d": 10.3,
+      "growth_7d": 3,
+      "velocity_overall": 10.3,
       "momentum": "Rising",
       "has_history": true
     },
@@ -20387,13 +20387,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 66.0,
+    "opportunity_score": 65.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.0,
+      "estimated_cap_days": 46.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.0 days. This is an estimate."
+      "note": "At current velocity (~10.3/day), cap may be reached in ~46.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -20428,10 +20428,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 15
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 15
@@ -20487,6 +20483,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 17
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 18
       }
     ]
   },
@@ -20514,13 +20514,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -20583,10 +20583,10 @@
     "opportunity_score": 73.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.9,
+      "estimated_cap_days": 72.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.9 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -20603,10 +20603,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
@@ -20661,6 +20657,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -20795,10 +20795,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -20853,6 +20849,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 1
       }
     ]
   },
@@ -20880,13 +20880,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -20959,10 +20959,10 @@
     "opportunity_score": 61.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 72.0,
+      "estimated_cap_days": 73.1,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~72.0 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~73.1 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -20997,10 +20997,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
@@ -21055,6 +21051,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -21178,10 +21178,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -21235,6 +21231,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -21378,10 +21378,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -21435,6 +21431,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -21572,10 +21572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -21629,6 +21625,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -21767,10 +21767,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 12
       },
@@ -21824,6 +21820,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 13
       }
     ]
@@ -21959,10 +21959,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -22016,6 +22012,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -22153,10 +22153,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -22210,6 +22206,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -22338,10 +22338,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -22395,6 +22391,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -22514,10 +22514,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 15
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 15
       },
@@ -22571,6 +22567,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 16
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 16
       }
     ]
@@ -22684,10 +22684,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -22741,6 +22737,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -22865,10 +22865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -22922,6 +22918,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -23059,10 +23059,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -23116,6 +23112,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -23239,10 +23239,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -23297,6 +23293,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 1
       }
     ]
   },
@@ -23324,13 +23324,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -23396,10 +23396,10 @@
     "opportunity_score": 67.4,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.7,
+      "estimated_cap_days": 72.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -23428,10 +23428,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
@@ -23486,6 +23482,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -23627,10 +23627,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -23684,6 +23680,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -23822,10 +23822,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
       },
@@ -23879,6 +23875,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 10
       }
     ]
@@ -24016,10 +24016,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -24073,6 +24069,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -24213,10 +24213,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -24270,6 +24266,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -24412,10 +24412,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -24469,6 +24465,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -24606,10 +24606,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
       },
@@ -24664,6 +24660,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 10
       }
     ]
   },
@@ -24691,13 +24691,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -24763,10 +24763,10 @@
     "opportunity_score": 66.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.7,
+      "estimated_cap_days": 71.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -24801,10 +24801,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 10
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 10
@@ -24859,6 +24855,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 12
       }
     ]
@@ -24996,10 +24996,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -25054,6 +25050,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 3
       }
     ]
   },
@@ -25081,13 +25081,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 30.9,
-      "growth_24h": 9,
-      "velocity_48h": 30.9,
-      "growth_48h": 9,
-      "velocity_7d": 30.9,
-      "growth_7d": 9,
-      "velocity_overall": 30.9,
+      "velocity_24h": 27.4,
+      "growth_24h": 8,
+      "velocity_48h": 27.4,
+      "growth_48h": 8,
+      "velocity_7d": 27.4,
+      "growth_7d": 8,
+      "velocity_overall": 27.4,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -25152,10 +25152,10 @@
     "opportunity_score": 59.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 15.0,
+      "estimated_cap_days": 16.9,
       "cap_before_deadline": true,
       "forecast_available": true,
-      "note": "At current velocity (~30.9/day), cap may be reached in ~15.0 days. This is an estimate."
+      "note": "At current velocity (~27.4/day), cap may be reached in ~16.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -25190,10 +25190,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 28
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 29
@@ -25249,6 +25245,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 37
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 37
       }
     ]
   },
@@ -25262,9 +25262,9 @@
     "theme": "Agriculture, FoodTech & Rural Development",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 22,
+    "ideas_submitted": 24,
     "submission_capacity": 500,
-    "fill_percentage": 4.4,
+    "fill_percentage": 4.8,
     "description": "• Problem Description Many farmers, especially smallholders and producer groups, have limited visibility of current and expected prices across nearby markets, processors,institutional buyers and digital trading channels. Information on quality specifications, demand, logistics,storage, payment reliability and buyer credentials may be fragmented. Farmers may sell immediately after harvest because of liquidity or storage constraints and may have weak bargaining power. Buyers, meanwhile,may struggle to aggregate consistent volumes and verify quality. The challenge is to improve transparent price discovery and create reliable, efficient linkages from farm gate to suitable buyers.\n• Expected Solution / Outcome A market-intelligence and transaction enablement solution that aggregates mandi prices, buyer demand, quality requirements, arrival volumes, transport and storage options; provides localised price trends and sale-window recommendations; matches farmers/FPOs with verified buyers; enables lot creation, quality grading,digital offers, logistics coordination and payment tracking; and supports dispute or grievance processes. Expected outcomes include improved farmer price realisation, reduced information asymmetry, lower transaction cost,stronger FPO aggregation, reduced post harvest loss, more reliable buyer sourcing and transparent transaction records.",
     "dataset_link": "",
     "youtube": "",
@@ -25276,13 +25276,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 17.1,
-      "growth_24h": 5,
-      "velocity_48h": 17.1,
-      "growth_48h": 5,
-      "velocity_7d": 17.1,
-      "growth_7d": 5,
-      "velocity_overall": 17.1,
+      "velocity_24h": 23.9,
+      "growth_24h": 7,
+      "velocity_48h": 23.9,
+      "growth_48h": 7,
+      "velocity_7d": 23.9,
+      "growth_7d": 7,
+      "velocity_overall": 23.9,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -25339,13 +25339,13 @@
       ]
     },
     "opportunity_category": "EMERGING",
-    "opportunity_score": 67.4,
+    "opportunity_score": 67.1,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 28.0,
+      "estimated_cap_days": 19.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~17.1/day), cap may be reached in ~28.0 days. This is an estimate."
+      "note": "At current velocity (~23.9/day), cap may be reached in ~19.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -25380,10 +25380,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 17
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 17
@@ -25439,6 +25435,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 22
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 24
       }
     ]
   },
@@ -25466,13 +25466,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -25534,10 +25534,10 @@
     "opportunity_score": 70.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 68.7,
+      "estimated_cap_days": 69.7,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~68.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~69.7 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -25572,10 +25572,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 24
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 24
@@ -25630,6 +25626,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 26
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 26
       }
     ]
@@ -25764,10 +25764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -25821,6 +25817,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -25957,10 +25957,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -26014,6 +26010,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -26140,10 +26140,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -26198,6 +26194,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 7
       }
     ]
   },
@@ -26211,9 +26211,9 @@
     "theme": "Transportation & Logistics",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 1,
+    "ideas_submitted": 2,
     "submission_capacity": 500,
-    "fill_percentage": 0.2,
+    "fill_percentage": 0.4,
     "description": "Background Modern urban transportation networks face persistent challenges of traffic congestion, inefficient route planning, and high operational costs. Classical optimization techniques struggle with large-scale Vehicle Routing Problems (VRP) because of their NP-hard nature. While quantum computers offer theoretical advantages for combinatorial optimization,current hardware limitations prevent their direct large-scale use. Quantum-inspired metaheuristic algorithms (e.g., Quantum Particle Swarm Optimization - QPSO) embed quantum-mechanical concepts into classical computation, delivering stronger global search, faster convergence, and a better balance between exploration and exploitation.\nProblem Description Develop a quantum-inspired metaheuristic optimization framework that dynamically generates near-optimal vehicle routes under real-time or simulated traffic conditions.The transportation network will be modelled as a weighted graph. The framework will focus on algorithms such as Quantum Particle Swarm Optimization (QPSO) and will be benchmarked against conventional metaheuristics and exact methods.\nObjectives 1. Design a quantum-inspired metaheuristic framework capable of solving large-scale VRP and shortest-path problems.\n2. Minimize total travel time, distance, and traffic congestion.\n3. Reduce computational complexity while improving convergence speed and solution quality compared with classical algorithms.\n4. Demonstrate scalability for smart-city logistics and intelligent transportation systems.\nExpected Solution A complete software platform that implements a Quantum-Inspired Metaheuristic Optimization Algorithm for intelligent traffic routing. The platform must include graph-based network modelling, mathematical formulation of the optimization problem,constraint handling, convergence analysis, and systematic performance benchmarking.\nAdd 'Delivery Table (Expected Deliverables)' here",
     "dataset_link": "Public/Open Additional Information regarding PS\n\nhttps://drive.google.com/file/d/1iubIiKS9NPr2lpYMVTt2MxgC_qRq5NnM/view?usp=drive_link",
     "youtube": "",
@@ -26225,13 +26225,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 3.4,
+      "growth_24h": 1,
+      "velocity_48h": 3.4,
+      "growth_48h": 1,
+      "velocity_7d": 3.4,
+      "growth_7d": 1,
+      "velocity_overall": 3.4,
       "momentum": "Stable",
       "has_history": true
     },
@@ -26292,13 +26292,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 78.9,
+    "opportunity_score": 78.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 146.5,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~3.4/day), cap may be reached in ~146.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -26333,10 +26333,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
@@ -26392,6 +26388,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -26526,10 +26526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -26583,6 +26579,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -26718,10 +26718,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -26775,6 +26771,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -26915,10 +26915,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -26972,6 +26968,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -27109,10 +27109,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -27166,6 +27162,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -27303,10 +27303,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -27360,6 +27356,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -27497,10 +27497,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 8
       },
@@ -27554,6 +27550,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 9
       }
     ]
@@ -27693,10 +27693,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -27750,6 +27746,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -27891,10 +27891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
       },
@@ -27948,6 +27944,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 9
       }
     ]
@@ -28086,10 +28086,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -28143,6 +28139,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -28272,10 +28272,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -28329,6 +28325,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -28455,10 +28455,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -28512,6 +28508,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -28644,10 +28644,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -28701,6 +28697,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -28839,10 +28839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -28897,6 +28893,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -28910,9 +28910,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 2,
+    "ideas_submitted": 3,
     "submission_capacity": 500,
-    "fill_percentage": 0.4,
+    "fill_percentage": 0.6,
     "description": "• Background The dark web has become a preferred operating space for threat actors in the modern age, mainly because it lets them hide their identity behind Tor hidden services, which makes attribution of threat actors operating on darkweb the main challenge for any investigation. Such threat actors carry out a wide range of unlawful activities such as drugs and arms sale, stolen data and hacking services, money laundering, terror financing, etc. The objective of this problem statement is to build a system for the deanonymization of dark web threat actors and link them to suspect real-world entities.\n• Description The system shall deanonymize dark web threat actors by continuously gathering their footprints from a range of sources (marketplaces, forums, deep web etc.) and linking them to the identifying information available on those sources. The system envisages three core capabilities. First, finding misconfigurations in Tor hidden services-such as exposed server-status pages, SSL certificates tied to clearnet domains, default service banners, descriptor inconsistencies, etc and matching them with clearnet infrastructure to point to the likely origin servers. Second, mapping threat actors across multiple marketplaces into a single relationship graph of handles, PGP keys, wallets and trust links. Third, using AI-based analysis, including stylometric persona identification and behavioural profiling, to link rebranded or migrated personas to known threat actors. The system shall provide an analytical front end to query the database across a chosen timeline and shall work in an autonomous mode, drawing on available sources of good quality and reliability.\n• Expected Solution An end-to-end system shall be developed for the collection, storage, contextualization and querying (through GUI/dashboards) of dark web threat actor intelligence-covering actor profiles, identifiers (handles, PGP keys, wallets etc.), hidden service infrastructure indicators, persona linkages, attribution confidence, category, last scan date and source. The system shall also provide the facility to export the result set in CSV, JSON and report formats.",
     "dataset_link": "",
     "youtube": "",
@@ -28924,13 +28924,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 3.4,
+      "growth_24h": 1,
+      "velocity_48h": 3.4,
+      "growth_48h": 1,
+      "velocity_7d": 3.4,
+      "growth_7d": 1,
+      "velocity_overall": 3.4,
       "momentum": "Stable",
       "has_history": true
     },
@@ -28990,13 +28990,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 81.8,
+    "opportunity_score": 81.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 146.2,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~3.4/day), cap may be reached in ~146.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -29019,10 +29019,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
@@ -29078,6 +29074,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 3
       }
     ]
   },
@@ -29205,10 +29205,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -29262,6 +29258,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -29404,10 +29404,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 8
       },
@@ -29462,6 +29458,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 9
       }
     ]
   },
@@ -29489,13 +29489,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -29558,10 +29558,10 @@
     "opportunity_score": 75.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.2,
+      "estimated_cap_days": 72.2,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.2 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -29584,10 +29584,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
@@ -29643,6 +29639,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 9
       }
     ]
   },
@@ -29670,13 +29670,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -29747,10 +29747,10 @@
     "opportunity_score": 70.4,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.7,
+      "estimated_cap_days": 72.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -29785,10 +29785,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
@@ -29843,6 +29839,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -29983,10 +29983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -30040,6 +30036,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -30182,10 +30182,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -30239,6 +30235,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -30380,10 +30380,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -30437,6 +30433,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -30575,10 +30575,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -30632,6 +30628,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -30772,10 +30772,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -30829,6 +30825,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -30954,10 +30954,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -31011,6 +31007,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
@@ -31147,10 +31147,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -31204,6 +31200,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -31342,10 +31342,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -31400,6 +31396,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 0
       }
     ]
   },
@@ -31427,13 +31427,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 3.4,
-      "growth_24h": 1,
-      "velocity_48h": 3.4,
-      "growth_48h": 1,
-      "velocity_7d": 3.4,
-      "growth_7d": 1,
-      "velocity_overall": 3.4,
+      "velocity_24h": 0.0,
+      "growth_24h": 0,
+      "velocity_48h": 0.0,
+      "growth_48h": 0,
+      "velocity_7d": 0.0,
+      "growth_7d": 0,
+      "velocity_overall": 0.0,
       "momentum": "Stable",
       "has_history": true
     },
@@ -31499,10 +31499,10 @@
     "opportunity_score": 78.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 145.9,
-      "cap_before_deadline": false,
-      "forecast_available": true,
-      "note": "At current velocity (~3.4/day), cap may be reached in ~145.9 days. This is an estimate."
+      "estimated_cap_days": null,
+      "cap_before_deadline": null,
+      "forecast_available": false,
+      "note": "Forecast unavailable — insufficient velocity data."
     },
     "similar_ps": [
       {
@@ -31537,10 +31537,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
@@ -31595,6 +31591,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -31716,10 +31716,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -31773,6 +31769,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -31902,10 +31902,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 10
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 10
       },
@@ -31959,6 +31955,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 10
       }
     ]
@@ -32100,10 +32100,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 11
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 11
       },
@@ -32158,6 +32154,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 14
       }
     ]
   },
@@ -32185,13 +32185,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -32263,10 +32263,10 @@
     "opportunity_score": 64.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.6,
+      "estimated_cap_days": 72.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.6 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -32301,10 +32301,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
@@ -32359,6 +32355,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -32492,10 +32492,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -32549,6 +32545,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -32671,10 +32671,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -32728,6 +32724,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -32848,10 +32848,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -32905,6 +32901,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -33033,10 +33033,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -33090,6 +33086,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 6
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 6
       }
     ]
@@ -33223,10 +33223,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -33280,6 +33276,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -33418,10 +33418,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -33475,6 +33471,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -33612,10 +33612,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -33669,6 +33665,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -33810,10 +33810,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
       },
@@ -33868,6 +33864,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 7
       }
     ]
   },
@@ -33895,13 +33895,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -33971,10 +33971,10 @@
     "opportunity_score": 60.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.0,
+      "estimated_cap_days": 71.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.0 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -34009,10 +34009,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 15
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 15
@@ -34068,6 +34064,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 17
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 17
       }
     ]
   },
@@ -34095,13 +34095,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -34172,10 +34172,10 @@
     "opportunity_score": 60.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.4,
+      "estimated_cap_days": 71.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.4 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -34210,10 +34210,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 12
@@ -34268,6 +34264,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 14
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 14
       }
     ]
@@ -34412,10 +34412,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -34470,6 +34466,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 1
       }
     ]
   },
@@ -34497,13 +34497,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -34573,10 +34573,10 @@
     "opportunity_score": 59.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 68.8,
+      "estimated_cap_days": 69.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~68.8 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~69.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -34611,10 +34611,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 23
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 23
@@ -34669,6 +34665,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 25
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 25
       }
     ]
@@ -34811,10 +34811,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 11
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 11
       },
@@ -34868,6 +34864,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 15
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 15
       }
     ]
@@ -35008,10 +35008,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -35065,6 +35061,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -35205,10 +35205,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -35262,6 +35258,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -35402,10 +35402,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
       },
@@ -35459,6 +35455,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 10
       }
     ]
@@ -35572,10 +35572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -35629,6 +35625,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -35770,10 +35770,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -35828,6 +35824,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 2
       }
     ]
   },
@@ -35855,13 +35855,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -35927,10 +35927,10 @@
     "opportunity_score": 65.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 69.9,
+      "estimated_cap_days": 70.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~69.9 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~70.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -35965,10 +35965,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 16
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 16
@@ -36024,6 +36020,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 18
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 18
       }
     ]
   },
@@ -36037,9 +36037,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 25,
+    "ideas_submitted": 26,
     "submission_capacity": 500,
-    "fill_percentage": 5.0,
+    "fill_percentage": 5.2,
     "description": "• Background Common challenges faced at border checkpoints:\n• Fake passports and visas\n• Altered photographs\n• Modified dates of birth\n• Tampered visa stamps\n• Identity impersonation\n• Multiple identities used by the same person Expired or blacklisted travel documents\n• High passenger volume causing delays Current verification methods rely heavily on human inspection and basic database lookups.\n• Detailed Description Border checkpoints process thousands of identity documents every day,including passports, visas, national identity cards, permits, and travel authorizations. Manual verification is time-consuming, prone to human error, and often unable to detect sophisticated forgeries, tampering, or identity fraud.Develop an Al-powered document screening platform that automatically analyzes identity and travel documents, detects signs of tampering or forgery, validates information against rules and databases,and generates a risk score to assist border security personnel in making faster and more accurate decisions.\n• Expected Solution\n• Module 1: OCR Extraction\n• Module 2: Document Validation\n• Module 3: Tampering Detection\n• Module 4: Face Detection Module 1: OCR Extraction Objective: Automatically extract all relevant information from identity documents.\nInputs:\n• Passport image\n• Visa image\n• National ID image\n• Driving license\n• Permit documents Extracted Fields:\nPassport\n• Name\n• Passport Number\n• Nationality\n• Date of birth\n• Date of expiry\n• Gender Visa\n• Visa Number\n• Visa Type\n• Entry Validation\n• Stay Duration Module 2: Document Validation Objective: Verify whether the extracted information follows official document standards.\nModule 3: Tampering Detection (Core AI Innovation)\nObjective: Detect digitally or physically altered documents.\nUse Cases:\n• Photo Replacement\n• Text Manipulation\n• Stamp Forgery Detection\n• Image Metadata Analysis Module 4: Face Verification Objective: Ensure document owner matches the presented individual.\n• Expected Impact\n• Reduce document verification time from several minutes to a few seconds.\n• Improve detection of forged and tampered documents.\n• Standardize screening decisions across checkpoints.\n• Enable data-driven risk assessment instead of purely manual inspection.\n• Create a digital trail for investigations and intelligence analysis.\nPossible Project Name Al-Based Fake Identity & Document Screening System.",
     "dataset_link": "",
     "youtube": "",
@@ -36051,13 +36051,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
-      "growth_24h": 2,
-      "velocity_48h": 6.9,
-      "growth_48h": 2,
-      "velocity_7d": 6.9,
-      "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_24h": 10.3,
+      "growth_24h": 3,
+      "velocity_48h": 10.3,
+      "growth_48h": 3,
+      "velocity_7d": 10.3,
+      "growth_7d": 3,
+      "velocity_overall": 10.3,
       "momentum": "Rising",
       "has_history": true
     },
@@ -36120,13 +36120,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 71.0,
+    "opportunity_score": 70.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 68.8,
+      "estimated_cap_days": 46.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~68.8 days. This is an estimate."
+      "note": "At current velocity (~10.3/day), cap may be reached in ~46.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -36161,10 +36161,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 23
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 23
@@ -36220,6 +36216,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 25
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 26
       }
     ]
   },
@@ -36247,13 +36247,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -36317,10 +36317,10 @@
     "opportunity_score": 71.1,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 69.0,
+      "estimated_cap_days": 70.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~69.0 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~70.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -36349,10 +36349,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 22
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 22
@@ -36408,6 +36404,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 24
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 24
       }
     ]
   },
@@ -36435,13 +36435,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -36503,10 +36503,10 @@
     "opportunity_score": 72.9,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.2,
+      "estimated_cap_days": 72.2,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.2 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -36541,10 +36541,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
@@ -36599,6 +36595,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 9
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 9
       }
     ]
@@ -36737,10 +36737,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -36795,6 +36791,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 5
       }
     ]
   },
@@ -36822,13 +36822,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -36891,10 +36891,10 @@
     "opportunity_score": 67.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.3,
+      "estimated_cap_days": 72.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.3 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -36929,10 +36929,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 6
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 6
@@ -36988,6 +36984,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 8
       }
     ]
   },
@@ -37001,9 +37001,9 @@
     "theme": "Agriculture, FoodTech & Rural Development",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 16,
+    "ideas_submitted": 17,
     "submission_capacity": 500,
-    "fill_percentage": 3.2,
+    "fill_percentage": 3.4,
     "description": "Student Innovation-Developing solutions, keeping in mind the need to enhance the primary sector of India - Agriculture and to manage and process our agriculture produce.",
     "dataset_link": "",
     "youtube": "",
@@ -37015,14 +37015,14 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 3.4,
-      "growth_24h": 1,
-      "velocity_48h": 3.4,
-      "growth_48h": 1,
-      "velocity_7d": 3.4,
-      "growth_7d": 1,
-      "velocity_overall": 3.4,
-      "momentum": "Stable",
+      "velocity_24h": 6.8,
+      "growth_24h": 2,
+      "velocity_48h": 6.8,
+      "growth_48h": 2,
+      "velocity_7d": 6.8,
+      "growth_7d": 2,
+      "velocity_overall": 6.8,
+      "momentum": "Rising",
       "has_history": true
     },
     "technology_tags": [
@@ -37075,13 +37075,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 77.1,
+    "opportunity_score": 69.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 142.4,
+      "estimated_cap_days": 71.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~3.4/day), cap may be reached in ~142.4 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -37116,10 +37116,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 15
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 15
@@ -37175,6 +37171,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 16
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 17
       }
     ]
   },
@@ -37304,10 +37304,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -37362,6 +37358,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 7
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 7
       }
     ]
   },
@@ -37389,13 +37389,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 3.4,
-      "growth_24h": 1,
-      "velocity_48h": 3.4,
-      "growth_48h": 1,
-      "velocity_7d": 3.4,
-      "growth_7d": 1,
-      "velocity_overall": 3.4,
+      "velocity_24h": 0.0,
+      "growth_24h": 0,
+      "velocity_48h": 0.0,
+      "growth_48h": 0,
+      "velocity_7d": 0.0,
+      "growth_7d": 0,
+      "velocity_overall": 0.0,
       "momentum": "Stable",
       "has_history": true
     },
@@ -37450,10 +37450,10 @@
     "opportunity_score": 77.4,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 143.2,
-      "cap_before_deadline": false,
-      "forecast_available": true,
-      "note": "At current velocity (~3.4/day), cap may be reached in ~143.2 days. This is an estimate."
+      "estimated_cap_days": null,
+      "cap_before_deadline": null,
+      "forecast_available": false,
+      "note": "Forecast unavailable — insufficient velocity data."
     },
     "similar_ps": [
       {
@@ -37488,10 +37488,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 13
@@ -37547,6 +37543,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 13
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 13
       }
     ]
   },
@@ -37574,13 +37574,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 3.4,
-      "growth_24h": 1,
-      "velocity_48h": 3.4,
-      "growth_48h": 1,
-      "velocity_7d": 3.4,
-      "growth_7d": 1,
-      "velocity_overall": 3.4,
+      "velocity_24h": 0.0,
+      "growth_24h": 0,
+      "velocity_48h": 0.0,
+      "growth_48h": 0,
+      "velocity_7d": 0.0,
+      "growth_7d": 0,
+      "velocity_overall": 0.0,
       "momentum": "Stable",
       "has_history": true
     },
@@ -37635,10 +37635,10 @@
     "opportunity_score": 77.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 144.1,
-      "cap_before_deadline": false,
-      "forecast_available": true,
-      "note": "At current velocity (~3.4/day), cap may be reached in ~144.1 days. This is an estimate."
+      "estimated_cap_days": null,
+      "cap_before_deadline": null,
+      "forecast_available": false,
+      "note": "Forecast unavailable — insufficient velocity data."
     },
     "similar_ps": [
       {
@@ -37673,10 +37673,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 10
@@ -37732,6 +37728,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 10
       }
     ]
   },
@@ -37759,13 +37759,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -37820,10 +37820,10 @@
     "opportunity_score": 69.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 70.3,
+      "estimated_cap_days": 71.3,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~70.3 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~71.3 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -37858,10 +37858,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 13
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 13
@@ -37916,6 +37912,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 15
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 15
       }
     ]
@@ -38046,10 +38046,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 26
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 26
       },
@@ -38103,6 +38099,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 26
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 26
       }
     ]
@@ -38235,10 +38235,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 12
       },
@@ -38292,6 +38288,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 12
       }
     ]
@@ -38423,10 +38423,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 5
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 5
       },
@@ -38480,6 +38476,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -38608,10 +38608,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -38665,6 +38661,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -38796,10 +38796,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 16
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 16
       },
@@ -38853,6 +38849,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 20
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 20
       }
     ]
@@ -38983,10 +38983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -39041,6 +39037,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 4
       }
     ]
   },
@@ -39054,9 +39054,9 @@
     "theme": "Travel & Tourism",
     "deadline": "30 September 2026",
     "deadline_date": "2026-09-30",
-    "ideas_submitted": 31,
+    "ideas_submitted": 32,
     "submission_capacity": 500,
-    "fill_percentage": 6.2,
+    "fill_percentage": 6.4,
     "description": "Student Innovation-A solution/idea that can boost the current situation of the tourism industries including hotels, travel and others.",
     "dataset_link": "",
     "youtube": "",
@@ -39068,13 +39068,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
-      "growth_24h": 2,
-      "velocity_48h": 6.9,
-      "growth_48h": 2,
-      "velocity_7d": 6.9,
-      "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_24h": 10.3,
+      "growth_24h": 3,
+      "velocity_48h": 10.3,
+      "growth_48h": 3,
+      "velocity_7d": 10.3,
+      "growth_7d": 3,
+      "velocity_overall": 10.3,
       "momentum": "Rising",
       "has_history": true
     },
@@ -39126,13 +39126,13 @@
       ]
     },
     "opportunity_category": "HIDDEN GEM",
-    "opportunity_score": 67.3,
+    "opportunity_score": 67.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 68.0,
+      "estimated_cap_days": 45.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~68.0 days. This is an estimate."
+      "note": "At current velocity (~10.3/day), cap may be reached in ~45.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -39167,10 +39167,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 29
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 29
@@ -39226,6 +39222,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 31
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 32
       }
     ]
   },
@@ -39356,10 +39356,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 15
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 15
       },
@@ -39414,6 +39410,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 19
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 19
       }
     ]
   },
@@ -39441,13 +39441,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -39502,10 +39502,10 @@
     "opportunity_score": 68.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 69.1,
+      "estimated_cap_days": 70.1,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~69.1 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~70.1 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -39540,10 +39540,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 21
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 21
@@ -39599,6 +39595,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 23
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 23
       }
     ]
   },
@@ -39626,13 +39626,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 30.9,
+      "velocity_24h": 30.8,
       "growth_24h": 9,
-      "velocity_48h": 30.9,
+      "velocity_48h": 30.8,
       "growth_48h": 9,
-      "velocity_7d": 30.9,
+      "velocity_7d": 30.8,
       "growth_7d": 9,
-      "velocity_overall": 30.9,
+      "velocity_overall": 30.8,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -39692,7 +39692,7 @@
       "estimated_cap_days": 14.9,
       "cap_before_deadline": true,
       "forecast_available": true,
-      "note": "At current velocity (~30.9/day), cap may be reached in ~14.9 days. This is an estimate."
+      "note": "At current velocity (~30.8/day), cap may be reached in ~14.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -39715,10 +39715,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 32
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 32
@@ -39773,6 +39769,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 41
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 41
       }
     ]
@@ -39889,10 +39889,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 9
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 9
       },
@@ -39947,6 +39943,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 10
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 10
       }
     ]
   },
@@ -39974,13 +39974,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -40037,10 +40037,10 @@
     "opportunity_score": 70.4,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.7,
+      "estimated_cap_days": 72.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~71.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~72.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -40075,10 +40075,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
@@ -40133,6 +40129,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 5
       }
     ]
@@ -40265,10 +40265,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 14
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 14
       },
@@ -40322,6 +40318,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 15
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 15
       }
     ]
@@ -40454,10 +40454,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -40512,6 +40508,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 1
       }
     ]
   },
@@ -40539,13 +40539,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 27.4,
-      "growth_24h": 8,
-      "velocity_48h": 27.4,
-      "growth_48h": 8,
-      "velocity_7d": 27.4,
-      "growth_7d": 8,
-      "velocity_overall": 27.4,
+      "velocity_24h": 20.5,
+      "growth_24h": 6,
+      "velocity_48h": 20.5,
+      "growth_48h": 6,
+      "velocity_7d": 20.5,
+      "growth_7d": 6,
+      "velocity_overall": 20.5,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -40602,10 +40602,10 @@
     "opportunity_score": 64.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 17.5,
-      "cap_before_deadline": true,
+      "estimated_cap_days": 23.4,
+      "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~27.4/day), cap may be reached in ~17.5 days. This is an estimate."
+      "note": "At current velocity (~20.5/day), cap may be reached in ~23.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -40640,10 +40640,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 12
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 14
@@ -40698,6 +40694,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 20
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 20
       }
     ]
@@ -40828,10 +40828,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -40885,6 +40881,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -41015,10 +41015,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -41072,6 +41068,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -41204,10 +41204,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 13
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 13
       },
@@ -41261,6 +41257,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 17
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 17
       }
     ]
@@ -41395,10 +41395,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -41453,6 +41449,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 5
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 5
       }
     ]
   },
@@ -41480,13 +41480,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -41546,10 +41546,10 @@
     "opportunity_score": 67.3,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 68.0,
+      "estimated_cap_days": 69.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~68.0 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~69.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -41584,10 +41584,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 29
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 29
@@ -41642,6 +41638,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 31
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 31
       }
     ]
@@ -41771,10 +41771,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 7
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 7
       },
@@ -41828,6 +41824,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 8
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 8
       }
     ]
@@ -41961,10 +41961,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 11
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 11
       },
@@ -42019,6 +42015,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 12
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 12
       }
     ]
   },
@@ -42046,13 +42046,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -42110,10 +42110,10 @@
     "opportunity_score": 68.7,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 69.7,
+      "estimated_cap_days": 70.7,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~69.7 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~70.7 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -42148,10 +42148,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 17
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 17
@@ -42206,6 +42202,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 19
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 19
       }
     ]
@@ -42336,10 +42336,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -42393,6 +42389,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -42526,10 +42526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 8
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 8
       },
@@ -42584,6 +42580,10 @@
       {
         "timestamp": "2026-09-12T22:30:12.409625",
         "submitted": 11
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
+        "submitted": 11
       }
     ]
   },
@@ -42611,13 +42611,13 @@
     "days_remaining": 18,
     "deadline_pressure": "Low",
     "velocity": {
-      "velocity_24h": 6.9,
+      "velocity_24h": 6.8,
       "growth_24h": 2,
-      "velocity_48h": 6.9,
+      "velocity_48h": 6.8,
       "growth_48h": 2,
-      "velocity_7d": 6.9,
+      "velocity_7d": 6.8,
       "growth_7d": 2,
-      "velocity_overall": 6.9,
+      "velocity_overall": 6.8,
       "momentum": "Rising",
       "has_history": true
     },
@@ -42674,10 +42674,10 @@
     "opportunity_score": 68.5,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 69.4,
+      "estimated_cap_days": 70.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~6.9/day), cap may be reached in ~69.4 days. This is an estimate."
+      "note": "At current velocity (~6.8/day), cap may be reached in ~70.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -42712,10 +42712,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 19
-      },
       {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 19
@@ -42770,6 +42766,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 21
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 21
       }
     ]
@@ -42890,10 +42890,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -42947,6 +42943,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -43065,10 +43065,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -43122,6 +43118,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -43253,10 +43253,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -43310,6 +43306,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -43449,10 +43449,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -43506,6 +43502,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -43646,10 +43646,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -43703,6 +43699,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -43842,10 +43842,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 4
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 4
       },
@@ -43899,6 +43895,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 4
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 4
       }
     ]
@@ -44019,10 +44019,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 2
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 2
       },
@@ -44076,6 +44072,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 2
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 2
       }
     ]
@@ -44216,10 +44216,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 3
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 3
       },
@@ -44273,6 +44269,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 3
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 3
       }
     ]
@@ -44405,10 +44405,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 0
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 0
       },
@@ -44462,6 +44458,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 0
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 0
       }
     ]
@@ -44580,10 +44580,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-09-12T15:30:07.074231",
-        "submitted": 1
-      },
-      {
         "timestamp": "2026-09-12T15:45:08.029839",
         "submitted": 1
       },
@@ -44637,6 +44633,10 @@
       },
       {
         "timestamp": "2026-09-12T22:30:12.409625",
+        "submitted": 1
+      },
+      {
+        "timestamp": "2026-09-12T22:46:06.456471",
         "submitted": 1
       }
     ]
