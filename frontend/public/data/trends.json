@@ -3,10 +3,18 @@
     {
       "ps_number": "SIH26032",
       "title": "Farmers often face long waiting times, lack of information regarding procurement schedules, and uncertainty about procurement status.",
-      "growth": 10,
+      "growth": 9,
       "period": "24h",
       "current_submitted": 39,
       "fill_percentage": 7.8
+    },
+    {
+      "ps_number": "SIH26132",
+      "title": "Strengthening market linkages and price discovery for farmers",
+      "growth": 9,
+      "period": "24h",
+      "current_submitted": 26,
+      "fill_percentage": 5.2
     },
     {
       "ps_number": "SIH26001",
@@ -25,28 +33,12 @@
       "fill_percentage": 7.4
     },
     {
-      "ps_number": "SIH26132",
-      "title": "Strengthening market linkages and price discovery for farmers",
-      "growth": 8,
-      "period": "24h",
-      "current_submitted": 25,
-      "fill_percentage": 5.0
-    },
-    {
-      "ps_number": "SIH26068",
-      "title": "WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information",
-      "growth": 7,
-      "period": "24h",
-      "current_submitted": 34,
-      "fill_percentage": 6.8
-    },
-    {
       "ps_number": "SIH26207",
       "title": "Student Innovation-Smart education,a concept that describes learning in digital age. It enables learners to learn more effectively, efficiently, flexibly and comfortably.",
-      "growth": 7,
+      "growth": 8,
       "period": "24h",
-      "current_submitted": 41,
-      "fill_percentage": 8.2
+      "current_submitted": 42,
+      "fill_percentage": 8.4
     },
     {
       "ps_number": "SIH26034",
@@ -55,6 +47,14 @@
       "period": "24h",
       "current_submitted": 30,
       "fill_percentage": 6.0
+    },
+    {
+      "ps_number": "SIH26068",
+      "title": "WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information",
+      "growth": 6,
+      "period": "24h",
+      "current_submitted": 34,
+      "fill_percentage": 6.8
     },
     {
       "ps_number": "SIH26033",
@@ -73,12 +73,12 @@
       "fill_percentage": 10.6
     },
     {
-      "ps_number": "SIH26101",
-      "title": "Develop an AI enabled learning platform that identifies competency gaps, recommends personalized training through integration with the iGOT Karmayogi ecosystem, and capable of generating Quizzes and Multiple choice questions (MCQs) from uploaded learning materials to strengthen capacity building in India's Official Statistical System.",
+      "ps_number": "SIH26212",
+      "title": "Student Innovation-Solutions could be in the form of waste segregation, disposal, and improve sanitization system.",
       "growth": 5,
       "period": "24h",
-      "current_submitted": 23,
-      "fill_percentage": 4.6
+      "current_submitted": 20,
+      "fill_percentage": 4.0
     }
   ],
   "deltas": {
@@ -332,11 +332,11 @@
     },
     "SIH26032": {
       "ps_number": "SIH26032",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 38,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 39,
       "current_submitted": 39,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26033": {
       "ps_number": "SIH26033",
@@ -364,11 +364,11 @@
     },
     "SIH26036": {
       "ps_number": "SIH26036",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 6,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 7,
       "current_submitted": 7,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26037": {
       "ps_number": "SIH26037",
@@ -422,8 +422,8 @@
       "ps_number": "SIH26043",
       "status": "changed",
       "submission_change": 1,
-      "previous_submitted": 12,
-      "current_submitted": 13,
+      "previous_submitted": 13,
+      "current_submitted": 14,
       "fill_change": 0.2
     },
     "SIH26044": {
@@ -484,11 +484,11 @@
     },
     "SIH26051": {
       "ps_number": "SIH26051",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 7,
-      "current_submitted": 7,
-      "fill_change": 0.0
+      "current_submitted": 8,
+      "fill_change": 0.2
     },
     "SIH26052": {
       "ps_number": "SIH26052",
@@ -740,11 +740,11 @@
     },
     "SIH26083": {
       "ps_number": "SIH26083",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 4,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 5,
       "current_submitted": 5,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26084": {
       "ps_number": "SIH26084",
@@ -1012,11 +1012,11 @@
     },
     "SIH26117": {
       "ps_number": "SIH26117",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 17,
-      "current_submitted": 17,
-      "fill_change": 0.0
+      "current_submitted": 18,
+      "fill_change": 0.2
     },
     "SIH26118": {
       "ps_number": "SIH26118",
@@ -1132,11 +1132,11 @@
     },
     "SIH26132": {
       "ps_number": "SIH26132",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 25,
-      "current_submitted": 25,
-      "fill_change": 0.0
+      "current_submitted": 26,
+      "fill_change": 0.2
     },
     "SIH26133": {
       "ps_number": "SIH26133",
@@ -1236,11 +1236,11 @@
     },
     "SIH26145": {
       "ps_number": "SIH26145",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 9,
-      "current_submitted": 9,
-      "fill_change": 0.0
+      "current_submitted": 10,
+      "fill_change": 0.2
     },
     "SIH26146": {
       "ps_number": "SIH26146",
@@ -1596,11 +1596,11 @@
     },
     "SIH26190": {
       "ps_number": "SIH26190",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 9,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 10,
       "current_submitted": 10,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26191": {
       "ps_number": "SIH26191",
@@ -1636,19 +1636,19 @@
     },
     "SIH26195": {
       "ps_number": "SIH26195",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 13,
-      "current_submitted": 13,
-      "fill_change": 0.0
+      "current_submitted": 14,
+      "fill_change": 0.2
     },
     "SIH26196": {
       "ps_number": "SIH26196",
-      "status": "changed",
-      "submission_change": 1,
-      "previous_submitted": 10,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 11,
       "current_submitted": 11,
-      "fill_change": 0.2
+      "fill_change": 0.0
     },
     "SIH26197": {
       "ps_number": "SIH26197",
@@ -1732,11 +1732,11 @@
     },
     "SIH26207": {
       "ps_number": "SIH26207",
-      "status": "unchanged",
-      "submission_change": 0,
+      "status": "changed",
+      "submission_change": 1,
       "previous_submitted": 41,
-      "current_submitted": 41,
-      "fill_change": 0.0
+      "current_submitted": 42,
+      "fill_change": 0.2
     },
     "SIH26208": {
       "ps_number": "SIH26208",
@@ -1812,11 +1812,11 @@
     },
     "SIH26217": {
       "ps_number": "SIH26217",
-      "status": "changed",
-      "submission_change": 2,
-      "previous_submitted": 31,
+      "status": "unchanged",
+      "submission_change": 0,
+      "previous_submitted": 33,
       "current_submitted": 33,
-      "fill_change": 0.4
+      "fill_change": 0.0
     },
     "SIH26218": {
       "ps_number": "SIH26218",
