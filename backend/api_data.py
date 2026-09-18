@@ -40,12 +40,16 @@ def build_api_data():
     API_DIR.mkdir(parents=True, exist_ok=True)
 
     print("Fetching latest SIH data...")
-    records = fetch_and_normalize()
+    records, is_fallback = fetch_and_normalize()
     print(f"Loaded {len(records)} problem statements.")
 
-    # Save a snapshot
-    snap_path = save_snapshot(records)
-    print(f"Snapshot saved: {snap_path}")
+    # Save a snapshot ONLY if we successfully fetched live data.
+    # Saving fallback data would pollute history with 0-growth artificial data points.
+    if not is_fallback:
+        snap_path = save_snapshot(records)
+        print(f"Snapshot saved: {snap_path}")
+    else:
+        print("Skipping snapshot save because live counts were from fallback (prevents flattening 24h history).")
 
     # Demo mode: generate simulated data
     if DEMO_MODE:

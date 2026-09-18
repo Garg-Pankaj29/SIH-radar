@@ -61,7 +61,11 @@ def _load_fallback_counts():
                 deadline_date = record.get("deadline_date")
                 counts[ps_num] = (submitted, capacity, deadline_raw, deadline_date)
     
-    print(f"Fallback: loaded {len(counts)} PS counts from {latest.name}")
+    # In python, you can't set attributes on a dict easily, so we'll use a custom class or just return a tuple.
+    # Actually, returning a custom object that behaves like a dict is cleaner, or we just set a key.
+    # Since the keys are all strings (PS numbers), we can set a special key '__is_fallback'.
+    counts['__is_fallback'] = True
+    print(f"Fallback: loaded {len(counts) - 1} PS counts from {latest.name}")
     return counts
 
 
@@ -213,10 +217,19 @@ def fetch_and_normalize(url=PRIMARY_URL):
     """
     raw_data = fetch_raw_data(url)
 
-    # Fetch live submission counts from sih.gov.in
-    print("Fetching live submission counts from sih.gov.in...")
-    live_counts = fetch_live_submission_counts()
-    
+    is_fallback = False
+    try:
+        live_counts = fetch_live_submission_counts()
+    except Exception as e:
+        print("Falling back to snapshot due to exception...")
+        # (This block shouldn't hit if fetch_live_submission_counts handles CI fallback internally)
+        live_counts = _load_fallback_counts()
+        is_fallback = True
+        
+    # Check if live_counts was a fallback
+    if live_counts.pop('__is_fallback', False):
+        is_fallback = True
+
     non_zero = sum(1 for v in live_counts.values() if v[0] > 0)
     total_subs = sum(v[0] for v in live_counts.values())
     print(f"Live counts: {len(live_counts)} PS found, "
@@ -234,7 +247,7 @@ def fetch_and_normalize(url=PRIMARY_URL):
         seen_ps.add(ps_num)
         records.append(normalize_record(raw, live_counts))
 
-    return records
+    return records, is_fallback
 
 
 if __name__ == "__main__":
