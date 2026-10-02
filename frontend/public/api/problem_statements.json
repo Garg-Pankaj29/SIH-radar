@@ -138,10 +138,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -195,6 +191,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -336,10 +336,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -393,6 +389,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -535,10 +535,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -592,6 +588,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -732,10 +732,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 298
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 298
       },
@@ -789,6 +785,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 300
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 300
       }
     ]
@@ -925,10 +925,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -983,6 +979,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 500
       }
     ]
   },
@@ -996,9 +996,9 @@
     "theme": "Transportation & Logistics",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 417,
+    "ideas_submitted": 418,
     "submission_capacity": 500,
-    "fill_percentage": 83.4,
+    "fill_percentage": 83.6,
     "description": "Background:\nThe current approach to vessel chartering for bulk cargo procurement to India's East Coast ports often involves daily market exploration, leading to reactive decision-making and likely missed opportunities for cost savings and efficiency. The highly volatile nature of global freight markets, coupled with varying supply and demand dynamics from key origins like Australia, the US, Mozambique, Russia and Indonesia, makes it challenging to identify optimal entry points for short-term or mid-term charter contracts. Furthermore, without a robust future forecasting mechanism, determining the most suitable vessel type (e.g., Handysize, Supramax, Panamax,Capesize) for specific cargo parcels and routes, while accounting for port infrastructure limitations at both origin and destination, results in suboptimal utilization and increased idle time. This manual, market-dependent approach requires analytics to mitigate risks associated with freight fluctuations and port-specific constraints, directly impacting overall logistics costs and supply chain reliability. Detailed Description:\nThe problem statement addresses the critical need for a sophisticated freight forecasting model to revolutionize vessel chartering and bulk cargo procurement for East Coast Indian ports. Currently, our operations are heavily reliant on daily engagements with the freight market. This traditional method leads to several inefficiencies: a lack of predictive insight into future freight rates, making it difficult to secure favorable short-term or mid-term charter contracts; an inability to proactively identify the optimal time to enter the market for specific vessel types and cargo sizes; and significant challenges in minimizing vessel idle time due to inadequate planning regarding port-specific infrastructure restrictions.\nFor instance, procuring bulk cargo (such as coal) from Australia, the US,Mozambique, and Indonesia presents unique logistical challenges. Each origin-destination pair has distinct sailing distances, trade lane dynamics, and, crucially,varying port capabilities. East Coast Indian ports, like Paradip, Vizag, Gangavaram,Gopalpur, Dhamra, Sagar- Sandheads and Haldia, each possess specific draft restrictions, berthing limitations, and cargo handling capacities that dictate the maximum permissible vessel size and turnaround time.The proposed system should therefore integrate multiple data points for comprehensive analysis. This includes historical freight rate data for various vessel sizes across relevant trade routes, global economic indicators, commodity price trends, seasonal variations in demand and supply, and real-time port congestion information for both origin and destination ports. Furthermore, it must incorporate detailed infrastructure constraints of Indian East Coast ports, such as maximum LOA (Length Overall), beam, draft, and cargo handling rates, along with similar data for the loading ports in Australia, the US, Mozambique, and Indonesia.\nExpected Solution:\nThe expected solution is the development and implementation of an intelligent, datadriven Freight Forecasting Model. This model should leverage advanced analytical techniques, potentially including machine learning algorithms (e.g., time series forecasting, regression models) and artificial intelligence, to predict future freight rates with a high degree of accuracy for various vessel types and trade routes. The solution should offer actionable insights by providing recommendations on:\na. Optimal Market Entry Timing: Identify ideal windows to secure short-term or mid-term vessel charter contracts for specific cargo requirements, minimizing freight costs.\nb. Vessel Type Optimization: Recommend the most suitable vessel type (e.g.,Handysize, Supramax, Panamax, Capesize) for a given cargo volume and origin-destination pair, considering all known port infrastructure limitations at both loading and discharge ports on India's East Coast. This includes factoring in draft restrictions, LOA, and cargo handling capabilities to prevent idle time and ensure efficient turnaround.\nc. Idle Scenario Management: Propose strategies for minimizing vessel idle time by forecasting periods of low demand and suggesting alternative employment opportunities or optimized positioning to reduce deadheading.\nd. Risk Mitigation: Provide early warnings for potential market volatility, port congestion, or other disruptions that could impact chartering decisions.\nThe model should be user-friendly, perhaps with a dashboard interface, allowing logistics managers to input cargo details, origin/destination ports, and desired contract duration to receive comprehensive freight forecasts and actionable recommendations.The ultimate goal is to move from a reactive, daily market approach to a proactive, predictive chartering strategy, leading to significant cost reductions, improved supply chain efficiency, and enhanced decision-making capabilities.\nObjective:\nDevelopment of model to facilitate moving from multiple single spot contracts being entered into currently to short term / medium term multiple voyage contracts.",
     "dataset_link": "",
     "youtube": "",
@@ -1010,13 +1010,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 16.6,
-      "growth_24h": 10,
-      "velocity_48h": 16.6,
-      "growth_48h": 10,
-      "velocity_7d": 16.6,
-      "growth_7d": 10,
-      "velocity_overall": 16.6,
+      "velocity_24h": 18.2,
+      "growth_24h": 11,
+      "velocity_48h": 18.2,
+      "growth_48h": 11,
+      "velocity_7d": 18.2,
+      "growth_7d": 11,
+      "velocity_overall": 18.2,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -1082,10 +1082,10 @@
     "opportunity_score": 25.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 5.0,
+      "estimated_cap_days": 4.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~16.6/day), cap may be reached in ~5.0 days. This is an estimate."
+      "note": "At current velocity (~18.2/day), cap may be reached in ~4.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -1120,10 +1120,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 407
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 407
@@ -1179,6 +1175,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 417
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 418
       }
     ]
   },
@@ -1318,10 +1318,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -1375,6 +1371,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -1516,10 +1516,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 340
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 340
       },
@@ -1573,6 +1569,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 347
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 347
       }
     ]
@@ -1708,10 +1708,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 307
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 307
       },
@@ -1765,6 +1761,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 312
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 312
       }
     ]
@@ -1905,10 +1905,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 158
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 158
       },
@@ -1962,6 +1958,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 160
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 160
       }
     ]
@@ -2101,10 +2101,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 249
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 249
       },
@@ -2158,6 +2154,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 252
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 252
       }
     ]
@@ -2299,10 +2299,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 184
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 184
       },
@@ -2356,6 +2352,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 186
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 186
       }
     ]
@@ -2498,10 +2498,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 155
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 155
       },
@@ -2556,6 +2552,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 157
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 157
       }
     ]
   },
@@ -2583,14 +2583,14 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 5.0,
-      "growth_24h": 3,
-      "velocity_48h": 5.0,
-      "growth_48h": 3,
-      "velocity_7d": 5.0,
-      "growth_7d": 3,
-      "velocity_overall": 5.0,
-      "momentum": "Rising",
+      "velocity_24h": 3.3,
+      "growth_24h": 2,
+      "velocity_48h": 3.3,
+      "growth_48h": 2,
+      "velocity_7d": 3.3,
+      "growth_7d": 2,
+      "velocity_overall": 3.3,
+      "momentum": "Stable",
       "has_history": true
     },
     "technology_tags": [
@@ -2656,13 +2656,13 @@
       ]
     },
     "opportunity_category": "WATCH",
-    "opportunity_score": 33.2,
+    "opportunity_score": 41.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 57.0,
+      "estimated_cap_days": 86.4,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~5.0/day), cap may be reached in ~57.0 days. This is an estimate."
+      "note": "At current velocity (~3.3/day), cap may be reached in ~86.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -2697,10 +2697,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 212
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 213
@@ -2755,6 +2751,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 215
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 215
       }
     ]
@@ -2891,10 +2891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 178
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 178
       },
@@ -2948,6 +2944,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 178
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 178
       }
     ]
@@ -3088,10 +3088,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 284
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 284
       },
@@ -3145,6 +3141,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 285
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 285
       }
     ]
@@ -3285,10 +3285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 277
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 277
       },
@@ -3342,6 +3338,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 279
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 279
       }
     ]
@@ -3483,10 +3483,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 491
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 491
       },
@@ -3540,6 +3536,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 495
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 495
       }
     ]
@@ -3679,10 +3679,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 181
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 181
       },
@@ -3736,6 +3732,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 183
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 183
       }
     ]
@@ -3873,10 +3873,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 111
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 111
       },
@@ -3930,6 +3926,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 111
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 111
       }
     ]
@@ -4062,10 +4062,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 314
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 314
       },
@@ -4119,6 +4115,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 316
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 316
       }
     ]
@@ -4243,10 +4243,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 468
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 468
       },
@@ -4300,6 +4296,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 469
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 469
       }
     ]
@@ -4425,10 +4425,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 189
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 189
       },
@@ -4482,6 +4478,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 191
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 191
       }
     ]
@@ -4626,10 +4626,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 328
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 328
       },
@@ -4683,6 +4679,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 331
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 331
       }
     ]
@@ -4827,10 +4827,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -4884,6 +4880,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -5029,10 +5029,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 227
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 227
       },
@@ -5086,6 +5082,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 229
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 229
       }
     ]
@@ -5221,10 +5221,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -5279,6 +5275,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 500
       }
     ]
   },
@@ -5306,13 +5306,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 13.3,
+      "velocity_24h": 13.2,
       "growth_24h": 8,
-      "velocity_48h": 13.3,
+      "velocity_48h": 13.2,
       "growth_48h": 8,
-      "velocity_7d": 13.3,
+      "velocity_7d": 13.2,
       "growth_7d": 8,
-      "velocity_overall": 13.3,
+      "velocity_overall": 13.2,
       "momentum": "Rising",
       "has_history": true
     },
@@ -5379,10 +5379,10 @@
     "opportunity_score": 29.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 2.6,
+      "estimated_cap_days": 2.7,
       "cap_before_deadline": true,
       "forecast_available": true,
-      "note": "At current velocity (~13.3/day), cap may be reached in ~2.6 days. This is an estimate."
+      "note": "At current velocity (~13.2/day), cap may be reached in ~2.7 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -5417,10 +5417,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 457
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 457
@@ -5475,6 +5471,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 465
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 465
       }
     ]
@@ -5605,10 +5605,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 86
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 86
       },
@@ -5662,6 +5658,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 86
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 86
       }
     ]
@@ -5780,10 +5780,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 81
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 81
       },
@@ -5837,6 +5833,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 82
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 82
       }
     ]
@@ -5953,10 +5953,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 337
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 337
       },
@@ -6010,6 +6006,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 340
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 340
       }
     ]
@@ -6145,10 +6145,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -6202,6 +6198,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -6325,10 +6325,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -6382,6 +6378,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -6521,10 +6521,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -6578,6 +6574,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -6714,10 +6714,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 238
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 238
       },
@@ -6771,6 +6767,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 240
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 240
       }
     ]
@@ -6911,10 +6911,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 376
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 376
       },
@@ -6968,6 +6964,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 385
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 385
       }
     ]
@@ -7109,10 +7109,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 380
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 380
       },
@@ -7166,6 +7162,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 384
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 384
       }
     ]
@@ -7306,10 +7306,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -7363,6 +7359,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -7503,10 +7503,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -7560,6 +7556,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -7696,10 +7696,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -7753,6 +7749,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -7892,10 +7892,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 223
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 223
       },
@@ -7949,6 +7945,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 224
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 224
       }
     ]
@@ -8070,10 +8070,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -8127,6 +8123,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -8264,10 +8264,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -8321,6 +8317,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -8459,10 +8459,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -8516,6 +8512,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -8642,10 +8642,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 392
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 392
       },
@@ -8699,6 +8695,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 393
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 393
       }
     ]
@@ -8839,10 +8839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 242
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 242
       },
@@ -8896,6 +8892,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 245
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 245
       }
     ]
@@ -9037,10 +9037,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -9094,6 +9090,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -9210,10 +9210,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 115
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 115
       },
@@ -9268,6 +9264,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 116
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 116
       }
     ]
   },
@@ -9281,9 +9281,9 @@
     "theme": "Smart Automation",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 212,
+    "ideas_submitted": 213,
     "submission_capacity": 500,
-    "fill_percentage": 42.4,
+    "fill_percentage": 42.6,
     "description": "• Background:\nHigh Altitude Areas (HAA) and Super High Altitude Areas (SHAA) of Ladakh region presents one of the harshest operating environments for electronic equipment and systems because of its extreme cold, low atmospheric pressure, intense solar/UV radiation and large temperature variations between day and night. These environmental conditions strongly affect the reliability, efficiency, and lifespan of electrical and electronic systems.\n• Description:\nLadakh is a cold desert located at elevations of approximately 3000 to 6000m above sea level. There are several environmental challenges viz. very low temperatures (-35°C to 40°C in winters), low atmospheric pressure, lower partial pressure of oxygen, low humidity, snow, ice and occasional moisture condensation. These conditions pose serious operational and storage issues of electrical and electronic equipment and systems and following effects on same is observed:\n1. Reduced Cooling Efficiency: At high altitude, air density decreases significantly. Thin air removes heat less effectively (degradation of convective cooling), so electronic components run hotter even when ambient temperature is cold. This means overheating of processors, reduced efficiency of cooling fans and heat sinks, thermal stress on semiconductors and premature component failure. Systems being affected are computers and servers, telecom base stations, radar system, power electronics, military communication systems.\n2. Insulation Breakdown and Electrical Arcing: Low atmospheric pressure reduces the dielectric strength of air. Air becomes a weaker insulator, increasing the risk of sparking and arcing between conductors.\n3. Battery Performance Degradation: Cold temperatures severely affect battery chemistry. Lithium-ion and lead-acid batteries lose capacity and discharge faster in freezing conditions. Owing to this there is reduced backup time, slow charging and voltage instability.\n4. Thermal Cycling Damage: Ladakh experiences large temperature variation between day and night. Repeated expansion and contraction develop mechanical stresses in the components. This result in cracking of solder joints, PCB warping etc.\n5. Increased Radiation Exposure: Higher altitude means thinner atmospheric shielding, so electrical and electronic components receive more UV radiation and cosmic rays. This means semiconductor degradation, memory bit error and failure of sensitive sensors.\n6. Effects on Communication Systems: High Mountains and severe weather affect signal propagation. There are problems like signal attenuation and reflection, antenna icing. Because of these cellular networks, satellite communication and military radio system get affected.\n7. Real-World Impact: The Drone Challenge: The Indian Army’s extensive use of drones along the LAC highlights these exact issues. In the thin air of Ladakh, drone rotors generate less lift, forcing the electronic motors to work much harder and draw more current. Combined with cold-induced battery drain, drones that fly for an hour at sea level might only manage 20-25 minutes of flight time in Ladakh\n• Expected Solution:\nThe environment of Ladakh significantly affects electrical and electronic equipment due to low atmospheric pressure, extreme cold, high UV/cosmic radiation, dust and dryness, and large thermal variations. These conditions can cause overheating, insulation failure, battery degradation, display malfunction, communication instability, and reduced reliability. Therefore, electrical and electronic equipment and systems used in Ladakh require specialized design modifications to improve the reliability, efficiency, and lifespan.",
     "dataset_link": "",
     "youtube": "",
@@ -9295,13 +9295,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 5.0,
-      "growth_24h": 3,
-      "velocity_48h": 5.0,
-      "growth_48h": 3,
-      "velocity_7d": 5.0,
-      "growth_7d": 3,
-      "velocity_overall": 5.0,
+      "velocity_24h": 6.6,
+      "growth_24h": 4,
+      "velocity_48h": 6.6,
+      "growth_48h": 4,
+      "velocity_7d": 6.6,
+      "growth_7d": 4,
+      "velocity_overall": 6.6,
       "momentum": "Rising",
       "has_history": true
     },
@@ -9363,13 +9363,13 @@
       ]
     },
     "opportunity_category": "WATCH",
-    "opportunity_score": 33.6,
+    "opportunity_score": 33.4,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 57.6,
+      "estimated_cap_days": 43.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~5.0/day), cap may be reached in ~57.6 days. This is an estimate."
+      "note": "At current velocity (~6.6/day), cap may be reached in ~43.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -9404,10 +9404,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 209
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 209
@@ -9463,6 +9459,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 212
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 213
       }
     ]
   },
@@ -9602,10 +9602,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 177
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 177
       },
@@ -9659,6 +9655,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 178
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 178
       }
     ]
@@ -9795,10 +9795,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 186
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 186
       },
@@ -9852,6 +9848,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 188
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 188
       }
     ]
@@ -9993,10 +9993,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 317
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 317
       },
@@ -10050,6 +10046,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 324
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 324
       }
     ]
@@ -10191,10 +10191,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 199
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 199
       },
@@ -10248,6 +10244,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 200
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 200
       }
     ]
@@ -10393,10 +10393,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 311
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 311
       },
@@ -10450,6 +10446,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 312
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 312
       }
     ]
@@ -10573,10 +10573,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 198
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 198
       },
@@ -10630,6 +10626,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 202
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 202
       }
     ]
@@ -10764,10 +10764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 413
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 413
       },
@@ -10821,6 +10817,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 413
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 413
       }
     ]
@@ -10965,10 +10965,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 420
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 420
       },
@@ -11022,6 +11018,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 423
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 423
       }
     ]
@@ -11163,10 +11163,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 162
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 162
       },
@@ -11220,6 +11216,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 163
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 163
       }
     ]
@@ -11349,10 +11349,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 227
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 227
       },
@@ -11406,6 +11402,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 228
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 228
       }
     ]
@@ -11539,10 +11539,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 195
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 195
       },
@@ -11596,6 +11592,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 196
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 196
       }
     ]
@@ -11730,10 +11730,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 192
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 192
       },
@@ -11787,6 +11783,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 193
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 193
       }
     ]
@@ -11919,10 +11919,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 229
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 229
       },
@@ -11976,6 +11972,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 230
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 230
       }
     ]
@@ -12104,10 +12104,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 200
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 200
       },
@@ -12161,6 +12157,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 204
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 204
       }
     ]
@@ -12285,10 +12285,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 125
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 125
       },
@@ -12342,6 +12338,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 128
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 128
       }
     ]
@@ -12475,10 +12475,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 110
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 110
       },
@@ -12532,6 +12528,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 111
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 111
       }
     ]
@@ -12667,10 +12667,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 206
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 206
       },
@@ -12724,6 +12720,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 206
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 206
       }
     ]
@@ -12865,10 +12865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 221
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 221
       },
@@ -12922,6 +12918,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 222
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 222
       }
     ]
@@ -13062,10 +13062,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -13119,6 +13115,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -13257,10 +13257,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 295
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 295
       },
@@ -13315,6 +13311,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 298
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 298
       }
     ]
   },
@@ -13342,13 +13342,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
-      "growth_24h": 6,
-      "velocity_48h": 10.0,
-      "growth_48h": 6,
-      "velocity_7d": 10.0,
-      "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_24h": 8.3,
+      "growth_24h": 5,
+      "velocity_48h": 8.3,
+      "growth_48h": 5,
+      "velocity_7d": 8.3,
+      "growth_7d": 5,
+      "velocity_overall": 8.3,
       "momentum": "Rising",
       "has_history": true
     },
@@ -13409,10 +13409,10 @@
     "opportunity_score": 35.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 18.2,
+      "estimated_cap_days": 21.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~18.2 days. This is an estimate."
+      "note": "At current velocity (~8.3/day), cap may be reached in ~21.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -13429,10 +13429,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 312
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 313
@@ -13487,6 +13483,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 318
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 318
       }
     ]
@@ -13621,10 +13621,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 244
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 244
       },
@@ -13678,6 +13674,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 246
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 246
       }
     ]
@@ -13804,10 +13804,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 183
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 183
       },
@@ -13861,6 +13857,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 187
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 187
       }
     ]
@@ -14000,10 +14000,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 324
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 324
       },
@@ -14057,6 +14053,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 329
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 329
       }
     ]
@@ -14189,10 +14189,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 229
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 229
       },
@@ -14246,6 +14242,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 230
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 230
       }
     ]
@@ -14377,10 +14377,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 499
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 499
       },
@@ -14434,6 +14430,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -14569,10 +14569,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 321
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 321
       },
@@ -14626,6 +14622,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 322
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 322
       }
     ]
@@ -14768,10 +14768,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 175
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 175
       },
@@ -14825,6 +14821,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 179
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 179
       }
     ]
@@ -14968,10 +14968,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 140
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 140
       },
@@ -15025,6 +15021,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 141
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 141
       }
     ]
@@ -15162,10 +15162,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 169
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 169
       },
@@ -15219,6 +15215,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 171
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 171
       }
     ]
@@ -15355,10 +15355,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 158
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 158
       },
@@ -15412,6 +15408,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 159
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 159
       }
     ]
@@ -15550,10 +15550,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 170
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 170
       },
@@ -15607,6 +15603,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 171
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 171
       }
     ]
@@ -15744,10 +15744,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 177
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 177
       },
@@ -15801,6 +15797,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 179
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 179
       }
     ]
@@ -15940,10 +15940,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 246
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 246
       },
@@ -15997,6 +15993,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 250
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 250
       }
     ]
@@ -16136,10 +16136,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 138
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 138
       },
@@ -16193,6 +16189,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 139
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 139
       }
     ]
@@ -16331,10 +16331,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 344
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 344
       },
@@ -16389,6 +16385,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 349
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 349
       }
     ]
   },
@@ -16402,9 +16402,9 @@
     "theme": "Agriculture, FoodTech & Rural Development",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 168,
+    "ideas_submitted": 169,
     "submission_capacity": 500,
-    "fill_percentage": 33.6,
+    "fill_percentage": 33.8,
     "description": "The Indian Summer Monsoon dictates the economic livelihood of millions of farmers, particularly during the Kharif sowing season. While macro-scale monsoon forecasts across large meteorological subdivisions have improved, Indian agriculture remains highly vulnerable to the unpredictable nature of intra-seasonal variations. Specifically, the exact dates of monsoon onset,prolonged dry spells (break-monsoon phases), and subsequent revival cycles vary drastically from one district to another.\nStandard regional forecasts lack the spatial granularity required for localized agricultural planning.If a farmer sows seeds during a false onset just before a major breakthrough pause, entire crops fail due to moisture stress, leading to crushing financial losses.\nThe challenge is to build a hybrid predictive framework capable of delivering a 7-to-30-day probabilistic outlook of monsoon behavior at the Block and Panchayat (Village cluster) scale.\nThe system must bridge the gap between global climate teleconnections and hyper-local weather outcomes. Participants should design a solution that ingests large-scale climate indices-such as the El Niño-Southern Oscillation (ENSO), Indian Ocean Dipole (IOD), and Madden-Julian Oscillation (MJO)-and downscales their signatures using advanced machine learning models to predict localized precipitation behavior, onset thresholds, and active/break durations.Develop a hybrid mathematical or machine learning model that pairs global planetary boundary conditions (ENSO, IOD, MJO phases) with regional atmospheric data to predict local rainfall anomalies. Generate dynamic, color-coded risk maps at the block/panchayat level illustrating the statistical probability percentage of monsoon onset, continuous dry spells (breaks), or heavy downpours 1 to 4 weeks in advance. Build an expert-system engine that translates rainfall probabilities into localized crop-specific agronomic advisories (e.g., advising farmers to delay sowing, prepare irrigation alternatives, or alter crop choices based on upcoming break phases). A mobile-optimized web application or automated SMS/WhatsApp API gateway that pushes clear,actionable text-based advisories in regional Indian languages directly to farmers and local agricultural extension officers.",
     "dataset_link": "",
     "youtube": "",
@@ -16416,13 +16416,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 1.7,
-      "growth_24h": 1,
-      "velocity_48h": 1.7,
-      "growth_48h": 1,
-      "velocity_7d": 1.7,
-      "growth_7d": 1,
-      "velocity_overall": 1.7,
+      "velocity_24h": 3.3,
+      "growth_24h": 2,
+      "velocity_48h": 3.3,
+      "growth_48h": 2,
+      "velocity_7d": 3.3,
+      "growth_7d": 2,
+      "velocity_overall": 3.3,
       "momentum": "Stable",
       "has_history": true
     },
@@ -16484,13 +16484,13 @@
       ]
     },
     "opportunity_category": "WATCH",
-    "opportunity_score": 52.8,
+    "opportunity_score": 52.7,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 195.3,
+      "estimated_cap_days": 100.3,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~1.7/day), cap may be reached in ~195.3 days. This is an estimate."
+      "note": "At current velocity (~3.3/day), cap may be reached in ~100.3 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -16525,10 +16525,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 167
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 167
@@ -16584,6 +16580,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 168
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 169
       }
     ]
   },
@@ -16611,13 +16611,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 1.7,
-      "growth_24h": 1,
-      "velocity_48h": 1.7,
-      "growth_48h": 1,
-      "velocity_7d": 1.7,
-      "growth_7d": 1,
-      "velocity_overall": 1.7,
+      "velocity_24h": 0.0,
+      "growth_24h": 0,
+      "velocity_48h": 0.0,
+      "growth_48h": 0,
+      "velocity_7d": 0.0,
+      "growth_7d": 0,
+      "velocity_overall": 0.0,
       "momentum": "Stable",
       "has_history": true
     },
@@ -16689,10 +16689,10 @@
     "opportunity_score": 49.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 236.5,
-      "cap_before_deadline": false,
-      "forecast_available": true,
-      "note": "At current velocity (~1.7/day), cap may be reached in ~236.5 days. This is an estimate."
+      "estimated_cap_days": null,
+      "cap_before_deadline": null,
+      "forecast_available": false,
+      "note": "Forecast unavailable — insufficient velocity data."
     },
     "similar_ps": [
       {
@@ -16727,10 +16727,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 97
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 98
@@ -16785,6 +16781,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 98
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 98
       }
     ]
@@ -16923,10 +16923,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 160
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 160
       },
@@ -16980,6 +16976,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 162
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 162
       }
     ]
@@ -17107,10 +17107,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -17164,6 +17160,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -17302,10 +17302,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -17359,6 +17355,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -17496,10 +17496,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -17553,6 +17549,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -17677,10 +17677,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -17734,6 +17730,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -17874,10 +17874,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 246
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 246
       },
@@ -17931,6 +17927,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 250
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 250
       }
     ]
@@ -18074,10 +18074,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 395
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 395
       },
@@ -18132,6 +18128,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 398
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 398
       }
     ]
   },
@@ -18159,13 +18159,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 13.3,
+      "velocity_24h": 13.2,
       "growth_24h": 8,
-      "velocity_48h": 13.3,
+      "velocity_48h": 13.2,
       "growth_48h": 8,
-      "velocity_7d": 13.3,
+      "velocity_7d": 13.2,
       "growth_7d": 8,
-      "velocity_overall": 13.3,
+      "velocity_overall": 13.2,
       "momentum": "Rising",
       "has_history": true
     },
@@ -18232,10 +18232,10 @@
     "opportunity_score": 29.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 11.8,
+      "estimated_cap_days": 11.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~13.3/day), cap may be reached in ~11.8 days. This is an estimate."
+      "note": "At current velocity (~13.2/day), cap may be reached in ~11.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -18270,10 +18270,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 335
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 335
@@ -18328,6 +18324,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 343
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 343
       }
     ]
@@ -18469,10 +18469,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 122
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 122
       },
@@ -18527,6 +18523,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 123
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 123
       }
     ]
   },
@@ -18554,13 +18554,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
+      "velocity_24h": 9.9,
       "growth_24h": 6,
-      "velocity_48h": 10.0,
+      "velocity_48h": 9.9,
       "growth_48h": 6,
-      "velocity_7d": 10.0,
+      "velocity_7d": 9.9,
       "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_overall": 9.9,
       "momentum": "Rising",
       "has_history": true
     },
@@ -18625,10 +18625,10 @@
     "opportunity_score": 32.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 27.5,
+      "estimated_cap_days": 27.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~27.5 days. This is an estimate."
+      "note": "At current velocity (~9.9/day), cap may be reached in ~27.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -18663,10 +18663,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 219
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 219
@@ -18721,6 +18717,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 225
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 225
       }
     ]
@@ -18859,10 +18859,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 109
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 109
       },
@@ -18916,6 +18912,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 109
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 109
       }
     ]
@@ -19050,10 +19050,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 180
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 180
       },
@@ -19108,6 +19104,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 182
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 182
       }
     ]
   },
@@ -19135,13 +19135,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
+      "velocity_24h": 9.9,
       "growth_24h": 6,
-      "velocity_48h": 10.0,
+      "velocity_48h": 9.9,
       "growth_48h": 6,
-      "velocity_7d": 10.0,
+      "velocity_7d": 9.9,
       "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_overall": 9.9,
       "momentum": "Rising",
       "has_history": true
     },
@@ -19205,10 +19205,10 @@
     "opportunity_score": 32.0,
     "crowded_but_strong": true,
     "cap_forecast": {
-      "estimated_cap_days": 8.8,
+      "estimated_cap_days": 8.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~8.8 days. This is an estimate."
+      "note": "At current velocity (~9.9/day), cap may be reached in ~8.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -19243,10 +19243,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 406
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 406
@@ -19301,6 +19297,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 412
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 412
       }
     ]
@@ -19443,10 +19443,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -19500,6 +19496,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -19638,10 +19638,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -19695,6 +19691,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -19834,10 +19834,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 477
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 477
       },
@@ -19891,6 +19887,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 481
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 481
       }
     ]
@@ -20032,10 +20032,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -20090,6 +20086,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 500
       }
     ]
   },
@@ -20117,13 +20117,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
+      "velocity_24h": 9.9,
       "growth_24h": 6,
-      "velocity_48h": 10.0,
+      "velocity_48h": 9.9,
       "growth_48h": 6,
-      "velocity_7d": 10.0,
+      "velocity_7d": 9.9,
       "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_overall": 9.9,
       "momentum": "Rising",
       "has_history": true
     },
@@ -20192,10 +20192,10 @@
     "opportunity_score": 29.6,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 25.5,
+      "estimated_cap_days": 25.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~25.5 days. This is an estimate."
+      "note": "At current velocity (~9.9/day), cap may be reached in ~25.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -20230,10 +20230,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 239
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 239
@@ -20288,6 +20284,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 245
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 245
       }
     ]
@@ -20429,10 +20429,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -20486,6 +20482,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -20604,10 +20604,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 466
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 466
       },
@@ -20662,6 +20658,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 470
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 470
       }
     ]
   },
@@ -20675,9 +20675,9 @@
     "theme": "Smart Automation",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 325,
+    "ideas_submitted": 326,
     "submission_capacity": 500,
-    "fill_percentage": 65.0,
+    "fill_percentage": 65.2,
     "description": "• Background Government departments, Public Sector Enterprises (PSES),procurement agencies, and private organizations procure a wide range of products and services through e-procurement portals. Procurement officials are often required to prepare technical specifications that reference the appropriate Indian Standards (IS).However, identifying the correct standard(s) is challenging due to the large number of published standards, overlapping scopes, frequent revisions, and the need to consider associated or normative reference standards. Consequently, tender specifications may omit relevant standards, reference outdated versions, or include incomplete technical requirements, leading to ambiguity, reduced product quality, and procurement disputes.\nAn intelligent system is required that can automatically analyze a product description or technical specification and recommend the most relevant Indian Standard(s), along with allied, cross-referenced, or normative standards that should also be considered.\n• Description Develop an Al-powered recommendation engine that integrates with procurement portals and assists procurement officials in identifying the most relevant Indian Standards and related standards while preparing tender specifications.\n• Expected Features\n• Accept product descriptions, technical specifications, or tender documents as input.\n• Recommend the most relevant Indian Standard(s) based on semantic understanding rather than keyword matching.\n• Identify allied standards, including normative references, test methods, terminology standards, safety standards, installation standards, and related product standards.\n• Highlight the latest published version and amendments of the recommended standards.\n• Suggest mandatory certification requirements, where applicable (e.g., BIS Product Certification, CRS, Hallmarking).\n• Support multilingual input and natural language queries.",
     "dataset_link": "",
     "youtube": "",
@@ -20689,13 +20689,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 0.0,
-      "growth_24h": 0,
-      "velocity_48h": 0.0,
-      "growth_48h": 0,
-      "velocity_7d": 0.0,
-      "growth_7d": 0,
-      "velocity_overall": 0.0,
+      "velocity_24h": 1.7,
+      "growth_24h": 1,
+      "velocity_48h": 1.7,
+      "growth_48h": 1,
+      "velocity_7d": 1.7,
+      "growth_7d": 1,
+      "velocity_overall": 1.7,
       "momentum": "Stable",
       "has_history": true
     },
@@ -20756,10 +20756,10 @@
     "opportunity_score": 43.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": null,
-      "cap_before_deadline": null,
-      "forecast_available": false,
-      "note": "Forecast unavailable — insufficient velocity data."
+      "estimated_cap_days": 102.4,
+      "cap_before_deadline": false,
+      "forecast_available": true,
+      "note": "At current velocity (~1.7/day), cap may be reached in ~102.4 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -20794,10 +20794,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 325
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 325
@@ -20853,6 +20849,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 325
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 326
       }
     ]
   },
@@ -20866,9 +20866,9 @@
     "theme": "Agriculture, FoodTech & Rural Development",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 207,
+    "ideas_submitted": 208,
     "submission_capacity": 500,
-    "fill_percentage": 41.4,
+    "fill_percentage": 41.6,
     "description": "• Background Bovine mastitis is one of the most prevalent and economically significant diseases affecting dairy cattle and buffaloes in lndia. The disease adversely impacts milk production, milk quality,animal health, and farm profitability, while also increasing treatment costs and antimicrobial usage. Despite its substantial economic and public health implications, mastitis is often detected only after clinical signs become apparent, limiting opportunities for timely intervention and prevention.The increasing adoption of digital dairy technologies, including automated milking systems,livestock monitoring devices, milk quality sensors, farm management softlvare, and environmental monitoring Systems, presents an opportunity to leverage Artificial lntelligence(Al), Machine Learning (ML), and Internet of Things (loT) technologies for early disease prediction and risk-based herd management.\n• Problem Statement Develop an integrated Al-enabled predictive forecasting system capable of identifying and predicting the risk of bovine mastitis at both individual animal and herd levels before the onset of clinical disease.The proposed solution should utilize real-time and historical farm data from multiple sources to generate early warning alerts, risk scores, and actionable recommendations for dairy farmers, veterinarians, dairy cooperatives, and animal health authorities. The system should support continuous monitoring, disease forecasting, and evidence-based decision-making to reduce disease incidence and associated economic losses.\n• Expected Solution The solution should be capable of:\n1. Predicting mastitis risk at least 7-14 days before the appearance of clinical signs.\n2. Generating animal-wise and herd-level risk assessments.\n3. lntegrating data from sensors, farm management systems, laboratory records, and manual inputs.\n4. Providing real-time alerts and notifications to farmers and veterinarians.\n5. Continuously improving prediction accuracy through Al/ML-based learning models.\n6. Supporting data-driven decision-making through user-friendly dashboards and visualization tools.\n7. Recommending preventive and corrective interventions based on identified risk factors.\n8. Supporting multilingual and mobile-enabled deployment for field-level adoption.\n• Data Parameters for Analysis The system should be capable of analysing and conelating multiple risk factors associated with mastitis occurrence, including:\n• Animal health and treatment records and herd strength\n• For individual level breed, age lactation number, disease history and vaccination status\n• Milk yield and milk quality parameters\n• Somatic Cell Count (SCC) and related indicators\n• Body temperature, aclivity levels, and rumination behaviour\n• Environmental, hygiene of the farm and climatic conditions\n• Feeding and nutritional practices\n• Housing conditions and farm management practices\n• Milking procedures and operational schedules\n• Previous disease history and co-morbidities\n• Worker hygiene and health-related risk factors Based on the analysis, the system may classify animals into risk categories such as:\n• No Risk\n• Low Risk\n• Moderate Risk\n• High Risk\n• Solution Components\n• Hardware Component- The hardware component may include:\n• loT-enabled sensors for monitoring milk conductivity, milk temperature, pH, milk yield,and other relevant indicators.\n• Wearable or collar-based devices for monitoring body temperature, udder surface temperature, activity, rumination, feeding behaviour, and physiological parameters.\n• Wireless communication through Bluetooth, W-Fi, GSM, NB-loT, LoRa, or equivalent technologies.\n• Battery-operated or solar-powered deployment suitable for field conditions.\n• GPS-enabled geo-tagging of animal and farm data.\n• Rugged, low-cost, and farmer-friendly designs suitable for lndian dairy production systems.\n• Software Component The software platform should include:\n• Al and machine learning models for mastitis risk prediction and forecasting.\n• Mobile applications for farmers, veterinarians, and field personnel.\n• Cloud-based data storage, integration, and analytics\n• Algorithms to predict subclinical mastitis with SCC.\n• Real-time herd health monitoring dashboards.\n• Early warning and notification systems through mobile alerts, SMS, or other communication channels.\n• Decision-support tools providing recommendations on animal health management, milking hygiene, nutrition, biosecurity, and veterinary interventions.\n• GIS-based visualization of disease trends, hotspots, and risk clusters.\n• Expected Deliverables\n• Functional prototype of the integrated mastitis forecasting system.\n• Al-based predictive analytics engine with demonstrated forecasting capability.\n• Mobile application and user interface for field deployment.\n• Cloud-based dashboard and data management platform.\n• Early warning and notification module.\n• Hardware prototype incorporating sensor-based data acquisition.\n• Demonstration and validation of predictive performance under field conditions.\n• Expected Outcomes and lmpact The successful solution is expected to:\n• Enable early detection and prevention of bovine mastitis both at individual level and herd level.\n• Reduce milk production losses and treatment costs.\n• lmprove milk quality, safety, and marketability.\n• Reduce indiscriminate antimicrobial usage and support antimicrobial resistance (AMR) mitigation efforts.\n• lmprove animal welfare, productivity, and longevity.\n• Promote precision livestock farming and digital dairy management.\n• Enhance the profitability and resilience of dairy farmers.\n• Contribute to the development of a data-driven livestock health surveillance ecosystem in lndia.\n• lnnovation Challenge The solution should be affordable, scalable, interoperable, and easy to deploy across diverse dairy production systems, including smallholder farms, dairy cooperatives, organized farms,and commercial dairy enterprises. Particular emphasis should be placed on low-cost implementation, ease of use, multilingual accessibility, data security, and predictive accuracy under lndian field conditions.",
     "dataset_link": "",
     "youtube": "",
@@ -20880,13 +20880,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 5.0,
-      "growth_24h": 3,
-      "velocity_48h": 5.0,
-      "growth_48h": 3,
-      "velocity_7d": 5.0,
-      "growth_7d": 3,
-      "velocity_overall": 5.0,
+      "velocity_24h": 6.6,
+      "growth_24h": 4,
+      "velocity_48h": 6.6,
+      "growth_48h": 4,
+      "velocity_7d": 6.6,
+      "growth_7d": 4,
+      "velocity_overall": 6.6,
       "momentum": "Rising",
       "has_history": true
     },
@@ -20956,13 +20956,13 @@
       ]
     },
     "opportunity_category": "WATCH",
-    "opportunity_score": 28.2,
+    "opportunity_score": 28.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 58.6,
+      "estimated_cap_days": 44.2,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~5.0/day), cap may be reached in ~58.6 days. This is an estimate."
+      "note": "At current velocity (~6.6/day), cap may be reached in ~44.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -20997,10 +20997,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 204
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 204
@@ -21056,6 +21052,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 207
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 208
       }
     ]
   },
@@ -21178,10 +21178,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -21235,6 +21231,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -21378,10 +21378,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 175
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 175
       },
@@ -21435,6 +21431,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 178
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 178
       }
     ]
@@ -21572,10 +21572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 168
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 168
       },
@@ -21629,6 +21625,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 170
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 170
       }
     ]
@@ -21767,10 +21767,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 220
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 220
       },
@@ -21824,6 +21820,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 221
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 221
       }
     ]
@@ -21959,10 +21959,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 117
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 117
       },
@@ -22016,6 +22012,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 118
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 118
       }
     ]
@@ -22153,10 +22153,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 232
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 232
       },
@@ -22210,6 +22206,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 235
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 235
       }
     ]
@@ -22338,10 +22338,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 109
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 109
       },
@@ -22395,6 +22391,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 109
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 109
       }
     ]
@@ -22514,10 +22514,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -22571,6 +22567,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -22684,10 +22684,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 231
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 231
       },
@@ -22741,6 +22737,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 232
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 232
       }
     ]
@@ -22865,10 +22865,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 119
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 119
       },
@@ -22922,6 +22918,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 120
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 120
       }
     ]
@@ -23059,10 +23059,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 181
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 181
       },
@@ -23116,6 +23112,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 183
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 183
       }
     ]
@@ -23239,10 +23239,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 237
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 237
       },
@@ -23296,6 +23292,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 238
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 238
       }
     ]
@@ -23429,10 +23429,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 228
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 228
       },
@@ -23486,6 +23482,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 232
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 232
       }
     ]
@@ -23627,10 +23627,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 179
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 179
       },
@@ -23684,6 +23680,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 180
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 180
       }
     ]
@@ -23822,10 +23822,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -23879,6 +23875,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -24016,10 +24016,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 245
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 245
       },
@@ -24073,6 +24069,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 250
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 250
       }
     ]
@@ -24213,10 +24213,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 141
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 141
       },
@@ -24271,6 +24267,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 144
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 144
       }
     ]
   },
@@ -24284,9 +24284,9 @@
     "theme": "Smart Automation",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 421,
+    "ideas_submitted": 422,
     "submission_capacity": 500,
-    "fill_percentage": 84.2,
+    "fill_percentage": 84.4,
     "description": "• Background Modern urban centers deploy vast networks of CCTV and Automatic Number Plate Recognition(ANPR) cameras to manage traffic, enforce traffic laws, and maintain public security. However,most existing systems process these feeds in isolated silos, performing basic license plate detection without effectively linking data across space and time. This lack of integration prevents city authorities from automatically tracking high-interest vehicles across different sectors and limits their ability to extract macro-level traffic movement trends from the existing camera infrastructure.\n• Description The objective is to develop a robust, centralized AI software platform that processes multicamera feeds across a city-wide ANPR network to accomplish three core functionalities. First, the platform must feature a High-Accuracy ANPR and OCR Engine, which utilizes an advanced Optical Character Recognition model capable of achieving greater than 90% accuracy across diverse realworld conditions such as varying lighting, poor weather, angled shots, motion blur, and dirty or damaged license plates. Second, it requires a Single Plate Trajectory Tracking module to build a spatial-temporal tracking system capable of reconstructing the complete travel trajectory of any specific vehicle plate across the entire city network. This system will map a vehicle's movement history, timestamps, direction, and route on a GIS map using inputs from geographically distributed ANPR cameras. Third, the system must perform Macro Traffic Flow and Movement Analytics by analyzing aggregated camera data to compute and visualize general city-wide traffic dynamics. This includes measuring traffic density, identifying origin-destination patterns,detecting congestion bottlenecks, and providing real-time heatmaps of city traffic movement.\n• Expected Solution The expected solution is a scalable, enterprise-grade software platform equipped with four key components. It will feature a High-Precision OCR Module powered by a deep-learning model exceeding 90% recognition accuracy for license plates in multi-lane traffic streams. It will include a Trajectory Reconstruction Engine providing a query-based tracking interface that plots a vehicle's historical path chronologically across the city map with accurate timestamps and camera locations. Furthermore, it will integrate a City Traffic Analytics Dashboard to serve as a centralized, GIS-integrated web platform displaying heatmaps, average vehicle speeds, route densities, and traffic flow trends across all camera nodes. Finally, the platform will incorporate an Alert System capable of flagging blacklisted vehicles and suspicious route anomalies in real time.",
     "dataset_link": "",
     "youtube": "",
@@ -24298,13 +24298,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 11.6,
-      "growth_24h": 7,
-      "velocity_48h": 11.6,
-      "growth_48h": 7,
-      "velocity_7d": 11.6,
-      "growth_7d": 7,
-      "velocity_overall": 11.6,
+      "velocity_24h": 13.2,
+      "growth_24h": 8,
+      "velocity_48h": 13.2,
+      "growth_48h": 8,
+      "velocity_7d": 13.2,
+      "growth_7d": 8,
+      "velocity_overall": 13.2,
       "momentum": "Rising",
       "has_history": true
     },
@@ -24373,10 +24373,10 @@
     "opportunity_score": 29.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 6.8,
+      "estimated_cap_days": 5.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~11.6/day), cap may be reached in ~6.8 days. This is an estimate."
+      "note": "At current velocity (~13.2/day), cap may be reached in ~5.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -24411,10 +24411,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 414
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 414
@@ -24470,6 +24466,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 421
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 422
       }
     ]
   },
@@ -24606,10 +24606,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 308
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 308
       },
@@ -24663,6 +24659,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 309
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 309
       }
     ]
@@ -24802,10 +24802,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 339
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 339
       },
@@ -24859,6 +24855,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 342
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 342
       }
     ]
@@ -24996,10 +24996,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 249
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 249
       },
@@ -25053,6 +25049,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 254
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 254
       }
     ]
@@ -25191,10 +25191,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -25248,6 +25244,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -25381,10 +25381,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -25438,6 +25434,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -25573,10 +25573,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -25630,6 +25626,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -25764,10 +25764,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 488
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 488
       },
@@ -25821,6 +25817,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 493
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 493
       }
     ]
@@ -25957,10 +25957,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 416
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 416
       },
@@ -26014,6 +26010,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 418
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 418
       }
     ]
@@ -26140,10 +26140,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 278
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 278
       },
@@ -26197,6 +26193,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 278
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 278
       }
     ]
@@ -26334,10 +26334,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 209
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 209
       },
@@ -26391,6 +26387,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 211
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 211
       }
     ]
@@ -26526,10 +26526,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 124
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 124
       },
@@ -26583,6 +26579,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 126
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 126
       }
     ]
@@ -26718,10 +26718,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 317
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 317
       },
@@ -26775,6 +26771,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 319
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 319
       }
     ]
@@ -26915,10 +26915,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 262
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 262
       },
@@ -26972,6 +26968,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 265
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 265
       }
     ]
@@ -27109,10 +27109,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 156
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 156
       },
@@ -27166,6 +27162,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 160
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 160
       }
     ]
@@ -27303,10 +27303,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 217
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 217
       },
@@ -27360,6 +27356,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 217
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 217
       }
     ]
@@ -27497,10 +27497,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -27554,6 +27550,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -27693,10 +27693,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 95
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 95
       },
@@ -27750,6 +27746,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 96
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 96
       }
     ]
@@ -27891,10 +27891,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 401
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 401
       },
@@ -27948,6 +27944,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 405
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 405
       }
     ]
@@ -28086,10 +28086,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 186
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 186
       },
@@ -28143,6 +28139,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 187
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 187
       }
     ]
@@ -28272,10 +28272,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 179
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 179
       },
@@ -28329,6 +28325,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 182
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 182
       }
     ]
@@ -28455,10 +28455,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 120
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 120
       },
@@ -28512,6 +28508,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 123
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 123
       }
     ]
@@ -28644,10 +28644,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 148
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 148
       },
@@ -28701,6 +28697,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 150
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 150
       }
     ]
@@ -28839,10 +28839,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 133
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 133
       },
@@ -28896,6 +28892,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 133
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 133
       }
     ]
@@ -29020,10 +29020,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 208
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 208
       },
@@ -29077,6 +29073,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 209
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 209
       }
     ]
@@ -29205,10 +29205,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 230
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 230
       },
@@ -29262,6 +29258,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 232
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 232
       }
     ]
@@ -29404,10 +29404,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 377
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 377
       },
@@ -29461,6 +29457,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 378
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 378
       }
     ]
@@ -29585,10 +29585,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 227
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 227
       },
@@ -29642,6 +29638,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 227
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 227
       }
     ]
@@ -29786,10 +29786,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 158
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 158
       },
@@ -29843,6 +29839,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 159
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 159
       }
     ]
@@ -29983,10 +29983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 177
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 177
       },
@@ -30040,6 +30036,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 178
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 178
       }
     ]
@@ -30182,10 +30182,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 136
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 136
       },
@@ -30240,6 +30236,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 138
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 138
       }
     ]
   },
@@ -30267,13 +30267,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
+      "velocity_24h": 9.9,
       "growth_24h": 6,
-      "velocity_48h": 10.0,
+      "velocity_48h": 9.9,
       "growth_48h": 6,
-      "velocity_7d": 10.0,
+      "velocity_7d": 9.9,
       "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_overall": 9.9,
       "momentum": "Rising",
       "has_history": true
     },
@@ -30341,10 +30341,10 @@
     "opportunity_score": 33.9,
     "crowded_but_strong": true,
     "cap_forecast": {
-      "estimated_cap_days": 26.6,
+      "estimated_cap_days": 26.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~26.6 days. This is an estimate."
+      "note": "At current velocity (~9.9/day), cap may be reached in ~26.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -30379,10 +30379,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 228
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 228
@@ -30437,6 +30433,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 234
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 234
       }
     ]
@@ -30575,10 +30575,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 210
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 210
       },
@@ -30632,6 +30628,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 211
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 211
       }
     ]
@@ -30772,10 +30772,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 157
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 157
       },
@@ -30829,6 +30825,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 159
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 159
       }
     ]
@@ -30954,10 +30954,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 188
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 188
       },
@@ -31012,6 +31008,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 189
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 189
       }
     ]
   },
@@ -31039,13 +31039,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
+      "velocity_24h": 9.9,
       "growth_24h": 6,
-      "velocity_48h": 10.0,
+      "velocity_48h": 9.9,
       "growth_48h": 6,
-      "velocity_7d": 10.0,
+      "velocity_7d": 9.9,
       "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_overall": 9.9,
       "momentum": "Rising",
       "has_history": true
     },
@@ -31108,10 +31108,10 @@
     "opportunity_score": 32.0,
     "crowded_but_strong": true,
     "cap_forecast": {
-      "estimated_cap_days": 7.7,
+      "estimated_cap_days": 7.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~7.7 days. This is an estimate."
+      "note": "At current velocity (~9.9/day), cap may be reached in ~7.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -31146,10 +31146,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 417
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 417
@@ -31205,6 +31201,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 423
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 423
       }
     ]
   },
@@ -31218,9 +31218,9 @@
     "theme": "Smart Automation",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 159,
+    "ideas_submitted": 160,
     "submission_capacity": 500,
-    "fill_percentage": 31.8,
+    "fill_percentage": 32.0,
     "description": "• Background The world Monitor application is a Web/ Mobile platform that provides users with real-time monitoring, analytics, and reporting features. The application handles user authentication, data visualization, API communication, and role-based access controls.\nAs a security analyst, the task is to evaluate the application's security posture and identify vulnerabilities that could compromise the confidentiality, integrity, or availability of the system.\n• Description Conduct an authorized security assessment of the World Monitor application to:\n1. Identify security vulnerabilities in the application.\n2. Assess the potential impact of each vulnerability.\n3. Demonstrate proof-of-concept exploitation in a controlled environment.\n4. Recommend remediation measures to mitigate the identified risks.\n• Scope The assessment should focus on:\n• Authentication and session management\n• Authorization and access control\n• Input validation and data handling\n• API security\n• Client-side security controls\n• Secure communication mechanisms\n• Data storage and privacy protections\n• Success Criteria The assessment is considered successful if:\n• At least one valid vulnerability is identified and documented.\n• Evidence supports the existence of the vulnerability.\n• Risk and impact are clearly explained.\n• Practical mitigation strategies are provided\n• Expected Solution/Deliverables:\nFor each vulnerability discovered, provide:\n• Vulnerability title\n• Description\n• Affected component\n• Severity rating (e.g., CVSS)\n• Steps to reproduce\n• Proof of concept demonstrating the issue in a safe testing environment\n• Business impact assessment\n• Remediation recommendations constraints\n• Testing must be performed only on authorized systems.\n• No actions should affect production users or data.\n• Exploitation should be limited to proof-of-concept validation.\n• Compliance with applicable laws, policies, and ethical hacking guidelines is required.",
     "dataset_link": "App link-  https://www.worldmonitor.app\nSource Code:  https://github.com/koala73/worldmonitor",
     "youtube": "https://www.youtube.com/watch?v=-wws31Ol3mc",
@@ -31232,13 +31232,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 1.7,
-      "growth_24h": 1,
-      "velocity_48h": 1.7,
-      "growth_48h": 1,
-      "velocity_7d": 1.7,
-      "growth_7d": 1,
-      "velocity_overall": 1.7,
+      "velocity_24h": 3.3,
+      "growth_24h": 2,
+      "velocity_48h": 3.3,
+      "growth_48h": 2,
+      "velocity_7d": 3.3,
+      "growth_7d": 2,
+      "velocity_overall": 3.3,
       "momentum": "Stable",
       "has_history": true
     },
@@ -31300,13 +31300,13 @@
       ]
     },
     "opportunity_category": "WATCH",
-    "opportunity_score": 59.9,
+    "opportunity_score": 59.8,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 200.6,
+      "estimated_cap_days": 103.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~1.7/day), cap may be reached in ~200.6 days. This is an estimate."
+      "note": "At current velocity (~3.3/day), cap may be reached in ~103.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -31341,10 +31341,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 158
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 158
@@ -31400,6 +31396,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 159
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 160
       }
     ]
   },
@@ -31538,10 +31538,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 178
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 178
       },
@@ -31595,6 +31591,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 178
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 178
       }
     ]
@@ -31716,10 +31716,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 279
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 279
       },
@@ -31773,6 +31769,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 280
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 280
       }
     ]
@@ -31902,10 +31902,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 285
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 285
       },
@@ -31959,6 +31955,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 290
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 290
       }
     ]
@@ -32100,10 +32100,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -32157,6 +32153,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -32302,10 +32302,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 342
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 342
       },
@@ -32359,6 +32355,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 345
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 345
       }
     ]
@@ -32492,10 +32492,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 168
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 168
       },
@@ -32549,6 +32545,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 171
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 171
       }
     ]
@@ -32671,10 +32671,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 167
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 167
       },
@@ -32728,6 +32724,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 169
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 169
       }
     ]
@@ -32848,10 +32848,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 459
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 459
       },
@@ -32906,6 +32902,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 461
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 461
       }
     ]
   },
@@ -32919,9 +32919,9 @@
     "theme": "Smart Automation",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 321,
+    "ideas_submitted": 322,
     "submission_capacity": 500,
-    "fill_percentage": 64.2,
+    "fill_percentage": 64.4,
     "description": "Background As voice-controlled IoT proliferate, processing everything in the cloud is too costly, privacy-invasive, and slow. The future belongs to hybrid architectures where the edge handles the initial 'wake-up' and the cloud handles the heavy lifting.\nDescription Build an ultra-lightweight, highly accurate keyword spotting (KWS) model that runs locally on a low-power device. Upon detecting the keyword, the system must instantly and efficiently stream the subsequent audio to a remote Automated Speech Recognition (ASR) server with minimal data overhead and latency.\nKey Metrics for Evaluation\n• Efficiency: Model size (RAM/Flash footprint) and CPU usage during idle listening.\n• Accuracy: High true-positive rate for the keyword with near-zero false activations.\n• Latency: The time delta between the keyword ending and the cloud ASR receiving the audio stream.\nSoftware & Framework Restrictions\n• Open-Source Only: The use of proprietary, closed-source, or commercial voice-activation SDKs is strictly prohibited.\n• Allowed Frameworks: Teams must build their keyword spotting (KWS) pipelines using open-source machine learning and TinyML frameworks. Recommended tools include TensorFlow Lite for Microcontrollers, PyTorch Mobile or similar.\n• No Pre-Trained Global Keywords: Teams cannot use models pre-trained on generic smart-assistant keywords like 'Hey Google' or 'Alexa'. They need to train on a custom key word.\nExpected Solution Teams are expected to deliver a robust, deployable system architecture. A successful submission must strictly satisfy the following technical boundaries:\n• Hardware & Runtime Environment: The edge software application must run smoothly within an environment restricted to less than 256KB of RAM and consume under 10% CPU utilization while idling in continuous listening mode. Heavy or uncompressed pre-trained transformers are disqualified. Solutions will be formally evaluated on physical low-power microcontrollers (e.g., Raspberry Pi or ESP32).\n• Model should work for the given custom key word.",
     "dataset_link": "",
     "youtube": "",
@@ -32933,13 +32933,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 11.6,
-      "growth_24h": 7,
-      "velocity_48h": 11.6,
-      "growth_48h": 7,
-      "velocity_7d": 11.6,
-      "growth_7d": 7,
-      "velocity_overall": 11.6,
+      "velocity_24h": 13.2,
+      "growth_24h": 8,
+      "velocity_48h": 13.2,
+      "growth_48h": 8,
+      "velocity_7d": 13.2,
+      "growth_7d": 8,
+      "velocity_overall": 13.2,
       "momentum": "Rising",
       "has_history": true
     },
@@ -33006,10 +33006,10 @@
     "opportunity_score": 29.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 15.4,
+      "estimated_cap_days": 13.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~11.6/day), cap may be reached in ~15.4 days. This is an estimate."
+      "note": "At current velocity (~13.2/day), cap may be reached in ~13.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -33032,10 +33032,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 314
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 314
@@ -33091,6 +33087,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 321
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 322
       }
     ]
   },
@@ -33223,10 +33223,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 230
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 230
       },
@@ -33280,6 +33276,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 231
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 231
       }
     ]
@@ -33418,10 +33418,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 201
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 201
       },
@@ -33476,6 +33472,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 202
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 202
       }
     ]
   },
@@ -33503,13 +33503,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
+      "velocity_24h": 9.9,
       "growth_24h": 6,
-      "velocity_48h": 10.0,
+      "velocity_48h": 9.9,
       "growth_48h": 6,
-      "velocity_7d": 10.0,
+      "velocity_7d": 9.9,
       "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_overall": 9.9,
       "momentum": "Rising",
       "has_history": true
     },
@@ -33573,10 +33573,10 @@
     "opportunity_score": 31.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 29.2,
+      "estimated_cap_days": 29.5,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~29.2 days. This is an estimate."
+      "note": "At current velocity (~9.9/day), cap may be reached in ~29.5 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -33611,10 +33611,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 202
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 202
@@ -33670,6 +33666,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 208
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 208
       }
     ]
   },
@@ -33683,9 +33683,9 @@
     "theme": "Disaster Management",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 361,
+    "ideas_submitted": 362,
     "submission_capacity": 500,
-    "fill_percentage": 72.2,
+    "fill_percentage": 72.4,
     "description": "Background The marine ecosystem plays a vital role in supporting livelihoods, food security, biodiversity, maritime transportation, coastal resilience, and the blue economy. Every day, vast volumes of satellite Earth Observation and oceanographic data, including Sea Surface Temperature (SST), chlorophyll concentration, and weather forecasts, are generated by ISRO and other global agencies.\nMarine stakeholders such as fishermen, researchers, coastal authorities, disaster management agencies, and maritime operators rely on timely access to oceanographic and meteorological information for operational planning and decision-making. As the volume, diversity, and complexity of marine data continue to increase, there is a growing need for an intelligent conversational platform that enables users to interact naturally with marine information, ask questions, explore scenarios, and receive synthesized, evidence-based recommendations tailored to their context.\nAdvances in Agentic AI, conversational intelligence, and geospatial technologies present an opportunity to fundamentally transform how marine information is accessed and utilized. By integrating satellite Earth Observation data with autonomous AI agents, intelligent conversational decision-support systems should be able to answer questions such as 'Where is the nearest Potential Fishing Zone today?', 'Is it safe to venture into the sea tomorrow morning?', or 'What are the tide, weather, and sea conditions near my fishing location?' and provide explainable, context-aware recommendations.\nDescription Develop an Agentic AI-powered conversational platform that enables users to access, analyze, and reason over marine information using natural language.\nThe platform should autonomously interpret user intent, decompose complex requests into executable tasks, coordinate multiple specialized AI agents, retrieve relevant marine and geospatial datasets, perform spatial-temporal reasoning, and synthesize actionable recommendations through a conversational interface.\nThe solution should be capable of integrating information from multiple sources, including satellite Earth Observation products, GIS layers, weather services, oceanographic observations, and marine advisories available in the public domain.\nTypical user queries include:\n• Where is the nearest Potential Fishing Zone (PFZ) today?\n• Is it safe to venture into the sea tomorrow morning?\n• What are the tide, weather, and sea conditions near my fishing location?\n• Are there any lightning or cyclone alerts in my area?\n• Which regions show high chlorophyll concentration and favourable sea surface temperature?\n• What is the safest route for a fishing vessel considering weather and sea-state conditions?\n• Why has fish productivity declined in a particular coastal region?\n• Which fishing zones should be avoided due to hazardous marine conditions or geofencing restrictions?\nThe platform should not merely retrieve information from individual datasets but intelligently correlate observations from multiple sources, explain the reasoning behind its recommendations, and present insights through conversational responses, maps, alerts, and interactive geospatial visualizations.\nExpected Solution Participants are expected to develop an Agentic AI-powered Marine Intelligence Platform that leverages collaborative AI agents, geospatial technologies, and satellite Earth Observation data to provide intelligent conversational decision support.\nThe solution should demonstrate the core principles of Agentic AI, including autonomous planning, reasoning, tool selection, task execution, collaboration among specialized agents, and explainable decision-making.\nThe platform should be capable of:\n• Understanding user intent expressed in natural language.\n• Automatically identifying the language of the user's query and responding in the same language, with emphasis on supporting Indian regional languages.\n• Supporting contextual, multi-turn conversations that enable users to refine queries and explore related scenarios.\n• Autonomously discovering, retrieving, and integrating relevant satellite, marine, meteorological, and geospatial datasets.\n• Performing spatial, temporal, and contextual reasoning by correlating observations from multiple heterogeneous data sources.\n• Generating explainable, evidence-based recommendations supported by maps, charts, geospatial visualizations, and marine advisories.\n• Enhancing fishermen safety through proactive alerts for adverse weather, high waves, lightning, cyclones, and other hazardous marine conditions.\n• Providing geofencing-based notifications when approaching international maritime boundaries, restricted waters, marine protected areas, ecologically sensitive zones, or other predefined operational boundaries.\n• Assisting with route optimization, safe navigation, and operational planning based on prevailing and forecast marine conditions.\n• Delivering reliable recommendations together with the supporting evidence and reasoning used to derive each response.\nParticipants are encouraged to design a modular multi-agent architecture comprising specialized AI agents for planning, marine data discovery, weather intelligence, ocean analytics, geospatial reasoning, risk assessment, visualization, reporting, and user interaction. The architecture should demonstrate autonomous collaboration among agents to solve complex marine intelligence problems while providing an intuitive conversational experience.",
     "dataset_link": "",
     "youtube": "",
@@ -33771,10 +33771,10 @@
     "opportunity_score": 29.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 27.8,
+      "estimated_cap_days": 27.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~5.0/day), cap may be reached in ~27.8 days. This is an estimate."
+      "note": "At current velocity (~5.0/day), cap may be reached in ~27.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -33809,10 +33809,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 358
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 359
@@ -33868,6 +33864,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 361
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 362
       }
     ]
   },
@@ -34010,10 +34010,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -34067,6 +34063,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -34211,10 +34211,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -34268,6 +34264,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -34412,10 +34412,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 187
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 187
       },
@@ -34469,6 +34465,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 189
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 189
       }
     ]
@@ -34612,10 +34612,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -34670,6 +34666,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 500
       }
     ]
   },
@@ -34683,9 +34683,9 @@
     "theme": "MedTech / BioTech / HealthTech",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 432,
+    "ideas_submitted": 433,
     "submission_capacity": 500,
-    "fill_percentage": 86.4,
+    "fill_percentage": 86.6,
     "description": "Background India faces recurring public health challenges during and after disasters such as heat waves, floods, cyclones, air pollution events, disease outbreaks, and extreme weather conditions. Heat stress, dehydration, respiratory illnesses, cardiovascular complications, and delayed access to healthcare are common during such events.\nRural populations, elderly citizens, outdoor workers, and people with chronic medical conditions are particularly vulnerable. Climate-related hazards are increasing in frequency and intensity, creating a need for continuous, personalized health monitoring that can function even when connectivity and healthcare access are disrupted.\nAdvances in edge AI now enable wearable devices and mobile phones to analyze health data locally, providing real-time insights while preserving user privacy and operating without constant cloud connectivity. Local AI processing can support health monitoring in remote and underserved areas where internet access may be limited.\nDescription Develop a Personal Health Companion, a privacy-preserving wearable or mobile application that continuously monitors an individual's physiological and environmental data and uses on-device AI to detect potential health anomalies in real time.The solution should analyze data from sensors such as heart rate, blood oxygen (SpO?), body temperature, activity levels, sleep patterns, and environmental conditions. The system should identify early indicators of heat stress, dehydration, respiratory distress, abnormal vital signs, fatigue, falls, and other health risks that may be exacerbated during disasters and environmental emergencies.All sensitive health data should be processed locally on the device to maximize privacy, minimize latency, and ensure continuous operation even during network outages. The application should provide actionable alerts, wellness recommendations, and emergency notifications while allowing users to maintain control over their personal health information. Edge AI approaches provide faster responses, improved privacy, and offline functionality.\nExpected Solution The proposed solution should implement some or all of the following:\n1. Continuous Health Monitoring\n• Monitor heart rate, SpO?, body temperature, activity levels, and sleep quality.\n• Track changes in baseline health patterns.\n• Generate personalized wellness indicators.\n2. AI-Based Health Anomaly Detection\n• Detect abnormal heart rate patterns.\n• Identify indicators of heat stress, dehydration, fatigue, and respiratory issues.\n• Recognize sudden changes that may require medical attention.\n• Provide risk assessments using on-device AI inference.\n3. Disaster-Specific Health Alerts\n• Heat-wave exposure warnings.\n• Air-quality and respiratory-risk alerts.\n• Flood and cyclone-related health advisories.\n• High-risk notifications for vulnerable individuals during extreme weather events.\n4. Environmental Awareness\n• Integrate data from local temperature, humidity, and air-quality sensors.\n• Assess environmental conditions that may affect health.\n• Generate personalized recommendations based on local risks.\n5. Privacy-Preserving Edge AI\n• Perform all health analysis locally on the device.\n• Minimize transmission of sensitive personal information.\n• Operate effectively with intermittent or no internet connectivity.\n• Maintain user control over data sharing.\n6. Emergency Assistance Features\n• Automatic detection of falls or medical distress.\n• SOS alerts to caregivers or emergency contacts.\n• Location-enabled emergency assistance when permitted by the user.\n7. Personal Wellness Dashboard\n• Daily health summaries and trend analysis.\n• Risk scores for heat, respiratory, and cardiovascular stress.\n• Personalized recommendations for hydration, rest, activity, and medical consultation.\n8. Scalable Deployment\n• Support smartphones, smartwatches, fitness bands, and specialized healthcare wearables.\n• Suitable for individual consumers, healthcare providers, disaster-response agencies, and public health programs.",
     "dataset_link": "",
     "youtube": "",
@@ -34697,13 +34697,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 21.6,
-      "growth_24h": 13,
-      "velocity_48h": 21.6,
-      "growth_48h": 13,
-      "velocity_7d": 21.6,
-      "growth_7d": 13,
-      "velocity_overall": 21.6,
+      "velocity_24h": 23.2,
+      "growth_24h": 14,
+      "velocity_48h": 23.2,
+      "growth_48h": 14,
+      "velocity_7d": 23.2,
+      "growth_7d": 14,
+      "velocity_overall": 23.2,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -34772,10 +34772,10 @@
     "opportunity_score": 19.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 3.1,
-      "cap_before_deadline": false,
+      "estimated_cap_days": 2.9,
+      "cap_before_deadline": true,
       "forecast_available": true,
-      "note": "At current velocity (~21.6/day), cap may be reached in ~3.1 days. This is an estimate."
+      "note": "At current velocity (~23.2/day), cap may be reached in ~2.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -34810,10 +34810,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 419
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 419
@@ -34869,6 +34865,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 432
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 433
       }
     ]
   },
@@ -34882,9 +34882,9 @@
     "theme": "Blockchain & Cybersecurity",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 164,
+    "ideas_submitted": 165,
     "submission_capacity": 500,
-    "fill_percentage": 32.8,
+    "fill_percentage": 33.0,
     "description": "• Background The rapid adoption of Virtual Digital Assets (VDAs) and decentralized blockchain ecosystems has significantly increased the complexity of cybercrime investigations globally. Law Enforcement Agencies (LEAs) frequently encounter cryptocurrency wallet addresses linked to cyber frauds, ransomware, investment scams, darknet activities, and laundering of crime proceeds.\nUnder the existing investigation workflow, LEAs raise lawful information disclosure requests through the SAHYOG Portal to Virtual Asset Service Providers (VASPs) such as crypto exchanges, custodial wallet providers, and trading platforms. However, in many cases, the suspect wallet identified during investigations belongs to an unhosted wallet or a wallet for which the associated VASP is unknown. This creates major delays in attribution, freezing of assets, and identification of the beneficial owner.\nBlockchain transactions generally pass through multiple intermediary wallets before reaching centralized exchanges. Identifying the 'nearest direct deposit accepting exchange' manually through blockchain analysis is time-consuming and requires specialized expertise.\n• Description The proposed system envisages development of an Automated Blockchain Intelligence & VASP Attribution Engine integrated with the SAHYOG Portal through APIs.\nThe system should:\n• Automatically analyze suspect cryptocurrency wallet addresses reported during investigations on the Sahyog Platform\n• Automatically trace blockchain transaction paths to identify:\no nearest centralized exchange, o custodial wallet service, o or VASP receiving direct deposits from the suspect wallet.\n• Map blockchain of deposit addresses and transaction flows across multiple blockchain networks such as:\no Bitcoin, o Ethereum, o Tron, o BNB Chain, o Solana, o Polygon o and other major chains.\n• Support identification of:\no exchange clusters, o hot wallets, o deposit wallets, o mixers/tumblers, o DeFi bridges, o and cross-chain swap services.\n• Integrate Sahyog with blockchain intelligence APIs and graph analytics engines.\n• Provide automated tagging and confidence scoring for suspected VASPs.\n• Generate investigation-ready reports for LEAs.\n• Assist investigators in automatically routing lawful disclosure or freezing requests to the correct VASP through the SAHYOG Portal.\nThe system may additionally support:\n• visualization of fund movement,\n• cross-chain transaction mapping,\n• risk scoring,\n• identification of laundering typologies,\n• and alerting for high-risk wallets linked to ransomware, darknet, terrorism financing, or fraud ecosystems.\n• Expected Solution A software-based blockchain intelligence platform integrated with the SAHYOG ecosystem capable of:\n• Automated identification of nearest VASP/exchange linked to unknown wallets.\n• API-driven blockchain tracing and attribution support.\n• Multi-chain transaction analysis and visualization.\n• Real-time generation of investigative intelligence.\n• Risk classification of wallets and transaction flows.\n• Dashboard for LEAs with case-based analytics and reporting.\n• Scalable architecture capable of handling large-volume blockchain transaction analysis.\nThe solution should aim to:\n• reduce investigation time,\n• improve asset freezing efficiency,\n• enhance attribution capabilities,\n• and strengthen cross-border cybercrime investigations involving VDAs",
     "dataset_link": "",
     "youtube": "",
@@ -34896,14 +34896,14 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 3.3,
-      "growth_24h": 2,
-      "velocity_48h": 3.3,
-      "growth_48h": 2,
-      "velocity_7d": 3.3,
-      "growth_7d": 2,
-      "velocity_overall": 3.3,
-      "momentum": "Stable",
+      "velocity_24h": 5.0,
+      "growth_24h": 3,
+      "velocity_48h": 5.0,
+      "growth_48h": 3,
+      "velocity_7d": 5.0,
+      "growth_7d": 3,
+      "velocity_overall": 5.0,
+      "momentum": "Rising",
       "has_history": true
     },
     "technology_tags": [
@@ -34966,13 +34966,13 @@
       ]
     },
     "opportunity_category": "WATCH",
-    "opportunity_score": 47.3,
+    "opportunity_score": 39.2,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 101.8,
+      "estimated_cap_days": 67.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~3.3/day), cap may be reached in ~101.8 days. This is an estimate."
+      "note": "At current velocity (~5.0/day), cap may be reached in ~67.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -35007,10 +35007,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 162
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 162
@@ -35066,6 +35062,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 164
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 165
       }
     ]
   },
@@ -35205,10 +35205,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 234
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 234
       },
@@ -35262,6 +35258,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 236
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 236
       }
     ]
@@ -35402,10 +35402,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 326
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 326
       },
@@ -35459,6 +35455,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 333
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 333
       }
     ]
@@ -35572,10 +35572,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 133
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 133
       },
@@ -35629,6 +35625,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 134
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 134
       }
     ]
@@ -35770,10 +35770,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 310
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 310
       },
@@ -35827,6 +35823,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 310
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 310
       }
     ]
@@ -35966,10 +35966,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -36023,6 +36019,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -36162,10 +36162,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -36219,6 +36215,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -36350,10 +36350,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -36407,6 +36403,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -36542,10 +36542,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -36600,6 +36596,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 500
       }
     ]
   },
@@ -36627,13 +36627,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 18.3,
+      "velocity_24h": 18.2,
       "growth_24h": 11,
-      "velocity_48h": 18.3,
+      "velocity_48h": 18.2,
       "growth_48h": 11,
-      "velocity_7d": 18.3,
+      "velocity_7d": 18.2,
       "growth_7d": 11,
-      "velocity_overall": 18.3,
+      "velocity_overall": 18.2,
       "momentum": "Rising rapidly",
       "has_history": true
     },
@@ -36701,7 +36701,7 @@
       "estimated_cap_days": 1.6,
       "cap_before_deadline": true,
       "forecast_available": true,
-      "note": "At current velocity (~18.3/day), cap may be reached in ~1.6 days. This is an estimate."
+      "note": "At current velocity (~18.2/day), cap may be reached in ~1.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -36736,10 +36736,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 459
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 459
@@ -36794,6 +36790,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 470
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 470
       }
     ]
@@ -36930,10 +36930,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -36987,6 +36983,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -37117,10 +37117,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -37174,6 +37170,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -37304,10 +37304,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 163
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 163
       },
@@ -37362,6 +37358,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 167
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 167
       }
     ]
   },
@@ -37389,14 +37389,14 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 16.6,
-      "growth_24h": 10,
-      "velocity_48h": 16.6,
-      "growth_48h": 10,
-      "velocity_7d": 16.6,
-      "growth_7d": 10,
-      "velocity_overall": 16.6,
-      "momentum": "Rising rapidly",
+      "velocity_24h": 14.9,
+      "growth_24h": 9,
+      "velocity_48h": 14.9,
+      "growth_48h": 9,
+      "velocity_7d": 14.9,
+      "growth_7d": 9,
+      "velocity_overall": 14.9,
+      "momentum": "Rising",
       "has_history": true
     },
     "technology_tags": [],
@@ -37446,14 +37446,14 @@
         }
       ]
     },
-    "opportunity_category": "HOT",
-    "opportunity_score": 28.0,
+    "opportunity_category": "CROWDED",
+    "opportunity_score": 32.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 5.3,
+      "estimated_cap_days": 5.9,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~16.6/day), cap may be reached in ~5.3 days. This is an estimate."
+      "note": "At current velocity (~14.9/day), cap may be reached in ~5.9 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -37488,10 +37488,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 402
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 403
@@ -37546,6 +37542,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 412
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 412
       }
     ]
@@ -37674,10 +37674,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -37731,6 +37727,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -37859,10 +37859,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -37916,6 +37912,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -38046,10 +38046,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -38103,6 +38099,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -38235,10 +38235,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -38293,6 +38289,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 500
       }
     ]
   },
@@ -38320,13 +38320,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 13.3,
+      "velocity_24h": 13.2,
       "growth_24h": 8,
-      "velocity_48h": 13.3,
+      "velocity_48h": 13.2,
       "growth_48h": 8,
-      "velocity_7d": 13.3,
+      "velocity_7d": 13.2,
       "growth_7d": 8,
-      "velocity_overall": 13.3,
+      "velocity_overall": 13.2,
       "momentum": "Rising",
       "has_history": true
     },
@@ -38384,10 +38384,10 @@
     "opportunity_score": 32.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 15.5,
+      "estimated_cap_days": 15.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~13.3/day), cap may be reached in ~15.5 days. This is an estimate."
+      "note": "At current velocity (~13.2/day), cap may be reached in ~15.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -38422,10 +38422,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 286
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 286
@@ -38480,6 +38476,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 294
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 294
       }
     ]
@@ -38608,10 +38608,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 160
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 160
       },
@@ -38665,6 +38661,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 162
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 162
       }
     ]
@@ -38796,10 +38796,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -38853,6 +38849,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -38983,10 +38983,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 215
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 215
       },
@@ -39040,6 +39036,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 217
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 217
       }
     ]
@@ -39168,10 +39168,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -39225,6 +39221,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -39356,10 +39356,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -39413,6 +39409,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -39541,10 +39541,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -39598,6 +39594,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -39716,10 +39716,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -39773,6 +39769,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -39889,10 +39889,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 361
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 361
       },
@@ -39947,6 +39943,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 364
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 364
       }
     ]
   },
@@ -39974,13 +39974,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 13.3,
+      "velocity_24h": 13.2,
       "growth_24h": 8,
-      "velocity_48h": 13.3,
+      "velocity_48h": 13.2,
       "growth_48h": 8,
-      "velocity_7d": 13.3,
+      "velocity_7d": 13.2,
       "growth_7d": 8,
-      "velocity_overall": 13.3,
+      "velocity_overall": 13.2,
       "momentum": "Rising",
       "has_history": true
     },
@@ -40037,10 +40037,10 @@
     "opportunity_score": 38.1,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 22.6,
+      "estimated_cap_days": 22.8,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~13.3/day), cap may be reached in ~22.6 days. This is an estimate."
+      "note": "At current velocity (~13.2/day), cap may be reached in ~22.8 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -40075,10 +40075,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 191
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 191
@@ -40133,6 +40129,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 199
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 199
       }
     ]
@@ -40265,10 +40265,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -40322,6 +40318,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -40454,10 +40454,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 96
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 96
       },
@@ -40511,6 +40507,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 96
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 96
       }
     ]
@@ -40641,10 +40641,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 489
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 489
       },
@@ -40698,6 +40694,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 493
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 493
       }
     ]
@@ -40828,10 +40828,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 109
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 109
       },
@@ -40885,6 +40881,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 112
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 112
       }
     ]
@@ -41015,10 +41015,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 106
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 106
       },
@@ -41072,6 +41068,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 110
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 110
       }
     ]
@@ -41204,10 +41204,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -41261,6 +41257,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -41395,10 +41395,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 140
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 140
       },
@@ -41452,6 +41448,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 143
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 143
       }
     ]
@@ -41585,10 +41585,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -41643,6 +41639,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 500
       }
     ]
   },
@@ -41670,14 +41670,14 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 16.6,
-      "growth_24h": 10,
-      "velocity_48h": 16.6,
-      "growth_48h": 10,
-      "velocity_7d": 16.6,
-      "growth_7d": 10,
-      "velocity_overall": 16.6,
-      "momentum": "Rising rapidly",
+      "velocity_24h": 13.2,
+      "growth_24h": 8,
+      "velocity_48h": 13.2,
+      "growth_48h": 8,
+      "velocity_7d": 13.2,
+      "growth_7d": 8,
+      "velocity_overall": 13.2,
+      "momentum": "Rising",
       "has_history": true
     },
     "technology_tags": [
@@ -41734,14 +41734,14 @@
         }
       ]
     },
-    "opportunity_category": "HOT",
-    "opportunity_score": 28.0,
+    "opportunity_category": "CROWDED",
+    "opportunity_score": 32.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 6.9,
+      "estimated_cap_days": 8.6,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~16.6/day), cap may be reached in ~6.9 days. This is an estimate."
+      "note": "At current velocity (~13.2/day), cap may be reached in ~8.6 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -41770,10 +41770,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 376
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 378
@@ -41829,6 +41825,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 386
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 386
       }
     ]
   },
@@ -41856,13 +41856,13 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 10.0,
+      "velocity_24h": 9.9,
       "growth_24h": 6,
-      "velocity_48h": 10.0,
+      "velocity_48h": 9.9,
       "growth_48h": 6,
-      "velocity_7d": 10.0,
+      "velocity_7d": 9.9,
       "growth_7d": 6,
-      "velocity_overall": 10.0,
+      "velocity_overall": 9.9,
       "momentum": "Rising",
       "has_history": true
     },
@@ -41922,10 +41922,10 @@
     "opportunity_score": 35.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 6.1,
+      "estimated_cap_days": 6.2,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~10.0/day), cap may be reached in ~6.1 days. This is an estimate."
+      "note": "At current velocity (~9.9/day), cap may be reached in ~6.2 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -41960,10 +41960,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 433
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 433
@@ -42018,6 +42014,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 439
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 439
       }
     ]
@@ -42149,10 +42149,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 324
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 324
       },
@@ -42206,6 +42202,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 325
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 325
       }
     ]
@@ -42336,10 +42336,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 193
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 193
       },
@@ -42394,6 +42390,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 197
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 197
       }
     ]
   },
@@ -42407,9 +42407,9 @@
     "theme": "Transportation & Logistics",
     "deadline": "5 October 2026",
     "deadline_date": "2026-10-05",
-    "ideas_submitted": 264,
+    "ideas_submitted": 265,
     "submission_capacity": 500,
-    "fill_percentage": 52.8,
+    "fill_percentage": 53.0,
     "description": "Student Innovation-Submit your ideas to address the growing pressures on the city’s resources, transport networks, and logistic infrastructure.",
     "dataset_link": "",
     "youtube": "",
@@ -42421,14 +42421,14 @@
     "days_remaining": 3,
     "deadline_pressure": "Critical",
     "velocity": {
-      "velocity_24h": 3.3,
-      "growth_24h": 2,
-      "velocity_48h": 3.3,
-      "growth_48h": 2,
-      "velocity_7d": 3.3,
-      "growth_7d": 2,
-      "velocity_overall": 3.3,
-      "momentum": "Stable",
+      "velocity_24h": 5.0,
+      "growth_24h": 3,
+      "velocity_48h": 5.0,
+      "growth_48h": 3,
+      "velocity_7d": 5.0,
+      "growth_7d": 3,
+      "velocity_overall": 5.0,
+      "momentum": "Rising",
       "has_history": true
     },
     "technology_tags": [
@@ -42484,13 +42484,13 @@
       ]
     },
     "opportunity_category": "CROWDED",
-    "opportunity_score": 40.0,
+    "opportunity_score": 32.0,
     "crowded_but_strong": false,
     "cap_forecast": {
-      "estimated_cap_days": 71.5,
+      "estimated_cap_days": 47.0,
       "cap_before_deadline": false,
       "forecast_available": true,
-      "note": "At current velocity (~3.3/day), cap may be reached in ~71.5 days. This is an estimate."
+      "note": "At current velocity (~5.0/day), cap may be reached in ~47.0 days. This is an estimate."
     },
     "similar_ps": [
       {
@@ -42525,10 +42525,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 262
-      },
       {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 262
@@ -42584,6 +42580,10 @@
       {
         "timestamp": "2026-10-02T15:45:07.352894",
         "submitted": 264
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
+        "submitted": 265
       }
     ]
   },
@@ -42713,10 +42713,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -42770,6 +42766,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -42890,10 +42890,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 180
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 180
       },
@@ -42947,6 +42943,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 183
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 183
       }
     ]
@@ -43065,10 +43065,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 114
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 114
       },
@@ -43122,6 +43118,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 115
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 115
       }
     ]
@@ -43253,10 +43253,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 127
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 127
       },
@@ -43310,6 +43306,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 128
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 128
       }
     ]
@@ -43449,10 +43449,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 247
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 247
       },
@@ -43506,6 +43502,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 251
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 251
       }
     ]
@@ -43646,10 +43646,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 175
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 175
       },
@@ -43703,6 +43699,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 179
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 179
       }
     ]
@@ -43842,10 +43842,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 500
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 500
       },
@@ -43899,6 +43895,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 500
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 500
       }
     ]
@@ -44019,10 +44019,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 189
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 189
       },
@@ -44076,6 +44072,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 190
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 190
       }
     ]
@@ -44216,10 +44216,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 324
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 324
       },
@@ -44273,6 +44269,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 326
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 326
       }
     ]
@@ -44405,10 +44405,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 173
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 173
       },
@@ -44462,6 +44458,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 178
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 178
       }
     ]
@@ -44580,10 +44580,6 @@
     ],
     "history": [
       {
-        "timestamp": "2026-10-02T01:17:46.208091",
-        "submitted": 102
-      },
-      {
         "timestamp": "2026-10-02T01:30:08.130366",
         "submitted": 102
       },
@@ -44637,6 +44633,10 @@
       },
       {
         "timestamp": "2026-10-02T15:45:07.352894",
+        "submitted": 102
+      },
+      {
+        "timestamp": "2026-10-02T16:00:09.223404",
         "submitted": 102
       }
     ]
